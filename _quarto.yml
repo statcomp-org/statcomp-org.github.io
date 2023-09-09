@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+
+website:
+  title: "Jun Yan"
+  search: false
+  cookie-consent: false
+  twitter-card: true
+  open-graph: true
+  site-url: https://statcomp-org.github.io
+  navbar:
+    right:
+      - text: CV
+        href: cv.pdf
+      - misc.qmd
+      - icon: github
+        href: https://github.com/
+  page-footer: 
+    left: "Copyright 2023, Jun Yan."
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+

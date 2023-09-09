@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "how do you wanna call your blog?",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 9, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 6, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "How do you wanna call your website?",
+    "section": "",
+    "text": "Fill your info"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html#professor---department-of-statistics-university-of-connecticut",
+    "href": "index.html#professor---department-of-statistics-university-of-connecticut",
+    "title": "Jun Yan",
+    "section": "Professor - Department of Statistics, University of Connecticut",
+    "text": "Professor - Department of Statistics, University of Connecticut"
+  },
+  {
+    "objectID": "index.html#contact-info",
+    "href": "index.html#contact-info",
+    "title": "Jun Yan",
+    "section": "Contact Info",
+    "text": "Contact Info\nPhone: (860) 486-3416\nFax: (860) 486-4113\nAddress: 215 Glenbrook Rd. U-4120 Storrs, CT 06269 U.S.A."
+  },
+  {
+    "objectID": "index.html#research-interest",
+    "href": "index.html#research-interest",
+    "title": "Jun Yan",
+    "section": "Research Interest",
+    "text": "Research Interest\n\nSpatial Extremes\nCopulas\nSurvival Analysis\nClustered Data Analysis\nStatistical Computing\nApplications in Public Health, Finance, and the Environment."
+  },
+  {
+    "objectID": "index.html#books",
+    "href": "index.html#books",
+    "title": "Jun Yan",
+    "section": "Books",
+    "text": "Books\n\nMarius Hofert, Ivan Kojaninovic, Martin Machler, and Jun Yan (2018): Elements of Copula Modeling with R\nDipak Dey and Jun Yan (2015): Extreme Value Modeling and Risk Analysis: Methods and Applications\n\nMy academic pedigree."
+  },
+  {
+    "objectID": "misc.html",
+    "href": "misc.html",
+    "title": "Miscellaneous",
+    "section": "",
+    "text": "I’m just being Markovian: A statistician’s family entertainment"
+  },
+  {
+    "objectID": "misc.html#local-latex",
+    "href": "misc.html#local-latex",
+    "title": "Miscellaneous",
+    "section": "Local LaTeX",
+    "text": "Local LaTeX\n\nUConn Thesis: Supports BibTeX. Started by Marcos, Xiaojing, and Greg; most recent update by Greg as of 06/08/2017.\nUConn Stat Department Letter Head: Works fine but can be improved. Most recent update as of 10/20/2017 with new UConn logo."
+  },
+  {
+    "objectID": "misc.html#links",
+    "href": "misc.html#links",
+    "title": "Miscellaneous",
+    "section": "Links",
+    "text": "Links\n\nHelp poor kids in China stay in school: Hometown Education Foundation by Professor Tonghai Yang, UW Madison."
+  }
+]

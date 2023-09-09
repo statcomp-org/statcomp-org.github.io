@@ -1,0 +1,50 @@
+---
+image: profile.jpeg
+about:
+  template: solana
+  links:
+    - icon: google-scholar
+      text: Google scholar
+      href: http://scholar.google.com/citations?user=4jVhnnEAAAAJ&hl=en
+    - icon: github
+      text: Github
+      href: https://github.com
+
+---
+
+#### Ph.D. in Statistics | University of Wisconsin, Madison, 2003
+#### Professor - Department of Statistics, University of Connecticut
+
+## Contact Info
+
+Phone: (860) 486-3416
+
+Fax: (860) 486-4113
+
+Address: 215 Glenbrook Rd. U-4120 
+Storrs, CT 06269
+U.S.A.
+
+## Research Interest
+
+* Spatial Extremes
+
+* Copulas 
+
+* Survival Analysis
+
+* Clustered Data Analysis
+
+* Statistical Computing
+
+* Applications in Public Health, Finance, and the Environment.
+
+## Books
+
+* Marius Hofert, Ivan Kojaninovic, Martin Machler, and Jun Yan (2018): [Elements
+  of Copula Modeling with R](http://copula.r-forge.r-project.org/book/)
+
+* Dipak Dey and Jun Yan (2015): [Extreme Value Modeling and Risk Analysis:
+  Methods and Applications](http://merlot.stat.uconn.edu/~jyan/evrisk)
+
+My academic [pedigree](http://genealogy.math.ndsu.nodak.edu/id.php?id=80020).
