@@ -2,10 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://statcomp-org.github.io/index.html</loc>
-    <lastmod>2023-09-09T23:50:00.343Z</lastmod>
+    <lastmod>2023-09-14T13:21:29.377Z</lastmod>
   </url>
   <url>
     <loc>https://statcomp-org.github.io/misc.html</loc>
     <lastmod>2023-09-09T23:49:03.199Z</lastmod>
+  </url>
+  <url>
+    <loc>https://statcomp-org.github.io/publications.html</loc>
+    <lastmod>2023-09-14T13:21:33.499Z</lastmod>
   </url>
 </urlset>

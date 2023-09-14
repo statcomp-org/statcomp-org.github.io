@@ -13,6 +13,7 @@ website:
   site-url: https://statcomp-org.github.io
   navbar:
     right:
+      - publications.qmd
       - text: CV
         href: cv.pdf
       - misc.qmd
