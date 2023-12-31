@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://statcomp-org.github.io/publications.html</loc>
+    <lastmod>2023-12-31T17:56:03.723Z</lastmod>
+  </url>
+  <url>
+    <loc>https://statcomp-org.github.io/posts/post-with-code/index.html</loc>
+    <lastmod>2023-12-31T17:55:52.589Z</lastmod>
+  </url>
+  <url>
     <loc>https://statcomp-org.github.io/index.html</loc>
-    <lastmod>2023-09-14T13:21:29.377Z</lastmod>
+    <lastmod>2023-12-31T17:55:58.612Z</lastmod>
+  </url>
+  <url>
+    <loc>https://statcomp-org.github.io/blog.html</loc>
+    <lastmod>2023-12-31T17:55:51.923Z</lastmod>
   </url>
   <url>
     <loc>https://statcomp-org.github.io/misc.html</loc>
-    <lastmod>2023-09-09T23:49:03.199Z</lastmod>
+    <lastmod>2023-12-31T17:56:04.803Z</lastmod>
   </url>
   <url>
-    <loc>https://statcomp-org.github.io/publications.html</loc>
-    <lastmod>2023-09-14T13:21:33.499Z</lastmod>
+    <loc>https://statcomp-org.github.io/posts/welcome/index.html</loc>
+    <lastmod>2023-12-31T17:55:52.801Z</lastmod>
   </url>
 </urlset>
