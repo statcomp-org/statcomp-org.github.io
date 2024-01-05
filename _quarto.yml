@@ -17,6 +17,7 @@ website:
       - text: CV
         href: cv.pdf
       - misc.qmd
+      - students.qmd
       - icon: github
         href: https://github.com/
   page-footer: 
