@@ -18,10 +18,10 @@ website:
       - students.qmd
       - software.qmd
       - misc.qmd
-      - icon: github
-        href: https://github.com/
-#  page-footer: 
-#    left: "Copyright 2023, Jun Yan."
+#      - icon: github
+#        href: https://github.com/
+page-footer: 
+   left: "215 Glebbrook Rd. U-4120, Storrs, CT 06033 USA"
 
 format:
   html:

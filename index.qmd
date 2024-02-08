@@ -6,45 +6,40 @@ about:
     - icon: google-scholar
       text: Google scholar
       href: http://scholar.google.com/citations?user=4jVhnnEAAAAJ&hl=en
-    - icon: github
-      text: Github
-      href: https://github.com
+#    - icon: github
+#      text: Github
+#      href: https://github.com
 
 ---
 
-#### Ph.D. in Statistics | University of Wisconsin, Madison, 2003
-#### Professor - Department of Statistics, University of Connecticut
+Jun Yan is a Professor in the [Department of
+Statistics](https://statistics.uconn.edu) at the [University of
+Connecticut](https://uconn.edu). He earned his Ph.D. in
+[Statistics](https://stat.wisc.edu)
+from the [University of Wisconcin](https://wisc.edu).
+He enjoys working with students and growing his [academic
+pedigree](http://genealogy.math.ndsu.nodak.edu/id.php?id=80020).
 
-## Contact Info
 
-Phone: (860) 486-3416
-
-Fax: (860) 486-4113
-
-Address: 215 Glenbrook Rd. U-4120 
-Storrs, CT 06269
-U.S.A.
+## [UConn Sports Analytics Symposium 2024](https://statds.org/events/ucsas2024/)
 
 ## Research Interest
-
-* Spatial Extremes
-
-* Copulas 
-
-* Survival Analysis
-
-* Clustered Data Analysis
-
-* Statistical Computing
-
-* Applications in Public Health, Finance, and the Environment.
++ Network analytics
++ Spatial extremes
++ Survival analysis
++ Multivariate dependence
++ Clustered data analysis
++ Statistical Computing
+* Applications in public health, finance, sports, and the environment
 
 ## Books
 
 * Marius Hofert, Ivan Kojaninovic, Martin Machler, and Jun Yan (2018): [Elements
-  of Copula Modeling with R](http://copula.r-forge.r-project.org/book/)
-
+  of Copula Modeling with
+  R](https://link.springer.com/book/10.1007/978-3-319-89635-9)
+  | [R companion](http://copula.r-forge.r-project.org/book/)
 * Dipak Dey and Jun Yan (2015): [Extreme Value Modeling and Risk Analysis:
-  Methods and Applications](http://merlot.stat.uconn.edu/~jyan/evrisk)
+  Methods and
+  Applications](https://www.taylorfrancis.com/books/edit/10.1201/b19721/extreme-value-modeling-risk-analysis-jun-yan-dipak-dey)
+  | [Code](http://merlot.stat.uconn.edu/~jyan/evrisk)
 
-My academic [pedigree](http://genealogy.math.ndsu.nodak.edu/id.php?id=80020).
