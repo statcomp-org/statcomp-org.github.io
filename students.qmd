@@ -4,35 +4,35 @@ title: "Ph.D. Students"
 
 ## Current
 
-+ [Shiying Xiao](http://shiying-xiao.com), Ph.D. expected 2027: Network analytics.
-+ [Zefang Min](https://zefangm.github.io/zfpw/), Ph.D. expected 2026: Time series and causal inference.
-+ [Xiaomin Lu](https://xiaomin001.github.io/mysite/), Ph.D. expected 2025: Survival analysis and artificial intelligence.
-+ [Sydney Louit](https://www.linkedin.com/in/sydney-louit-810538192/), Ph.D. expected 2025: Social network clustering.
-+ [Zhenyu Xu](https://zhenyu1029.github.io), Ph.D. expected 2025: Generalized estimating equations.
-+ [Yingfa Xie](https://www.linkedin.com/in/yingfa-xie-1ba57314a/), Ph.D. expected 2024: Recurrent event modeling.
-+ [Jun Jin](https://www.linkedin.com/in/jun-jin-7714701b8/), Ph.D. expected 2024 (joint with Kun Chen): Machine learning and health analytics.
-+ [Surya Eada](https://www.linkedin.com/in/surya-teja-eada-76b78229/), Ph.D. expected 2024 (joint with Vladimir Pozdnyakov): Stochastic processes governed by telegraph processes.
-+ [Lucas Godoy](https://lcgodoy.me), Ph.D. expected 2024: Spatial regression with errors-in-variables.
+1. [Shiying Xiao](http://shiying-xiao.com), Ph.D. expected 2027: Network analytics.
+1. [Zefang Min](https://zefangm.github.io/zfpw/), Ph.D. expected 2026: Time series and causal inference.
+1. [Xiaomin Lu](https://xiaomin001.github.io/mysite/), Ph.D. expected 2025: Survival analysis and artificial intelligence.
+1. [Sydney Louit](https://www.linkedin.com/in/sydney-louit-810538192/), Ph.D. expected 2025: Social network clustering.
+1. [Zhenyu Xu](https://zhenyu1029.github.io), Ph.D. expected 2025: Generalized estimating equations.
+1. [Yingfa Xie](https://www.linkedin.com/in/yingfa-xie-1ba57314a/), Ph.D. expected 2024: Recurrent event modeling.
+1. [Jun Jin](https://www.linkedin.com/in/jun-jin-7714701b8/), Ph.D. expected 2024 (joint with Kun Chen): Machine learning and health analytics.
+1. [Surya Eada](https://www.linkedin.com/in/surya-teja-eada-76b78229/), Ph.D. expected 2024 (joint with Vladimir Pozdnyakov): Stochastic processes governed by telegraph processes.
+1. [Lucas Godoy](https://lcgodoy.me), Ph.D. expected 2024: Spatial regression with errors-in-variables.
 
 
 ## Alumni
 
-+ [Yelie Yuan](https://www.linkedin.com/in/yelie-yuan-65123721b/), Ph.D. 2023: On assortativity of weighted directed networks. Placement: Consumer and Community Banking Risk Program Associate, JP Morgan.
-+ [Zehan Yang](https://www.linkedin.com/in/zehan/), Ph.D. 2023 (joint with HaiYing Wang): Optimal subsampling methods for massive survival data using accelerated failure time models. Placement: Mathematical Statistician, US Food and Drug Administration.
-+ [Jackson Lautier](https://jacksonlautier.com), Ph.D. 2023 (joint with Vladimir Pozdnyakov): Essays on discrete-time survival analysis with appli- cations to securitization and consumer finance. Placement: Assistant Professor, Bentley University.
-+ [Sai Ma](https://www.linkedin.com/in/sai-ma-uconn/), Ph.D. 2022: Optimal fingerprinting with estimating equations. Placement: Statistician, Vertex Pharmaceuti- cals.
-+ [Abby Lau](https://www.linkedin.com/in/yuen-tsz-abby-lau-400a49a4/), Ph.D. 2022: Extreme value modeling with errors-in-variables in detection and attribution of changes in climate extremes. Placement: Postdoc researcher, University of Pennsylvania.
-+ [Yan Li](), Ph.D. 2021 (joint with Kun Chen): Amalgamation-based statistical learning for compositional data. Place- ment: Postdoc researcher, University of Michigan.
-+ [Jieying Jiao](https://www.linkedin.com/in/jieying-jiao-217b3b128/), Ph.D. 2020: On Bayesian methods for spatial point processes. Placement: Senior Consultant, Travelers Insurance.
-+ [Chaoran Hu](https://www.linkedin.com/in/chaoranhu/), Ph.D. 2020 (joint with Vladimir Pozdnyakov): On Brownian motion governed by telegraph process. Placement: Senior Statistician, Ely Lilly.
-+ [Wenjie Wang](https://wwenjie.org), Ph.D. 2019 (joint with Kun Chen): Integrated survival analysis with application to suicide risk. Place- ment: Senior Statistician, Eli Lilly.
-+ [Yishu Xue](https://yxue-me.com), Ph.D. 2019 (joint with Elizabeth Schifano): Diagnostic methods for big survival data. Placement: Senior Consultant, Travelers Insurance.
-+ [Greg Vaughan](https://www.linkedin.com/in/greg-vaughan-16902922/), Ph.D. 2017 (joint with Kun Chen): Stagewise generalized estimating equations. Placement: Assistant Professor, Bentley University.
-+ Yujing Jiang, Ph.D. 2017: Marginal score equations for spatial extremes with latent signals and applications to fingerprinting changes in climate extremes. Placement: Postdoc researcher, Colorado State University.
-+ [Brian Bader](https://www.linkedin.com/in/brianbader1/), Ph.D. 2016: Automated, efficient, and practical extreme value analysis with environmental applications. Placement: Statistician, KPMG.
-+ [Chun Wang](https://www.linkedin.com/in/chun-wang-0978674b/), Ph.D. 2016 (joint with Elizabeth Schifano): Online updating methods for big data streams. Placement: Senior Analyst, Liberty Mutual Insurance.
-+ Zhuo Wang, Ph.D. 2015: Estimating equations for spatial extremes with application to detection and attribution analysis of changes in climate extremes. Placement: Assistant Professor, Shenzhen University, China.
-+ [Hongwei Shang](https://www.linkedin.com/in/hongwei-shang-a38a9029/): Ph.D. 2013: A Two-step estimation procedure and a goodness-of-fit test for spatial extremes models. Placement: Statistician, HP Analytic Lab.
-+ [Sy Han (Steven) Chiou](https://www.sychiou.com), Ph.D. 2013 (joint with Sangwook Kang): Statistical Methods and Computing for Semipara- metric Accelerated Failure Time Model with Induced Smoothing. Placement: Assistant Professor, Department of Mathematics and Statistics, University of Minnesota Duluth.
-+ [Xiaojing Wang](https://www.linkedin.com/in/xiaojingw/): Ph.D. 2011: Statistical inferences for interval censored data. Placement: Quantitative Analyst, Google New York.
-+ [Marcos Prates](https://www.est.ufmg.br/~marcosop/), Ph.D. 2011 (joint with Dipak Dey): Link specification and spatial dependence for generalized lin- ear mixed models. Placement: Assistant Professor, Departamento de Estat ́ıstica, Universidade Federal de Minas Gerais, Brazil.
+1. [Yelie Yuan](https://www.linkedin.com/in/yelie-yuan-65123721b/), Ph.D. 2023: On assortativity of weighted directed networks. Placement: Consumer and Community Banking Risk Program Associate, JP Morgan.
+1. [Zehan Yang](https://www.linkedin.com/in/zehan/), Ph.D. 2023 (joint with HaiYing Wang): Optimal subsampling methods for massive survival data using accelerated failure time models. Placement: Mathematical Statistician, US Food and Drug Administration.
+1. [Jackson Lautier](https://jacksonlautier.com), Ph.D. 2023 (joint with Vladimir Pozdnyakov): Essays on discrete-time survival analysis with appli- cations to securitization and consumer finance. Placement: Assistant Professor, Bentley University.
+1. [Sai Ma](https://www.linkedin.com/in/sai-ma-uconn/), Ph.D. 2022: Optimal fingerprinting with estimating equations. Placement: Statistician, Vertex Pharmaceuti- cals.
+1. [Abby Lau](https://www.linkedin.com/in/yuen-tsz-abby-lau-400a49a4/), Ph.D. 2022: Extreme value modeling with errors-in-variables in detection and attribution of changes in climate extremes. Placement: Postdoc researcher, University of Pennsylvania.
+1. [Yan Li](), Ph.D. 2021 (joint with Kun Chen): Amalgamation-based statistical learning for compositional data. Place- ment: Postdoc researcher, University of Michigan.
+1. [Jieying Jiao](https://www.linkedin.com/in/jieying-jiao-217b3b128/), Ph.D. 2020: On Bayesian methods for spatial point processes. Placement: Senior Consultant, Travelers Insurance.
+1. [Chaoran Hu](https://www.linkedin.com/in/chaoranhu/), Ph.D. 2020 (joint with Vladimir Pozdnyakov): On Brownian motion governed by telegraph process. Placement: Senior Statistician, Ely Lilly.
+1. [Wenjie Wang](https://wwenjie.org), Ph.D. 2019 (joint with Kun Chen): Integrated survival analysis with application to suicide risk. Place- ment: Senior Statistician, Eli Lilly.
+1. [Yishu Xue](https://yxue-me.com), Ph.D. 2019 (joint with Elizabeth Schifano): Diagnostic methods for big survival data. Placement: Senior Consultant, Travelers Insurance.
+1. [Greg Vaughan](https://www.linkedin.com/in/greg-vaughan-16902922/), Ph.D. 2017 (joint with Kun Chen): Stagewise generalized estimating equations. Placement: Assistant Professor, Bentley University.
+1. Yujing Jiang, Ph.D. 2017: Marginal score equations for spatial extremes with latent signals and applications to fingerprinting changes in climate extremes. Placement: Postdoc researcher, Colorado State University.
+1. [Brian Bader](https://www.linkedin.com/in/brianbader1/), Ph.D. 2016: Automated, efficient, and practical extreme value analysis with environmental applications. Placement: Statistician, KPMG.
+1. [Chun Wang](https://www.linkedin.com/in/chun-wang-0978674b/), Ph.D. 2016 (joint with Elizabeth Schifano): Online updating methods for big data streams. Placement: Senior Analyst, Liberty Mutual Insurance.
+1. Zhuo Wang, Ph.D. 2015: Estimating equations for spatial extremes with application to detection and attribution analysis of changes in climate extremes. Placement: Assistant Professor, Shenzhen University, China.
+1. [Hongwei Shang](https://www.linkedin.com/in/hongwei-shang-a38a9029/): Ph.D. 2013: A Two-step estimation procedure and a goodness-of-fit test for spatial extremes models. Placement: Statistician, HP Analytic Lab.
+1. [Sy Han (Steven) Chiou](https://www.sychiou.com), Ph.D. 2013 (joint with Sangwook Kang): Statistical Methods and Computing for Semipara- metric Accelerated Failure Time Model with Induced Smoothing. Placement: Assistant Professor, Department of Mathematics and Statistics, University of Minnesota Duluth.
+1. [Xiaojing Wang](https://www.linkedin.com/in/xiaojingw/): Ph.D. 2011: Statistical inferences for interval censored data. Placement: Quantitative Analyst, Google New York.
+1. [Marcos Prates](https://www.est.ufmg.br/~marcosop/), Ph.D. 2011 (joint with Dipak Dey): Link specification and spatial dependence for generalized lin- ear mixed models. Placement: Assistant Professor, Departamento de Estat ́ıstica, Universidade Federal de Minas Gerais, Brazil.
