@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Jun Yan - Miscellaneous</title>
+<title>Jun Yan - Software</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -53,9 +53,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Jun Yan - Miscellaneous">
+<meta property="og:title" content="Jun Yan - Software">
 <meta property="og:site_name" content="Jun Yan">
-<meta name="twitter:title" content="Jun Yan - Miscellaneous">
+<meta name="twitter:title" content="Jun Yan - Software">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -88,11 +88,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Students</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./software.html"> 
+    <a class="nav-link active" href="./software.html" aria-current="page"> 
 <span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./misc.html" aria-current="page"> 
+    <a class="nav-link" href="./misc.html"> 
 <span class="menu-text">Miscellaneous</span></a>
   </li>  
   <li class="nav-item compact">
@@ -117,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Miscellaneous</h1>
+<h1 class="title">Software</h1>
 </div>
 
 
@@ -134,24 +134,214 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="fun" class="level2">
-<h2 class="anchored" data-anchor-id="fun">Fun</h2>
+<section id="r-packages-on-cran" class="level2">
+<h2 class="anchored" data-anchor-id="r-packages-on-cran">R packages on CRAN</h2>
+<style>
+div#pre-r-pkg-table + table {
+    max-width: 420px;
+}
+div#pre-r-pkg-table + table td img {
+    margin-left:0
+}
+div#pre-r-pkg-table + table th {
+    text-align: left
+}
+div#pre-r-pkg-table + table td {
+    text-align: left
+}
+div#r-pkg-details img {
+    display: inline;
+    margin: 0
+}
+</style>
+<div id="pre-r-pkg-table">
+
+</div>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Latest Release</th>
+<th>Downloads<sup>1</sup></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="#clusrank">clusrank</a></td>
+<td><a href="https://CRAN.R-project.org/package=clusrank"><img src="https://www.r-pkg.org/badges/version-last-release/clusrank.png" class="img-fluid" alt="clusrank-version"></a></td>
+<td><img src="https://cranlogs.r-pkg.org/badges/grand-total/clusrank.png" class="img-fluid" alt="clusrank-log"></td>
+</tr>
+<tr class="even">
+<td><a href="#dynsurv">dynsurv</a></td>
+<td><a href="https://CRAN.R-project.org/package=dynsurv"><img src="https://www.r-pkg.org/badges/version-last-release/dynsurv.png" class="img-fluid" alt="dynsurv-version"></a></td>
+<td><img src="https://cranlogs.r-pkg.org/badges/grand-total/dynsurv.png" class="img-fluid" alt="dynsurv-log"></td>
+</tr>
+<tr class="odd">
+<td><a href="#intsurv">intsurv</a></td>
+<td><a href="https://CRAN.R-project.org/package=intsurv"><img src="https://www.r-pkg.org/badges/version-last-release/intsurv.png" class="img-fluid" alt="intsurv-version"></a></td>
+<td><img src="https://cranlogs.r-pkg.org/badges/grand-total/intsurv.png" class="img-fluid" alt="intsurv-log"></td>
+</tr>
+<tr class="even">
+<td><a href="#jds.rmd">jds.rmd</a></td>
+<td><a href="https://CRAN.R-project.org/package=jds.rmd"><img src="https://www.r-pkg.org/badges/version-last-release/jds.rmd" class="img-fluid" alt="jds.rmd-version"></a></td>
+<td><img src="https://cranlogs.r-pkg.org/badges/grand-total/jds.rmd" class="img-fluid" alt="jds.rmd-log"></td>
+</tr>
+<tr class="odd">
+<td><a href="#reda">reda</a></td>
+<td><a href="https://CRAN.R-project.org/package=reda"><img src="https://www.r-pkg.org/badges/version-last-release/reda.png" class="img-fluid" alt="reda-version"></a></td>
+<td><img src="https://cranlogs.r-pkg.org/badges/grand-total/reda.png" class="img-fluid" alt="reda-log"></td>
+</tr>
+<tr class="even">
+<td><a href="#rrpack">rrpack</a></td>
+<td><a href="https://CRAN.R-project.org/package=rrpack"><img src="https://www.r-pkg.org/badges/version-last-release/rrpack.png" class="img-fluid" alt="rrpack-version"></a></td>
+<td><img src="https://cranlogs.r-pkg.org/badges/grand-total/rrpack.png" class="img-fluid" alt="rrpack-log"></td>
+</tr>
+<tr class="odd">
+<td><a href="#splines2">splines2</a></td>
+<td><a href="https://CRAN.R-project.org/package=splines2"><img src="https://www.r-pkg.org/badges/version-last-release/splines2.png" class="img-fluid" alt="splines2-version"></a></td>
+<td><img src="https://cranlogs.r-pkg.org/badges/grand-total/splines2.png" class="img-fluid" alt="splines2-log"></td>
+</tr>
+<tr class="even">
+<td><a href="#touch">touch</a></td>
+<td><a href="https://CRAN.R-project.org/package=touch"><img src="https://www.r-pkg.org/badges/version-last-release/touch.png" class="img-fluid" alt="touch-version"></a></td>
+<td><img src="https://cranlogs.r-pkg.org/badges/grand-total/touch.png" class="img-fluid" alt="touch-log"></td>
+</tr>
+</tbody>
+</table>
+<div class="footnotes">
+<pre><code>&lt;ol&gt;
+    &lt;li&gt;Downloads: total number of downloads from
+        the Rstudio CRAN mirror only.&amp;nbsp;
+        &lt;span class="reversefootnote"&gt;&amp;#8617;&lt;/span&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+</div>
+<div id="r-pkg-details">
+<hr>
+<section id="clusrank" class="level3">
+<h3 class="anchored" data-anchor-id="clusrank">{clusrank}: Wilcoxon Rank Tests for Clustered Data</h3>
+<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/clusrank.png" class="img-fluid" alt="clusrank-dev"> <a href="https://github.com/wenjie2wang/clusrank"><img src="https://img.shields.io/github/stars/wenjie2wang/clusrank.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="clusrank-ghs"></a></p>
+<p>{clusrank} provides functions for Wilcoxon rank sum test and Wilcoxon signed rank test for clustered data. See Jiang et. al (2020) for details.</p>
+<section id="references" class="level4">
+<h4 class="anchored" data-anchor-id="references">References</h4>
 <ul>
-<li><a href="https://youtu.be/kzDPIOjITzI">I’m just being Markovian</a>: A statistician’s family entertainment</li>
+<li>Jiang, Y., He, X., Lee, M. T., Rosner, B., &amp; Yan, J. (2020). Wilcoxon rank-based tests for clustered data with R package clusrank. <em>Journal of Statistical Software</em>, 96(6), 1–26.</li>
 </ul>
+<hr>
 </section>
-<section id="local-latex" class="level2">
-<h2 class="anchored" data-anchor-id="local-latex">Local LaTeX</h2>
-<ul>
-<li><p><a href="http://merlot.stat.uconn.edu/~jyan/docs/UConnThesis.tgz">UConn Thesis</a>: Supports BibTeX. Started by Marcos, Xiaojing, and Greg; most recent update by Greg as of 06/08/2017.</p></li>
-<li><p><a href="http://merlot.stat.uconn.edu/~jyan/docs/UConnStatLH.tgz">UConn Stat Department Letter Head</a>: Works fine but can be improved. Most recent update as of 10/20/2017 with new UConn logo.</p></li>
-</ul>
 </section>
-<section id="links" class="level2">
-<h2 class="anchored" data-anchor-id="links">Links</h2>
+<section id="dynsurv" class="level3">
+<h3 class="anchored" data-anchor-id="dynsurv">{dynsurv}: Dynamic Models for Survival Data</h3>
+<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/dynsurv.png" class="img-fluid" alt="dynsurv-dev"> <a href="https://github.com/wenjie2wang/dynsurv"><img src="https://img.shields.io/github/stars/wenjie2wang/dynsurv.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="dynsurv-ghs"></a></p>
+<p>{dynsurv} provides functions to fit time-varying coefficient models for interval censored and right censored survival data. Three major approaches are implemented:</p>
+<ol type="1">
+<li>Bayesian Cox model with time-independent, time-varying or dynamic coefficients for right censored and interval censored data</li>
+<li>Spline based time-varying coefficient Cox model for right censored data</li>
+<li>Transformation model with time-varying coefficients for right censored data using estimating equations.</li>
+</ol>
+<section id="references-1" class="level4">
+<h4 class="anchored" data-anchor-id="references-1">References</h4>
 <ul>
-<li>Help poor kids in China stay in school: <a href="http://www.hometowneducation.org/">Hometown Education Foundation</a> by Professor <a href="http://www.math.wisc.edu/~thyang">Tonghai Yang</a>, UW Madison.</li>
+<li>Wang, X., Chen, M., &amp; Yan, J. (2013). Bayesian dynamic regression models for interval censored survival data with application to children dental health. <em>Lifetime Data Analysis</em>, 19(3), 297–316.</li>
+<li>Wang, W., Chen, M., Chiou, S. H., Lai, H., Wang, X., Yan, J., &amp; Zhang, Z. (2016). Onset of persistent pseudomonas aeruginosa infection in children with cystic fibrosis with interval censored data. <em>BMC Medical Research Methodology</em>, 16(1), 122.</li>
 </ul>
+<hr>
+</section>
+</section>
+<section id="intsurv" class="level3">
+<h3 class="anchored" data-anchor-id="intsurv">{intsurv}: Integrative Survival Modeling</h3>
+<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/intsurv.png" class="img-fluid" alt="intsurv-dev"> <a href="https://github.com/wenjie2wang/intsurv"><img src="https://img.shields.io/github/stars/wenjie2wang/intsurv.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="intsurv-ghs"></a></p>
+<p>{intsurv} contains implementations of</p>
+<ul>
+<li>integrative Cox model with uncertain event times (Wang et al., 2020)</li>
+<li>Cox cure rate model with uncertain event status (Wang et al., 2020)</li>
+</ul>
+<p>and other survival analysis routines, including</p>
+<ul>
+<li>regular Cox cure rate model</li>
+<li>regularized Cox cure rate model with elastic net penalty</li>
+<li>weighted concordance index</li>
+</ul>
+<section id="references-2" class="level4">
+<h4 class="anchored" data-anchor-id="references-2">References</h4>
+<ul>
+<li>Wang, W., Aseltine, R. H., Chen, K., &amp; Yan, J. (2020). Integrative Survival Analysis with Uncertain Event Times in Application to A Suicide Risk Study. <em>Annals of Applied Statistics</em>, 14(1), 51-73.</li>
+<li>Wang, W., Luo, C., Aseltine, R. H., Wang, F., Yan, J., &amp; Chen, K. (2020). Suicide Risk Modeling with Uncertain Diagnostic Records. <em>arXiv preprint arXiv:2009.02597</em>.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="jds.rmd" class="level3">
+<h3 class="anchored" data-anchor-id="jds.rmd">{jds.rmd}: R Markdown Templates for Journal of Data Science</h3>
+<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/jds.rmd" class="img-fluid" alt="jds.rmd-dev"> <a href="https://github.com/wenjie2wang/jds.rmd"><img src="https://img.shields.io/github/stars/wenjie2wang/jds.rmd.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="jds.rmd-ghs"></a></p>
+<p>{jds.rmd} provides R Markdown templates intended for <a href="https://jds-online.org">Journal of Data Science</a>, which can be useful for authoring a manuscript with code chunks or producing tables/figures on the fly.</p>
+<hr>
+</section>
+<section id="reda" class="level3">
+<h3 class="anchored" data-anchor-id="reda">{reda}: Recurrent Event Data Analysis</h3>
+<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/reda.png" class="img-fluid" alt="reda-dev"> <a href="https://github.com/wenjie2wang/reda"><img src="https://img.shields.io/github/stars/wenjie2wang/reda.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="reda-ghs"></a></p>
+<p>{reda} provides functions for</p>
+<ol type="1">
+<li>simulating survival, recurrent event, and multiple event data from stochastic process point of view</li>
+<li>exploring and modeling recurrent event data through the mean cumulative function (MCF) or also called the Nelson-Aalen estimator of the cumulative hazard rate function, and gamma frailty model with spline rate function</li>
+<li>comparing two-sample recurrent event responses with the pseudo-score tests</li>
+</ol>
+<hr>
+</section>
+<section id="rrpack" class="level3">
+<h3 class="anchored" data-anchor-id="rrpack">{rrpack}: Reduced-Rank Regression</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid figure-img"></p>
+<figcaption>gpl-badge</figcaption>
+</figure>
+</div>
+<p>{rrpack} provides implementations for multivariate regression methodologies including reduced-rank regression (RRR), reduced-rank ridge regression (RRS), robust reduced-rank regression (R4), generalized/mixed-response reduced-rank regression (mRRR), row-sparse reduced-rank regression (SRRR), reduced-rank regression with a sparse singular value decomposition (RSSVD), and sparse and orthogonal factor regression (SOFAR).</p>
+<hr>
+</section>
+<section id="splines2" class="level3">
+<h3 class="anchored" data-anchor-id="splines2">{splines2}: Regression Spline Functions and Classes</h3>
+<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/splines2.png" class="img-fluid" alt="splines2-dev"> <a href="https://github.com/wenjie2wang/splines2"><img src="https://img.shields.io/github/stars/wenjie2wang/splines2.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="splines2-ghs"></a> <a href="https://doi.org/10.6339/21-JDS1020"><img src="https://img.shields.io/badge/JDS-10.6339%2F21--JDS1020-brightgreen" class="img-fluid" alt="JDS"></a></p>
+<p>{splines2} is a supplement package to the base package {splines}. It provides functions to construct basis matrices of</p>
+<ul>
+<li>B-splines</li>
+<li>M-splines</li>
+<li>I-splines</li>
+<li>convex splines (C-splines)</li>
+<li>periodic splines</li>
+<li>natural cubic splines</li>
+<li>generalized Bernstein polynomials</li>
+<li>their integrals (except C-splines) and derivatives of given order by closed-form recursive formulas</li>
+</ul>
+<p>In addition to the R interface, {splines2} provides a C++ header-only library integrated with {Rcpp}, which allows the construction of spline basis functions directly in C++ with the help of {Rcpp} and {RcppArmadillo}. Thus, it can also be treated as one of the Rcpp* packages. See Wang and Yan (2021) for details.</p>
+<section id="references-3" class="level4">
+<h4 class="anchored" data-anchor-id="references-3">References</h4>
+<ul>
+<li>Wang, W., &amp; Yan, J. (2021). Shape-restricted regression splines with R package splines2. <em>Journal of Data Science</em>, 19(3), 498–517.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="touch" class="level3">
+<h3 class="anchored" data-anchor-id="touch">{touch}: Tools of Utilization and Cost in Healthcare</h3>
+<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/touch.png" class="img-fluid" alt="touch-dev"> <a href="https://github.com/wenjie2wang/touch"><img src="https://img.shields.io/github/stars/wenjie2wang/touch.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="touch-ghs"></a></p>
+<p>{touch} provides R implementation of the software tools developed in the H-CUP (Healthcare Cost and Utilization Project) and AHRQ (Agency for Healthcare Research and Quality). It contains functions for</p>
+<ol type="1">
+<li>mapping ICD-9 codes to the AHRQ comorbidity measures</li>
+<li>translating ICD-9 (resp. ICD-10) codes to ICD-10 (resp. ICD-9) codes based on GEM (General Equivalence Mappings) from CMS (Centers for Medicare and Medicaid Services)</li>
+</ol>
+<hr>
+</section>
+<section id="python-tools" class="level2">
+<h2 class="anchored" data-anchor-id="python-tools">Python Tools</h2>
+<section id="touchpy-tools-of-utilization-and-cost-in-healthcare-in-python" class="level3">
+<h3 class="anchored" data-anchor-id="touchpy-tools-of-utilization-and-cost-in-healthcare-in-python"><strong>touchpy</strong>: Tools of Utilization and Cost in Healthcare in Python</h3>
+<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/touchpy.png" class="img-fluid" alt="touchpy-dev"> <a href="https://github.com/wenjie2wang/touchpy"><img src="https://img.shields.io/github/stars/wenjie2wang/touchpy.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="touchpy-ghs"></a></p>
+<p><strong>touchpy</strong> is intended to be a Python version of <a href="#touch">{touch}</a> and provides functionalities to map ICD-9 or ICD-10 code to AHRQ comorbidity measures.</p>
+<hr>
+</section>
+</section>
+</div>
 
 
 </section>
