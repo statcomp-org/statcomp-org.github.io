@@ -91,25 +91,32 @@
     "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nSep 9, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 6, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html#contact-info",
-    "href": "index.html#contact-info",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Jun Yan",
-    "section": "Contact Info",
-    "text": "Contact Info\nPhone: (860) 486-3416\nFax: (860) 486-4113\nAddress: 215 Glenbrook Rd. U-4120 Storrs, CT 06269 U.S.A."
+    "section": "",
+    "text": "Jun Yan is a Professor in the Department of Statistics at the University of Connecticut. He earned his Ph.D. in Statistics from the University of Wisconcin. He enjoys working with students and growing his academic pedigree."
+  },
+  {
+    "objectID": "index.html#uconn-sports-analytics-symposium-2024",
+    "href": "index.html#uconn-sports-analytics-symposium-2024",
+    "title": "Jun Yan",
+    "section": "UConn Sports Analytics Symposium 2024",
+    "text": "UConn Sports Analytics Symposium 2024"
   },
   {
     "objectID": "index.html#research-interest",
     "href": "index.html#research-interest",
     "title": "Jun Yan",
     "section": "Research Interest",
-    "text": "Research Interest\n\nSpatial Extremes\nCopulas\nSurvival Analysis\nClustered Data Analysis\nStatistical Computing\nApplications in Public Health, Finance, and the Environment."
+    "text": "Research Interest\n\nNetwork analytics\nSpatial extremes\nSurvival analysis\nMultivariate dependence\nClustered data analysis\nStatistical Computing\nApplications in public health, finance, sports, and the environment"
   },
   {
     "objectID": "index.html#books",
     "href": "index.html#books",
     "title": "Jun Yan",
     "section": "Books",
-    "text": "Books\n\nMarius Hofert, Ivan Kojaninovic, Martin Machler, and Jun Yan (2018): Elements of Copula Modeling with R\nDipak Dey and Jun Yan (2015): Extreme Value Modeling and Risk Analysis: Methods and Applications\n\nMy academic pedigree."
+    "text": "Books\n\nMarius Hofert, Ivan Kojaninovic, Martin Machler, and Jun Yan (2018): Elements of Copula Modeling with R | R companion\nDipak Dey and Jun Yan (2015): Extreme Value Modeling and Risk Analysis: Methods and Applications | Code"
   },
   {
     "objectID": "posts/post-with-code/index.html",
