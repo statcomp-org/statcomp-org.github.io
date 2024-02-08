@@ -1,0 +1,289 @@
+---
+title: "Software"
+---
+
+## R packages on CRAN
+
+<style>
+div#pre-r-pkg-table + table {
+    max-width: 420px;
+}
+div#pre-r-pkg-table + table td img {
+    margin-left:0
+}
+div#pre-r-pkg-table + table th {
+    text-align: left
+}
+div#pre-r-pkg-table + table td {
+    text-align: left
+}
+div#r-pkg-details img {
+    display: inline;
+    margin: 0
+}
+</style>
+
+<div id="pre-r-pkg-table"></div>
+
+| Name                          | Latest Release                               | Downloads<sup>1</sup> |
+|-------------------------------|----------------------------------------------|-----------------------|
+| [clusrank](#clusrank)         | [![clusrank-version]][clusrank-cran]         | ![clusrank-log]       |
+| [dynsurv](#dynsurv)           | [![dynsurv-version]][dynsurv-cran]           | ![dynsurv-log]        |
+| [intsurv](#intsurv)           | [![intsurv-version]][intsurv-cran]           | ![intsurv-log]        |
+| [jds.rmd](#jds.rmd)           | [![jds.rmd-version]][jds.rmd-cran]           | ![jds.rmd-log]        |
+| [reda](#reda)                 | [![reda-version]][reda-cran]                 | ![reda-log]           |
+| [rrpack](#rrpack)             | [![rrpack-version]][rrpack-cran]             | ![rrpack-log]         |
+| [splines2](#splines2)         | [![splines2-version]][splines2-cran]         | ![splines2-log]       |
+| [touch](#touch)               | [![touch-version]][touch-cran]               | ![touch-log]          |
+
+<div class="footnotes">
+    <ol>
+        <li>Downloads: total number of downloads from
+            the Rstudio CRAN mirror only.&nbsp;
+            <span class="reversefootnote">&#8617;</span>
+        </li>
+    </ol>
+</div>
+
+<div id="r-pkg-details">
+
+---
+
+### {clusrank}: Wilcoxon Rank Tests for Clustered Data {#clusrank}
+
+![gpl-badge] ![clusrank-dev] [![clusrank-ghs]][clusrank-gh]
+
+{clusrank} provides functions for Wilcoxon rank sum test and
+Wilcoxon signed rank test for clustered data.
+See Jiang et. al (2020) for details.
+
+#### References
+
+- Jiang, Y., He, X., Lee, M. T., Rosner, B., & Yan, J. (2020). Wilcoxon
+  rank-based tests for clustered data with R package clusrank. *Journal of
+  Statistical Software*, 96(6), 1–26.
+
+---
+
+### {dynsurv}: Dynamic Models for Survival Data {#dynsurv}
+
+![gpl-badge] ![dynsurv-dev] [![dynsurv-ghs]][dynsurv-gh]
+
+{dynsurv} provides functions to fit time-varying coefficient models for
+interval censored and right censored survival data. Three major approaches are
+implemented:
+
+1. Bayesian Cox model with time-independent, time-varying or dynamic
+   coefficients for right censored and interval censored data
+1. Spline based time-varying coefficient Cox model for right censored data
+1. Transformation model with time-varying coefficients for right censored data
+   using estimating equations.
+
+#### References
+
+- Wang, X., Chen, M., & Yan, J. (2013). Bayesian dynamic regression models for
+  interval censored survival data with application to children dental
+  health. *Lifetime Data Analysis*, 19(3), 297–316.
+- Wang, W., Chen, M., Chiou, S. H., Lai, H., Wang, X., Yan, J., & Zhang,
+  Z. (2016). Onset of persistent pseudomonas aeruginosa infection in children
+  with cystic fibrosis with interval censored data. *BMC Medical Research
+  Methodology*, 16(1), 122.
+
+---
+
+### {intsurv}: Integrative Survival Modeling {#intsurv}
+![gpl-badge] ![intsurv-dev] [![intsurv-ghs]][intsurv-gh]
+
+{intsurv} contains implementations of
+
+- integrative Cox model with uncertain event times (Wang et al., 2020)
+- Cox cure rate model with uncertain event status (Wang et al., 2020)
+
+and other survival analysis routines, including
+
+- regular Cox cure rate model
+- regularized Cox cure rate model with elastic net penalty
+- weighted concordance index
+
+#### References
+
+- Wang, W., Aseltine, R. H., Chen, K., & Yan, J. (2020). Integrative Survival
+  Analysis with Uncertain Event Times in Application to A Suicide Risk
+  Study. *Annals of Applied Statistics*, 14(1), 51-73.
+- Wang, W., Luo, C., Aseltine, R. H., Wang, F., Yan, J., & Chen,
+  K. (2020). Suicide Risk Modeling with Uncertain Diagnostic Records. *arXiv
+  preprint arXiv:2009.02597*.
+
+---
+
+### {jds.rmd}: R Markdown Templates for Journal of Data Science {#jds.rmd}
+
+![gpl-badge] ![jds.rmd-dev] [![jds.rmd-ghs]][jds.rmd-gh]
+
+{jds.rmd} provides R Markdown templates intended for
+[Journal of Data Science][jds-url], which can be useful for authoring
+a manuscript with code chunks or producing tables/figures on the fly.
+
+---
+
+### {reda}: Recurrent Event Data Analysis {#reda}
+
+![gpl-badge] ![reda-dev] [![reda-ghs]][reda-gh]
+
+{reda} provides functions for
+
+1. simulating survival, recurrent event, and multiple event data from
+   stochastic process point of view
+2. exploring and modeling recurrent event data through the mean cumulative
+   function (MCF) or also called the Nelson-Aalen estimator of the cumulative
+   hazard rate function, and gamma frailty model with spline rate function
+3. comparing two-sample recurrent event responses with the pseudo-score tests
+
+---
+
+### {rrpack}: Reduced-Rank Regression {#rrpack}
+
+![gpl-badge]
+
+{rrpack} provides implementations for multivariate regression methodologies
+including reduced-rank regression (RRR), reduced-rank ridge regression (RRS),
+robust reduced-rank regression (R4), generalized/mixed-response reduced-rank
+regression (mRRR), row-sparse reduced-rank regression (SRRR), reduced-rank
+regression with a sparse singular value decomposition (RSSVD), and sparse and
+orthogonal factor regression (SOFAR).
+
+---
+
+### {splines2}: Regression Spline Functions and Classes {#splines2}
+
+![gpl-badge] ![splines2-dev] [![splines2-ghs]][splines2-gh] [![JDS](https://img.shields.io/badge/JDS-10.6339%2F21--JDS1020-brightgreen)](https://doi.org/10.6339/21-JDS1020)
+
+{splines2} is a supplement package to the base package {splines}.
+It provides functions to construct basis matrices of
+
+- B-splines
+- M-splines
+- I-splines
+- convex splines (C-splines)
+- periodic splines
+- natural cubic splines
+- generalized Bernstein polynomials
+- their integrals (except C-splines) and derivatives of given order by
+  closed-form recursive formulas
+
+In addition to the R interface, {splines2} provides a C++ header-only
+library integrated with {Rcpp}, which allows the construction of
+spline basis functions directly in C++ with the help of {Rcpp} and
+{RcppArmadillo}.
+Thus, it can also be treated as one of the Rcpp\* packages.
+See Wang and Yan (2021) for details.
+
+#### References
+
+- Wang, W., & Yan, J. (2021). Shape-restricted regression splines with R package
+  splines2. *Journal of Data Science*, 19(3), 498–517.
+
+---
+
+### {touch}: Tools of Utilization and Cost in Healthcare {#touch}
+
+![gpl-badge] ![touch-dev] [![touch-ghs]][touch-gh]
+
+{touch} provides R implementation of the software tools developed in the
+H-CUP (Healthcare Cost and Utilization Project) and AHRQ (Agency for
+Healthcare Research and Quality).
+It contains functions for
+
+1. mapping ICD-9 codes to the AHRQ comorbidity measures
+1. translating ICD-9 (resp. ICD-10) codes to ICD-10 (resp. ICD-9) codes based
+   on GEM (General Equivalence Mappings) from CMS (Centers for Medicare and
+   Medicaid Services)
+
+---
+
+## Python Tools
+
+### **touchpy**: Tools of Utilization and Cost in Healthcare in Python
+
+![gpl-badge] ![touchpy-dev] [![touchpy-ghs]][touchpy-gh]
+
+**touchpy** is intended to be a Python version of [{touch}](#touch) and provides
+functionalities to map ICD-9 or ICD-10 code to AHRQ comorbidity measures.
+
+---
+
+</div>
+
+[abclass-cran]: https://CRAN.R-project.org/package=abclass
+[abclass-version]: https://www.r-pkg.org/badges/version-last-release/abclass
+[abclass-log]: https://cranlogs.r-pkg.org/badges/grand-total/abclass
+[abclass-dev]: https://img.shields.io/github/last-commit/wenjie2wang/abclass
+[abclass-gh]: https://github.com/wenjie2wang/abclass
+[abclass-ghs]: https://img.shields.io/github/stars/wenjie2wang/abclass.svg?style=social&label=Star&maxAge=2592000
+
+[clusrank-cran]: https://CRAN.R-project.org/package=clusrank
+[clusrank-version]: https://www.r-pkg.org/badges/version-last-release/clusrank
+[clusrank-log]: https://cranlogs.r-pkg.org/badges/grand-total/clusrank
+[clusrank-dev]: https://img.shields.io/github/last-commit/wenjie2wang/clusrank
+[clusrank-gh]: https://github.com/wenjie2wang/clusrank
+[clusrank-ghs]: https://img.shields.io/github/stars/wenjie2wang/clusrank.svg?style=social&label=Star&maxAge=2592000
+
+[dynsurv-cran]: https://CRAN.R-project.org/package=dynsurv
+[dynsurv-version]: https://www.r-pkg.org/badges/version-last-release/dynsurv
+[dynsurv-log]: https://cranlogs.r-pkg.org/badges/grand-total/dynsurv
+[dynsurv-dev]: https://img.shields.io/github/last-commit/wenjie2wang/dynsurv
+[dynsurv-gh]: https://github.com/wenjie2wang/dynsurv
+[dynsurv-ghs]: https://img.shields.io/github/stars/wenjie2wang/dynsurv.svg?style=social&label=Star&maxAge=2592000
+
+[formatBibtex-cran]: https://CRAN.R-project.org/package=formatBibtex
+[formatBibtex-version]: https://www.r-pkg.org/badges/version-last-release/formatBibtex
+[formatBibtex-log]: https://cranlogs.r-pkg.org/badges/grand-total/formatBibtex
+[formatBibtex-dev]: https://img.shields.io/github/last-commit/wenjie2wang/formatBibtex
+[formatBibtex-gh]: https://github.com/wenjie2wang/formatBibtex
+[formatBibtex-ghs]: https://img.shields.io/github/stars/wenjie2wang/formatBibtex.svg?style=social&label=Star&maxAge=2592000
+
+[intsurv-cran]: https://CRAN.R-project.org/package=intsurv
+[intsurv-version]: https://www.r-pkg.org/badges/version-last-release/intsurv
+[intsurv-log]: https://cranlogs.r-pkg.org/badges/grand-total/intsurv
+[intsurv-dev]: https://img.shields.io/github/last-commit/wenjie2wang/intsurv
+[intsurv-gh]: https://github.com/wenjie2wang/intsurv
+[intsurv-ghs]: https://img.shields.io/github/stars/wenjie2wang/intsurv.svg?style=social&label=Star&maxAge=2592000
+
+[jds.rmd-cran]: https://CRAN.R-project.org/package=jds.rmd
+[jds.rmd-version]: https://www.r-pkg.org/badges/version-last-release/jds.rmd
+[jds.rmd-log]: https://cranlogs.r-pkg.org/badges/grand-total/jds.rmd
+[jds.rmd-dev]: https://img.shields.io/github/last-commit/wenjie2wang/jds.rmd
+[jds.rmd-gh]: https://github.com/wenjie2wang/jds.rmd
+[jds.rmd-ghs]: https://img.shields.io/github/stars/wenjie2wang/jds.rmd.svg?style=social&label=Star&maxAge=2592000
+
+[reda-cran]: https://CRAN.R-project.org/package=reda
+[reda-version]: https://www.r-pkg.org/badges/version-last-release/reda
+[reda-log]: https://cranlogs.r-pkg.org/badges/grand-total/reda
+[reda-dev]: https://img.shields.io/github/last-commit/wenjie2wang/reda
+[reda-gh]: https://github.com/wenjie2wang/reda
+[reda-ghs]: https://img.shields.io/github/stars/wenjie2wang/reda.svg?style=social&label=Star&maxAge=2592000
+
+[rrpack-cran]: https://CRAN.R-project.org/package=rrpack
+[rrpack-version]: https://www.r-pkg.org/badges/version-last-release/rrpack
+[rrpack-log]: https://cranlogs.r-pkg.org/badges/grand-total/rrpack
+
+[splines2-cran]: https://CRAN.R-project.org/package=splines2
+[splines2-version]: https://www.r-pkg.org/badges/version-last-release/splines2
+[splines2-log]: https://cranlogs.r-pkg.org/badges/grand-total/splines2
+[splines2-dev]: https://img.shields.io/github/last-commit/wenjie2wang/splines2
+[splines2-gh]: https://github.com/wenjie2wang/splines2
+[splines2-ghs]: https://img.shields.io/github/stars/wenjie2wang/splines2.svg?style=social&label=Star&maxAge=2592000
+
+[touch-cran]: https://CRAN.R-project.org/package=touch
+[touch-version]: https://www.r-pkg.org/badges/version-last-release/touch
+[touch-log]: https://cranlogs.r-pkg.org/badges/grand-total/touch
+[touch-dev]: https://img.shields.io/github/last-commit/wenjie2wang/touch
+[touch-gh]: https://github.com/wenjie2wang/touch
+[touch-ghs]: https://img.shields.io/github/stars/wenjie2wang/touch.svg?style=social&label=Star&maxAge=2592000
+
+[touchpy-dev]: https://img.shields.io/github/last-commit/wenjie2wang/touchpy
+[touchpy-gh]: https://github.com/wenjie2wang/touchpy
+[touchpy-ghs]: https://img.shields.io/github/stars/wenjie2wang/touchpy.svg?style=social&label=Star&maxAge=2592000
+
+[gpl-badge]: https://img.shields.io/badge/License-GPL-blue.svg
+[jds-url]: https://jds-online.org

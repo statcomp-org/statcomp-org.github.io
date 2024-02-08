@@ -14,14 +14,14 @@ website:
   navbar:
     right:
       - publications.qmd
-      - text: CV
-        href: cv.pdf
-      - misc.qmd
+      - teaching.qmd
       - students.qmd
+      - software.qmd
+      - misc.qmd
       - icon: github
         href: https://github.com/
-  page-footer: 
-    left: "Copyright 2023, Jun Yan."
+#  page-footer: 
+#    left: "Copyright 2023, Jun Yan."
 
 format:
   html:
