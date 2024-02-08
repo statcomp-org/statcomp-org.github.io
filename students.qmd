@@ -1,17 +1,17 @@
 ---
-title: "Students"
+title: "Ph.D. Students"
 ---
 
 ## Current
 
-+ Shiying Xiao, Ph.D. expected 2027: Network analytics.
-+ Zefang Min, Ph.D. expected 2026: Time series and causal inference.
-+ Xiaomin Lu, Ph.D. expected 2025: Survival analysis and artificial intelligence.
-+ Sydney Louit, Ph.D. expected 2025: Social network clustering.
-+ Zhenyu Xu, Ph.D. expected 2025: Generalized estimating equations.
++ [Shiying Xiao](http://shiying-xiao.com), Ph.D. expected 2027: Network analytics.
++ [Zefang Min](https://zefangm.github.io/zfpw/), Ph.D. expected 2026: Time series and causal inference.
++ [Xiaomin Lu](https://xiaomin001.github.io/mysite/), Ph.D. expected 2025: Survival analysis and artificial intelligence.
++ [Sydney Louit](https://www.linkedin.com/in/sydney-louit-810538192/), Ph.D. expected 2025: Social network clustering.
++ [Zhenyu Xu](https://zhenyu1029.github.io), Ph.D. expected 2025: Generalized estimating equations.
 + [Yingfa Xie](https://www.linkedin.com/in/yingfa-xie-1ba57314a/), Ph.D. expected 2024: Recurrent event modeling.
-+ Jun Jin, Ph.D. expected 2024 (joint with Kun Chen): Machine learning and health analytics.
-+ Surya Eada, Ph.D. expected 2024 (joint with Vladimir Pozdnyakov): Stochastic processes governed by telegraph processes.
++ [Jun Jin](https://www.linkedin.com/in/jun-jin-7714701b8/), Ph.D. expected 2024 (joint with Kun Chen): Machine learning and health analytics.
++ [Surya Eada](https://www.linkedin.com/in/surya-teja-eada-76b78229/), Ph.D. expected 2024 (joint with Vladimir Pozdnyakov): Stochastic processes governed by telegraph processes.
 + [Lucas Godoy](https://lcgodoy.me), Ph.D. expected 2024: Spatial regression with errors-in-variables.
 
 
