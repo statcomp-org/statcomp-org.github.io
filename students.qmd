@@ -1,8 +1,8 @@
 ---
-title: "Ph.D. Students"
+title: "Students"
 ---
 
-## Current
+## Current Ph.D. Students
 
 1. [Shiying Xiao](http://shiying-xiao.com), Ph.D. expected 2027: Network analytics.
 1. [Zefang Min](https://zefangm.github.io/zfpw/), Ph.D. expected 2026: Time series and causal inference.
@@ -15,7 +15,7 @@ title: "Ph.D. Students"
 1. [Lucas Godoy](https://lcgodoy.me), Ph.D. expected 2024: Spatial regression with errors-in-variables.
 
 
-## Alumni
+## Ph.D. Alumni
 
 1. [Yelie Yuan](https://www.linkedin.com/in/yelie-yuan-65123721b/), Ph.D. 2023: On assortativity of weighted directed networks. Placement: Consumer and Community Banking Risk Program Associate, JP Morgan.
 1. [Zehan Yang](https://www.linkedin.com/in/zehan/), Ph.D. 2023 (joint with HaiYing Wang): Optimal subsampling methods for massive survival data using accelerated failure time models. Placement: Mathematical Statistician, US Food and Drug Administration.
