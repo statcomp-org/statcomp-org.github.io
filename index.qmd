@@ -17,20 +17,15 @@ Statistics](https://statistics.uconn.edu) at the [University of
 Connecticut](https://uconn.edu). He earned his Ph.D. in
 [Statistics](https://stat.wisc.edu)
 from the [University of Wisconcin](https://wisc.edu).
-He enjoys working with students and growing his [academic
+His research interests are network analytics, spatial extremes,
+survival analysis, multivariate dependence, clustered data analysis,
+statistical computing, and applications in public health, finance,
+sports, and the environment
+He enjoys teaching students and growing his [academic
 pedigree](http://genealogy.math.ndsu.nodak.edu/id.php?id=80020).
 
 
 ## [UConn Sports Analytics Symposium 2024](https://statds.org/events/ucsas2024/)
-
-## Research Interest
-+ Network analytics
-+ Spatial extremes
-+ Survival analysis
-+ Multivariate dependence
-+ Clustered data analysis
-+ Statistical Computing
-* Applications in public health, finance, sports, and the environment
 
 ## Books
 
