@@ -1,11 +1,14 @@
 ---
-image: profile.jpeg
+image: junyan.jpg
 about:
   template: solana
   links:
     - icon: google-scholar
       text: Google scholar
       href: http://scholar.google.com/citations?user=4jVhnnEAAAAJ&hl=en
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jyanstat/
 #    - icon: github
 #      text: Github
 #      href: https://github.com
@@ -14,27 +17,37 @@ about:
 
 Jun Yan is a Professor in the [Department of
 Statistics](https://statistics.uconn.edu) at the [University of
-Connecticut](https://uconn.edu). He earned his Ph.D. in
+Connecticut](https://uconn.edu). He earned his Ph.D.in
 [Statistics](https://stat.wisc.edu)
-from the [University of Wisconcin](https://wisc.edu).
-His research interests are network analytics, spatial extremes,
-survival analysis, multivariate dependence, clustered data analysis,
-statistical computing, and applications in public health, finance,
-sports, and the environment
-He enjoys teaching students and growing his [academic
-pedigree](http://genealogy.math.ndsu.nodak.edu/id.php?id=80020).
+from the [University of Wisconcin](https://wisc.edu) in 2003.
+His research spans several areas of statistics including network
+analytics, spatial extremes, survival analysis, multivariate
+dependence, and clustered data analysis, with a notable emphasis on
+statistical computing. His work has significant applications across
+various domains, such as public health, finance, sports, and
+the environment. A foundational element of his career, his passion for
+statistical computing and software development epitomizes his
+dedication to connecting the theoretical underpinnings with practical
+applications. Beyond his research, he enjoys teaching, taking pride in
+nurturing the next generation of data scientists and expanding his
+[academic
+pedigree](http://genealogy.math.ndsu.nodak.edu/id.php?id=80020&fChrono=1).
+He has been the Editor of the [Journal of Data
+Science](https://jds-online.org) since 2020.
 
 
-## [UConn Sports Analytics Symposium 2024](https://statds.org/events/ucsas2024/)
+#### [Curriculum Vita](jyanCV.pdf)
 
-## Books
+#### [UConn Sports Analytics Symposium 2024](https://statds.org/events/ucsas2024/)
+
+#### Books
 
 * Marius Hofert, Ivan Kojaninovic, Martin Machler, and Jun Yan (2018): [Elements
   of Copula Modeling with
   R](https://link.springer.com/book/10.1007/978-3-319-89635-9)
   | [R companion](http://copula.r-forge.r-project.org/book/)
-* Dipak Dey and Jun Yan (2015): [Extreme Value Modeling and Risk Analysis:
+* Dipak Dey and Jun Yan (Eds) (2015): [Extreme Value Modeling and Risk Analysis:
   Methods and
-  Applications](https://www.taylorfrancis.com/books/edit/10.1201/b19721/extreme-value-modeling-risk-analysis-jun-yan-dipak-dey)
-  | [Code](http://merlot.stat.uconn.edu/~jyan/evrisk)
+  Applications](https://www.taylorfrancis.com/books/edit/10.1201/b19721/)
+  | [Code Supplement](http://merlot.stat.uconn.edu/~jyan/evrisk)
 
