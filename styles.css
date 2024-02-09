@@ -1,1 +1,20 @@
 /* css styles */
+
+
+div#pre-r-pkg-table + table {
+    /* max-width: 520px; */
+}
+div#pre-r-pkg-table + table td img {
+    margin-left:0
+}
+div#pre-r-pkg-table + table th {
+    text-align: left
+}
+div#pre-r-pkg-table + table td {
+    text-align: left
+}
+div#r-pkg-details img {
+    display: inline;
+    margin: 0
+}
+
