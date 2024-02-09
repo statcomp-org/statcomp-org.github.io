@@ -4,28 +4,9 @@ title: "Software"
 
 ## R packages on CRAN
 
-<style>
-div#pre-r-pkg-table + table {
-    max-width: 420px;
-}
-div#pre-r-pkg-table + table td img {
-    margin-left:0
-}
-div#pre-r-pkg-table + table th {
-    text-align: left
-}
-div#pre-r-pkg-table + table td {
-    text-align: left
-}
-div#r-pkg-details img {
-    display: inline;
-    margin: 0
-}
-</style>
-
 <div id="pre-r-pkg-table"></div>
 
-| Name                          | Latest Release                               | Downloads<sup>1</sup> |
+| Name                          | Latest Release                               | Download Stats (RStudio CRAN Mirror Since October 2012) |
 |-------------------------------|----------------------------------------------|-----------------------|
 | [clusrank](#clusrank)         | [![clusrank-version]][clusrank-cran]         | ![clusrank-log]       |
 | [dynsurv](#dynsurv)           | [![dynsurv-version]][dynsurv-cran]           | ![dynsurv-log]        |
@@ -36,14 +17,7 @@ div#r-pkg-details img {
 | [splines2](#splines2)         | [![splines2-version]][splines2-cran]         | ![splines2-log]       |
 | [touch](#touch)               | [![touch-version]][touch-cran]               | ![touch-log]          |
 
-<div class="footnotes">
-    <ol>
-        <li>Downloads: total number of downloads from
-            the Rstudio CRAN mirror only.&nbsp;
-            <span class="reversefootnote">&#8617;</span>
-        </li>
-    </ol>
-</div>
+
 
 <div id="r-pkg-details">
 
@@ -198,17 +172,6 @@ It contains functions for
 1. translating ICD-9 (resp. ICD-10) codes to ICD-10 (resp. ICD-9) codes based
    on GEM (General Equivalence Mappings) from CMS (Centers for Medicare and
    Medicaid Services)
-
----
-
-## Python Tools
-
-### **touchpy**: Tools of Utilization and Cost in Healthcare in Python
-
-![gpl-badge] ![touchpy-dev] [![touchpy-ghs]][touchpy-gh]
-
-**touchpy** is intended to be a Python version of [{touch}](#touch) and provides
-functionalities to map ICD-9 or ICD-10 code to AHRQ comorbidity measures.
 
 ---
 
