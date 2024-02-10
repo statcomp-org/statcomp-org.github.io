@@ -40,6 +40,8 @@ Science](https://jds-online.org) since 2020.
 
 #### [UConn Sports Analytics Symposium 2024](https://statds.org/events/ucsas2024/)
 
+#### [BIRS Workshop "Statistical Aspects of Trustworthy Machine Learning"](https://workshops.birs.ca/events/24w5284)
+
 #### Books
 
 * Marius Hofert, Ivan Kojaninovic, Martin Machler, and Jun Yan (2018): [Elements
