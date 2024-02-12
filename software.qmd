@@ -6,10 +6,12 @@ title: "Software"
 
 <div id="pre-r-pkg-table"></div>
 
-| Name                          | Latest Release                               | Download Stats (RStudio CRAN Mirror Since October 2012) |
+| Name                          | Latest Release                               | Downloads (RStudio CRAN Mirror Since October 2012) |
 |-------------------------------|----------------------------------------------|-----------------------|
+| [copula](#copula)             | [![copula-version]][copula-cran]             | ![copula-log]         |
 | [clusrank](#clusrank)         | [![clusrank-version]][clusrank-cran]         | ![clusrank-log]       |
 | [dynsurv](#dynsurv)           | [![dynsurv-version]][dynsurv-cran]           | ![dynsurv-log]        |
+| [geepack](#geepack)           | [![geepack-version]][geepack-cran]           | ![geepack-log]        |
 | [intsurv](#intsurv)           | [![intsurv-version]][intsurv-cran]           | ![intsurv-log]        |
 | [jds.rmd](#jds.rmd)           | [![jds.rmd-version]][jds.rmd-cran]           | ![jds.rmd-log]        |
 | [reda](#reda)                 | [![reda-version]][reda-cran]                 | ![reda-log]           |
@@ -22,6 +24,22 @@ title: "Software"
 <div id="r-pkg-details">
 
 ---
+
+### {copula}: Multivariate Dependence with Copulas {#copula}
+
+![gpl-badge]
+
+#### References
+- Hofert, M., Kojadinovic, I., Mächler, M., & **Yan, J.** (2018). *Elements of
+copula modeling with R*. Springer. <https://doi.org/10.1007/978-3-319-89635-9>
+- Kojadinovic, I., & **Yan, J.** (2010). Modeling multivariate distributions
+with continuous margins using the [copula]{.nocase} R package. *Journal
+of Statistical Software*, *34*(9), 1--20.
+<https://doi.org/10.18637/jss.v034.i09>
+- **Yan, J.** (2007). Enjoy the joy of copulas: With a package copula.
+*Journal of Statistical Software*, *21*(4), 1--21.
+<https://doi.org/10.18637/jss.v021.i04>
+
 
 ### {clusrank}: Wilcoxon Rank Tests for Clustered Data {#clusrank}
 
@@ -62,6 +80,21 @@ implemented:
   Z. (2016). Onset of persistent pseudomonas aeruginosa infection in children
   with cystic fibrosis with interval censored data. *BMC Medical Research
   Methodology*, 16(1), 122.
+
+---
+
+### {geepack}: Generalized Estimating Equations {#geepack}
+![gpl-badge]
+
+#### References
+
+- Halekoh, U., Højsgaard, S., & **Yan, J.** (2006). The R package
+[geepack]{.nocase} for generalized estimating equations. *Journal of
+Statistical Software*, *15/2*, 1--11.
+<https://doi.org/10.18637/jss.v015.i02>
+- **Yan, J.**, & Fine, J. (2004). Estimating equations for association
+structures (Pkg: P859-880). *Statistics in Medicine*, *23*(6), 859--874.
+<https://doi.org/10.1002/sim.1650>
 
 ---
 
@@ -177,12 +210,10 @@ It contains functions for
 
 </div>
 
-[abclass-cran]: https://CRAN.R-project.org/package=abclass
-[abclass-version]: https://www.r-pkg.org/badges/version-last-release/abclass
-[abclass-log]: https://cranlogs.r-pkg.org/badges/grand-total/abclass
-[abclass-dev]: https://img.shields.io/github/last-commit/wenjie2wang/abclass
-[abclass-gh]: https://github.com/wenjie2wang/abclass
-[abclass-ghs]: https://img.shields.io/github/stars/wenjie2wang/abclass.svg?style=social&label=Star&maxAge=2592000
+[copula-cran]: https://CRAN.R-project.org/package=copula
+[copula-version]: https://www.r-pkg.org/badges/version-last-release/copula
+[copula-log]: https://cranlogs.r-pkg.org/badges/grand-total/copula
+[copula-gh]: https://copula.r-forge.r-project.org/
 
 [clusrank-cran]: https://CRAN.R-project.org/package=clusrank
 [clusrank-version]: https://www.r-pkg.org/badges/version-last-release/clusrank
@@ -198,12 +229,9 @@ It contains functions for
 [dynsurv-gh]: https://github.com/wenjie2wang/dynsurv
 [dynsurv-ghs]: https://img.shields.io/github/stars/wenjie2wang/dynsurv.svg?style=social&label=Star&maxAge=2592000
 
-[formatBibtex-cran]: https://CRAN.R-project.org/package=formatBibtex
-[formatBibtex-version]: https://www.r-pkg.org/badges/version-last-release/formatBibtex
-[formatBibtex-log]: https://cranlogs.r-pkg.org/badges/grand-total/formatBibtex
-[formatBibtex-dev]: https://img.shields.io/github/last-commit/wenjie2wang/formatBibtex
-[formatBibtex-gh]: https://github.com/wenjie2wang/formatBibtex
-[formatBibtex-ghs]: https://img.shields.io/github/stars/wenjie2wang/formatBibtex.svg?style=social&label=Star&maxAge=2592000
+[geepack-cran]: https://CRAN.R-project.org/package=geepack
+[geepack-version]: https://www.r-pkg.org/badges/version-last-release/geepack
+[geepack-log]: https://cranlogs.r-pkg.org/badges/grand-total/geepack
 
 [intsurv-cran]: https://CRAN.R-project.org/package=intsurv
 [intsurv-version]: https://www.r-pkg.org/badges/version-last-release/intsurv
@@ -244,9 +272,9 @@ It contains functions for
 [touch-gh]: https://github.com/wenjie2wang/touch
 [touch-ghs]: https://img.shields.io/github/stars/wenjie2wang/touch.svg?style=social&label=Star&maxAge=2592000
 
-[touchpy-dev]: https://img.shields.io/github/last-commit/wenjie2wang/touchpy
-[touchpy-gh]: https://github.com/wenjie2wang/touchpy
-[touchpy-ghs]: https://img.shields.io/github/stars/wenjie2wang/touchpy.svg?style=social&label=Star&maxAge=2592000
+
+
+
 
 [gpl-badge]: https://img.shields.io/badge/License-GPL-blue.svg
 [jds-url]: https://jds-online.org
