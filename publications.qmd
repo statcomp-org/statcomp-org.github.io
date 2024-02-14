@@ -33,6 +33,12 @@ weight matrix optimizing the efficiency in scaling factor estimation.
 <https://doi.org/10.1214/22-AOAS1624>
 :::
 
+::: {#ref-ma2023optimal .csl-entry}
+Ma, S., Wang, T., **Yan, J.**, & Zhang, X. (2023). Optimal fingerprinting
+with estimating equations. *Journal of Climate*, *36*(20), 7109--7122.
+<https://doi.org/10.1175/JCLI-D-22-0681.1>
+:::
+
 ::: {#ref-wang2023diagnostic .csl-entry}
 Wang, F., Wang, H., & **Yan, J.** (2023). Diagnostic tests for the necessity
 of weight in regression with survey data. *International Statistical
