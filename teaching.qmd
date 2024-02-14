@@ -8,7 +8,7 @@ title: "Teaching"
     - [Spring 2024](https://statds.github.io/ids-s24/)
     - [Spring 2023](https://statds.github.io/ids-s23/)
     - [Spring 2022](https://statds.github.io/ids-s22/)
-+ STAT 3493: [Statistical Writing](https://statds.github.io/stat-writing/)
++ STAT 3494: [Statistical Writing](https://statds.github.io/stat-writing/)
 + STAT 5361: [Statistical Computing](https://jun-yan.github.io/stat-5361/)
 
 ## Undergraduate Advisee Publications
