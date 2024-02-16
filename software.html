@@ -51,6 +51,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Jun Yan - Software">
@@ -144,9 +173,19 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
+<td><a href="#aftgee">aftgee</a></td>
+<td><a href="https://CRAN.R-project.org/package=aftgee"><img src="https://www.r-pkg.org/badges/version-last-release/aftgee" class="img-fluid" alt="aftgee-version"></a></td>
+<td><img src="https://cranlogs.r-pkg.org/badges/grand-total/aftgee" class="img-fluid" alt="aftgee-log"></td>
+</tr>
+<tr class="even">
 <td><a href="#clusrank">clusrank</a></td>
 <td><a href="https://CRAN.R-project.org/package=clusrank"><img src="https://www.r-pkg.org/badges/version-last-release/clusrank" class="img-fluid" alt="clusrank-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/clusrank" class="img-fluid" alt="clusrank-log"></td>
+</tr>
+<tr class="odd">
+<td><a href="#coga">coga</a></td>
+<td><a href="https://CRAN.R-project.org/package=coga"><img src="https://www.r-pkg.org/badges/version-last-release/coga" class="img-fluid" alt="coga-version"></a></td>
+<td><img src="https://cranlogs.r-pkg.org/badges/grand-total/coga" class="img-fluid" alt="coga-log"></td>
 </tr>
 <tr class="even">
 <td><a href="#copula">copula</a></td>
@@ -159,29 +198,39 @@ ul.task-list li input[type="checkbox"] {
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/dynsurv" class="img-fluid" alt="dynsurv-log"></td>
 </tr>
 <tr class="even">
+<td><a href="#eva">eva</a></td>
+<td><a href="https://CRAN.R-project.org/package=eva"><img src="https://www.r-pkg.org/badges/version-last-release/eva" class="img-fluid" alt="eva-version"></a></td>
+<td><img src="https://cranlogs.r-pkg.org/badges/grand-total/eva" class="img-fluid" alt="eva-log"></td>
+</tr>
+<tr class="odd">
 <td><a href="#geepack">geepack</a></td>
 <td><a href="https://CRAN.R-project.org/package=geepack"><img src="https://www.r-pkg.org/badges/version-last-release/geepack" class="img-fluid" alt="geepack-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/geepack" class="img-fluid" alt="geepack-log"></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="#intsurv">intsurv</a></td>
 <td><a href="https://CRAN.R-project.org/package=intsurv"><img src="https://www.r-pkg.org/badges/version-last-release/intsurv" class="img-fluid" alt="intsurv-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/intsurv" class="img-fluid" alt="intsurv-log"></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="#jds.rmd">jds.rmd</a></td>
 <td><a href="https://CRAN.R-project.org/package=jds.rmd"><img src="https://www.r-pkg.org/badges/version-last-release/jds.rmd" class="img-fluid" alt="jds.rmd-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/jds.rmd" class="img-fluid" alt="jds.rmd-log"></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="#reda">reda</a></td>
 <td><a href="https://CRAN.R-project.org/package=reda"><img src="https://www.r-pkg.org/badges/version-last-release/reda" class="img-fluid" alt="reda-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/reda" class="img-fluid" alt="reda-log"></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="#rrpack">rrpack</a></td>
 <td><a href="https://CRAN.R-project.org/package=rrpack"><img src="https://www.r-pkg.org/badges/version-last-release/rrpack" class="img-fluid" alt="rrpack-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/rrpack" class="img-fluid" alt="rrpack-log"></td>
+</tr>
+<tr class="even">
+<td><a href="#spef">spef</a></td>
+<td><a href="https://CRAN.R-project.org/package=spef"><img src="https://www.r-pkg.org/badges/version-last-release/spef" class="img-fluid" alt="spef-version"></a></td>
+<td><img src="https://cranlogs.r-pkg.org/badges/grand-total/spef" class="img-fluid" alt="spef-log"></td>
 </tr>
 <tr class="odd">
 <td><a href="#splines2">splines2</a></td>
@@ -197,14 +246,44 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <div id="r-pkg-details">
 <hr>
+<section id="aftgee" class="level3">
+<h3 class="anchored" data-anchor-id="aftgee">{aftgee}: Accelerated Failure Time Model with Generalized Estimating Equations</h3>
+<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/stc04003/aftgee" class="img-fluid" alt="aftgee-dev"> <a href="https://github.com/stc04003/aftgee"><img src="https://img.shields.io/github/stars/stc04003/aftgee.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="aftgee-ghs"></a></p>
+<p>{aftgee} provides a collection of methods for both the rank-based estimates and least-square estimates to the Accelerated Failure Time (AFT) model.</p>
+<ul>
+<li>For rank-based estimation, it provides the computationally efficient Gehan’s weight and the general’s weight such as the logrank weight. See Chiou et al. (2014, 2015) for details.</li>
+<li>For the least-square estimation, the estimating equation is solved with generalized estimating equations (GEE). Moreover, in multivariate cases, the dependence working correlation structure can be specified in GEE’s setting. See Chiou et al.&nbsp;(2014) for details.</li>
+</ul>
+<section id="references" class="level4">
+<h4 class="anchored" data-anchor-id="references">References</h4>
+<ul>
+<li>Chiou, S., Kang, S., Kim, J., &amp; <strong>Yan, J.</strong> (2014). Marginal semiparametric multivariate accelerated failure time model with generalized estimating equations. <em>Lifetime Data Analysis</em>, 20(4), 599–618. <a href="https://doi.org/10.1007/s10985-014-9292-x" class="uri">https://doi.org/10.1007/s10985-014-9292-x</a></li>
+<li>Chiou, S., Kang, S. &amp; <strong>Yan, J.</strong> (2014). Fast accelerated failure time modeling for case-cohort data. <em>Statistics and Computing</em>, 24(4), 559–568. <a href="https://doi.org/10.1007/s11222-013-9388-2" class="uri">https://doi.org/10.1007/s11222-013-9388-2</a></li>
+<li>Chiou, S., Kang, S. &amp; <strong>Yan, J.</strong> (2015). Rank-based estimating equations with general weight for accelerated failure time models: An induced smoothing approach. <em>Statistics in Medicine</em>, 34(9): 1495–1510. <a href="https://doi.org/10.1002/sim.6415" class="uri">https://doi.org/10.1002/sim.6415</a></li>
+</ul>
+<hr>
+</section>
+</section>
 <section id="clusrank" class="level3">
 <h3 class="anchored" data-anchor-id="clusrank">{clusrank}: Wilcoxon Rank Tests for Clustered Data</h3>
 <p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/clusrank" class="img-fluid" alt="clusrank-dev"> <a href="https://github.com/wenjie2wang/clusrank"><img src="https://img.shields.io/github/stars/wenjie2wang/clusrank.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="clusrank-ghs"></a></p>
 <p>{clusrank} provides functions for Wilcoxon rank sum test and Wilcoxon signed rank test for clustered data. See Jiang et. al (2020) for details.</p>
-<section id="references" class="level4">
-<h4 class="anchored" data-anchor-id="references">References</h4>
+<section id="references-1" class="level4">
+<h4 class="anchored" data-anchor-id="references-1">References</h4>
 <ul>
 <li>Jiang, Y., He, X., Lee, M. T., Rosner, B., &amp; <strong>Yan, J.</strong> (2020). Wilcoxon rank-based tests for clustered data with R package clusrank. <em>Journal of Statistical Software</em>, 96(6), 1–26. <a href="https://doi.org/10.18637/jss.v096.i06" class="uri">https://doi.org/10.18637/jss.v096.i06</a></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="coga" class="level3">
+<h3 class="anchored" data-anchor-id="coga">{coga}: Convolution of Gamma Distributions</h3>
+<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/ChaoranHu/coga" class="img-fluid" alt="coga-dev"> <a href="https://github.com/ChaoranHu/coga"><img src="https://img.shields.io/github/stars/ChaoranHu/coga.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="coga-ghs"></a></p>
+<p>{coga} provides functions for density and distribution evaluation of convolution of gamma distributions. Two related exact methods and one approximate method are implemented with efficient algorithm and C++ code.</p>
+<section id="references-2" class="level4">
+<h4 class="anchored" data-anchor-id="references-2">References</h4>
+<ul>
+<li>Hu, C., Pozdnyakov, V. &amp; <strong>Yan, J.</strong> (2020). Density and distribution evaluation for convolution of independent gamma variables. * Computational Statistics*, 35(1), 327–342. <a href="https://doi.org/10.1007/s00180-019-00924-9" class="uri">https://doi.org/10.1007/s00180-019-00924-9</a></li>
 </ul>
 <hr>
 </section>
@@ -218,12 +297,12 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <p>{copula} provides classes (S4) of commonly used elliptical, Archimedean, extreme-value and other copula families, as well as their rotations, mixtures and asymmetrizations. Nested Archimedean copulas, related tools and special functions. Methods for density, distribution, random number generation, bivariate dependence measures, Rosenblatt transform, Kendall distribution function, perspective and contour plots. Fitting of copula models with potentially partly fixed parameters, including standard errors. Serial independence tests, copula specification tests (independence, exchangeability, radial symmetry, extreme-value dependence, goodness-of-fit) and model selection based on cross-validation. Empirical copula, smoothed versions, and non-parametric estimators of the Pickands dependence function.</p>
-<section id="references-1" class="level4">
-<h4 class="anchored" data-anchor-id="references-1">References</h4>
+<section id="references-3" class="level4">
+<h4 class="anchored" data-anchor-id="references-3">References</h4>
 <ul>
-<li>Hofert, M., Kojadinovic, I., Mächler, M., &amp; <strong>Yan, J.</strong> (2018). <em>Elements of Copula Modeling with R</em>. Springer. <a href="https://doi.org/10.1007/978-3-319-89635-9" class="uri">https://doi.org/10.1007/978-3-319-89635-9</a></li>
-<li>Kojadinovic, I., &amp; <strong>Yan, J.</strong> (2010). Modeling multivariate distributions with continuous margins using the copula R package. <em>Journal of Statistical Software</em>, 34(9), 1–20. <a href="https://doi.org/10.18637/jss.v034.i09" class="uri">https://doi.org/10.18637/jss.v034.i09</a></li>
 <li><strong>Yan, J.</strong> (2007). Enjoy the joy of copulas: With a package copula. <em>Journal of Statistical Software</em>, 21(4), 1–21. <a href="https://doi.org/10.18637/jss.v021.i04" class="uri">https://doi.org/10.18637/jss.v021.i04</a></li>
+<li>Kojadinovic, I., &amp; <strong>Yan, J.</strong> (2010). Modeling multivariate distributions with continuous margins using the copula R package. <em>Journal of Statistical Software</em>, 34(9), 1–20. <a href="https://doi.org/10.18637/jss.v034.i09" class="uri">https://doi.org/10.18637/jss.v034.i09</a></li>
+<li>Hofert, M., Kojadinovic, I., Mächler, M., &amp; <strong>Yan, J.</strong> (2018). <em>Elements of Copula Modeling with R</em>. Springer. <a href="https://doi.org/10.1007/978-3-319-89635-9" class="uri">https://doi.org/10.1007/978-3-319-89635-9</a></li>
 </ul>
 <hr>
 </section>
@@ -237,11 +316,32 @@ ul.task-list li input[type="checkbox"] {
 <li>Spline based time-varying coefficient Cox model for right censored data.</li>
 <li>Transformation model with time-varying coefficients for right censored data using estimating equations.</li>
 </ol>
-<section id="references-2" class="level4">
-<h4 class="anchored" data-anchor-id="references-2">References</h4>
+<section id="references-4" class="level4">
+<h4 class="anchored" data-anchor-id="references-4">References</h4>
 <ul>
-<li>Wang, W., Chen, M., Chiou, S. H., Lai, H., Wang, X., <strong>Yan, J.</strong>, &amp; Zhang, Z. (2016). Onset of persistent pseudomonas aeruginosa infection in children with cystic fibrosis with interval censored data. <em>BMC Medical Research Methodology</em>, 16(1), 122. <a href="https://doi.org/10.1186/s12874-016-0220-5" class="uri">https://doi.org/10.1186/s12874-016-0220-5</a></li>
 <li>Wang, X., Chen, M., &amp; <strong>Yan, J.</strong> (2013). Bayesian dynamic regression models for interval censored survival data with application to children dental health. <em>Lifetime Data Analysis</em>, 19(3), 297–316. <a href="https://doi.org/10.1007/s10985-013-9246-8" class="uri">https://doi.org/10.1007/s10985-013-9246-8</a></li>
+<li>Wang, W., Chen, M., Chiou, S. H., Lai, H., Wang, X., <strong>Yan, J.</strong>, &amp; Zhang, Z. (2016). Onset of persistent pseudomonas aeruginosa infection in children with cystic fibrosis with interval censored data. <em>BMC Medical Research Methodology</em>, 16(1), 122. <a href="https://doi.org/10.1186/s12874-016-0220-5" class="uri">https://doi.org/10.1186/s12874-016-0220-5</a></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="eva" class="level3">
+<h3 class="anchored" data-anchor-id="eva">{eva}: Extreme Value Analysis with Goodness-of-Fit Testing</h3>
+<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/brianbader/eva_package" class="img-fluid" alt="eva-dev"> <a href="https://github.com/brianbader/eva_package"><img src="https://img.shields.io/github/stars/brianbader/eva_package.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="eva-ghs"></a></p>
+<p>{eva} provides functions for:</p>
+<ol type="1">
+<li>Goodness-of-fit tests for selection of r in the r-largest order statistics (GEVr) model.</li>
+<li>Goodness-of-fit tests for threshold selection in the Generalized Pareto distribution (GPD).</li>
+<li>Random number generation and density functions for the GEVr distribution.</li>
+<li>Profile likelihood for return level estimation using the GEVr and Generalized Pareto distributions.</li>
+<li>P-value adjustments for sequential, multiple testing error control.</li>
+<li>Non-stationary fitting of GEVr and GPD.</li>
+</ol>
+<section id="references-5" class="level4">
+<h4 class="anchored" data-anchor-id="references-5">References</h4>
+<ul>
+<li>Bader, B., <strong>Yan, J.</strong> &amp; Zhang, X. (2017). Automated selection of <span class="math inline">\(r\)</span> for the <span class="math inline">\(r\)</span> largest order statistics approach with adjustment for sequential testing. <em>Statistics and Computing</em>, 27(6), 1435–1451. <a href="https://doi.org/10.1007/s11222-016-9697-3" class="uri">https://doi.org/10.1007/s11222-016-9697-3</a></li>
+<li>Bader, B., <strong>Yan, J.</strong> &amp; Zhang, X. (2018) Automated threshold selection for extreme value analysis via ordered goodness-of-fit tests with adjustment for false discovery rate. <em>Annals of Applied Statistics</em>, 12(1), 310–329. <a href="https://doi.org/10.1214/17-AOAS1092" class="uri">https://doi.org/10.1214/17-AOAS1092</a></li>
 </ul>
 <hr>
 </section>
@@ -255,11 +355,11 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <p>{geepack} provides generalized estimating equations solver for parameters in mean, scale, and correlation structures, through mean link, scale link, and correlation link. Can also handle clustered categorical responses.</p>
-<section id="references-3" class="level4">
-<h4 class="anchored" data-anchor-id="references-3">References</h4>
+<section id="references-6" class="level4">
+<h4 class="anchored" data-anchor-id="references-6">References</h4>
 <ul>
-<li>Halekoh, U., Højsgaard, S., &amp; <strong>Yan, J.</strong> (2006). The R package geepack for generalized estimating equations. <em>Journal of Statistical Software</em>, 15(2), 1–11. <a href="https://doi.org/10.18637/jss.v015.i02" class="uri">https://doi.org/10.18637/jss.v015.i02</a></li>
 <li><strong>Yan, J.</strong>, &amp; Fine, J. (2004). Estimating equations for association structures (Pkg: P859-880). <em>Statistics in Medicine</em>, 23(6), 859–874. <a href="https://doi.org/10.1002/sim.1650" class="uri">https://doi.org/10.1002/sim.1650</a></li>
+<li>Halekoh, U., Højsgaard, S., &amp; <strong>Yan, J.</strong> (2006). The R package geepack for generalized estimating equations. <em>Journal of Statistical Software</em>, 15(2), 1–11. <a href="https://doi.org/10.18637/jss.v015.i02" class="uri">https://doi.org/10.18637/jss.v015.i02</a></li>
 </ul>
 <hr>
 </section>
@@ -278,8 +378,8 @@ ul.task-list li input[type="checkbox"] {
 <li>regularized Cox cure rate model with elastic net penalty</li>
 <li>weighted concordance index</li>
 </ul>
-<section id="references-4" class="level4">
-<h4 class="anchored" data-anchor-id="references-4">References</h4>
+<section id="references-7" class="level4">
+<h4 class="anchored" data-anchor-id="references-7">References</h4>
 <ul>
 <li>Wang, W., Aseltine, R. H., Chen, K., &amp; <strong>Yan, J.</strong> (2020). Integrative survival analysis with uncertain event times in application to a suicide risk study. <em>Annals of Applied Statistics</em>, 14(1), 51–73. <a href="https://doi.org/10.1214/19-AOAS1287" class="uri">https://doi.org/10.1214/19-AOAS1287</a></li>
 <li>Wang, W., Luo, C., Aseltine, R. H., Wang, F., <strong>Yan, J.</strong>, &amp; Chen, K. (2020). Suicide risk modeling with uncertain diagnostic records. <em>arXiv preprint arXiv:2009.02597</em>. <a href="https://doi.org/10.48550/arXiv.2009.02597" class="uri">https://doi.org/10.48550/arXiv.2009.02597</a></li>
@@ -316,6 +416,28 @@ ul.task-list li input[type="checkbox"] {
 <p>{rrpack} provides implementations for multivariate regression methodologies including reduced-rank regression (RRR), reduced-rank ridge regression (RRS), robust reduced-rank regression (R4), generalized/mixed-response reduced-rank regression (mRRR), row-sparse reduced-rank regression (SRRR), reduced-rank regression with a sparse singular value decomposition (RSSVD), and sparse and orthogonal factor regression (SOFAR).</p>
 <hr>
 </section>
+<section id="spef" class="level3">
+<h3 class="anchored" data-anchor-id="spef">{spef}: Semiparametric Estimating Functions</h3>
+<p>{spef} provides a collection of functions for fitting semiparametric regression models for panel count survival data. Estimating procedures include:</p>
+<ul>
+<li>Wang-Yan’s augmented estimating equations (AEE, AEEX)</li>
+<li>Huang-Wang-Zhang’s method (HWZ)</li>
+<li>Zhang’s maximum pseudolikelihood (MPL)</li>
+<li>Maximum pseudolikelihood with I-Splines (MPLs)</li>
+<li>Maximum likelihood with I-Splines (MLs)</li>
+<li>Sun-Wei’s method (‘EE.SWa’, ‘EE.SWb’, ‘EE.SWc’)</li>
+<li>Hu-Sun-Wei’s method (‘EE.HSWc’, ‘EE.HSWm’)</li>
+<li>Accelerated mean model (‘AMM’).</li>
+</ul>
+<section id="references-8" class="level4">
+<h4 class="anchored" data-anchor-id="references-8">References</h4>
+<ul>
+<li>Wang, X., &amp; <strong>Yan, J.</strong> (2011). Fitting semiparametric regressions for panel count survival data with an R package spef. <em>Computer Methods and Programs in Biomedicine</em>, 104(2), 278–285. <a href="https://doi.org/10.1016/j.cmpb.2010.10.005" class="uri">https://doi.org/10.1016/j.cmpb.2010.10.005</a></li>
+<li>Chiou, S., Huang, C., Xu, G., &amp; <strong>Yan, J.</strong> (2019). Semiparametric regression analysis of panel count data: A practical review. <em>International Statistical Review</em>, 87(1), 24–43. <a href="https://doi.org/10.1111/insr.12271" class="uri">https://doi.org/10.1111/insr.12271</a></li>
+</ul>
+<hr>
+</section>
+</section>
 <section id="splines2" class="level3">
 <h3 class="anchored" data-anchor-id="splines2">{splines2}: Regression Spline Functions and Classes</h3>
 <p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/splines2" class="img-fluid" alt="splines2-dev"> <a href="https://github.com/wenjie2wang/splines2"><img src="https://img.shields.io/github/stars/wenjie2wang/splines2.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="splines2-ghs"></a> <a href="https://doi.org/10.6339/21-JDS1020"><img src="https://img.shields.io/badge/JDS-10.6339%2F21--JDS1020-brightgreen" class="img-fluid" alt="JDS"></a></p>
@@ -331,8 +453,8 @@ ul.task-list li input[type="checkbox"] {
 <li>their integrals (except C-splines) and derivatives of given order by closed-form recursive formulas</li>
 </ul>
 <p>In addition to the R interface, {splines2} provides a C++ header-only library integrated with {Rcpp}, which allows the construction of spline basis functions directly in C++ with the help of {Rcpp} and {RcppArmadillo}. Thus, it can also be treated as one of the Rcpp* packages. See Wang and Yan (2021) for details.</p>
-<section id="references-5" class="level4">
-<h4 class="anchored" data-anchor-id="references-5">References</h4>
+<section id="references-9" class="level4">
+<h4 class="anchored" data-anchor-id="references-9">References</h4>
 <ul>
 <li>Wang, W., &amp; <strong>Yan, J.</strong> (2021). Shape-restricted regression splines with R package splines2. <em>Journal of Data Science</em>, 19(3), 498–517. <a href="https://doi.org/10.6339/21-JDS1020" class="uri">https://doi.org/10.6339/21-JDS1020</a></li>
 </ul>
