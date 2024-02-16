@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -144,14 +144,14 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="#copula">copula</a></td>
-<td><a href="https://CRAN.R-project.org/package=copula"><img src="https://www.r-pkg.org/badges/version-last-release/copula" class="img-fluid" alt="copula-version"></a></td>
-<td><img src="https://cranlogs.r-pkg.org/badges/grand-total/copula" class="img-fluid" alt="copula-log"></td>
-</tr>
-<tr class="even">
 <td><a href="#clusrank">clusrank</a></td>
 <td><a href="https://CRAN.R-project.org/package=clusrank"><img src="https://www.r-pkg.org/badges/version-last-release/clusrank" class="img-fluid" alt="clusrank-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/clusrank" class="img-fluid" alt="clusrank-log"></td>
+</tr>
+<tr class="even">
+<td><a href="#copula">copula</a></td>
+<td><a href="https://CRAN.R-project.org/package=copula"><img src="https://www.r-pkg.org/badges/version-last-release/copula" class="img-fluid" alt="copula-version"></a></td>
+<td><img src="https://cranlogs.r-pkg.org/badges/grand-total/copula" class="img-fluid" alt="copula-log"></td>
 </tr>
 <tr class="odd">
 <td><a href="#dynsurv">dynsurv</a></td>
@@ -197,6 +197,18 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <div id="r-pkg-details">
 <hr>
+<section id="clusrank" class="level3">
+<h3 class="anchored" data-anchor-id="clusrank">{clusrank}: Wilcoxon Rank Tests for Clustered Data</h3>
+<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/clusrank" class="img-fluid" alt="clusrank-dev"> <a href="https://github.com/wenjie2wang/clusrank"><img src="https://img.shields.io/github/stars/wenjie2wang/clusrank.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="clusrank-ghs"></a></p>
+<p>{clusrank} provides functions for Wilcoxon rank sum test and Wilcoxon signed rank test for clustered data. See Jiang et. al (2020) for details.</p>
+<section id="references" class="level4">
+<h4 class="anchored" data-anchor-id="references">References</h4>
+<ul>
+<li>Jiang, Y., He, X., Lee, M. T., Rosner, B., &amp; <strong>Yan, J.</strong> (2020). Wilcoxon rank-based tests for clustered data with R package clusrank. <em>Journal of Statistical Software</em>, 96(6), 1–26. <a href="https://doi.org/10.18637/jss.v096.i06" class="uri">https://doi.org/10.18637/jss.v096.i06</a></li>
+</ul>
+<hr>
+</section>
+</section>
 <section id="copula" class="level3">
 <h3 class="anchored" data-anchor-id="copula">{copula}: Multivariate Dependence with Copulas</h3>
 <div class="quarto-figure quarto-figure-center">
@@ -205,23 +217,13 @@ ul.task-list li input[type="checkbox"] {
 <figcaption>gpl-badge</figcaption>
 </figure>
 </div>
-<section id="references" class="level4">
-<h4 class="anchored" data-anchor-id="references">References</h4>
-<ul>
-<li>Hofert, M., Kojadinovic, I., Mächler, M., &amp; <strong>Yan, J.</strong> (2018). <em>Elements of copula modeling with R</em>. Springer. <a href="https://doi.org/10.1007/978-3-319-89635-9" class="uri">https://doi.org/10.1007/978-3-319-89635-9</a></li>
-<li>Kojadinovic, I., &amp; <strong>Yan, J.</strong> (2010). Modeling multivariate distributions with continuous margins using the <span class="nocase">copula</span> R package. <em>Journal of Statistical Software</em>, <em>34</em>(9), 1–20. <a href="https://doi.org/10.18637/jss.v034.i09" class="uri">https://doi.org/10.18637/jss.v034.i09</a></li>
-<li><strong>Yan, J.</strong> (2007). Enjoy the joy of copulas: With a package copula. <em>Journal of Statistical Software</em>, <em>21</em>(4), 1–21. <a href="https://doi.org/10.18637/jss.v021.i04" class="uri">https://doi.org/10.18637/jss.v021.i04</a></li>
-</ul>
-</section>
-</section>
-<section id="clusrank" class="level3">
-<h3 class="anchored" data-anchor-id="clusrank">{clusrank}: Wilcoxon Rank Tests for Clustered Data</h3>
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/clusrank" class="img-fluid" alt="clusrank-dev"> <a href="https://github.com/wenjie2wang/clusrank"><img src="https://img.shields.io/github/stars/wenjie2wang/clusrank.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="clusrank-ghs"></a></p>
-<p>{clusrank} provides functions for Wilcoxon rank sum test and Wilcoxon signed rank test for clustered data. See Jiang et. al (2020) for details.</p>
+<p>{copula} provides classes (S4) of commonly used elliptical, Archimedean, extreme-value and other copula families, as well as their rotations, mixtures and asymmetrizations. Nested Archimedean copulas, related tools and special functions. Methods for density, distribution, random number generation, bivariate dependence measures, Rosenblatt transform, Kendall distribution function, perspective and contour plots. Fitting of copula models with potentially partly fixed parameters, including standard errors. Serial independence tests, copula specification tests (independence, exchangeability, radial symmetry, extreme-value dependence, goodness-of-fit) and model selection based on cross-validation. Empirical copula, smoothed versions, and non-parametric estimators of the Pickands dependence function.</p>
 <section id="references-1" class="level4">
 <h4 class="anchored" data-anchor-id="references-1">References</h4>
 <ul>
-<li>Jiang, Y., He, X., Lee, M. T., Rosner, B., &amp; Yan, J. (2020). Wilcoxon rank-based tests for clustered data with R package clusrank. <em>Journal of Statistical Software</em>, 96(6), 1–26.</li>
+<li>Hofert, M., Kojadinovic, I., Mächler, M., &amp; <strong>Yan, J.</strong> (2018). <em>Elements of Copula Modeling with R</em>. Springer. <a href="https://doi.org/10.1007/978-3-319-89635-9" class="uri">https://doi.org/10.1007/978-3-319-89635-9</a></li>
+<li>Kojadinovic, I., &amp; <strong>Yan, J.</strong> (2010). Modeling multivariate distributions with continuous margins using the copula R package. <em>Journal of Statistical Software</em>, 34(9), 1–20. <a href="https://doi.org/10.18637/jss.v034.i09" class="uri">https://doi.org/10.18637/jss.v034.i09</a></li>
+<li><strong>Yan, J.</strong> (2007). Enjoy the joy of copulas: With a package copula. <em>Journal of Statistical Software</em>, 21(4), 1–21. <a href="https://doi.org/10.18637/jss.v021.i04" class="uri">https://doi.org/10.18637/jss.v021.i04</a></li>
 </ul>
 <hr>
 </section>
@@ -231,15 +233,15 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/dynsurv" class="img-fluid" alt="dynsurv-dev"> <a href="https://github.com/wenjie2wang/dynsurv"><img src="https://img.shields.io/github/stars/wenjie2wang/dynsurv.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="dynsurv-ghs"></a></p>
 <p>{dynsurv} provides functions to fit time-varying coefficient models for interval censored and right censored survival data. Three major approaches are implemented:</p>
 <ol type="1">
-<li>Bayesian Cox model with time-independent, time-varying or dynamic coefficients for right censored and interval censored data</li>
-<li>Spline based time-varying coefficient Cox model for right censored data</li>
+<li>Bayesian Cox model with time-independent, time-varying or dynamic coefficients for right censored and interval censored data.</li>
+<li>Spline based time-varying coefficient Cox model for right censored data.</li>
 <li>Transformation model with time-varying coefficients for right censored data using estimating equations.</li>
 </ol>
 <section id="references-2" class="level4">
 <h4 class="anchored" data-anchor-id="references-2">References</h4>
 <ul>
-<li>Wang, X., Chen, M., &amp; Yan, J. (2013). Bayesian dynamic regression models for interval censored survival data with application to children dental health. <em>Lifetime Data Analysis</em>, 19(3), 297–316.</li>
-<li>Wang, W., Chen, M., Chiou, S. H., Lai, H., Wang, X., Yan, J., &amp; Zhang, Z. (2016). Onset of persistent pseudomonas aeruginosa infection in children with cystic fibrosis with interval censored data. <em>BMC Medical Research Methodology</em>, 16(1), 122.</li>
+<li>Wang, W., Chen, M., Chiou, S. H., Lai, H., Wang, X., <strong>Yan, J.</strong>, &amp; Zhang, Z. (2016). Onset of persistent pseudomonas aeruginosa infection in children with cystic fibrosis with interval censored data. <em>BMC Medical Research Methodology</em>, 16(1), 122. <a href="https://doi.org/10.1186/s12874-016-0220-5" class="uri">https://doi.org/10.1186/s12874-016-0220-5</a></li>
+<li>Wang, X., Chen, M., &amp; <strong>Yan, J.</strong> (2013). Bayesian dynamic regression models for interval censored survival data with application to children dental health. <em>Lifetime Data Analysis</em>, 19(3), 297–316. <a href="https://doi.org/10.1007/s10985-013-9246-8" class="uri">https://doi.org/10.1007/s10985-013-9246-8</a></li>
 </ul>
 <hr>
 </section>
@@ -252,11 +254,12 @@ ul.task-list li input[type="checkbox"] {
 <figcaption>gpl-badge</figcaption>
 </figure>
 </div>
+<p>{geepack} provides generalized estimating equations solver for parameters in mean, scale, and correlation structures, through mean link, scale link, and correlation link. Can also handle clustered categorical responses.</p>
 <section id="references-3" class="level4">
 <h4 class="anchored" data-anchor-id="references-3">References</h4>
 <ul>
-<li>Halekoh, U., Højsgaard, S., &amp; <strong>Yan, J.</strong> (2006). The R package <span class="nocase">geepack</span> for generalized estimating equations. <em>Journal of Statistical Software</em>, <em>15/2</em>, 1–11. <a href="https://doi.org/10.18637/jss.v015.i02" class="uri">https://doi.org/10.18637/jss.v015.i02</a></li>
-<li><strong>Yan, J.</strong>, &amp; Fine, J. (2004). Estimating equations for association structures (Pkg: P859-880). <em>Statistics in Medicine</em>, <em>23</em>(6), 859–874. <a href="https://doi.org/10.1002/sim.1650" class="uri">https://doi.org/10.1002/sim.1650</a></li>
+<li>Halekoh, U., Højsgaard, S., &amp; <strong>Yan, J.</strong> (2006). The R package geepack for generalized estimating equations. <em>Journal of Statistical Software</em>, 15(2), 1–11. <a href="https://doi.org/10.18637/jss.v015.i02" class="uri">https://doi.org/10.18637/jss.v015.i02</a></li>
+<li><strong>Yan, J.</strong>, &amp; Fine, J. (2004). Estimating equations for association structures (Pkg: P859-880). <em>Statistics in Medicine</em>, 23(6), 859–874. <a href="https://doi.org/10.1002/sim.1650" class="uri">https://doi.org/10.1002/sim.1650</a></li>
 </ul>
 <hr>
 </section>
@@ -278,8 +281,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="references-4" class="level4">
 <h4 class="anchored" data-anchor-id="references-4">References</h4>
 <ul>
-<li>Wang, W., Aseltine, R. H., Chen, K., &amp; Yan, J. (2020). Integrative Survival Analysis with Uncertain Event Times in Application to A Suicide Risk Study. <em>Annals of Applied Statistics</em>, 14(1), 51-73.</li>
-<li>Wang, W., Luo, C., Aseltine, R. H., Wang, F., Yan, J., &amp; Chen, K. (2020). Suicide Risk Modeling with Uncertain Diagnostic Records. <em>arXiv preprint arXiv:2009.02597</em>.</li>
+<li>Wang, W., Aseltine, R. H., Chen, K., &amp; <strong>Yan, J.</strong> (2020). Integrative survival analysis with uncertain event times in application to a suicide risk study. <em>Annals of Applied Statistics</em>, 14(1), 51–73. <a href="https://doi.org/10.1214/19-AOAS1287" class="uri">https://doi.org/10.1214/19-AOAS1287</a></li>
+<li>Wang, W., Luo, C., Aseltine, R. H., Wang, F., <strong>Yan, J.</strong>, &amp; Chen, K. (2020). Suicide risk modeling with uncertain diagnostic records. <em>arXiv preprint arXiv:2009.02597</em>. <a href="https://doi.org/10.48550/arXiv.2009.02597" class="uri">https://doi.org/10.48550/arXiv.2009.02597</a></li>
 </ul>
 <hr>
 </section>
@@ -293,11 +296,12 @@ ul.task-list li input[type="checkbox"] {
 <section id="reda" class="level3">
 <h3 class="anchored" data-anchor-id="reda">{reda}: Recurrent Event Data Analysis</h3>
 <p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/reda" class="img-fluid" alt="reda-dev"> <a href="https://github.com/wenjie2wang/reda"><img src="https://img.shields.io/github/stars/wenjie2wang/reda.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="reda-ghs"></a></p>
-<p>{reda} provides functions for</p>
+<p>{reda} provides functions for:</p>
 <ol type="1">
-<li>simulating survival, recurrent event, and multiple event data from stochastic process point of view</li>
-<li>exploring and modeling recurrent event data through the mean cumulative function (MCF) or also called the Nelson-Aalen estimator of the cumulative hazard rate function, and gamma frailty model with spline rate function</li>
-<li>comparing two-sample recurrent event responses with the pseudo-score tests</li>
+<li>Simulating survival, recurrent event, and multiple event data from stochastic process point of view.</li>
+<li>Exploring and modeling recurrent event data through the mean cumulative function (MCF) or also called the Nelson-Aalen estimator of the cumulative hazard rate function, and gamma frailty model with spline rate function.</li>
+<li>Comparing two-sample recurrent event responses with the pseudo-score tests.</li>
+<li>Fitting Gamma fraitly model with spline baseline rate function.</li>
 </ol>
 <hr>
 </section>
@@ -330,7 +334,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="references-5" class="level4">
 <h4 class="anchored" data-anchor-id="references-5">References</h4>
 <ul>
-<li>Wang, W., &amp; Yan, J. (2021). Shape-restricted regression splines with R package splines2. <em>Journal of Data Science</em>, 19(3), 498–517.</li>
+<li>Wang, W., &amp; <strong>Yan, J.</strong> (2021). Shape-restricted regression splines with R package splines2. <em>Journal of Data Science</em>, 19(3), 498–517. <a href="https://doi.org/10.6339/21-JDS1020" class="uri">https://doi.org/10.6339/21-JDS1020</a></li>
 </ul>
 <hr>
 </section>
@@ -338,10 +342,10 @@ ul.task-list li input[type="checkbox"] {
 <section id="touch" class="level3">
 <h3 class="anchored" data-anchor-id="touch">{touch}: Tools of Utilization and Cost in Healthcare</h3>
 <p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/touch" class="img-fluid" alt="touch-dev"> <a href="https://github.com/wenjie2wang/touch"><img src="https://img.shields.io/github/stars/wenjie2wang/touch.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="touch-ghs"></a></p>
-<p>{touch} provides R implementation of the software tools developed in the H-CUP (Healthcare Cost and Utilization Project) and AHRQ (Agency for Healthcare Research and Quality). It contains functions for</p>
+<p>{touch} provides R implementation of the software tools developed in the H-CUP (Healthcare Cost and Utilization Project) and AHRQ (Agency for Healthcare Research and Quality). It contains functions for:</p>
 <ol type="1">
-<li>mapping ICD-9 codes to the AHRQ comorbidity measures</li>
-<li>translating ICD-9 (resp. ICD-10) codes to ICD-10 (resp. ICD-9) codes based on GEM (General Equivalence Mappings) from CMS (Centers for Medicare and Medicaid Services)</li>
+<li>Mapping ICD-9 codes to the AHRQ comorbidity measures.</li>
+<li>Translating ICD-9 (resp. ICD-10) codes to ICD-10 (resp. ICD-9) codes based on GEM (General Equivalence Mappings) from CMS (Centers for Medicare and Medicaid Services).</li>
 </ol>
 <hr>
 </section>
