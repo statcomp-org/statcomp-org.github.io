@@ -8,8 +8,8 @@ title: "Software"
 
 | Name                          | Latest Release                               | Downloads (RStudio CRAN Mirror Since October 2012) |
 |-------------------------------|----------------------------------------------|-----------------------|
-| [copula](#copula)             | [![copula-version]][copula-cran]             | ![copula-log]         |
 | [clusrank](#clusrank)         | [![clusrank-version]][clusrank-cran]         | ![clusrank-log]       |
+| [copula](#copula)             | [![copula-version]][copula-cran]             | ![copula-log]         |
 | [dynsurv](#dynsurv)           | [![dynsurv-version]][dynsurv-cran]           | ![dynsurv-log]        |
 | [geepack](#geepack)           | [![geepack-version]][geepack-cran]           | ![geepack-log]        |
 | [intsurv](#intsurv)           | [![intsurv-version]][intsurv-cran]           | ![intsurv-log]        |
@@ -25,22 +25,6 @@ title: "Software"
 
 ---
 
-### {copula}: Multivariate Dependence with Copulas {#copula}
-
-![gpl-badge]
-
-#### References
-- Hofert, M., Kojadinovic, I., Mächler, M., & **Yan, J.** (2018). *Elements of
-copula modeling with R*. Springer. <https://doi.org/10.1007/978-3-319-89635-9>
-- Kojadinovic, I., & **Yan, J.** (2010). Modeling multivariate distributions
-with continuous margins using the [copula]{.nocase} R package. *Journal
-of Statistical Software*, *34*(9), 1--20.
-<https://doi.org/10.18637/jss.v034.i09>
-- **Yan, J.** (2007). Enjoy the joy of copulas: With a package copula.
-*Journal of Statistical Software*, *21*(4), 1--21.
-<https://doi.org/10.18637/jss.v021.i04>
-
-
 ### {clusrank}: Wilcoxon Rank Tests for Clustered Data {#clusrank}
 
 ![gpl-badge] ![clusrank-dev] [![clusrank-ghs]][clusrank-gh]
@@ -51,9 +35,38 @@ See Jiang et. al (2020) for details.
 
 #### References
 
-- Jiang, Y., He, X., Lee, M. T., Rosner, B., & Yan, J. (2020). Wilcoxon
+- Jiang, Y., He, X., Lee, M. T., Rosner, B., & **Yan, J.** (2020). Wilcoxon
   rank-based tests for clustered data with R package clusrank. *Journal of
-  Statistical Software*, 96(6), 1–26.
+  Statistical Software*, 96(6), 1--26. <https://doi.org/10.18637/jss.v096.i06>
+
+---
+
+### {copula}: Multivariate Dependence with Copulas {#copula}
+
+![gpl-badge]
+
+{copula} provides classes (S4) of commonly used elliptical, Archimedean,
+extreme-value and other copula families, as well as their rotations, mixtures
+and asymmetrizations. Nested Archimedean copulas, related tools and special
+functions. Methods for density, distribution, random number generation,
+bivariate dependence measures, Rosenblatt transform, Kendall distribution
+function, perspective and contour plots. Fitting of copula models with
+potentially partly fixed parameters, including standard errors. Serial
+independence tests, copula specification tests (independence, exchangeability,
+radial symmetry, extreme-value dependence, goodness-of-fit) and model selection
+based on cross-validation. Empirical copula, smoothed versions, and
+non-parametric estimators of the Pickands dependence function.
+
+#### References
+
+- Hofert, M., Kojadinovic, I., Mächler, M., & **Yan, J.** (2018). *Elements of
+  Copula Modeling with R*. Springer. <https://doi.org/10.1007/978-3-319-89635-9>
+- Kojadinovic, I., & **Yan, J.** (2010). Modeling multivariate distributions
+  with continuous margins using the copula R package. *Journal of Statistical
+  Software*, 34(9), 1--20. <https://doi.org/10.18637/jss.v034.i09>
+- **Yan, J.** (2007). Enjoy the joy of copulas: With a package copula.
+  *Journal of Statistical Software*, 21(4), 1--21.
+  <https://doi.org/10.18637/jss.v021.i04>
 
 ---
 
@@ -66,39 +79,45 @@ interval censored and right censored survival data. Three major approaches are
 implemented:
 
 1. Bayesian Cox model with time-independent, time-varying or dynamic
-   coefficients for right censored and interval censored data
-1. Spline based time-varying coefficient Cox model for right censored data
+   coefficients for right censored and interval censored data.
+1. Spline based time-varying coefficient Cox model for right censored data.
 1. Transformation model with time-varying coefficients for right censored data
    using estimating equations.
 
 #### References
 
-- Wang, X., Chen, M., & Yan, J. (2013). Bayesian dynamic regression models for
-  interval censored survival data with application to children dental
-  health. *Lifetime Data Analysis*, 19(3), 297–316.
-- Wang, W., Chen, M., Chiou, S. H., Lai, H., Wang, X., Yan, J., & Zhang,
-  Z. (2016). Onset of persistent pseudomonas aeruginosa infection in children
-  with cystic fibrosis with interval censored data. *BMC Medical Research
-  Methodology*, 16(1), 122.
+- Wang, W., Chen, M., Chiou, S. H., Lai, H., Wang, X., **Yan, J.**, & Zhang, Z.
+  (2016). Onset of persistent pseudomonas aeruginosa infection in children with
+  cystic fibrosis with interval censored data. *BMC Medical Research
+  Methodology*, 16(1), 122. <https://doi.org/10.1186/s12874-016-0220-5>
+- Wang, X., Chen, M., & **Yan, J.** (2013). Bayesian dynamic regression models
+  for interval censored survival data with application to children dental
+  health. *Lifetime Data Analysis*, 19(3), 297--316.
+  <https://doi.org/10.1007/s10985-013-9246-8>
 
 ---
 
 ### {geepack}: Generalized Estimating Equations {#geepack}
+
 ![gpl-badge]
+
+{geepack} provides generalized estimating equations solver for parameters in
+mean, scale, and correlation structures, through mean link, scale link, and
+correlation link. Can also handle clustered categorical responses.
 
 #### References
 
-- Halekoh, U., Højsgaard, S., & **Yan, J.** (2006). The R package
-[geepack]{.nocase} for generalized estimating equations. *Journal of
-Statistical Software*, *15/2*, 1--11.
-<https://doi.org/10.18637/jss.v015.i02>
+- Halekoh, U., Højsgaard, S., & **Yan, J.** (2006). The R package geepack for
+  generalized estimating equations. *Journal of Statistical Software*, 15(2),
+  1--11. <https://doi.org/10.18637/jss.v015.i02>
 - **Yan, J.**, & Fine, J. (2004). Estimating equations for association
-structures (Pkg: P859-880). *Statistics in Medicine*, *23*(6), 859--874.
-<https://doi.org/10.1002/sim.1650>
+  structures (Pkg: P859-880). *Statistics in Medicine*, 23(6), 859--874.
+  <https://doi.org/10.1002/sim.1650>
 
 ---
 
 ### {intsurv}: Integrative Survival Modeling {#intsurv}
+
 ![gpl-badge] ![intsurv-dev] [![intsurv-ghs]][intsurv-gh]
 
 {intsurv} contains implementations of
@@ -114,12 +133,13 @@ and other survival analysis routines, including
 
 #### References
 
-- Wang, W., Aseltine, R. H., Chen, K., & Yan, J. (2020). Integrative Survival
-  Analysis with Uncertain Event Times in Application to A Suicide Risk
-  Study. *Annals of Applied Statistics*, 14(1), 51-73.
-- Wang, W., Luo, C., Aseltine, R. H., Wang, F., Yan, J., & Chen,
-  K. (2020). Suicide Risk Modeling with Uncertain Diagnostic Records. *arXiv
-  preprint arXiv:2009.02597*.
+- Wang, W., Aseltine, R. H., Chen, K., & **Yan, J.** (2020). Integrative
+  survival analysis with uncertain event times in application to a suicide risk
+  study. *Annals of Applied Statistics*, 14(1), 51--73.
+  <https://doi.org/10.1214/19-AOAS1287>
+- Wang, W., Luo, C., Aseltine, R. H., Wang, F., **Yan, J.**, & Chen, K. (2020).
+  Suicide risk modeling with uncertain diagnostic records.
+  *arXiv preprint arXiv:2009.02597*. <https://doi.org/10.48550/arXiv.2009.02597>
 
 ---
 
@@ -137,14 +157,15 @@ a manuscript with code chunks or producing tables/figures on the fly.
 
 ![gpl-badge] ![reda-dev] [![reda-ghs]][reda-gh]
 
-{reda} provides functions for
+{reda} provides functions for:
 
-1. simulating survival, recurrent event, and multiple event data from
-   stochastic process point of view
-2. exploring and modeling recurrent event data through the mean cumulative
+1. Simulating survival, recurrent event, and multiple event data from
+   stochastic process point of view.
+2. Exploring and modeling recurrent event data through the mean cumulative
    function (MCF) or also called the Nelson-Aalen estimator of the cumulative
-   hazard rate function, and gamma frailty model with spline rate function
-3. comparing two-sample recurrent event responses with the pseudo-score tests
+   hazard rate function, and gamma frailty model with spline rate function.
+3. Comparing two-sample recurrent event responses with the pseudo-score tests.
+4. Fitting Gamma fraitly model with spline baseline rate function.
 
 ---
 
@@ -187,8 +208,9 @@ See Wang and Yan (2021) for details.
 
 #### References
 
-- Wang, W., & Yan, J. (2021). Shape-restricted regression splines with R package
-  splines2. *Journal of Data Science*, 19(3), 498–517.
+- Wang, W., & **Yan, J.** (2021). Shape-restricted regression splines with R
+  package splines2. *Journal of Data Science*, 19(3), 498--517.
+  <https://doi.org/10.6339/21-JDS1020>
 
 ---
 
@@ -199,21 +221,16 @@ See Wang and Yan (2021) for details.
 {touch} provides R implementation of the software tools developed in the
 H-CUP (Healthcare Cost and Utilization Project) and AHRQ (Agency for
 Healthcare Research and Quality).
-It contains functions for
+It contains functions for:
 
-1. mapping ICD-9 codes to the AHRQ comorbidity measures
-1. translating ICD-9 (resp. ICD-10) codes to ICD-10 (resp. ICD-9) codes based
+1. Mapping ICD-9 codes to the AHRQ comorbidity measures.
+1. Translating ICD-9 (resp. ICD-10) codes to ICD-10 (resp. ICD-9) codes based
    on GEM (General Equivalence Mappings) from CMS (Centers for Medicare and
-   Medicaid Services)
+   Medicaid Services).
 
 ---
 
 </div>
-
-[copula-cran]: https://CRAN.R-project.org/package=copula
-[copula-version]: https://www.r-pkg.org/badges/version-last-release/copula
-[copula-log]: https://cranlogs.r-pkg.org/badges/grand-total/copula
-[copula-gh]: https://copula.r-forge.r-project.org/
 
 [clusrank-cran]: https://CRAN.R-project.org/package=clusrank
 [clusrank-version]: https://www.r-pkg.org/badges/version-last-release/clusrank
@@ -221,6 +238,11 @@ It contains functions for
 [clusrank-dev]: https://img.shields.io/github/last-commit/wenjie2wang/clusrank
 [clusrank-gh]: https://github.com/wenjie2wang/clusrank
 [clusrank-ghs]: https://img.shields.io/github/stars/wenjie2wang/clusrank.svg?style=social&label=Star&maxAge=2592000
+
+[copula-cran]: https://CRAN.R-project.org/package=copula
+[copula-version]: https://www.r-pkg.org/badges/version-last-release/copula
+[copula-log]: https://cranlogs.r-pkg.org/badges/grand-total/copula
+[copula-gh]: https://copula.r-forge.r-project.org/
 
 [dynsurv-cran]: https://CRAN.R-project.org/package=dynsurv
 [dynsurv-version]: https://www.r-pkg.org/badges/version-last-release/dynsurv
@@ -271,8 +293,6 @@ It contains functions for
 [touch-dev]: https://img.shields.io/github/last-commit/wenjie2wang/touch
 [touch-gh]: https://github.com/wenjie2wang/touch
 [touch-ghs]: https://img.shields.io/github/stars/wenjie2wang/touch.svg?style=social&label=Star&maxAge=2592000
-
-
 
 
 
