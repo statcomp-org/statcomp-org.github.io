@@ -8,20 +8,55 @@ title: "Software"
 
 | Name                          | Latest Release                               | Downloads (RStudio CRAN Mirror Since October 2012) |
 |-------------------------------|----------------------------------------------|-----------------------|
+| [aftgee](#aftgee)             | [![aftgee-version]][aftgee-cran]             | ![aftgee-log]         |
 | [clusrank](#clusrank)         | [![clusrank-version]][clusrank-cran]         | ![clusrank-log]       |
+| [coga](#coga)                 | [![coga-version]][coga-cran]                 | ![coga-log]           |
 | [copula](#copula)             | [![copula-version]][copula-cran]             | ![copula-log]         |
 | [dynsurv](#dynsurv)           | [![dynsurv-version]][dynsurv-cran]           | ![dynsurv-log]        |
+| [eva](#eva)                   | [![eva-version]][eva-cran]                   | ![eva-log]            |
 | [geepack](#geepack)           | [![geepack-version]][geepack-cran]           | ![geepack-log]        |
 | [intsurv](#intsurv)           | [![intsurv-version]][intsurv-cran]           | ![intsurv-log]        |
 | [jds.rmd](#jds.rmd)           | [![jds.rmd-version]][jds.rmd-cran]           | ![jds.rmd-log]        |
 | [reda](#reda)                 | [![reda-version]][reda-cran]                 | ![reda-log]           |
 | [rrpack](#rrpack)             | [![rrpack-version]][rrpack-cran]             | ![rrpack-log]         |
+| [spef](#spef)                 | [![spef-version]][spef-cran]                 | ![spef-log]           |
 | [splines2](#splines2)         | [![splines2-version]][splines2-cran]         | ![splines2-log]       |
 | [touch](#touch)               | [![touch-version]][touch-cran]               | ![touch-log]          |
 
 
 
 <div id="r-pkg-details">
+
+---
+
+### {aftgee}: Accelerated Failure Time Model with Generalized Estimating Equations {#aftgee}
+
+![gpl-badge] ![aftgee-dev] [![aftgee-ghs]][aftgee-gh]
+
+{aftgee} provides a collection of methods for both the rank-based estimates and
+least-square estimates to the Accelerated Failure Time (AFT) model.
+
+- For rank-based estimation, it provides the computationally efficient Gehan's
+  weight and the general's weight such as the logrank weight. See Chiou et al.
+  (2014, 2015) for details.
+- For the least-square estimation, the estimating equation is solved with
+  generalized estimating equations (GEE). Moreover, in multivariate cases, the
+  dependence working correlation structure can be specified in GEE's setting.
+  See Chiou et al. (2014) for details.
+
+#### References
+
+- Chiou, S., Kang, S., Kim, J., & **Yan, J.** (2014). Marginal semiparametric
+  multivariate accelerated failure time model with generalized estimating
+  equations. *Lifetime Data Analysis*, 20(4), 599--618.
+  <https://doi.org/10.1007/s10985-014-9292-x>
+- Chiou, S., Kang, S. & **Yan, J.** (2014). Fast accelerated failure time
+  modeling for case-cohort data. *Statistics and Computing*, 24(4), 559--568.
+  <https://doi.org/10.1007/s11222-013-9388-2>
+- Chiou, S., Kang, S. & **Yan, J.** (2015). Rank-based estimating equations
+  with general weight for accelerated failure time models: An induced smoothing
+  approach. *Statistics in Medicine*, 34(9): 1495--1510.
+  <https://doi.org/10.1002/sim.6415>
 
 ---
 
@@ -38,6 +73,22 @@ See Jiang et. al (2020) for details.
 - Jiang, Y., He, X., Lee, M. T., Rosner, B., & **Yan, J.** (2020). Wilcoxon
   rank-based tests for clustered data with R package clusrank. *Journal of
   Statistical Software*, 96(6), 1--26. <https://doi.org/10.18637/jss.v096.i06>
+
+---
+
+### {coga}: Convolution of Gamma Distributions {#coga}
+
+![gpl-badge] ![coga-dev] [![coga-ghs]][coga-gh]
+
+{coga} provides functions for density and distribution evaluation of convolution
+of gamma distributions. Two related exact methods and one approximate method are
+implemented with efficient algorithm and C++ code.
+
+#### References
+
+- Hu, C., Pozdnyakov, V. & **Yan, J.** (2020). Density and distribution
+  evaluation for convolution of independent gamma variables. * Computational
+  Statistics*, 35(1), 327--342. <https://doi.org/10.1007/s00180-019-00924-9>
 
 ---
 
@@ -59,14 +110,14 @@ non-parametric estimators of the Pickands dependence function.
 
 #### References
 
-- Hofert, M., Kojadinovic, I., Mächler, M., & **Yan, J.** (2018). *Elements of
-  Copula Modeling with R*. Springer. <https://doi.org/10.1007/978-3-319-89635-9>
-- Kojadinovic, I., & **Yan, J.** (2010). Modeling multivariate distributions
-  with continuous margins using the copula R package. *Journal of Statistical
-  Software*, 34(9), 1--20. <https://doi.org/10.18637/jss.v034.i09>
 - **Yan, J.** (2007). Enjoy the joy of copulas: With a package copula.
   *Journal of Statistical Software*, 21(4), 1--21.
   <https://doi.org/10.18637/jss.v021.i04>
+- Kojadinovic, I., & **Yan, J.** (2010). Modeling multivariate distributions
+  with continuous margins using the copula R package. *Journal of Statistical
+  Software*, 34(9), 1--20. <https://doi.org/10.18637/jss.v034.i09>
+- Hofert, M., Kojadinovic, I., Mächler, M., & **Yan, J.** (2018). *Elements of
+  Copula Modeling with R*. Springer. <https://doi.org/10.1007/978-3-319-89635-9>
 
 ---
 
@@ -86,14 +137,43 @@ implemented:
 
 #### References
 
-- Wang, W., Chen, M., Chiou, S. H., Lai, H., Wang, X., **Yan, J.**, & Zhang, Z.
-  (2016). Onset of persistent pseudomonas aeruginosa infection in children with
-  cystic fibrosis with interval censored data. *BMC Medical Research
-  Methodology*, 16(1), 122. <https://doi.org/10.1186/s12874-016-0220-5>
 - Wang, X., Chen, M., & **Yan, J.** (2013). Bayesian dynamic regression models
   for interval censored survival data with application to children dental
   health. *Lifetime Data Analysis*, 19(3), 297--316.
   <https://doi.org/10.1007/s10985-013-9246-8>
+- Wang, W., Chen, M., Chiou, S. H., Lai, H., Wang, X., **Yan, J.**, & Zhang, Z.
+  (2016). Onset of persistent pseudomonas aeruginosa infection in children with
+  cystic fibrosis with interval censored data. *BMC Medical Research
+  Methodology*, 16(1), 122. <https://doi.org/10.1186/s12874-016-0220-5>
+
+---
+
+### {eva}: Extreme Value Analysis with Goodness-of-Fit Testing {#eva}
+
+![gpl-badge] ![eva-dev] [![eva-ghs]][eva-gh]
+
+{eva} provides functions for:
+
+1. Goodness-of-fit tests for selection of r in the r-largest order statistics
+   (GEVr) model.
+2. Goodness-of-fit tests for threshold selection in the Generalized Pareto
+   distribution (GPD).
+3. Random number generation and density functions for the GEVr distribution.
+4. Profile likelihood for return level estimation using the GEVr and Generalized
+   Pareto distributions.
+5. P-value adjustments for sequential, multiple testing error control.
+6. Non-stationary fitting of GEVr and GPD.
+
+#### References
+
+- Bader, B., **Yan, J.** & Zhang, X. (2017). Automated selection of $r$ for the
+  $r$ largest order statistics approach with adjustment for sequential testing.
+  *Statistics and Computing*, 27(6), 1435--1451.
+  <https://doi.org/10.1007/s11222-016-9697-3>
+- Bader, B., **Yan, J.** & Zhang, X. (2018) Automated threshold selection for
+  extreme value analysis via ordered goodness-of-fit tests with adjustment for
+  false discovery rate. *Annals of Applied Statistics*, 12(1), 310--329.
+  <https://doi.org/10.1214/17-AOAS1092>
 
 ---
 
@@ -107,12 +187,12 @@ correlation link. Can also handle clustered categorical responses.
 
 #### References
 
-- Halekoh, U., Højsgaard, S., & **Yan, J.** (2006). The R package geepack for
-  generalized estimating equations. *Journal of Statistical Software*, 15(2),
-  1--11. <https://doi.org/10.18637/jss.v015.i02>
 - **Yan, J.**, & Fine, J. (2004). Estimating equations for association
   structures (Pkg: P859-880). *Statistics in Medicine*, 23(6), 859--874.
   <https://doi.org/10.1002/sim.1650>
+- Halekoh, U., Højsgaard, S., & **Yan, J.** (2006). The R package geepack for
+  generalized estimating equations. *Journal of Statistical Software*, 15(2),
+  1--11. <https://doi.org/10.18637/jss.v015.i02>
 
 ---
 
@@ -182,6 +262,31 @@ orthogonal factor regression (SOFAR).
 
 ---
 
+### {spef}: Semiparametric Estimating Functions {#spef}
+
+{spef} provides a collection of functions for fitting semiparametric regression
+models for panel count survival data. Estimating procedures include:
+
+- Wang-Yan's augmented estimating equations (AEE, AEEX)
+- Huang-Wang-Zhang's method (HWZ)
+- Zhang's maximum pseudolikelihood (MPL)
+- Maximum pseudolikelihood with I-Splines (MPLs)
+- Maximum likelihood with I-Splines (MLs)
+- Sun-Wei's method ('EE.SWa', 'EE.SWb', 'EE.SWc')
+- Hu-Sun-Wei's method ('EE.HSWc', 'EE.HSWm')
+- Accelerated mean model ('AMM').
+
+#### References
+
+- Wang, X., & **Yan, J.** (2011). Fitting semiparametric regressions for panel
+  count survival data with an R package spef. *Computer Methods and Programs in
+  Biomedicine*, 104(2), 278--285. <https://doi.org/10.1016/j.cmpb.2010.10.005>
+- Chiou, S., Huang, C., Xu, G., & **Yan, J.** (2019). Semiparametric regression
+  analysis of panel count data: A practical review. *International Statistical
+  Review*, 87(1), 24--43. <https://doi.org/10.1111/insr.12271>
+
+---
+
 ### {splines2}: Regression Spline Functions and Classes {#splines2}
 
 ![gpl-badge] ![splines2-dev] [![splines2-ghs]][splines2-gh] [![JDS](https://img.shields.io/badge/JDS-10.6339%2F21--JDS1020-brightgreen)](https://doi.org/10.6339/21-JDS1020)
@@ -232,12 +337,26 @@ It contains functions for:
 
 </div>
 
+[aftgee-cran]: https://CRAN.R-project.org/package=aftgee
+[aftgee-version]: https://www.r-pkg.org/badges/version-last-release/aftgee
+[aftgee-log]: https://cranlogs.r-pkg.org/badges/grand-total/aftgee
+[aftgee-dev]: https://img.shields.io/github/last-commit/stc04003/aftgee
+[aftgee-gh]: https://github.com/stc04003/aftgee
+[aftgee-ghs]: https://img.shields.io/github/stars/stc04003/aftgee.svg?style=social&label=Star&maxAge=2592000
+
 [clusrank-cran]: https://CRAN.R-project.org/package=clusrank
 [clusrank-version]: https://www.r-pkg.org/badges/version-last-release/clusrank
 [clusrank-log]: https://cranlogs.r-pkg.org/badges/grand-total/clusrank
 [clusrank-dev]: https://img.shields.io/github/last-commit/wenjie2wang/clusrank
 [clusrank-gh]: https://github.com/wenjie2wang/clusrank
 [clusrank-ghs]: https://img.shields.io/github/stars/wenjie2wang/clusrank.svg?style=social&label=Star&maxAge=2592000
+
+[coga-cran]: https://CRAN.R-project.org/package=coga
+[coga-version]: https://www.r-pkg.org/badges/version-last-release/coga
+[coga-log]: https://cranlogs.r-pkg.org/badges/grand-total/coga
+[coga-dev]: https://img.shields.io/github/last-commit/ChaoranHu/coga
+[coga-gh]: https://github.com/ChaoranHu/coga
+[coga-ghs]: https://img.shields.io/github/stars/ChaoranHu/coga.svg?style=social&label=Star&maxAge=2592000
 
 [copula-cran]: https://CRAN.R-project.org/package=copula
 [copula-version]: https://www.r-pkg.org/badges/version-last-release/copula
@@ -250,6 +369,13 @@ It contains functions for:
 [dynsurv-dev]: https://img.shields.io/github/last-commit/wenjie2wang/dynsurv
 [dynsurv-gh]: https://github.com/wenjie2wang/dynsurv
 [dynsurv-ghs]: https://img.shields.io/github/stars/wenjie2wang/dynsurv.svg?style=social&label=Star&maxAge=2592000
+
+[eva-cran]: https://CRAN.R-project.org/package=eva
+[eva-version]: https://www.r-pkg.org/badges/version-last-release/eva
+[eva-log]: https://cranlogs.r-pkg.org/badges/grand-total/eva
+[eva-dev]: https://img.shields.io/github/last-commit/brianbader/eva_package
+[eva-gh]: https://github.com/brianbader/eva_package
+[eva-ghs]: https://img.shields.io/github/stars/brianbader/eva_package.svg?style=social&label=Star&maxAge=2592000
 
 [geepack-cran]: https://CRAN.R-project.org/package=geepack
 [geepack-version]: https://www.r-pkg.org/badges/version-last-release/geepack
@@ -279,6 +405,13 @@ It contains functions for:
 [rrpack-cran]: https://CRAN.R-project.org/package=rrpack
 [rrpack-version]: https://www.r-pkg.org/badges/version-last-release/rrpack
 [rrpack-log]: https://cranlogs.r-pkg.org/badges/grand-total/rrpack
+
+[spef-cran]: https://CRAN.R-project.org/package=spef
+[spef-version]: https://www.r-pkg.org/badges/version-last-release/spef
+[spef-log]: https://cranlogs.r-pkg.org/badges/grand-total/spef
+[spef-dev]: https://img.shields.io/github/last-commit/stc04003/spef
+[spef-gh]: https://github.com/stc04003/spef
+[spef-ghs]: https://img.shields.io/github/stars/stc04003/spef.svg?style=social&label=Star&maxAge=2592000
 
 [splines2-cran]: https://CRAN.R-project.org/package=splines2
 [splines2-version]: https://www.r-pkg.org/badges/version-last-release/splines2
