@@ -12,17 +12,25 @@ title: "Software"
 | [clusrank](#clusrank)         | [![clusrank-version]][clusrank-cran]         | ![clusrank-log]       |
 | [coga](#coga)                 | [![coga-version]][coga-cran]                 | ![coga-log]           |
 | [copula](#copula)             | [![copula-version]][copula-cran]             | ![copula-log]         |
+| [dacc](#dacc)                 | [![dacc-version]][dacc-cran]                 | ![dacc-log]           |
 | [dynsurv](#dynsurv)           | [![dynsurv-version]][dynsurv-cran]           | ![dynsurv-log]        |
 | [eva](#eva)                   | [![eva-version]][eva-cran]                   | ![eva-log]            |
 | [geepack](#geepack)           | [![geepack-version]][geepack-cran]           | ![geepack-log]        |
 | [intsurv](#intsurv)           | [![intsurv-version]][intsurv-cran]           | ![intsurv-log]        |
 | [jds.rmd](#jds.rmd)           | [![jds.rmd-version]][jds.rmd-cran]           | ![jds.rmd-log]        |
+| [KMsurv](#KMsurv)             | [![KMsurv-version]][KMsurv-cran]             | ![KMsurv-log]         |
+| [ramps](#ramps)               | [![ramps-version]][ramps-cran]               | ![ramps-log]          |
 | [reda](#reda)                 | [![reda-version]][reda-cran]                 | ![reda-log]           |
 | [rrpack](#rrpack)             | [![rrpack-version]][rrpack-cran]             | ![rrpack-log]         |
+| [sgee](#sgee)                 | [![sgee-version]][sgee-cran]                 | ![sgee-log]           |
+| [smam](#smam)                 | [![smam-version]][smam-cran]                 | ![smam-log]           |
+| [som](#som)                   | [![som-version]][som-cran]                   | ![som-log]            |
 | [spef](#spef)                 | [![spef-version]][spef-cran]                 | ![spef-log]           |
 | [splines2](#splines2)         | [![splines2-version]][splines2-cran]         | ![splines2-log]       |
+| [tls](#tls)                   | [![tls-version]][tls-cran]                   | ![tls-log]            |
+| [tpr](#tpr)                   | [![tpr-version]][tpr-cran]                   | ![tpr-log]            |
 | [touch](#touch)               | [![touch-version]][touch-cran]               | ![touch-log]          |
-
+| [wdnet](#wdnet)               | [![wdnet-version]][wdnet-cran]               | ![wdnet-log]          |
 
 
 <div id="r-pkg-details">
@@ -121,6 +129,24 @@ non-parametric estimators of the Pickands dependence function.
 
 ---
 
+### {dacc}: Detection and Attribution Analysis of Climate Change {#dacc}
+
+![gpl-badge] ![dacc-dev] [![dacc-ghs]][dacc-gh]
+
+{dacc} provides functions for conducting detection and attribution of climate
+change using methods that include optimal fingerprinting via generalized total
+least squares or estimating equation approach from Ma et al. (2023).
+Additionally, it offers shrinkage estimators for covariance matrix from Ledoit
+and Wolf.
+
+#### References
+
+- Ma, S., Wang, T., **Yan, J.**, & Zhang, X. (2023). Optimal fingerprinting with
+  estimating equations. *Journal of Climate*, 36(20), 7109--7122.
+  <https://doi.org/10.1175/JCLI-D-22-0681.1>
+
+---
+
 ### {dynsurv}: Dynamic Models for Survival Data {#dynsurv}
 
 ![gpl-badge] ![dynsurv-dev] [![dynsurv-ghs]][dynsurv-gh]
@@ -179,7 +205,7 @@ implemented:
 
 ### {geepack}: Generalized Estimating Equations {#geepack}
 
-![gpl-badge]
+![gpl-badge] ![geepack-dev] [![geepack-ghs]][geepack-gh]
 
 {geepack} provides generalized estimating equations solver for parameters in
 mean, scale, and correlation structures, through mean link, scale link, and
@@ -188,7 +214,7 @@ correlation link. Can also handle clustered categorical responses.
 #### References
 
 - **Yan, J.**, & Fine, J. (2004). Estimating equations for association
-  structures (Pkg: P859-880). *Statistics in Medicine*, 23(6), 859--874.
+  structures. *Statistics in Medicine*, 23(6), 859--874.
   <https://doi.org/10.1002/sim.1650>
 - Halekoh, U., Højsgaard, S., & **Yan, J.** (2006). The R package geepack for
   generalized estimating equations. *Journal of Statistical Software*, 15(2),
@@ -233,6 +259,31 @@ a manuscript with code chunks or producing tables/figures on the fly.
 
 ---
 
+### {KMsurv}: Data sets from Klein and Moeschberger (1997), Survival Analysis {#KMsurv}
+
+![gpl-badge]
+
+{KMsurv} provides data sets and functions for Klein and Moeschberger (1997),
+"Survival Analysis, Techniques for Censored and Truncated Data", Springer.
+
+---
+
+### {ramps}: Bayesian Geostatistical Modeling with RAMPS {#ramps}
+
+![gpl-badge] ![ramps-dev] [![ramps-ghs]][ramps-gh]
+
+{ramps} provides functions for Bayesian geostatistical modeling of Gaussian
+processes using a reparameterized and marginalized posterior sampling (RAMPS)
+algorithm, designed to lower autocorrelation in MCMC samples.
+
+#### References
+
+- Smith, B., **Yan, J.**, Cowles, M. (2008). Unified geostatistical modeling for
+  data fusion and spatial heteroskedasticity with R package ramps. *Journal of
+  Statistical Software*, 25(10), 1--21. <https://doi.org/10.18637/jss.v025.i10>
+
+---
+
 ### {reda}: Recurrent Event Data Analysis {#reda}
 
 ![gpl-badge] ![reda-dev] [![reda-ghs]][reda-gh]
@@ -262,9 +313,80 @@ orthogonal factor regression (SOFAR).
 
 ---
 
+### {sgee}: Stagewise Generalized Estimating Equations {#sgee}
+
+![gpl-badge]
+
+{sgee} provides stagewise techniques implemented with generalized estimating
+equations to handle individual, group, bi-level, and interaction selection.
+Stagewise approaches start with an empty model and slowly build the model over
+several iterations, which yields a 'path' of candidate models from which model
+selection can be performed. This 'slow brewing' approach gives stagewise
+techniques a unique flexibility that allows simple incorporation of
+generalized estimating equations. See Vaughan et al. (2017) for details.
+
+#### References
+
+- Vaughan, G., Aseltine, R., Chen, K., & **Yan, J**. (2017). Stagewise
+  generalized estimating equations with grouped variables. *Biometrics*, 73(4),
+  1332--1342. <https://doi.org/10.1111/biom.12669>
+
+---
+
+### {smam}: Statistical Modeling of Animal Movements {#smam}
+
+![gpl-badge] ![smam-dev] [![smam-ghs]][smam-gh]
+
+{smam} provides functions for animal movement models, including:
+
+- Moving-resting process with embedded Brownian motion. See Yan et al. (2014)
+  and Pozdnyakov et al. (2019) for details.
+- Brownian motion with measurement error. See Pozdnyakov et al. (2014) for
+  details.
+- Moving-resting-handling process with embedded Brownian motion. See Pozdnyakov
+  et al. (2020) for details.
+- Moving-resting process with measurement error. See Hu et al. (2021) for
+  details.
+- Moving-moving process with two Embedded Brownian motions.
+
+#### References
+
+- Pozdnyakov, V., Meyer, T., Wang, Y., & **Yan, J.** (2014). On modeling animal
+  movements using Brownian motion with measurement error. *Ecology*, 95(2),
+  247--253. <https://doi.org/10.1890/13-0532.1>
+- **Yan, J.**, Chen, Y., Lawrence-Apfel, K., Ortega, I., Pozdnyakov, V.,
+  Williams, S., & Meyer, T. (2014). A moving-resting process with an embedded
+  Brownian motion for animal movements. *Population Ecology*, 56(2), 401--415.
+  <https://doi.org/10.1007/s10144-013-0428-8>
+- Pozdnyakov, V., Elbroch, L., Labarga, A., Meyer, T., & **Yan, J.** (2019).
+  Discretely observed Brownian motion governed by telegraph process: Estimation.
+  *Methodology and Computing in Applied Probability*, 21(3), 907--920.
+  <https://doi.org/10.1007/s11009-017-9547-6>
+- Pozdnyakov, V., Elbroch, L., Hu, C., Meyer, T., & **Yan, J.** (2020). On
+  estimation for Brownian motion governed by telegraph process with multiple off
+  states. *Methodology and Computing in Applied Probability*, 22(3), 1275--1291.
+  <https://doi.org/10.1007/s11009-020-09774-1>
+- Hu, C., Elbroch, L., Pozdnyakov, V., & **Yan, J.** (2021). Moving-resting
+  process with measurement error in animal movement modeling. *Methods of
+  Ecology and Evolution*, 12(11), 2221--2233.
+  <https://doi.org/10.1111/2041-210X.13694>
+
+---
+
+### {som}: Self-Organizing Map {#som}
+
+![gpl-badge]
+
+{som} provides functions for self-organizing map (with application in gene
+clustering).
+
+---
+
 ### {spef}: Semiparametric Estimating Functions {#spef}
 
-{spef} provides a collection of functions for fitting semiparametric regression
+![gpl-badge] ![spef-dev] [![spef-ghs]][spef-gh]
+
+{spef} provides a collection of functions to fit semiparametric regression
 models for panel count survival data. Estimating procedures include:
 
 - Wang-Yan's augmented estimating equations (AEE, AEEX)
@@ -319,6 +441,15 @@ See Wang and Yan (2021) for details.
 
 ---
 
+### {tls}: Tools of Total Least Squares in Error-in-Variables Models {#tls}
+
+![gpl-badge] ![tls-dev] [![tls-ghs]][tls-gh]
+
+{tls} provides functions for point and interval estimation in error-in-variables
+models via total least squares or generalized total least squares method.
+
+---
+
 ### {touch}: Tools of Utilization and Cost in Healthcare {#touch}
 
 ![gpl-badge] ![touch-dev] [![touch-ghs]][touch-gh]
@@ -332,6 +463,52 @@ It contains functions for:
 1. Translating ICD-9 (resp. ICD-10) codes to ICD-10 (resp. ICD-9) codes based
    on GEM (General Equivalence Mappings) from CMS (Centers for Medicare and
    Medicaid Services).
+
+---
+
+### {tpr}: Temporal Process Regression {#tpr}
+
+![gpl-badge]
+
+{tpr} provides functions to fit regression models for temporal process responses
+with time-varying and time-independent coefficients.
+
+#### References
+
+- Fine, J. P., **Yan, J.**, & Kosorok, M. R. (2004). Temporal process regression.
+  *Biometrika*, 91(3), 683--703. <https://doi.org/10.1093/biomet/91.3.683>
+- **Yan, J.**, & Fine, J. (2004). Estimating equations for association
+  structures. *Statistics in Medicine*, 23(6), 859--874.
+  <https://doi.org/10.1002/sim.1650>
+
+---
+
+### {wdnet}: Weighted and Directed Networks {#wdnet}
+
+![gpl-badge] ![wdnet-dev] [![wdnet-gls]][wdnet-gl]
+
+{wdnet} provides functions for implementations of network analysis, including:
+
+1. Assortativity coefficient of weighted and directed networks.
+2. Centrality measures for weighted and directed networks.
+3. Clustering coefficient of weighted and directed networks.
+4. Rewiring networks with given assortativity coefficients.
+5. Preferential attachment network generation.
+
+#### References
+
+- Yuan, Y., **Yan, J.**, & Zhang, P. (2021). Assortativity measures for weighted
+  and directed networks. *Journal of Complex Networks*, 9(2), cnab017.
+  <https://doi.org/10.1093/comnet/cnab017>
+- Zhang, P., Wang, T., & **Yan, J.** (2022). PageRank centrality and algorithms
+  for weighted, directed networks. *Physica A: Statistical Mechanics and its
+  Applications*, 586, 126438. <https://doi.org/10.1016/j.physa.2021.126438>
+- Wang, T., **Yan, J.**, Yuan, Y., & Zhang, P. (2022). Generating directed
+  networks with predetermined assortativity measures. *Statistics and Computing*,
+  32(5), 91. <https://doi.org/10.1007/s11222-022-10161-8>
+- Yuan, Y., Wang, T., **Yan, J.**, & Zhang, P. (2023). Generating general
+  preferential attachment networks with R package wdnet. *Journal of Data
+  Science*, 21(3), 538--556. <https://doi.org/10.6339/23-JDS1110>
 
 ---
 
@@ -363,6 +540,13 @@ It contains functions for:
 [copula-log]: https://cranlogs.r-pkg.org/badges/grand-total/copula
 [copula-gh]: https://copula.r-forge.r-project.org/
 
+[dacc-cran]: https://CRAN.R-project.org/package=dacc
+[dacc-version]: https://www.r-pkg.org/badges/version-last-release/dacc
+[dacc-log]: https://cranlogs.r-pkg.org/badges/grand-total/dacc
+[dacc-dev]: https://img.shields.io/github/last-commit/LiYanStat/dacc
+[dacc-gh]: https://github.com/LiYanStat/dacc
+[dacc-ghs]: https://img.shields.io/github/stars/LiYanStat/dacc.svg?style=social&label=Star&maxAge=2592000
+
 [dynsurv-cran]: https://CRAN.R-project.org/package=dynsurv
 [dynsurv-version]: https://www.r-pkg.org/badges/version-last-release/dynsurv
 [dynsurv-log]: https://cranlogs.r-pkg.org/badges/grand-total/dynsurv
@@ -380,6 +564,9 @@ It contains functions for:
 [geepack-cran]: https://CRAN.R-project.org/package=geepack
 [geepack-version]: https://www.r-pkg.org/badges/version-last-release/geepack
 [geepack-log]: https://cranlogs.r-pkg.org/badges/grand-total/geepack
+[geepack-dev]: https://img.shields.io/github/last-commit/hojsgaard/geepack
+[geepack-gh]: https://github.com/hojsgaard/geepack
+[geepack-ghs]: https://img.shields.io/github/stars/hojsgaard/geepack.svg?style=social&label=Star&maxAge=2592000
 
 [intsurv-cran]: https://CRAN.R-project.org/package=intsurv
 [intsurv-version]: https://www.r-pkg.org/badges/version-last-release/intsurv
@@ -395,6 +582,17 @@ It contains functions for:
 [jds.rmd-gh]: https://github.com/wenjie2wang/jds.rmd
 [jds.rmd-ghs]: https://img.shields.io/github/stars/wenjie2wang/jds.rmd.svg?style=social&label=Star&maxAge=2592000
 
+[KMsurv-cran]: https://CRAN.R-project.org/package=KMsurv
+[KMsurv-version]: https://www.r-pkg.org/badges/version-last-release/KMsurv
+[KMsurv-log]: https://cranlogs.r-pkg.org/badges/grand-total/KMsurv
+
+[ramps-cran]: https://CRAN.R-project.org/package=ramps
+[ramps-version]: https://www.r-pkg.org/badges/version-last-release/ramps
+[ramps-log]: https://cranlogs.r-pkg.org/badges/grand-total/ramps
+[ramps-dev]: https://img.shields.io/github/last-commit/brian-j-smith/ramps
+[ramps-gh]: https://github.com/brian-j-smith/ramps
+[ramps-ghs]: https://img.shields.io/github/stars/brian-j-smith/ramps.svg?style=social&label=Star&maxAge=2592000
+
 [reda-cran]: https://CRAN.R-project.org/package=reda
 [reda-version]: https://www.r-pkg.org/badges/version-last-release/reda
 [reda-log]: https://cranlogs.r-pkg.org/badges/grand-total/reda
@@ -405,6 +603,21 @@ It contains functions for:
 [rrpack-cran]: https://CRAN.R-project.org/package=rrpack
 [rrpack-version]: https://www.r-pkg.org/badges/version-last-release/rrpack
 [rrpack-log]: https://cranlogs.r-pkg.org/badges/grand-total/rrpack
+
+[sgee-cran]: https://CRAN.R-project.org/package=sgee
+[sgee-version]: https://www.r-pkg.org/badges/version-last-release/sgee
+[sgee-log]: https://cranlogs.r-pkg.org/badges/grand-total/sgee
+
+[smam-cran]: https://CRAN.R-project.org/package=smam
+[smam-version]: https://www.r-pkg.org/badges/version-last-release/smam
+[smam-log]: https://cranlogs.r-pkg.org/badges/grand-total/smam
+[smam-dev]: https://img.shields.io/github/last-commit/ChaoranHu/smam
+[smam-gh]: https://github.com/ChaoranHu/smam
+[smam-ghs]: https://img.shields.io/github/stars/ChaoranHu/smam.svg?style=social&label=Star&maxAge=2592000
+
+[som-cran]: https://CRAN.R-project.org/package=som
+[som-version]: https://www.r-pkg.org/badges/version-last-release/som
+[som-log]: https://cranlogs.r-pkg.org/badges/grand-total/som
 
 [spef-cran]: https://CRAN.R-project.org/package=spef
 [spef-version]: https://www.r-pkg.org/badges/version-last-release/spef
@@ -420,6 +633,17 @@ It contains functions for:
 [splines2-gh]: https://github.com/wenjie2wang/splines2
 [splines2-ghs]: https://img.shields.io/github/stars/wenjie2wang/splines2.svg?style=social&label=Star&maxAge=2592000
 
+[tls-cran]: https://CRAN.R-project.org/package=tls
+[tls-version]: https://www.r-pkg.org/badges/version-last-release/tls
+[tls-log]: https://cranlogs.r-pkg.org/badges/grand-total/tls
+[tls-dev]: https://img.shields.io/github/last-commit/LiYanStat/tls
+[tls-gh]: https://github.com/LiYanStat/tls
+[tls-ghs]: https://img.shields.io/github/stars/LiYanStat/tls.svg?style=social&label=Star&maxAge=2592000
+
+[tpr-cran]: https://CRAN.R-project.org/package=tpr
+[tpr-version]: https://www.r-pkg.org/badges/version-last-release/tpr
+[tpr-log]: https://cranlogs.r-pkg.org/badges/grand-total/tpr
+
 [touch-cran]: https://CRAN.R-project.org/package=touch
 [touch-version]: https://www.r-pkg.org/badges/version-last-release/touch
 [touch-log]: https://cranlogs.r-pkg.org/badges/grand-total/touch
@@ -427,6 +651,12 @@ It contains functions for:
 [touch-gh]: https://github.com/wenjie2wang/touch
 [touch-ghs]: https://img.shields.io/github/stars/wenjie2wang/touch.svg?style=social&label=Star&maxAge=2592000
 
+[wdnet-cran]: https://CRAN.R-project.org/package=wdnet
+[wdnet-version]: https://www.r-pkg.org/badges/version-last-release/wdnet
+[wdnet-log]: https://cranlogs.r-pkg.org/badges/grand-total/wdnet
+[wdnet-dev]: https://img.shields.io/gitlab/last-commit/wdnetwork/wdnet
+[wdnet-gl]: https://gitlab.com/wdnetwork/wdnet
+[wdnet-gls]: https://img.shields.io/gitlab/stars/wdnetwork/wdnet.svg?style=social&label=Star&maxAge=2592000
 
 
 [gpl-badge]: https://img.shields.io/badge/License-GPL-blue.svg
