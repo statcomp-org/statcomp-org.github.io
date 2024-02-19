@@ -1,5 +1,5 @@
 ---
-image: junyan.jpg
+# image: junyan.jpg
 about:
   template: solana
   links:
