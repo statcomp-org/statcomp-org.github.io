@@ -40,7 +40,7 @@ Science](https://jds-online.org) since 2020.
 
 #### [UConn Sports Analytics Symposium 2024](https://statds.org/events/ucsas2024/)
 
-#### [BIRS Workshop "Statistical Aspects of Trustworthy Machine Learning"](https://workshops.birs.ca/events/24w5284)
+#### [BIRS Workshop "Statistical Aspects of Trustworthy Machine Learning"](https://www.birs.ca/events/24w5284)
 
 #### Books
 
