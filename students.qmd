@@ -19,13 +19,13 @@ title: "Students"
 
 1. [Yelie Yuan](https://www.linkedin.com/in/yelie-yuan-65123721b/), Ph.D. 2023: On assortativity of weighted directed networks. Placement: Consumer and Community Banking Risk Program Associate, JP Morgan.
 1. [Zehan Yang](https://www.linkedin.com/in/zehan/), Ph.D. 2023 (joint with HaiYing Wang): Optimal subsampling methods for massive survival data using accelerated failure time models. Placement: Mathematical Statistician, US Food and Drug Administration.
-1. [Jackson Lautier](https://jacksonlautier.com), Ph.D. 2023 (joint with Vladimir Pozdnyakov): Essays on discrete-time survival analysis with appli- cations to securitization and consumer finance. Placement: Assistant Professor, Bentley University.
-1. [Sai Ma](https://www.linkedin.com/in/sai-ma-uconn/), Ph.D. 2022: Optimal fingerprinting with estimating equations. Placement: Statistician, Vertex Pharmaceuti- cals.
+1. [Jackson Lautier](https://jacksonlautier.com), Ph.D. 2023 (joint with Vladimir Pozdnyakov): Essays on discrete-time survival analysis with applications to securitization and consumer finance. Placement: Assistant Professor, Bentley University.
+1. [Sai Ma](https://www.linkedin.com/in/sai-ma-uconn/), Ph.D. 2022: Optimal fingerprinting with estimating equations. Placement: Statistician, Vertex Pharmaceuticals.
 1. [Abby Lau](https://www.linkedin.com/in/yuen-tsz-abby-lau-400a49a4/), Ph.D. 2022: Extreme value modeling with errors-in-variables in detection and attribution of changes in climate extremes. Placement: Postdoc researcher, University of Pennsylvania.
-1. [Yan Li](), Ph.D. 2021 (joint with Kun Chen): Amalgamation-based statistical learning for compositional data. Place- ment: Postdoc researcher, University of Michigan.
+1. [Yan Li](), Ph.D. 2021 (joint with Kun Chen): Amalgamation-based statistical learning for compositional data. Placement: Postdoc researcher, University of Michigan.
 1. [Jieying Jiao](https://www.linkedin.com/in/jieying-jiao-217b3b128/), Ph.D. 2020: On Bayesian methods for spatial point processes. Placement: Senior Consultant, Travelers Insurance.
-1. [Chaoran Hu](https://www.linkedin.com/in/chaoranhu/), Ph.D. 2020 (joint with Vladimir Pozdnyakov): On Brownian motion governed by telegraph process. Placement: Senior Statistician, Ely Lilly.
-1. [Wenjie Wang](https://wwenjie.org), Ph.D. 2019 (joint with Kun Chen): Integrated survival analysis with application to suicide risk. Place- ment: Senior Statistician, Eli Lilly.
+1. [Chaoran Hu](https://www.linkedin.com/in/chaoranhu/), Ph.D. 2020 (joint with Vladimir Pozdnyakov): On Brownian motion governed by telegraph process. Placement: Research Scientist, Ely Lilly and Company.
+1. [Wenjie Wang](https://wwenjie.org), Ph.D. 2019 (joint with Kun Chen): Integrated survival analysis with application to suicide risk. Placement: Research Scientist, Eli Lilly and Company.
 1. [Yishu Xue](https://yxue-me.com), Ph.D. 2019 (joint with Elizabeth Schifano): Diagnostic methods for big survival data. Placement: Senior Consultant, Travelers Insurance.
 1. [Greg Vaughan](https://www.linkedin.com/in/greg-vaughan-16902922/), Ph.D. 2017 (joint with Kun Chen): Stagewise generalized estimating equations. Placement: Assistant Professor, Bentley University.
 1. Yujing Jiang, Ph.D. 2017: Marginal score equations for spatial extremes with latent signals and applications to fingerprinting changes in climate extremes. Placement: Postdoc researcher, Colorado State University.
@@ -33,6 +33,6 @@ title: "Students"
 1. [Chun Wang](https://www.linkedin.com/in/chun-wang-0978674b/), Ph.D. 2016 (joint with Elizabeth Schifano): Online updating methods for big data streams. Placement: Senior Analyst, Liberty Mutual Insurance.
 1. Zhuo Wang, Ph.D. 2015: Estimating equations for spatial extremes with application to detection and attribution analysis of changes in climate extremes. Placement: Assistant Professor, Shenzhen University, China.
 1. [Hongwei Shang](https://www.linkedin.com/in/hongwei-shang-a38a9029/): Ph.D. 2013: A Two-step estimation procedure and a goodness-of-fit test for spatial extremes models. Placement: Statistician, HP Analytic Lab.
-1. [Sy Han (Steven) Chiou](https://www.sychiou.com), Ph.D. 2013 (joint with Sangwook Kang): Statistical Methods and Computing for Semipara- metric Accelerated Failure Time Model with Induced Smoothing. Placement: Assistant Professor, Department of Mathematics and Statistics, University of Minnesota Duluth.
+1. [Sy Han (Steven) Chiou](https://www.sychiou.com), Ph.D. 2013 (joint with Sangwook Kang): Statistical Methods and Computing for Semiparametric Accelerated Failure Time Model with Induced Smoothing. Placement: Assistant Professor, Department of Mathematics and Statistics, University of Minnesota Duluth.
 1. [Xiaojing Wang](https://www.linkedin.com/in/xiaojingw/): Ph.D. 2011: Statistical inferences for interval censored data. Placement: Quantitative Analyst, Google New York.
-1. [Marcos Prates](https://www.est.ufmg.br/~marcosop/), Ph.D. 2011 (joint with Dipak Dey): Link specification and spatial dependence for generalized lin- ear mixed models. Placement: Assistant Professor, Departamento de Estat ́ıstica, Universidade Federal de Minas Gerais, Brazil.
+1. [Marcos Prates](https://www.est.ufmg.br/~marcosop/), Ph.D. 2011 (joint with Dipak Dey): Link specification and spatial dependence for generalized linear mixed models. Placement: Assistant Professor, Departamento de Estat ́ıstica, Universidade Federal de Minas Gerais, Brazil.
