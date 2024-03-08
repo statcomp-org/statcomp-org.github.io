@@ -22,7 +22,7 @@ title: "Students"
 1. [Jackson Lautier](https://jacksonlautier.com), Ph.D. 2023 (joint with Vladimir Pozdnyakov): Essays on discrete-time survival analysis with applications to securitization and consumer finance. Placement: Assistant Professor, Bentley University.
 1. [Sai Ma](https://www.linkedin.com/in/sai-ma-uconn/), Ph.D. 2022: Optimal fingerprinting with estimating equations. Placement: Statistician, Vertex Pharmaceuticals.
 1. [Abby Lau](https://www.linkedin.com/in/yuen-tsz-abby-lau-400a49a4/), Ph.D. 2022: Extreme value modeling with errors-in-variables in detection and attribution of changes in climate extremes. Placement: Postdoc researcher, University of Pennsylvania.
-1. [Yan Li](), Ph.D. 2021 (joint with Kun Chen): Amalgamation-based statistical learning for compositional data. Placement: Postdoc researcher, University of Michigan.
+1. [Yan Li](https://yanlistat.com), Ph.D. 2021 (joint with Kun Chen): Amalgamation-based statistical learning for compositional data. Placement: Postdoc researcher, University of Michigan.
 1. [Jieying Jiao](https://www.linkedin.com/in/jieying-jiao-217b3b128/), Ph.D. 2020: On Bayesian methods for spatial point processes. Placement: Senior Consultant, Travelers Insurance.
 1. [Chaoran Hu](https://www.linkedin.com/in/chaoranhu/), Ph.D. 2020 (joint with Vladimir Pozdnyakov): On Brownian motion governed by telegraph process. Placement: Research Scientist, Ely Lilly and Company.
 1. [Wenjie Wang](https://wwenjie.org), Ph.D. 2019 (joint with Kun Chen): Integrated survival analysis with application to suicide risk. Placement: Research Scientist, Eli Lilly and Company.
