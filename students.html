@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -151,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://jacksonlautier.com">Jackson Lautier</a>, Ph.D.&nbsp;2023 (joint with Vladimir Pozdnyakov): Essays on discrete-time survival analysis with applications to securitization and consumer finance. Placement: Assistant Professor, Bentley University.</li>
 <li><a href="https://www.linkedin.com/in/sai-ma-uconn/">Sai Ma</a>, Ph.D.&nbsp;2022: Optimal fingerprinting with estimating equations. Placement: Statistician, Vertex Pharmaceuticals.</li>
 <li><a href="https://www.linkedin.com/in/yuen-tsz-abby-lau-400a49a4/">Abby Lau</a>, Ph.D.&nbsp;2022: Extreme value modeling with errors-in-variables in detection and attribution of changes in climate extremes. Placement: Postdoc researcher, University of Pennsylvania.</li>
-<li><a href="">Yan Li</a>, Ph.D.&nbsp;2021 (joint with Kun Chen): Amalgamation-based statistical learning for compositional data. Placement: Postdoc researcher, University of Michigan.</li>
+<li><a href="https://yanlistat.com">Yan Li</a>, Ph.D.&nbsp;2021 (joint with Kun Chen): Amalgamation-based statistical learning for compositional data. Placement: Postdoc researcher, University of Michigan.</li>
 <li><a href="https://www.linkedin.com/in/jieying-jiao-217b3b128/">Jieying Jiao</a>, Ph.D.&nbsp;2020: On Bayesian methods for spatial point processes. Placement: Senior Consultant, Travelers Insurance.</li>
 <li><a href="https://www.linkedin.com/in/chaoranhu/">Chaoran Hu</a>, Ph.D.&nbsp;2020 (joint with Vladimir Pozdnyakov): On Brownian motion governed by telegraph process. Placement: Research Scientist, Ely Lilly and Company.</li>
 <li><a href="https://wwenjie.org">Wenjie Wang</a>, Ph.D.&nbsp;2019 (joint with Kun Chen): Integrated survival analysis with application to suicide risk. Placement: Research Scientist, Eli Lilly and Company.</li>
@@ -250,6 +250,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/statcomp-org\.github\.io");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -284,7 +302,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
