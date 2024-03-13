@@ -43,6 +43,11 @@ Science](https://jds-online.org) since 2020.
 
 #### [UConn Sports Analytics Symposium 2024](https://statds.org/events/ucsas2024/)
 
+#### [Presentations at 2024 NYC Open Data Week]
+* Class presentation at 2024 NYC Open Data Week: [Landscape of Rodent Sightings in New York City: A Data Science Showcase](https://2024.open-data.nyc/event/landscape-of-rodent-sightings-in-new-york-city-a-data-science-showcase/)
+* Data cleaning workshop at 2024 NYC Open Data Week: [Presentation [Is your data really that dirty? An in-depth look at NYC 311 data to determine its “cleanliness”](https://2024.open-data.nyc/event/is-your-data-really-that-dirty-an-in-depth-look-at-nyc-311-data-to-determine-its-cleanliness/)
+
+
 #### [BIRS Workshop "Statistical Aspects of Trustworthy Machine Learning"](https://www.birs.ca/events/2024/5-day-workshops/24w5284)
 
 #### Books

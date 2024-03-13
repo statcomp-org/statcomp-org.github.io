@@ -6,6 +6,8 @@ title: "Teaching"
 
 + STAT 3255/5255: Introduction to Data Science
     - [Spring 2024](https://statds.github.io/ids-s24/)
+        * Class presentation at 2024 NYC Open Data Week: [Landscape of Rodent Sightings in New York City: A Data Science Showcase](https://2024.open-data.nyc/event/landscape-of-rodent-sightings-in-new-york-city-a-data-science-showcase/)
+        * Data cleaning workshop at 2024 NYC Open Data Week: [Presentation [Is your data really that dirty? An in-depth look at NYC 311 data to determine its “cleanliness”](https://2024.open-data.nyc/event/is-your-data-really-that-dirty-an-in-depth-look-at-nyc-311-data-to-determine-its-cleanliness/)
     - [Spring 2023](https://statds.github.io/ids-s23/)
     - [Spring 2022](https://statds.github.io/ids-s22/)
 + STAT 3494: [Statistical Writing](https://statds.github.io/stat-writing/)
