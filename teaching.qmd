@@ -15,8 +15,15 @@ title: "Teaching"
 
 ## Undergraduate Advisee Publications
 
-+ Chandy, M., Schifano, E., and Yan, J. (2024+): On sample size needed for block bootstrap confidence intervals to have desired coverage rates. American Journal of Undergraduate Research. Forthcoming.
-+ Price, M. and Yan, J. (2022): The effects of the NBA COVID Bubble on the NBA playoffs: A case study for home- court advantage. American Journal of Undergraduate Research. 18(4): 3–-15.
++ Chandy, M., Schifano, E., and Yan, J. (2024): On sample size needed for block
+bootstrap confidence intervals to have desired coverage rates.
+*American Journal of Undergraduate Research*, *20(4)*, 3--16.
+<https://doi.org/10.33697/ajur.2024.101>
++ Price, M., & Yan, J. (2022). The effects of the NBA COVID bubble on the
+NBA playoffs: A case study for home-court advantage. *American Journal
+of Undergraduate Research*, *18(4)*, 3--15.
+<https://doi.org/10.33697/ajur.2022.051>
+
 
 ## Student Awards
 
