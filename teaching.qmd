@@ -7,7 +7,7 @@ title: "Teaching"
 + STAT 3255/5255: Introduction to Data Science
     - [Spring 2024](https://statds.github.io/ids-s24/)
         * Class presentation at 2024 NYC Open Data Week: [Landscape of Rodent Sightings in New York City: A Data Science Showcase](https://2024.open-data.nyc/event/landscape-of-rodent-sightings-in-new-york-city-a-data-science-showcase/)
-        * Data cleaning workshop at 2024 NYC Open Data Week: [Presentation [Is your data really that dirty? An in-depth look at NYC 311 data to determine its “cleanliness”](https://2024.open-data.nyc/event/is-your-data-really-that-dirty-an-in-depth-look-at-nyc-311-data-to-determine-its-cleanliness/)
+        * Data cleaning workshop at 2024 NYC Open Data Week: [Is your data really that dirty? An in-depth look at NYC 311 data to determine its “cleanliness”](https://2024.open-data.nyc/event/is-your-data-really-that-dirty-an-in-depth-look-at-nyc-311-data-to-determine-its-cleanliness/)
     - [Spring 2023](https://statds.github.io/ids-s23/)
     - [Spring 2022](https://statds.github.io/ids-s22/)
 + STAT 3494: [Statistical Writing](https://statds.github.io/stat-writing/)
@@ -15,6 +15,8 @@ title: "Teaching"
 
 ## Undergraduate Advisee Publications
 
++ Houlihan, K. and Yan, J. (2024): How to build a gymnastics team.
+*Significance*, *21(3)*, Forthcoming.
 + Chandy, M., Schifano, E., and Yan, J. (2024): On sample size needed for block
 bootstrap confidence intervals to have desired coverage rates.
 *American Journal of Undergraduate Research*, *20(4)*, 3--16.
