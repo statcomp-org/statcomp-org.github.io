@@ -4,6 +4,26 @@
 :::
 
 ::: {#refs .references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
+::: {#ref-chandy2024sample .csl-entry}
+Chandy, M., Schifano, E. D., & **Yan, J.** (2024). On sample size needed for
+block bootstrap confidence intervals to have desired coverage rates.
+*American Journal of Undergraduate Research*, *20*(4), 3--16.
+<https://doi.org/10.33697/ajur.2024.101>
+:::
+
+::: {#ref-choi2024general .csl-entry}
+Choi, D., Bae, W., **Yan, J.**, & Kang, S. (2024). A general model-checking
+procedure for semiparametric accelerated failure time models.
+*Statistics and Computing*, *34*(3), 117.
+<https://doi.org/10.1007/s11222-024-10431-7>
+:::
+
+::: {#ref-jin2024transfer .csl-entry}
+Jin, J., **Yan, J.**, Aseltine, R. H., & Chen, K. (2024). Transfer learning
+with large-scale quantile regression. *Technometrics*, *just-accepted*.
+<https://doi.org/10.1080/00401706.2024.2315952>
+:::
+
 ::: {#ref-lautier2024maximum .csl-entry}
 Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2024). On the maximum
 likelihood estimation of a discrete, finite support distribution under
@@ -16,6 +36,14 @@ Yang, Z., Wang, H., & **Yan, J.** (2024). Subsampling approach for least
 squares fitting of semi-parametric accelerated failure time models to
 massive survival data. *Statistics and Computing*, *34*(2), 77.
 <https://doi.org/10.1007/s11222-024-10391-y>
+:::
+
+::: {#ref-yuan2024strength .csl-entry}
+Yuan, Y., **Yan, J.**, & Zhang, P. (2024). A strength and sparsity
+preserving algorithm for generating weighted, directed networks with
+predetermined assortativity. *Physica A: Statistical Mechanics and Its
+Applications*, *638*, 129634.
+<https://doi.org/10.1016/j.physa.2024.129634>
 :::
 
 ::: {#ref-bar2023legendary .csl-entry}
