@@ -30,6 +30,7 @@ of Undergraduate Research*, *18(4)*, 3--15.
 
 ## Student Awards
 
++ Luis Sydney (2024): Honorable Mention, Student Paper Award, 2024 Applied Statistics Symposium, International Chinese Statistical Association.
 + Lucus Godoy (2024): Honoroble Mention, Student Paper Award, Section on Statistics and the Environment, Ameri can Statistical Association.
 + Yingfa Xie (2024): Student Paper Award, Section on Lifetime Data Science, American Statistical Association.
 + Zehan Yang (2023): Honorable Mention, Student Paper Award, 2023 Applied Statistics Symposium, International Chinese Statistical Association.

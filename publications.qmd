@@ -4,6 +4,12 @@
 :::
 
 ::: {#refs .references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
+::: {#ref-jin2024transfer .csl-entry}
+Jin, J., **Yan, J.**, Aseltine, R. H., & Chen, K. (n.d.). Transfer learning
+with large-scale quantile regression. *Technometrics*.
+<https://doi.org/10.1080/00401706.2024.2315952>
+:::
+
 ::: {#ref-chandy2024sample .csl-entry}
 Chandy, M., Schifano, E. D., & **Yan, J.** (2024). On sample size needed for
 block bootstrap confidence intervals to have desired coverage rates.
@@ -16,12 +22,6 @@ Choi, D., Bae, W., **Yan, J.**, & Kang, S. (2024). A general model-checking
 procedure for semiparametric accelerated failure time models.
 *Statistics and Computing*, *34*(3), 117.
 <https://doi.org/10.1007/s11222-024-10431-7>
-:::
-
-::: {#ref-jin2024transfer .csl-entry}
-Jin, J., **Yan, J.**, Aseltine, R. H., & Chen, K. (2024). Transfer learning
-with large-scale quantile regression. *Technometrics*, *just-accepted*.
-<https://doi.org/10.1080/00401706.2024.2315952>
 :::
 
 ::: {#ref-lautier2024maximum .csl-entry}
