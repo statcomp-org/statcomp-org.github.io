@@ -10,8 +10,8 @@ publications: jyan.bib apa-cv.csl lua-refs.lua
 	@Rscript highlight-author.R \
 		"Yan, J." "publications.qmd"
 
-cv: jyanCV.pdf
-	cp jyanCV.pdf ~/pdf/
+cv:
+	cp ~/work/ptr/jyanCV.pdf ~/pdf/
 	docker run -ti --rm -v ~/pdf:/pdf sergiomtzlosa/pdf2htmlex pdf2htmlEX --zoom 1.3 jyanCV.pdf jyanCV.html
 	cp ~/pdf/jyanCV.html docs/
 
