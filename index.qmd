@@ -39,7 +39,7 @@ He has been the Editor of the [Journal of Data
 Science](https://jds-online.org) since 2020.
 
 
-#### [Curriculum Vita](jyanCV.pdf)
+#### [Curriculum Vita](jyanCV.html)
 
 #### [UConn Sports Analytics Symposium 2024](https://statds.org/events/ucsas2024/)
 
