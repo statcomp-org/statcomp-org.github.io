@@ -22,7 +22,7 @@ Jun Yan is a Professor in the [Department of
 Statistics](https://statistics.uconn.edu) at the [University of
 Connecticut](https://uconn.edu). He earned his Ph.D.in
 [Statistics](https://stat.wisc.edu)
-from the [University of Wisconcin](https://wisc.edu) in 2003.
+from the [University of Wisconsin](https://wisc.edu) in 2003.
 His research spans several areas of statistics including network
 analytics, spatial extremes, survival analysis, multivariate
 dependence, and clustered data analysis, with a notable emphasis on
