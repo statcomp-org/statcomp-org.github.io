@@ -12,6 +12,12 @@ about:
     - icon: orcid
       text: ORCID
       href: https://orcid.org/0000-0003-4401-7296
+    - icon: geneology
+      text: Geneology
+      href: https://www.mathgenealogy.org/id.php?id=80020&fChrono=1
+    - icon: CV
+      text: CV
+      href: https://statcomp.org/jyanCV.html
 #    - icon: github
 #      text: Github
 #      href: https://github.com
@@ -37,9 +43,6 @@ nurturing the next generation of data scientists and expanding his
 pedigree](http://genealogy.math.ndsu.nodak.edu/id.php?id=80020&fChrono=1).
 He has been the Editor of the [Journal of Data
 Science](https://jds-online.org) since 2020.
-
-
-#### [Curriculum Vita](jyanCV.html)
 
 #### [UConn Sports Analytics Symposium 2024](https://statds.org/events/ucsas2024/)
 
