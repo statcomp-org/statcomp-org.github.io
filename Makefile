@@ -11,7 +11,7 @@ publications: jyan.bib apa-cv.csl lua-refs.lua
 		"Yan, J." "publications.qmd"
 
 cv:
-	cp ~/work/ptr/jyanCV.pdf ~/pdf/
+	latexmk -pdf jyanCV
 	docker run -ti --rm -v ~/pdf:/pdf sergiomtzlosa/pdf2htmlex pdf2htmlEX --zoom 1.3 jyanCV.pdf jyanCV.html
 	cp ~/pdf/jyanCV.html docs/
 
