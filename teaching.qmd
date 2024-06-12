@@ -2,7 +2,7 @@
 title: "Teaching"
 ---
 
-## Open-Book Classnotes
+## Open-Source Classnotes
 
 + STAT 3255/5255: Introduction to Data Science
     - [Spring 2024](https://statds.github.io/ids-s24/)
@@ -15,8 +15,13 @@ title: "Teaching"
 
 ## Undergraduate Advisee Publications
 
++ Zeimbekakis, S., Anthony, & **Yan, J.** (2024). On misuses of the
+kolmogorov--smirnov test for one-sample goodness-of-fit. *The American
+Statistician*, Forthcoming.
+<https://doi.org/10.1080/00031305.2024.2356095>
 + Houlihan, K. and Yan, J. (2024): How to build a gymnastics team.
-*Significance*, *21(3)*, Forthcoming.
+*Significance*, *21(3)*, 10--14.
+<https://doi.org/10.1093/jrssig/qmae039>
 + Chandy, M., Schifano, E., and Yan, J. (2024): On sample size needed for block
 bootstrap confidence intervals to have desired coverage rates.
 *American Journal of Undergraduate Research*, *20(4)*, 3--16.

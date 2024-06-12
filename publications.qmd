@@ -52,6 +52,12 @@ Applications*, *638*, 129634.
 <https://doi.org/10.1016/j.physa.2024.129634>
 :::
 
+::: {#ref-zeimbekakis2024misuses .csl-entry}
+Zeimbekakis, S., Anthony, & **Yan, J.** (2024). On misuses of the
+kolmogorov--smirnov test for one-sample goodness-of-fit. *The American
+Statistician*, 1\--7. <https://doi.org/10.1080/00031305.2024.2356095>
+:::
+
 ::: {#ref-bar2023legendary .csl-entry}
 Bar, H., & **Yan, J.** (2023). Legendary career and colorful life: A
 conversation with Dr. Bob Riffenburgh. *Journal of Data Science*,
