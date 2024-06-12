@@ -15,7 +15,7 @@ title: "Teaching"
 
 ## Undergraduate Advisee Publications
 
-+ **Zeimbekakis, S.**, Anthony, & Yan, J. (2024). On misuses of the
++ **Zeimbekakis, A.**, Schifano, E. D., & Yan, J. (2024). On misuses of the
 kolmogorov--smirnov test for one-sample goodness-of-fit. *The American
 Statistician*, Forthcoming.
 <https://doi.org/10.1080/00031305.2024.2356095>
