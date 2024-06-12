@@ -15,19 +15,19 @@ title: "Teaching"
 
 ## Undergraduate Advisee Publications
 
-+ Zeimbekakis, S., Anthony, & **Yan, J.** (2024). On misuses of the
++ **Zeimbekakis, S.**, Anthony, & Yan, J. (2024). On misuses of the
 kolmogorov--smirnov test for one-sample goodness-of-fit. *The American
 Statistician*, Forthcoming.
 <https://doi.org/10.1080/00031305.2024.2356095>
-+ Houlihan, K. and Yan, J. (2024): How to build a gymnastics team.
++ **Houlihan, K.** & Yan, J. (2024): How to build a gymnastics team.
 *Significance*, *21(3)*, 10--14.
 <https://doi.org/10.1093/jrssig/qmae039>
-+ Chandy, M., Schifano, E., and Yan, J. (2024): On sample size needed for block
++ **Chandy, M.**, Schifano, E., & Yan, J. (2024): On sample size needed for block
 bootstrap confidence intervals to have desired coverage rates.
 *American Journal of Undergraduate Research*, *20(4)*, 3--16.
 <https://doi.org/10.33697/ajur.2024.101>
 [UConn Today story](https://today.uconn.edu/2024/04/mathew-chandy-24-college-of-liberal-arts-and-sciences/)
-+ Price, M., & Yan, J. (2022). The effects of the NBA COVID bubble on the
++ **Price, M.** & Yan, J. (2022). The effects of the NBA COVID bubble on the
 NBA playoffs: A case study for home-court advantage. *American Journal
 of Undergraduate Research*, *18(4)*, 3--15.
 <https://doi.org/10.33697/ajur.2022.051>
