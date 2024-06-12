@@ -18,6 +18,12 @@ procedure for semiparametric accelerated failure time models.
 <https://doi.org/10.1007/s11222-024-10431-7>
 :::
 
+::: {#ref-houlihan2024how .csl-entry}
+Houlihan, K., & **Yan, J.** (2024). How to build a gymnastics team.
+*Significance*, *21*(3), 10\--14.
+<https://doi.org/10.1093/jrssig/qmae039>
+:::
+
 ::: {#ref-jin2024transfer .csl-entry}
 Jin, J., **Yan, J.**, Aseltine, R. H., & Chen, K. (2024). Transfer learning
 with large-scale quantile regression. *Technometrics*.
