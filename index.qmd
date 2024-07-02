@@ -48,10 +48,10 @@ Science](https://jds-online.org) since 2020.
 
 #### Presentations at 2024 NYC Open Data Week
 * Class presentation at 2024 NYC Open Data Week: [Landscape of Rodent Sightings in New York City: A Data Science Showcase](https://2024.open-data.nyc/event/landscape-of-rodent-sightings-in-new-york-city-a-data-science-showcase/)
-* Data cleaning workshop at 2024 NYC Open Data Week: [Presentation [Is your data really that dirty? An in-depth look at NYC 311 data to determine its “cleanliness”](https://2024.open-data.nyc/event/is-your-data-really-that-dirty-an-in-depth-look-at-nyc-311-data-to-determine-its-cleanliness/)
+* Data cleaning workshop at 2024 NYC Open Data Week: [Is your data really that dirty? An in-depth look at NYC 311 data to determine its “cleanliness”](https://2024.open-data.nyc/event/is-your-data-really-that-dirty-an-in-depth-look-at-nyc-311-data-to-determine-its-cleanliness/)
 
 
-#### [BIRS Workshop "Statistical Aspects of Trustworthy Machine Learning"](https://www.birs.ca/events/2024/5-day-workshops/24w5284)
+#### [BIRS Workshop "Statistical Aspects of Trustworthy Machine Learning"](https://www.birs.ca/events/2024/5-day-workshops/24w5284). Submission deadline to a Special issue for the Journal of Data Science on the same theme is December 31, 2024.
 
 #### Books
 
