@@ -3,7 +3,7 @@
 ::: {#list}
 :::
 
-::: {#refs .references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs .references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-chandy2024sample .csl-entry}
 Chandy, M., Schifano, E. D., & **Yan, J.** (2024). On sample size needed for
 block bootstrap confidence intervals to have desired coverage rates.
@@ -938,4 +938,4 @@ structures (Pkg: P859-880). *Statistics in Medicine*, *23*(6), 859--874.
 for association structures" (Pkg: 859-880). *Statistics in Medicine*,
 *23*(6), 879--880. <https://doi.org/10.1002/sim.1736>
 :::
-:::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

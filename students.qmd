@@ -11,10 +11,10 @@ title: "Students"
 1. [Sydney Louit](https://www.linkedin.com/in/sydney-louit-810538192/), Ph.D. expected 2025: Social network clustering.
 1. [Zhenyu Xu](https://zhenyu1029.github.io), Ph.D. expected 2025: Generalized estimating equations.
 1. [Jun Jin](https://www.linkedin.com/in/jun-jin-7714701b8/), Ph.D. expected 2024 (joint with Kun Chen): Machine learning and health analytics.
-1. [Surya Eada](https://www.linkedin.com/in/surya-teja-eada-76b78229/), Ph.D. expected 2024 (joint with Vladimir Pozdnyakov): Stochastic processes governed by telegraph processes.
 
 
 ## Ph.D. Alumni
+1. [Surya Eada](https://www.linkedin.com/in/surya-teja-eada-76b78229/), Ph.D.2024 (joint with Vladimir Pozdnyakov): L ́evy Processes Governed by Telegraph Signal Process: Inferences and Applications. Placement: Assistant Professor of Teaching, Oregon State University.
 1. [Yingfa Xie](https://www.linkedin.com/in/yingfa-xie-1ba57314a/), Ph.D.2024: Recurrent events modeling based on a reflected Brownian motion with application to hypoglycemia. Placement: Postdoc researcher, Yale University.
 1. [Lucas Godoy](https://lcgodoy.me), Ph.D.2024: Hausdorff–-Gaussian Process with Spatial and Spatiotemporal Applications. Placement: Postdoc researcher, University of California Santa Cruz.
 1. [Yelie Yuan](https://www.linkedin.com/in/yelie-yuan-65123721b/), Ph.D. 2023: On assortativity of weighted directed networks. Placement: Consumer and Community Banking Risk Program Associate, JP Morgan.
