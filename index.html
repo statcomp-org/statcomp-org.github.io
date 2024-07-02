@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.5.52">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Jun Yan</span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -98,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -109,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-solana column-body content">
+<div class="quarto-about-solana column-body">
   <div class="about-entity">
     <div class="entity-contents">
        <div class="about-links">
@@ -143,11 +143,11 @@ ul.task-list li input[type="checkbox"] {
 <h4 data-anchor-id="presentations-at-2024-nyc-open-data-week">Presentations at 2024 NYC Open Data Week</h4>
 <ul>
 <li>Class presentation at 2024 NYC Open Data Week: <a href="https://2024.open-data.nyc/event/landscape-of-rodent-sightings-in-new-york-city-a-data-science-showcase/">Landscape of Rodent Sightings in New York City: A Data Science Showcase</a></li>
-<li>Data cleaning workshop at 2024 NYC Open Data Week: [Presentation <a href="https://2024.open-data.nyc/event/is-your-data-really-that-dirty-an-in-depth-look-at-nyc-311-data-to-determine-its-cleanliness/">Is your data really that dirty? An in-depth look at NYC 311 data to determine its “cleanliness”</a></li>
+<li>Data cleaning workshop at 2024 NYC Open Data Week: <a href="https://2024.open-data.nyc/event/is-your-data-really-that-dirty-an-in-depth-look-at-nyc-311-data-to-determine-its-cleanliness/">Is your data really that dirty? An in-depth look at NYC 311 data to determine its “cleanliness”</a></li>
 </ul>
 </section>
-<section id="birs-workshop-statistical-aspects-of-trustworthy-machine-learning" class="level4">
-<h4 data-anchor-id="birs-workshop-statistical-aspects-of-trustworthy-machine-learning"><a href="https://www.birs.ca/events/2024/5-day-workshops/24w5284">BIRS Workshop “Statistical Aspects of Trustworthy Machine Learning”</a></h4>
+<section id="birs-workshop-statistical-aspects-of-trustworthy-machine-learning.-submission-deadline-to-a-special-issue-for-the-journal-of-data-science-on-the-same-theme-is-december-31-2024." class="level4">
+<h4 data-anchor-id="birs-workshop-statistical-aspects-of-trustworthy-machine-learning.-submission-deadline-to-a-special-issue-for-the-journal-of-data-science-on-the-same-theme-is-december-31-2024."><a href="https://www.birs.ca/events/2024/5-day-workshops/24w5284">BIRS Workshop “Statistical Aspects of Trustworthy Machine Learning”</a>. Submission deadline to a Special issue for the Journal of Data Science on the same theme is December 31, 2024.</h4>
 </section>
 <section id="books" class="level4">
 <h4 data-anchor-id="books">Books</h4>
@@ -191,18 +191,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -234,7 +223,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/statcomp-org\.github\.io");
@@ -242,7 +253,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
