@@ -44,9 +44,8 @@ pedigree](http://genealogy.math.ndsu.nodak.edu/id.php?id=80020&fChrono=1).
 He has been the Editor of the [Journal of Data
 Science](https://jds-online.org) since 2020.
 
-#### [International Forum on Data Science (IFoDS) 2024](https://statds.org/events/ifods2024/), July 21, 2024, Renmin University of China, hosted by the [Journal of Data Science](https://jds-online.org).
-
-#### [BIRS Workshop "Statistical Aspects of Trustworthy Machine Learning"](https://www.birs.ca/events/2024/5-day-workshops/24w5284). Submission deadline to a Special issue for the [Journal of Data Science](https://jds-online.org) on the same theme is December 31, 2024.
+#### At JSM 2024
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WJvoHEhyRv8?si=8jDm-iguhfbkOOGS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 #### Books
 
