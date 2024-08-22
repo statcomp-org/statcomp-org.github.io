@@ -5,11 +5,11 @@ title: "Students"
 ## Current Ph.D. Students
 
 1. [Qingkai Dong](https://dqksnow.github.io), Ph.D. expected 2027 (joint with HaiYing Wang)
-1. [Shiying Xiao](http://shiying-xiao.com), Ph.D. expected 2027: Network analytics.
-1. [Zefang Min](https://zefangm.github.io/zfpw/), Ph.D. expected 2026: Time series and causal inference.
-1. [Xiaomin Lu](https://xiaomin001.github.io/mysite/), Ph.D. expected 2025: Survival analysis and artificial intelligence.
-1. [Sydney Louit](https://www.linkedin.com/in/sydney-louit-810538192/), Ph.D. expected 2025: Social network clustering.
-1. [Zhenyu Xu](https://zhenyu1029.github.io), Ph.D. expected 2025: Generalized estimating equations.
+1. [Shiying Xiao](http://shiying-xiao.com), Ph.D. expected 2027
+1. [Zefang Min](https://zefangm.github.io/zfpw/), Ph.D. expected 2026 (joint with Kun Chen)
+1. [Xiaomin Lu](https://xiaomin001.github.io/mysite/), Ph.D. expected 2025
+1. [Sydney Louit](https://www.linkedin.com/in/sydney-louit-810538192/), Ph.D. expected 2025
+1. [Zhenyu Xu](https://zhenyu1029.github.io), Ph.D. expected 2025
 
 
 ## Ph.D. Alumni
