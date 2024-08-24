@@ -7,7 +7,7 @@ project:
     - "*.qmd"
 
 website:
-  title: "Jun Yan #Statistical Computing"
+  title: "Jun Yan #STATisticalCOMPuting"
   search: false
   cookie-consent: false
   twitter-card: true
