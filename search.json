@@ -18,7 +18,7 @@
     "href": "teaching.html#undergraduate-advisee-publications",
     "title": "Teaching",
     "section": "Undergraduate Advisee Publications",
-    "text": "Undergraduate Advisee Publications\n\nZeimbekakis, A., Schifano, E. D., & Yan, J. (2024). On misuses of the kolmogorov–smirnov test for one-sample goodness-of-fit. The American Statistician, Forthcoming. https://doi.org/10.1080/00031305.2024.2356095\nHoulihan, K. & Yan, J. (2024): How to build a gymnastics team. Significance, 21(3), 10–14. https://doi.org/10.1093/jrssig/qmae039\nChandy, M., Schifano, E., & Yan, J. (2024): On sample size needed for block bootstrap confidence intervals to have desired coverage rates. American Journal of Undergraduate Research, 20(4), 3–16. https://doi.org/10.33697/ajur.2024.101 UConn Today story\nPrice, M. & Yan, J. (2022). The effects of the NBA COVID bubble on the NBA playoffs: A case study for home-court advantage. American Journal of Undergraduate Research, 18(4), 3–15. https://doi.org/10.33697/ajur.2022.051"
+    "text": "Undergraduate Advisee Publications\n\nZeimbekakis, A., Schifano, E. D., & Yan, J. (2024). On misuses of the Kolmogorov–Smirnov test for one-sample goodness-of-fit. The American Statistician, Forthcoming. https://doi.org/10.1080/00031305.2024.2356095\nHoulihan, K. & Yan, J. (2024): How to build a gymnastics team. Significance, 21(3), 10–14. https://doi.org/10.1093/jrssig/qmae039\nChandy, M., Schifano, E., & Yan, J. (2024): On sample size needed for block bootstrap confidence intervals to have desired coverage rates. American Journal of Undergraduate Research, 20(4), 3–16. https://doi.org/10.33697/ajur.2024.101 UConn Today story\nPrice, M. & Yan, J. (2022). The effects of the NBA COVID bubble on the NBA playoffs: A case study for home-court advantage. American Journal of Undergraduate Research, 18(4), 3–15. https://doi.org/10.33697/ajur.2022.051"
   },
   {
     "objectID": "teaching.html#student-awards",
@@ -51,7 +51,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Jun Yan #Statistical Computing",
+    "title": "Jun Yan #STATisticalCOMPuting",
     "section": "",
     "text": "Jun Yan is a Professor in the Department of Statistics at the University of Connecticut. He earned his Ph.D. in Statistics from the University of Wisconsin in 2003. His research spans several areas of statistics including network analytics, spatial extremes, survival analysis, multivariate dependence, and clustered data analysis, with a notable emphasis on statistical computing. His work has significant applications across various domains, such as public health, finance, sports, and the environment. A foundational element of his career, his passion for statistical computing and software development epitomizes his dedication to connecting the theoretical underpinnings with practical applications. Beyond his research, he enjoys teaching, taking pride in nurturing the next generation of data scientists and expanding his academic pedigree. He has been the Editor of the Journal of Data Science since 2020.\n\nAt JSM 2024\n\n\n\n\nBooks\n\nMarius Hofert, Ivan Kojaninovic, Martin Machler, and Jun Yan (2018): Elements of Copula Modeling with R | R companion\nDipak Dey and Jun Yan (Eds) (2015): Extreme Value Modeling and Risk Analysis: Methods and Applications | Code Supplement"
   },
