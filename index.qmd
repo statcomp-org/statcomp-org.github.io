@@ -1,4 +1,4 @@
-g---
+---
 # image: junyan.jpg
 about:
   template: solana
