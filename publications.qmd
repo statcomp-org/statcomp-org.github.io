@@ -62,7 +62,8 @@ Applications*, *638*, 129634.
 ::: {#ref-zeimbekakis2024misuses .csl-entry}
 Zeimbekakis, A., Schifano, E. D., & **Yan, J.** (2024). On misuses of the
 Kolmogorov---Smirnov test for one-sample goodness-of-fit. *The American
-Statistician*. <https://doi.org/10.1080/00031305.2024.2356095>
+Statistician*, *78*(4), 481--487.
+<https://doi.org/10.1080/00031305.2024.2356095>
 :::
 
 ::: {#ref-bar2023legendary .csl-entry}
