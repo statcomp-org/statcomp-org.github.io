@@ -7,7 +7,7 @@ project:
     - "*.qmd"
 
 website:
-  title: "Jun Yan #STATisticalCOMPuting"
+  title: "Jun Yan #StatComp"
   search: false
   cookie-consent: false
   twitter-card: true
