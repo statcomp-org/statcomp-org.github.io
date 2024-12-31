@@ -3,7 +3,47 @@
 ::: {#list}
 :::
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs .references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs .references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
+::: {#ref-eada2025discretely .csl-entry}
+Eada, S. T., Pozdnyakov, V., & **Yan, J.** (2025). Discretely observed
+brownian motion governed by telegraph signal process: Estimation and
+application to finance. *Statistical Inference for Stochastic
+Processes*, *28*(1), 1. <https://doi.org/10.1007/s11203-024-09319-0>
+:::
+
+::: {#ref-jiao2025heteroscedastic .csl-entry}
+Jiao, J., Song, W., Xue, Y., & **Yan, J.** (2025). Heteroscedastic growth
+curve modeling with shape-restricted splines. *The New England Journal
+of Statistics in Data Science*, 1--15.
+<https://doi.org/10.51387/24-NEJSDS69>
+:::
+
+::: {#ref-lautier2025convergence .csl-entry}
+Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2025). On the convergence of
+credit risk in current consumer automobile loans. *Journal of the Royal
+Statistical Society Series A: Statistics in Society*, qnae137.
+<https://doi.org/10.1093/jrsssa/qnae137>
+:::
+
+::: {#ref-xu2025gee .csl-entry}
+Xu, Z., Fine, J. P., Song, W., & **Yan, J.** (2025). On GEE for
+mean-variance-correlation models: Variance estimation and model
+selection. *Statistics in Medicine*. <https://doi.org/10.1002/sim.10271>
+:::
+
+::: {#ref-bates2024csv .csl-entry}
+Bates, D., & **Yan, J.** (2024). From CSV to Arrow: Creating a unified data
+set for efficient cross-platform analysis. *Chance*, *37*(4), 48--52.
+<https://doi.org/10.1080/09332480.2024.2434443>
+:::
+
+::: {#ref-carter2024accountable .csl-entry}
+Carter, E. J., Lau, Y. T. A., Buchanan, L., Krol, D. M., **Yan, J.**, &
+Aseltine Jr, R. H. (2024). Accountable care organizations and HPV
+vaccine uptake: A multilevel analysis. *The American Journal of Managed
+Care*, *30*(10), e282--e288. <https://doi.org/10.37765/ajmc.2024.89620>
+:::
+
 ::: {#ref-chandy2024sample .csl-entry}
 Chandy, M., Schifano, E. D., & **Yan, J.** (2024). On sample size needed for
 block bootstrap confidence intervals to have desired coverage rates.
@@ -35,6 +75,13 @@ Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2024). On the maximum
 likelihood estimation of a discrete, finite support distribution under
 left-truncation and competing risks. *Statistics & Probability Letters*,
 *207*, 109973. <https://doi.org/10.1016/j.spl.2023.109973>
+:::
+
+::: {#ref-yang2024optimal .csl-entry}
+Yang, Z., Wang, H., & **Yan, J.** (2024). Optimal subsampling for
+semi-parametric accelerated failure time models with massive survival
+data using a rank-based approach. *Statistics in Medicine*, *43*(24),
+4650--4666. <https://doi.org/10.1002/sim.10200>
 :::
 
 ::: {#ref-yangoptimal .csl-entry}
@@ -946,4 +993,4 @@ structures (Pkg: P859-880). *Statistics in Medicine*, *23*(6), 859--874.
 for association structures" (Pkg: 859-880). *Statistics in Medicine*,
 *23*(6), 879--880. <https://doi.org/10.1002/sim.1736>
 :::
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
