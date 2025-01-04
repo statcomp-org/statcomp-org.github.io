@@ -17,7 +17,7 @@ about:
       href: https://www.mathgenealogy.org/id.php?id=80020&fChrono=1
     - icon: CV
       text: CV
-      href: https://statcomp.org/jyanCV.html
+      href: https://statds.org/doc/bindocs/jyanCV.pdf
 #    - icon: github
 #      text: Github
 #      href: https://github.com
