@@ -5,12 +5,15 @@ title: "Teaching"
 ## Open-Source Classnotes
 
 + STAT 3255/5255: Introduction to Data Science
+    - [Spring 2025](https://statds.github.io/ids-s25)
     - [Fall 2024](https://statds.github.io/ids-f24/)
     - [Spring 2024](https://statds.github.io/ids-s24/)
-        * Class presentation at 2024 NYC Open Data Week: [Landscape of Rodent Sightings in New York City: A Data Science Showcase](https://2024.open-data.nyc/event/landscape-of-rodent-sightings-in-new-york-city-a-data-science-showcase/)
-        * Data cleaning workshop at 2024 NYC Open Data Week: [Is your data really that dirty? An in-depth look at NYC 311 data to determine its “cleanliness”](https://2024.open-data.nyc/event/is-your-data-really-that-dirty-an-in-depth-look-at-nyc-311-data-to-determine-its-cleanliness/)
+        * Class presentation at 2024 NYC Open Data Week: [Landscape of Rodent Sightings in New York City: A Data Science Showcase](https://youtu.be/ikPFSuhWvsg?si=eMj6nkScCgxKUmgt)
+        * Data cleaning workshop at 2024 NYC Open Data Week: [Is your data really that dirty? An in-depth look at NYC 311 data to determine its “cleanliness”](https://youtu.be/YkTIEYh7UgM?si=auyNHzxjCu9ztl8u)
     - [Spring 2023](https://statds.github.io/ids-s23/)
+        * Class presentation at 2023 NYC Open Data Week: [Data Science at UConn with NYC Open Data](https://youtu.be/YV_SC3SS8mg?si=ySKwb2h5WMmTZsb6)
     - [Spring 2022](https://statds.github.io/ids-s22/)
+        * Class presentation at 2022 NYC Open Data Week: [NYC Open Data Case Studies from Introduction to Data Science at UConn](https://youtu.be/YV_SC3SS8mg?si=ySKwb2h5WMmTZsb6)
 + STAT 3494: [Statistical Writing](https://statds.github.io/stat-writing/)
 + STAT 5361: [Statistical Computing](https://jun-yan.github.io/stat-5361/)
 
