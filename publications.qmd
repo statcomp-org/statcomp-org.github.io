@@ -3,7 +3,7 @@
 ::: {#list}
 :::
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs .references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs .references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-eada2025discretely .csl-entry}
 Eada, S. T., Pozdnyakov, V., & **Yan, J.** (2025). Discretely observed
 brownian motion governed by telegraph signal process: Estimation and
@@ -78,13 +78,6 @@ left-truncation and competing risks. *Statistics & Probability Letters*,
 :::
 
 ::: {#ref-yang2024optimal .csl-entry}
-Yang, Z., Wang, H., & **Yan, J.** (2024). Optimal subsampling for
-semi-parametric accelerated failure time models with massive survival
-data using a rank-based approach. *Statistics in Medicine*, *43*(24),
-4650--4666. <https://doi.org/10.1002/sim.10200>
-:::
-
-::: {#ref-yangoptimal .csl-entry}
 Yang, Z., Wang, H., & **Yan, J.** (2024). Optimal subsampling for
 semi-parametric accelerated failure time models with massive survival
 data using a rank-based approach. *Statistics in Medicine*, *43*(24),
@@ -993,4 +986,4 @@ structures (Pkg: P859-880). *Statistics in Medicine*, *23*(6), 859--874.
 for association structures" (Pkg: 859-880). *Statistics in Medicine*,
 *23*(6), 879--880. <https://doi.org/10.1002/sim.1736>
 :::
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
