@@ -3,12 +3,12 @@
 ::: {#list}
 :::
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs .references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs .references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-eada2025discretely .csl-entry}
 Eada, S. T., Pozdnyakov, V., & **Yan, J.** (2025). Discretely observed
-brownian motion governed by telegraph signal process: Estimation and
+Brownian motion governed by telegraph signal process: Estimation and
 application to finance. *Statistical Inference for Stochastic
-Processes*, *28*(1), 1. <https://doi.org/10.1007/s11203-024-09319-0>
+Processes*, *28*(1), 1.
 :::
 
 ::: {#ref-jiao2025heteroscedastic .csl-entry}
@@ -25,10 +25,17 @@ Statistical Society Series A: Statistics in Society*, qnae137.
 <https://doi.org/10.1093/jrsssa/qnae137>
 :::
 
+::: {#ref-xie2025recurrent .csl-entry}
+Xie, Y., Fu, H., Huang, Y., Pozdnyakov, V., & **Yan, J.** (2025). Recurrent
+events modeling based on a reflected Brownian motion with application to
+hypoglycemia. *Biostatistics*, *26*(1), kxae053.
+:::
+
 ::: {#ref-xu2025gee .csl-entry}
 Xu, Z., Fine, J. P., Song, W., & **Yan, J.** (2025). On GEE for
 mean-variance-correlation models: Variance estimation and model
-selection. *Statistics in Medicine*. <https://doi.org/10.1002/sim.10271>
+selection. *Statistics in Medicine*, *1-2, 44*, e10271.
+<https://doi.org/10.1002/sim.10271>
 :::
 
 ::: {#ref-bates2024csv .csl-entry}
@@ -986,4 +993,4 @@ structures (Pkg: P859-880). *Statistics in Medicine*, *23*(6), 859--874.
 for association structures" (Pkg: 859-880). *Statistics in Medicine*,
 *23*(6), 879--880. <https://doi.org/10.1002/sim.1736>
 :::
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
