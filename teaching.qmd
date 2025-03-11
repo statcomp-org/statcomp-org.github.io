@@ -6,10 +6,11 @@ title: "Teaching"
 
 + STAT 3255/5255: Introduction to Data Science
     - [Spring 2025](https://statds.github.io/ids-s25)
+        * Class presentation at 2025 NYC Open Data Week: [Risk Analysis of NYC Street Flood]( https://2025.open-data.nyc/event/risk-analysis-of-nyc-street-flooding/)
     - [Fall 2024](https://statds.github.io/ids-f24/)
     - [Spring 2024](https://statds.github.io/ids-s24/)
         * Class presentation at 2024 NYC Open Data Week: [Landscape of Rodent Sightings in New York City: A Data Science Showcase](https://youtu.be/ikPFSuhWvsg?si=eMj6nkScCgxKUmgt)
-        * Data cleaning workshop at 2024 NYC Open Data Week: [Is your data really that dirty? An in-depth look at NYC 311 data to determine its “cleanliness”](https://youtu.be/YkTIEYh7UgM?si=auyNHzxjCu9ztl8u)
+        <!-- * Data cleaning workshop at 2024 NYC Open Data Week: [Is your data really that dirty? An in-depth look at NYC 311 data to determine its “cleanliness”](https://youtu.be/YkTIEYh7UgM?si=auyNHzxjCu9ztl8u) -->
     - [Spring 2023](https://statds.github.io/ids-s23/)
         * Class presentation at 2023 NYC Open Data Week: [Data Science at UConn with NYC Open Data](https://youtu.be/YV_SC3SS8mg?si=ySKwb2h5WMmTZsb6)
     - [Spring 2022](https://statds.github.io/ids-s22/)
@@ -19,9 +20,12 @@ title: "Teaching"
 
 ## Undergraduate Advisee Publications
 
++ **Fiore, O.**, Schifano, E. D., and Yan, J. (2025+): On Devon
+  Allen’s disqualification at the 2022 World Track and Field
+  Championships. *The American Statistician*, forthcoming.  
 + **Zeimbekakis, A.**, Schifano, E. D., & Yan, J. (2024). On misuses of the
 Kolmogorov--Smirnov test for one-sample goodness-of-fit. *The American
-Statistician*, Forthcoming.
+Statistician*, *78(4)*: 481–487.
 <https://doi.org/10.1080/00031305.2024.2356095>
 + **Houlihan, K.** & Yan, J. (2024): How to build a gymnastics team.
 *Significance*, *21(3)*, 10--14.
@@ -39,6 +43,7 @@ of Undergraduate Research*, *18(4)*, 3--15.
 
 ## Student Awards
 
++ Sydney Louit (2025): Student Paper Award, Section on Physical and Engineering Sciences, American Statistical Association.
 + Jackson Lautier (2024): Honorable Mention, Arnold Zellner Thesis Award in Econometrics and Statistics, American Statistical Association.
 + Luis Sydney (2024): Honorable Mention, Student Paper Award, 2024 Applied Statistics Symposium, International Chinese Statistical Association.
 + Lucus Godoy (2024): Honoroble Mention, Student Paper Award, Section on Statistics and the Environment, Ameri can Statistical Association.
