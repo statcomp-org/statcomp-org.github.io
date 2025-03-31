@@ -3,7 +3,14 @@
 ::: {#list}
 :::
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs .references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs .references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
+::: {#ref-mcgowan2025data .csl-entry}
+D'Agostino McGowan, L., Tass, S., Tyner, S., Wang, H., & **Yan, J.** (2025).
+Data jamboree: A party of open-source software solving real-world data
+science problems. *The New England Journal of Statistics in Data
+Science*. <https://doi.org/10.51387/25-NEJSDS79>
+:::
+
 ::: {#ref-eada2025discretely .csl-entry}
 Eada, S. T., Pozdnyakov, V., & **Yan, J.** (2025). Discretely observed
 Brownian motion governed by telegraph signal process: Estimation and
@@ -31,6 +38,13 @@ effect on global warming. *Journal of Climate*.
 <https://doi.org/10.1175/JCLI-D-24-0193.1>
 :::
 
+::: {#ref-louit2025calf .csl-entry}
+Louit, S., Clark, E. A., Gelbard, A. H., Vivek, N., **Yan, J.**, & Zhang, P.
+(2025). CALF-SBM: A covariate-assisted latent factor stochastic block
+model. *Physica A: Statistical Mechanics and Its Applications*, *667*,
+130536. <https://doi.org/10.1016/j.physa.2025.130536>
+:::
+
 ::: {#ref-shen2025rank .csl-entry}
 Shen, A., Feng, Q., **Yan, J.**, & Zhang, P. (2025). Rank-based
 assortativity for weighted, directed networks. *Journal of Complex
@@ -47,7 +61,7 @@ hypoglycemia. *Biostatistics*, *26*(1), kxae053.
 ::: {#ref-xu2025gee .csl-entry}
 Xu, Z., Fine, J. P., Song, W., & **Yan, J.** (2025). On GEE for
 mean-variance-correlation models: Variance estimation and model
-selection. *Statistics in Medicine*, *1-2, 44*, e10271.
+selection. *Statistics in Medicine*, *44*(1-2), e10271.
 <https://doi.org/10.1002/sim.10271>
 :::
 
@@ -1013,4 +1027,4 @@ structures (Pkg: P859-880). *Statistics in Medicine*, *23*(6), 859--874.
 for association structures" (Pkg: 859-880). *Statistics in Medicine*,
 *23*(6), 879--880. <https://doi.org/10.1002/sim.1736>
 :::
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
