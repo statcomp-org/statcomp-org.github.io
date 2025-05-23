@@ -21,7 +21,8 @@ Processes*, *28*(1), 1. <https://doi.org/10.1007/s11203-024-09319-0>
 ::: {#ref-jiao2025heteroscedastic .csl-entry}
 Jiao, J., Song, W., Xue, Y., & **Yan, J.** (2025). Heteroscedastic growth
 curve modeling with shape-restricted splines. *The New England Journal
-of Statistics in Data Science*. <https://doi.org/10.51387/24-NEJSDS69>
+of Statistics in Data Science*, *3*(1), 1--15.
+<https://doi.org/10.51387/24-NEJSDS69>
 :::
 
 ::: {#ref-lautier2025convergence .csl-entry}
@@ -49,6 +50,13 @@ model. *Physica A: Statistical Mechanics and Its Applications*, *667*,
 Shen, A., Feng, Q., **Yan, J.**, & Zhang, P. (2025). Rank-based
 assortativity for weighted, directed networks. *Journal of Complex
 Networks*, *13*(2), cnaf002. <https://doi.org/10.1093/comnet/cnaf002>
+:::
+
+::: {#ref-wang2025survival .csl-entry}
+Wang, W., Luo, C., Aseltine, R. H., Wang, F., **Yan, J.**, & Chen, K.
+(2025). Survival modeling of suicide risk with rare and uncertain
+diagnoses. *Statistics in Biosciences*, *17*(1).
+<https://doi.org/10.1007/s12561-023-09374-w>
 :::
 
 ::: {#ref-xie2025recurrent .csl-entry}
@@ -199,13 +207,6 @@ with estimating equations. *Journal of Climate*, *36*(20), 7109--7122.
 Wang, F., Wang, H., & **Yan, J.** (2023). Diagnostic tests for the necessity
 of weight in regression with survey data. *International Statistical
 Review*, *91*(1), 55--71. <https://doi.org/10.1111/insr.12509>
-:::
-
-::: {#ref-wang2023survival .csl-entry}
-Wang, W., Luo, C., Aseltine, R. H., Wang, F., **Yan, J.**, & Chen, K.
-(2023). Survival modeling of suicide risk with rare and uncertain
-diagnoses. *Statistics in Biosciences*.
-<https://doi.org/10.1007/s12561-023-09374-w>
 :::
 
 ::: {#ref-yuan2023generating .csl-entry}
