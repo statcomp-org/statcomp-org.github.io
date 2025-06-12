@@ -3,9 +3,9 @@ bucketName := statds.org
 all: publications
 	@quarto render
 
-publications: jyan.bib apa-cv.csl lua-refs.lua
+publications: jyan.bib lcg-cv.csl lua-refs.lua
 	@quarto pandoc -L lua-refs.lua \
-		jyan.bib --csl=apa-cv.csl \
+		jyan.bib --csl=lcg-cv.csl \
 		-V --toc=false \
 		--to=markdown-citations \
 		-o publications.qmd
