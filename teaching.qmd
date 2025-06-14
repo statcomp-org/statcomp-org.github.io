@@ -22,7 +22,8 @@ title: "Teaching"
 
 + **Fiore, O.**, Schifano, E. D., and Yan, J. (2025+): On Devon
   Allen’s disqualification at the 2022 World Track and Field
-  Championships. *The American Statistician*, forthcoming.  
+  Championships. *The American Statistician*, forthcoming.
+<https://doi.org/10.1080/00031305.2025.2515869>
 + **Zeimbekakis, A.**, Schifano, E. D., & Yan, J. (2024). On misuses of the
 Kolmogorov--Smirnov test for one-sample goodness-of-fit. *The American
 Statistician*, *78(4)*: 481–487.
@@ -42,7 +43,7 @@ of Undergraduate Research*, *18(4)*, 3--15.
 
 
 ## Student Awards
-
++  Zhenyu Xu (2025): Student Paper Award, 2025 Applied Statistics Symposium, International Chinese Statistical Association.
 + Sydney Louit (2025): Student Paper Award, Section on Physical and Engineering Sciences, American Statistical Association.
 + Jackson Lautier (2024): Honorable Mention, Arnold Zellner Thesis Award in Econometrics and Statistics, American Statistical Association.
 + Luis Sydney (2024): Honorable Mention, Student Paper Award, 2024 Applied Statistics Symposium, International Chinese Statistical Association.
