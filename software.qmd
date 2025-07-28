@@ -6,8 +6,8 @@ title: "Software"
 
 <div id="pre-r-pkg-table"></div>
 
-| Name                          | Latest Release                               | Downloads (RStudio CRAN Mirror Since October 2012) |
-|-------------------------------|----------------------------------------------|-----------------------|
+| Name              | Latest Release                               | Downloads (RStudio CRAN Mirror Since October 2012) |
+|------------|---------------------------|-------------------|
 | [aftgee](#aftgee)             | [![aftgee-version]][aftgee-cran]             | ![aftgee-log]         |
 | [clusrank](#clusrank)         | [![clusrank-version]][clusrank-cran]         | ![clusrank-log]       |
 | [coga](#coga)                 | [![coga-version]][coga-cran]                 | ![coga-log]           |
@@ -31,7 +31,7 @@ title: "Software"
 | [tpr](#tpr)                   | [![tpr-version]][tpr-cran]                   | ![tpr-log]            |
 | [touch](#touch)               | [![touch-version]][touch-cran]               | ![touch-log]          |
 | [wdnet](#wdnet)               | [![wdnet-version]][wdnet-cran]               | ![wdnet-log]          |
-
+: {tbl-colwidths="[30, 40, 30]"}
 
 <div id="r-pkg-details">
 
