@@ -9,11 +9,11 @@ title: "Students"
 1. [Shiying Xiao](http://shiying-xiao.com), Ph.D. expected 2027.
 1. [Zefang Min](https://zefangm.github.io/zfpw/), Ph.D. expected 2026 (joint with Kun Chen).
 1. [Xiaomin Lu](https://xiaomin001.github.io/mysite/), Ph.D. expected 2025.
-1. [Sydney Louit](https://www.linkedin.com/in/sydney-louit-810538192/), Ph.D. expected 2025.
-1. [Zhenyu Xu](https://zhenyu1029.github.io), Ph.D. expected 2025.
 
 
 ## Ph.D. Alumni
+1. [Zhenyu Xu](https://zhenyu1029.github.io), Ph.D. 2025: Covariate-Assisted Stochastic Block Models: Feature Selection and Latent Factors. Placement: Senior Consultant, Travelers Insurance.
+1. [Sydney Louit](https://www.linkedin.com/in/sydney-louit-810538192/), Ph.D. 2025. Cure Rate Estimation for Clustered Failure Times and Competing Risks. Placement: Senior Consultant, Travelers Insurance.
 1. [Jun Jin](https://www.linkedin.com/in/jun-jin-7714701b8/), Ph.D. 2024 (joint with Kun Chen): On large-scale transfer learning with heterogeneous data. Placement: Faculty Biostatistician, Henry Ford Health.
 1. [Surya Eada](https://www.linkedin.com/in/surya-teja-eada-76b78229/), Ph.D.2024 (joint with Vladimir Pozdnyakov): Lévy Processes Governed by Telegraph Signal Process: Inferences and Applications. Placement: Assistant Professor of Teaching, Oregon State University.
 1. [Yingfa Xie](https://www.linkedin.com/in/yingfa-xie-1ba57314a/), Ph.D.2024: Recurrent events modeling based on a reflected Brownian motion with application to hypoglycemia. Placement: Postdoc researcher, Yale University.
