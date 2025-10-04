@@ -3,8 +3,8 @@
 ::: {#list}
 :::
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs .references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
-::: {#ref-mcgowan2025data .csl-entry}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs .references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
+::: {#ref-dagostinomcgowan2025data .csl-entry}
 \[1\] D'Agostino McGowan, L., Tass, S., Tyner, S., Wang, H., & **Yan, J.**
 (2025). Data jamboree: A party of open-source software solving
 real-world data science problems. *The New England Journal of Statistics
@@ -30,29 +30,36 @@ use of generative AI. *Chance*, *38*(2), 6--9.
 <https://doi.org/10.1080/09332480.2025.2510152>
 :::
 
+::: {#ref-hughes2025statistical .csl-entry}
+\[5\] Hughes, S. R., Matthews, G. J., & **Yan, J.** (2025). Statistical
+evaluation of outdoor field hockey penalty corners. *American Journal of
+Undergraduate Research*, *22*(3), 3--12.
+<https://doi.org/10.33697/ajur.2025.145>
+:::
+
 ::: {#ref-jiao2025heteroscedastic .csl-entry}
-\[5\] Jiao, J., Song, W., Xue, Y., & **Yan, J.** (2025). Heteroscedastic
+\[6\] Jiao, J., Song, W., Xue, Y., & **Yan, J.** (2025). Heteroscedastic
 growth curve modeling with shape-restricted splines. *The New England
 Journal of Statistics in Data Science*, *3*(1), 1--15.
 <https://doi.org/10.51387/24-NEJSDS69>
 :::
 
 ::: {#ref-lautier2025convergence .csl-entry}
-\[6\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2025). On the
+\[7\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2025). On the
 convergence of credit risk in current consumer automobile loans.
 *Journal of the Royal Statistical Society Series A: Statistics in
 Society*, qnae137. <https://doi.org/10.1093/jrsssa/qnae137>
 :::
 
 ::: {#ref-li2025improved .csl-entry}
-\[7\] Li, Y., Wang, T., **Yan, J.**, & Zhang, X. (2025). Improved optimal
+\[8\] Li, Y., Wang, T., **Yan, J.**, & Zhang, X. (2025). Improved optimal
 fingerprinting based on estimating equations reaffirms anthropogenic
-effect on global warming. *Journal of Climate*.
+effect on global warming. *Journal of Climate*, *38*(8), 1779--1790.
 <https://doi.org/10.1175/JCLI-D-24-0193.1>
 :::
 
 ::: {#ref-louit2025calf .csl-entry}
-\[8\] Louit, S., Clark, E. A., Gelbard, A. H., Vivek, N., **Yan, J.**, &
+\[9\] Louit, S., Clark, E. A., Gelbard, A. H., Vivek, N., **Yan, J.**, &
 Zhang, P. (2025). CALF-SBM: A covariate-assisted latent factor
 stochastic block model. *Physica A: Statistical Mechanics and Its
 Applications*, *667*, 130536.
@@ -60,7 +67,7 @@ Applications*, *667*, 130536.
 :::
 
 ::: {#ref-meyer2025accounting .csl-entry}
-\[9\] Meyer, T. H., Rittenhouse, T. A. G., Elbroch, L. M., Pozdnyakov,
+\[10\] Meyer, T. H., Rittenhouse, T. A. G., Elbroch, L. M., Pozdnyakov,
 V., **Yan, J.**, Hu, C., Félix, F., Guzmán, H. M., & Meynecke, J.-O. (2025).
 Accounting for Earth's curvature and elevation in animal movement
 modeling. *Ecology*, *106*(7), e70167.
@@ -68,101 +75,101 @@ modeling. *Ecology*, *106*(7), e70167.
 :::
 
 ::: {#ref-shen2025rank .csl-entry}
-\[10\] Shen, A., Feng, Q., **Yan, J.**, & Zhang, P. (2025). Rank-based
+\[11\] Shen, A., Feng, Q., **Yan, J.**, & Zhang, P. (2025). Rank-based
 assortativity for weighted, directed networks. *Journal of Complex
 Networks*, *13*(2), cnaf002. <https://doi.org/10.1093/comnet/cnaf002>
 :::
 
 ::: {#ref-wang2025survival .csl-entry}
-\[11\] Wang, W., Luo, C., Aseltine, R. H., Wang, F., **Yan, J.**, & Chen, K.
+\[12\] Wang, W., Luo, C., Aseltine, R. H., Wang, F., **Yan, J.**, & Chen, K.
 (2025). Survival modeling of suicide risk with rare and uncertain
 diagnoses. *Statistics in Biosciences*, *17*(1), 35--61.
 <https://doi.org/10.1007/s12561-023-09374-w>
 :::
 
 ::: {#ref-xie2025recurrent .csl-entry}
-\[12\] Xie, Y., Fu, H., Huang, Y., Pozdnyakov, V., & **Yan, J.** (2025).
+\[13\] Xie, Y., Fu, H., Huang, Y., Pozdnyakov, V., & **Yan, J.** (2025).
 Recurrent events modeling based on a reflected Brownian motion with
 application to hypoglycemia. *Biostatistics*, *26*(1), kxae053.
 <https://doi.org/10.1093/biostatistics/kxae053>
 :::
 
 ::: {#ref-xu2025gee .csl-entry}
-\[13\] Xu, Z., Fine, J. P., Song, W., & **Yan, J.** (2025). On GEE for
+\[14\] Xu, Z., Fine, J. P., Song, W., & **Yan, J.** (2025). On GEE for
 mean-variance-correlation models: Variance estimation and model
 selection. *Statistics in Medicine*, *44*(1-2), e10271.
 <https://doi.org/10.1002/sim.10271>
 :::
 
 ::: {#ref-bates2024csv .csl-entry}
-\[14\] Bates, D., & **Yan, J.** (2024). From CSV to Arrow: Creating a
+\[15\] Bates, D., & **Yan, J.** (2024). From CSV to Arrow: Creating a
 unified data set for efficient cross-platform analysis. *Chance*,
 *37*(4), 48--52. <https://doi.org/10.1080/09332480.2024.2434443>
 :::
 
 ::: {#ref-carter2024accountable .csl-entry}
-\[15\] Carter, E. J., Lau, Y. T. A., Buchanan, L., Krol, D. M., **Yan, J.**,
+\[16\] Carter, E. J., Lau, Y. T. A., Buchanan, L., Krol, D. M., **Yan, J.**,
 & Aseltine Jr, R. H. (2024). Accountable care organizations and HPV
 vaccine uptake: A multilevel analysis. *The American Journal of Managed
 Care*, *30*(10), e282--e288. <https://doi.org/10.37765/ajmc.2024.89620>
 :::
 
 ::: {#ref-chandy2024sample .csl-entry}
-\[16\] Chandy, M., Schifano, E. D., & **Yan, J.** (2024). On sample size
+\[17\] Chandy, M., Schifano, E. D., & **Yan, J.** (2024). On sample size
 needed for block bootstrap confidence intervals to have desired coverage
 rates. *American Journal of Undergraduate Research*, *20*(4), 3--16.
 <https://doi.org/10.33697/ajur.2024.101>
 :::
 
 ::: {#ref-choi2024general .csl-entry}
-\[17\] Choi, D., Bae, W., **Yan, J.**, & Kang, S. (2024). A general
+\[18\] Choi, D., Bae, W., **Yan, J.**, & Kang, S. (2024). A general
 model-checking procedure for semiparametric accelerated failure time
 models. *Statistics and Computing*, *34*(3), 117.
 <https://doi.org/10.1007/s11222-024-10431-7>
 :::
 
 ::: {#ref-houlihan2024how .csl-entry}
-\[18\] Houlihan, K., & **Yan, J.** (2024). How to build a gymnastics team.
+\[19\] Houlihan, K., & **Yan, J.** (2024). How to build a gymnastics team.
 *Significance*, *21*(3), 10\--14.
 <https://doi.org/10.1093/jrssig/qmae039>
 :::
 
 ::: {#ref-jin2024transfer .csl-entry}
-\[19\] Jin, J., **Yan, J.**, Aseltine, R. H., & Chen, K. (2024). Transfer
+\[20\] Jin, J., **Yan, J.**, Aseltine, R. H., & Chen, K. (2024). Transfer
 learning with large-scale quantile regression. *Technometrics*, *66*(3),
 383--393. <https://doi.org/10.1080/00401706.2024.2315952>
 :::
 
 ::: {#ref-lautier2024convergence .csl-entry}
-\[20\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2024). On the
+\[21\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2024). On the
 convergence of credit risk in current consumer automobile loans.
 *Journal of the Royal Statistical Society Series A: Statistics in
 Society*, qnae137. <https://doi.org/10.1093/jrsssa/qnae137>
 :::
 
 ::: {#ref-lautier2024maximum .csl-entry}
-\[21\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2024). On the maximum
+\[22\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2024). On the maximum
 likelihood estimation of a discrete, finite support distribution under
 left-truncation and competing risks. *Statistics & Probability Letters*,
 *207*, 109973. <https://doi.org/10.1016/j.spl.2023.109973>
 :::
 
 ::: {#ref-yang2024optimal .csl-entry}
-\[22\] Yang, Z., Wang, H., & **Yan, J.** (2024). Optimal subsampling for
+\[23\] Yang, Z., Wang, H., & **Yan, J.** (2024). Optimal subsampling for
 semi-parametric accelerated failure time models with massive survival
 data using a rank-based approach. *Statistics in Medicine*, *43*(24),
 4650--4666. <https://doi.org/10.1002/sim.10200>
 :::
 
 ::: {#ref-yang2024subsampling .csl-entry}
-\[23\] Yang, Z., Wang, H., & **Yan, J.** (2024). Subsampling approach for
+\[24\] Yang, Z., Wang, H., & **Yan, J.** (2024). Subsampling approach for
 least squares fitting of semi-parametric accelerated failure time models
 to massive survival data. *Statistics and Computing*, *34*(2), 77.
 <https://doi.org/10.1007/s11222-024-10391-y>
 :::
 
 ::: {#ref-yuan2024strength .csl-entry}
-\[24\] Yuan, Y., **Yan, J.**, & Zhang, P. (2024). A strength and sparsity
+\[25\] Yuan, Y., **Yan, J.**, & Zhang, P. (2024). A strength and sparsity
 preserving algorithm for generating weighted, directed networks with
 predetermined assortativity. *Physica A: Statistical Mechanics and Its
 Applications*, *638*, 129634.
@@ -170,48 +177,48 @@ Applications*, *638*, 129634.
 :::
 
 ::: {#ref-zeimbekakis2024misuses .csl-entry}
-\[25\] Zeimbekakis, A., Schifano, E. D., & **Yan, J.** (2024). On misuses of
+\[26\] Zeimbekakis, A., Schifano, E. D., & **Yan, J.** (2024). On misuses of
 the Kolmogorov---Smirnov test for one-sample goodness-of-fit. *The
 American Statistician*, *78*(4), 481--487.
 <https://doi.org/10.1080/00031305.2024.2356095>
 :::
 
 ::: {#ref-bar2023legendary .csl-entry}
-\[26\] Bar, H., & **Yan, J.** (2023). Legendary career and colorful life: A
+\[27\] Bar, H., & **Yan, J.** (2023). Legendary career and colorful life: A
 conversation with Dr. Bob Riffenburgh. *Journal of Data Science*,
 *21*(4), 818--837. <https://doi.org/10.6339/23-JDS1115>
 :::
 
 ::: {#ref-chiou2023regression .csl-entry}
-\[27\] Chiou, S., Xu, G., **Yan, J.**, & Huang, C.-Y. (2023). Regression
+\[28\] Chiou, S., Xu, G., **Yan, J.**, & Huang, C.-Y. (2023). Regression
 modeling for recurrent events possibly with an informative terminal
 event using R package [reReg]{.nocase}. *Journal of Statistical
 Software*, *105*(5), 1--34. <https://doi.org/10.18637/jss.v105.i05>
 :::
 
 ::: {#ref-lau2023extreme .csl-entry}
-\[28\] Lau, Y. T. A., Wang, T., **Yan, J.**, & Zhang, X. (2023). Extreme
+\[29\] Lau, Y. T. A., Wang, T., **Yan, J.**, & Zhang, X. (2023). Extreme
 value modeling with errors-in-variables in detection and attribution of
 changes in climate extremes. *Statistics and Computing*, *33*(6), 125.
 <https://doi.org/10.1007/s11222-023-10290-8>
 :::
 
 ::: {#ref-lautier2023estimating .csl-entry}
-\[29\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2023). Estimating a
+\[30\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2023). Estimating a
 discrete distribution subject to random left-truncation with an
 application to structured finance. *Econometrics and Statistics*.
 <https://doi.org/10.1016/j.ecosta.2023.05.005>
 :::
 
 ::: {#ref-lautier2023pricing .csl-entry}
-\[30\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2023). Pricing
+\[31\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2023). Pricing
 time-to-event contingent cash flows: A discrete-time survival analysis
 approach. *Insurance: Mathematics and Economics*, *110*, 53--71.
 <https://doi.org/10.1016/j.insmatheco.2023.02.003>
 :::
 
 ::: {#ref-li2023regularized .csl-entry}
-\[31\] Li, Y., Chen, K., **Yan, J.**, & Zhang, X. (2023). Regularized
+\[32\] Li, Y., Chen, K., **Yan, J.**, & Zhang, X. (2023). Regularized
 fingerprinting in detection and attribution of climate change with
 weight matrix optimizing the efficiency in scaling factor estimation.
 *Annals of Applied Statistics*, *17*(1), 225--239.
@@ -219,96 +226,96 @@ weight matrix optimizing the efficiency in scaling factor estimation.
 :::
 
 ::: {#ref-ma2023optimal .csl-entry}
-\[32\] Ma, S., Wang, T., **Yan, J.**, & Zhang, X. (2023). Optimal
+\[33\] Ma, S., Wang, T., **Yan, J.**, & Zhang, X. (2023). Optimal
 fingerprinting with estimating equations. *Journal of Climate*,
 *36*(20), 7109--7122. <https://doi.org/10.1175/JCLI-D-22-0681.1>
 :::
 
 ::: {#ref-wang2023diagnostic .csl-entry}
-\[33\] Wang, F., Wang, H., & **Yan, J.** (2023). Diagnostic tests for the
+\[34\] Wang, F., Wang, H., & **Yan, J.** (2023). Diagnostic tests for the
 necessity of weight in regression with survey data. *International
 Statistical Review*, *91*(1), 55--71.
 <https://doi.org/10.1111/insr.12509>
 :::
 
 ::: {#ref-yuan2023generating .csl-entry}
-\[34\] Yuan, Y., Wang, T., **Yan, J.**, & Zhang, P. (2023). Generating
+\[35\] Yuan, Y., Wang, T., **Yan, J.**, & Zhang, P. (2023). Generating
 general preferential attachment networks with R package
 [wdnet]{.nocase}. *Journal of Data Science*, *21*(3), 538--556.
 <https://doi.org/10.6339/23-JDS1110>
 :::
 
 ::: {#ref-hu2022occupation .csl-entry}
-\[35\] Hu, C., Pozdnyakov, V., & **Yan, J.** (2022). On occupation time for
+\[36\] Hu, C., Pozdnyakov, V., & **Yan, J.** (2022). On occupation time for
 on-off processes with multiple off-states. *Modern Stochastics: Theory
 and Applications*, *9*(4), 413--430.
 <https://doi.org/10.15559/22-VMSTA210>
 :::
 
 ::: {#ref-jiao2022cyberattack .csl-entry}
-\[36\] Jiao, J., Tang, Z., Yue, M., Zhang, P., & **Yan, J.** (2022).
+\[37\] Jiao, J., Tang, Z., Yue, M., Zhang, P., & **Yan, J.** (2022).
 Cyberattack-resilient load forecasting with adaptive robust regression.
 *International Journal of Forecasting*, *38*(3), 910--919.
 <https://doi.org/10.1016/j.ijforecast.2021.06.009>
 :::
 
 ::: {#ref-lau2022bias .csl-entry}
-\[37\] Lau, A. Y. Z., & **Yan, J.** (2022). Bias analysis of generalized
+\[38\] Lau, A. Y. Z., & **Yan, J.** (2022). Bias analysis of generalized
 estimating equations under measurement error and practical bias
 correction. *Stat*, *11*(1), e418. <https://doi.org/10.1002/sta4.418>
 :::
 
 ::: {#ref-price2022effects .csl-entry}
-\[38\] Price, M., & **Yan, J.** (2022). The effects of the NBA COVID bubble
+\[39\] Price, M., & **Yan, J.** (2022). The effects of the NBA COVID bubble
 on the NBA playoffs: A case study for home-court advantage. *American
 Journal of Undergraduate Research*, *18(4)*, 3--15.
 <https://doi.org/10.33697/ajur.2022.051>
 :::
 
 ::: {#ref-sun2022quantifying .csl-entry}
-\[39\] Sun, Q., Zwiers, F., Zhang, X., & **Yan, J.** (2022). Quantifying the
+\[40\] Sun, Q., Zwiers, F., Zhang, X., & **Yan, J.** (2022). Quantifying the
 human influence on the intensity of extreme 1-and 5-day precipitation
 amounts at global, continental, and regional scales. *Journal of
 Climate*, *35*(1), 195--210. <https://doi.org/10.1175/JCLI-D-21-0028.1>
 :::
 
 ::: {#ref-wang2022generating .csl-entry}
-\[40\] Wang, T., **Yan, J.**, Yuan, Y., & Zhang, P. (2022). Generating
+\[41\] Wang, T., **Yan, J.**, Yuan, Y., & Zhang, P. (2022). Generating
 directed networks with predetermined assortativity measures. *Statistics
 and Computing*, *32*(5), 1--15.
 <https://doi.org/10.1007/s11222-022-10161-8>
 :::
 
 ::: {#ref-xiao2022incorporating .csl-entry}
-\[41\] Xiao, S., **Yan, J.**, & Zhang, P. (2022). Incorporating auxiliary
+\[42\] Xiao, S., **Yan, J.**, & Zhang, P. (2022). Incorporating auxiliary
 information in betweenness measure for input--output networks. *Physica
 A: Statistical Mechanics and Its Applications*, *607*, 128200.
 <https://doi.org/10.1016/j.physa.2022.128200>
 :::
 
 ::: {#ref-yang2022optimal .csl-entry}
-\[42\] Yang, Z., Wang, H., & **Yan, J.** (2022). Optimal subsampling for
+\[43\] Yang, Z., Wang, H., & **Yan, J.** (2022). Optimal subsampling for
 parametric accelerated failure time models with massive survival data.
 *Statistics in Medicine*, *41*(27), 5421--5431.
 <https://doi.org/10.1002/sim.9576>
 :::
 
 ::: {#ref-yin2022bayesian .csl-entry}
-\[43\] Yin, F., Jiao, J., **Yan, J.**, & Hu, G. (2022). Bayesian
+\[44\] Yin, F., Jiao, J., **Yan, J.**, & Hu, G. (2022). Bayesian
 nonparametric learning for point processes with spatial homogeneity: A
 spatial analysis of NBA shot locations. *Proceedings of the 39th
 International Conference on Machine Learning*, *162*, 25523--25551.
 :::
 
 ::: {#ref-zhang2022pagerank .csl-entry}
-\[44\] Zhang, P., Wang, T., & **Yan, J.** (2022). PageRank centrality and
+\[45\] Zhang, P., Wang, T., & **Yan, J.** (2022). PageRank centrality and
 algorithms for weighted, directed networks. *Physica A: Statistical
 Mechanics and Its Applications*, *586*, 126438.
 <https://doi.org/10.1016/j.physa.2021.126438>
 :::
 
 ::: {#ref-chang2021linking .csl-entry}
-\[45\] Chang, C. F., Garcia, V., Tang, C., Vlahos, P., Wanik, D., Yan,
+\[46\] Chang, C. F., Garcia, V., Tang, C., Vlahos, P., Wanik, D., Yan,
 J., Bash, J. O., & Astitha, M. (2021). Linking multi-media modeling with
 machine learning to assess and predict lake chlorophyll $\alpha$
 concentrations. *Journal of Great Lakes Research*, *47*(6), 1656--1670.
@@ -316,7 +323,7 @@ concentrations. *Journal of Great Lakes Research*, *47*(6), 1656--1670.
 :::
 
 ::: {#ref-chang2021development .csl-entry}
-\[46\] Chang, S.-Y., Jin, J., **Yan, J.**, Dong, X., Chaudhuri, B.,
+\[47\] Chang, S.-Y., Jin, J., **Yan, J.**, Dong, X., Chaudhuri, B.,
 Nagapudi, K., & Ma, A. W. K. (2021). Development of a pilot-scale
 HuskyJet binder jet 3D printer for additive manufacturing of
 pharmaceutical tablets. *International Journal of Pharmaceutics*, *605*,
@@ -324,34 +331,34 @@ pharmaceutical tablets. *International Journal of Pharmaceutics*, *605*,
 :::
 
 ::: {#ref-hu2021moving .csl-entry}
-\[47\] Hu, C., Elbroch, M., Meyer, T., Pozdnyakov, V., & **Yan, J.** (2021).
+\[48\] Hu, C., Elbroch, M., Meyer, T., Pozdnyakov, V., & **Yan, J.** (2021).
 Moving-resting process with measurement error in animal movement
 modeling. *Methods in Ecology and Evolution*, *12*(11), 2221--2233.
 <https://doi.org/10.1111/2041-210X.13694>
 :::
 
 ::: {#ref-jiao2021bayesian .csl-entry}
-\[48\] Jiao, J., Hu, G., & **Yan, J.** (2021). A Bayesian marked spatial
+\[49\] Jiao, J., Hu, G., & **Yan, J.** (2021). A Bayesian marked spatial
 point processes model for basketball shot chart. *Journal of
 Quantitative Analysis in Sports*, *17*(2), 77--90.
 <https://doi.org/10.1515/jqas-2019-0106>
 :::
 
-::: {#ref-jiao2021hetergeneity .csl-entry}
-\[49\] Jiao, J., Hu, G., & **Yan, J.** (2021). Heterogeneity pursuit for
+::: {#ref-jiao2021heterogeneity .csl-entry}
+\[50\] Jiao, J., Hu, G., & **Yan, J.** (2021). Heterogeneity pursuit for
 spatial point pattern with application to tree locations: A Bayesian
 semiparametric recourse. *Environmetrics*, *32*(7), e2694.
 <https://doi.org/10.1002/env.2694>
 :::
 
 ::: {#ref-li2021uncertainty .csl-entry}
-\[50\] Li, Y., Chen, K., **Yan, J.**, & Zhang, X. (2021). Uncertainty in
+\[51\] Li, Y., Chen, K., **Yan, J.**, & Zhang, X. (2021). Uncertainty in
 optimal fingerprinting is underestimated. *Environmental Research
 Letters*, *16*(8), 084043. <https://doi.org/10.1088/1748-9326/ac14ee>
 :::
 
 ::: {#ref-wang2021regional .csl-entry}
-\[51\] Wang, T., Xiao, S., **Yan, J.**, & Zhang, P. (2021). Regional and
+\[52\] Wang, T., Xiao, S., **Yan, J.**, & Zhang, P. (2021). Regional and
 sectoral structures of the Chinese economy: A network perspective from
 multi-regional input-output tables. *Physica A: Statistical Mechanics
 and Its Applications*, 126196.
@@ -359,47 +366,47 @@ and Its Applications*, 126196.
 :::
 
 ::: {#ref-wang2021discussion .csl-entry}
-\[52\] Wang, T., & **Yan, J.** (2021). Discussion of "on studying extreme
+\[53\] Wang, T., & **Yan, J.** (2021). Discussion of "on studying extreme
 values and systematic risks with nonlinear time series models and tail
 dependence measure\". *Statistical Theory and Related Fields*, *5*(1),
 38--40. <https://doi.org/10.1080/24754269.2020.1869897>
 :::
 
 ::: {#ref-wang2021shape .csl-entry}
-\[53\] Wang, W., & **Yan, J.** (2021). Shape-restricted regression splines
+\[54\] Wang, W., & **Yan, J.** (2021). Shape-restricted regression splines
 with R package [splines2]{.nocase}. *Journal of Data Science*, *19*(3),
 498--517. <https://doi.org/10.6339/21-JDS1020>
 :::
 
 ::: {#ref-wang2021toward .csl-entry}
-\[54\] Wang, Z., Jiang, Y., Wan, H., **Yan, J.**, & Zhang, X. (2021). Toward
+\[55\] Wang, Z., Jiang, Y., Wan, H., **Yan, J.**, & Zhang, X. (2021). Toward
 optimal fingerprinting in detection and attribution of changes in
 climate extremes. *Journal of the American Statistical Association*,
 *116*(533), 1--13. <https://doi.org/10.1080/01621459.2020.1730852>
 :::
 
 ::: {#ref-wu2021online .csl-entry}
-\[55\] Wu, J., Chen, M.-H., Schifano, E. D., & **Yan, J.** (2021). Online
+\[56\] Wu, J., Chen, M.-H., Schifano, E. D., & **Yan, J.** (2021). Online
 updating of survival analysis. *Journal of Computational and Graphical
 Statistics*, *30*(4), 1209--1223.
 <https://doi.org/10.1080/10618600.2020.1870481>
 :::
 
 ::: {#ref-xue2021simultaneous .csl-entry}
-\[56\] Xue, Y., **Yan, J.**, & Schifano, E. D. (2021). Simultaneous
+\[57\] Xue, Y., **Yan, J.**, & Schifano, E. D. (2021). Simultaneous
 monitoring for regression coefficients and baseline hazard profile in
 Cox modeling of time-to-event data. *Biostatistics*, *22*(4), 756--771.
 <https://doi.org/10.1093/biostatistics/kxz064>
 :::
 
 ::: {#ref-yuan2021assortativity .csl-entry}
-\[57\] Yuan, Y., **Yan, J.**, & Zhang, P. (2021). Assortativity measures for
+\[58\] Yuan, Y., **Yan, J.**, & Zhang, P. (2021). Assortativity measures for
 weighted and directed networks. *Journal of Complex Networks*, *9*(2),
 cnab017. <https://doi.org/10.1093/comnet/cnab017>
 :::
 
 ::: {#ref-doshi2020age .csl-entry}
-\[58\] Doshi, R. P., **Yan, J.**, & Aseltine Jr, R. H. (2020). Age
+\[59\] Doshi, R. P., **Yan, J.**, & Aseltine Jr, R. H. (2020). Age
 differences in racial/ethnic disparities in preventable hospitalizations
 for heart failure in Connecticut, 2009-2015: A population-based
 longitudinal study. *Public Health Reports*, *135*(1), 56--65.
@@ -407,27 +414,27 @@ longitudinal study. *Public Health Reports*, *135*(1), 56--65.
 :::
 
 ::: {#ref-hu2020density .csl-entry}
-\[59\] Hu, C., Pozdnyakov, V., & **Yan, J.** (2020). Density and
+\[60\] Hu, C., Pozdnyakov, V., & **Yan, J.** (2020). Density and
 distribution evaluation for convolution of independent gamma variables.
 *Computational Statistics*, *35*(1), 327--342.
 <https://doi.org/10.1007/s00180-019-00924-9>
 :::
 
 ::: {#ref-jiang2020wilcoxon .csl-entry}
-\[60\] Jiang, Y., Lee, M.-L. T., He, X., Rosner, B., & **Yan, J.** (2020).
+\[61\] Jiang, Y., Lee, M.-L. T., He, X., Rosner, B., & **Yan, J.** (2020).
 Wilcoxon rank-based tests for clustered data with R package
 [clusrank]{.nocase}. *Journal of Statistical Software*, *96*(6), 1--26.
 <https://doi.org/10.18637/jss.v096.i06>
 :::
 
 ::: {#ref-li2020copula .csl-entry}
-\[61\] Li, Y., Li, Y., Qin, Y., & **Yan, J.** (2020). Copula modeling for
+\[62\] Li, Y., Li, Y., Qin, Y., & **Yan, J.** (2020). Copula modeling for
 data with ties. *Statistics and Its Interface*, *13*(1), 103--117.
 <https://doi.org/10.4310/SII.2020.v13.n1.a9>
 :::
 
 ::: {#ref-pozdnyakov2020estimation .csl-entry}
-\[62\] Pozdnyakov, V., Elbroch, L. M., Hu, C., Meyer, T., & **Yan, J.**
+\[63\] Pozdnyakov, V., Elbroch, L. M., Hu, C., Meyer, T., & **Yan, J.**
 (2020). On estimation for Brownian motion governed by telegraph process
 with multiple off states. *Methodology and Computing in Applied
 Probability*, *22*, 1275--1291.
@@ -435,41 +442,41 @@ Probability*, *22*, 1275--1291.
 :::
 
 ::: {#ref-vaughan2020efficient .csl-entry}
-\[63\] Vaughan, G., Aseltine, R., Chen, K., & **Yan, J.** (2020). Efficient
+\[64\] Vaughan, G., Aseltine, R., Chen, K., & **Yan, J.** (2020). Efficient
 interaction selection for clustered data via stagewise generalized
 estimating equations. *Statistics in Medicine*, *39*(22), 2855--2868.
 <https://doi.org/10.1002/sim.8574>
 :::
 
 ::: {#ref-wang2020geographical .csl-entry}
-\[64\] Wang, C., Schifano, E. D., & **Yan, J.** (2020). Geographical ratings
+\[65\] Wang, C., Schifano, E. D., & **Yan, J.** (2020). Geographical ratings
 with spatial random effects in a two-part model. *Variance*, *13*(1),
 141--160.
 :::
 
 ::: {#ref-wang2020integrative .csl-entry}
-\[65\] Wang, W., Aseltine, R., Chen, K., & **Yan, J.** (2020). Integrative
+\[66\] Wang, W., Aseltine, R., Chen, K., & **Yan, J.** (2020). Integrative
 survival analysis with uncertain event times in application to a suicide
 risk study. *Annals of Applied Statistics*, *14*(1), 51--73.
 <https://doi.org/10.1214/19-AOAS1287>
 :::
 
 ::: {#ref-xu2020generalized .csl-entry}
-\[66\] Xu, G., Chiou, S. H., **Yan, J.**, Marr, K., & Huang, C.-Y. (2020).
+\[67\] Xu, G., Chiou, S. H., **Yan, J.**, Marr, K., & Huang, C.-Y. (2020).
 Generalized scale-change models for recurrent event processes under
 informative censoring. *Statistica Sinica*, *30*(4), 1773--1795.
 <https://doi.org/10.5705/ss.202018.0224>
 :::
 
 ::: {#ref-xue2020online .csl-entry}
-\[67\] Xue, Y., Wang, H., **Yan, J.**, & Schifano, E. D. (2020). An online
+\[68\] Xue, Y., Wang, H., **Yan, J.**, & Schifano, E. D. (2020). An online
 updating approach for testing the proportional hazards assumption with
 streams of survival data. *Biometrics*, *76*(1), 171--182.
 <https://doi.org/10.1111/biom.13137>
 :::
 
 ::: {#ref-aseltine2019reductions .csl-entry}
-\[68\] Aseltine, R. H., Wang, W., Benthien, R. A., Katz, M., Wagner, C.,
+\[69\] Aseltine, R. H., Wang, W., Benthien, R. A., Katz, M., Wagner, C.,
 **Yan, J.**, & Lewis, C. G. (2019). Reductions in race and ethnic
 disparities in hospital readmissions following total joint arthroplasty
 from 2005 to 2015. *Journal of Bone and Joint Surgery*, *101*(22),
@@ -477,98 +484,98 @@ from 2005 to 2015. *Journal of Bone and Joint Surgery*, *101*(22),
 :::
 
 ::: {#ref-caplan2019dental .csl-entry}
-\[69\] Caplan, D. J., Li, Y., Wang, W., Kang, S., Marchini, L., Cowen,
+\[70\] Caplan, D. J., Li, Y., Wang, W., Kang, S., Marchini, L., Cowen,
 H., & **Yan, J.** (2019). Dental restoration longevity among geriatric and
 special needs patients. *JDR Clinical & Translational Research*, *4*(1),
 41--48. <https://doi.org/10.1177/2380084418799083>
 :::
 
 ::: {#ref-chiou2019semiparametric .csl-entry}
-\[70\] Chiou, S. H., Huang, C.-Y., Xu, G., & **Yan, J.** (2019).
+\[71\] Chiou, S. H., Huang, C.-Y., Xu, G., & **Yan, J.** (2019).
 Semiparametric regression analysis of panel count data: A practical
 review. *International Statistical Review*, *87*(1), 24--43.
 <https://doi.org/10.1111/insr.12271>
 :::
 
 ::: {#ref-pozdnyakov2019discretely .csl-entry}
-\[71\] Pozdnyakov, V., Elbroch, L. M., Labarga, A., Meyer, T., & **Yan, J.**
+\[72\] Pozdnyakov, V., Elbroch, L. M., Labarga, A., Meyer, T., & **Yan, J.**
 (2019). Discretely observed Brownian motion governed by telegraph
 process: Estimation. *Methodology and Computing in Applied Probability*,
 *21*(3), 907--920. <https://doi.org/10.1007/s11009-017-9547-6>
 :::
 
-::: {#ref-Bade:Yan:Zhan:auto:2018 .csl-entry}
-\[72\] Bader, B., **Yan, J.**, & Zhang, X. (2018). Automated threshold
+::: {#ref-bader2018automated .csl-entry}
+\[73\] Bader, B., **Yan, J.**, & Zhang, X. (2018). Automated threshold
 selection for extreme value analysis via goodness-of-fit tests with
 application to batched return level mapping. *Annals of Applied
 Statistics*, *12*(1), 310--329. <https://doi.org/10.1214/17-AOAS1092>
 :::
 
 ::: {#ref-chiou2018semiparametric .csl-entry}
-\[73\] Chiou, S. H., Xu, G., **Yan, J.**, & Huang, C.-Y. (2018).
+\[74\] Chiou, S. H., Xu, G., **Yan, J.**, & Huang, C.-Y. (2018).
 Semiparametric estimation of the accelerated mean model with panel count
 data under informative examination times. *Biometrics*, *74*(3),
 944--953. <https://doi.org/10.1111/biom.12840>
 :::
 
 ::: {#ref-hofert2018elements .csl-entry}
-\[74\] Hofert, M., Kojadinovic, I., Mächler, M., & **Yan, J.** (2018).
+\[75\] Hofert, M., Kojadinovic, I., Mächler, M., & **Yan, J.** (2018).
 *Elements of copula modeling with R*. Springer.
 <https://doi.org/10.1007/978-3-319-89635-9>
 :::
 
 ::: {#ref-wang2018online .csl-entry}
-\[75\] Wang, C., Chen, M.-H., Wu, J., **Yan, J.**, Zhang, Y., & Schifano, E.
+\[76\] Wang, C., Chen, M.-H., Wu, J., **Yan, J.**, Zhang, Y., & Schifano, E.
 (2018). Online updating method with new variables for big data streams.
 *Canadian Journal of Statistics*, *46*(1), 123--146.
 <https://doi.org/10.1002/cjs.11330>
 :::
 
-::: {#ref-Bade:Yan:Zhan:auto:2017 .csl-entry}
-\[76\] Bader, B., **Yan, J.**, & Zhang, X. (2017). Automated selection of
+::: {#ref-bader2017automated .csl-entry}
+\[77\] Bader, B., **Yan, J.**, & Zhang, X. (2017). Automated selection of
 $r$ for the $r$ largest order statistics approach with adjustment for
 sequential testing. *Statistics and Computing*, *27*(6), 1435--1451.
 <https://doi.org/10.1007/s11222-016-9697-3>
 :::
 
 ::: {#ref-vaughan2017stagewise .csl-entry}
-\[77\] Vaughan, G., Aseltine, R., Chen, K., & **Yan, J.** (2017). Stagewise
+\[78\] Vaughan, G., Aseltine, R., Chen, K., & **Yan, J.** (2017). Stagewise
 generalized estimating equations with grouped variables. *Biometrics*,
 *73*(4), 1332--1342. <https://doi.org/10.1111/biom.12669>
 :::
 
-::: {#ref-Wang:etal:dete:2017 .csl-entry}
-\[78\] Wang, Z., Jiang, Y., Wan, H., **Yan, J.**, & Zhang, X. (2017).
+::: {#ref-wang2017detection .csl-entry}
+\[79\] Wang, Z., Jiang, Y., Wan, H., **Yan, J.**, & Zhang, X. (2017).
 Detection and attribution of changes in extreme temperatures at regional
 level. *Journal of Climate*, *30*(17), 7035--7047.
 <https://doi.org/10.1175/jcli-d-15-0835.1>
 :::
 
-::: {#ref-Xu:etal:join:2017 .csl-entry}
-\[79\] Xu, G., Chiou, S., Huang, C.-Y., Wang, M.-C., & **Yan, J.** (2017).
+::: {#ref-xu2017joint .csl-entry}
+\[80\] Xu, G., Chiou, S., Huang, C.-Y., Wang, M.-C., & **Yan, J.** (2017).
 Joint scale-change models for recurrent events and failure time.
 *Journal of the American Statistical Association*, *112*, 794--805.
 <https://doi.org/10.1080/01621459.2016.1173557>
 :::
 
-::: {#ref-Olay:etal:elec:2016 .csl-entry}
-\[80\] Olayiwola, J. N., Anderson, D., Jepeal, N., Aseltine, R.,
+::: {#ref-olayiwola2016electronic .csl-entry}
+\[81\] Olayiwola, J. N., Anderson, D., Jepeal, N., Aseltine, R.,
 Pickett, C., **Yan, J.**, & Zlateva, I. (2016). Electronic consultations to
 improve the primary care-specialty care interface for cardiology in the
 medically underserved: A cluster-randomized controlled trial. *Annals of
 Family Medicine*, *14*(2), 133--140. <https://doi.org/10.1370/afm.1869>
 :::
 
-::: {#ref-Schi:etal:onli:2016 .csl-entry}
-\[81\] Schifano, E. D., Wu, J., Wang, C., **Yan, J.**, & Chen, M.-H. (2016).
+::: {#ref-schifano2016online .csl-entry}
+\[82\] Schifano, E. D., Wu, J., Wang, C., **Yan, J.**, & Chen, M.-H. (2016).
 Online updating of statistical inference in the big data setting.
 *Technometrics*, *58*(3), 393--403.
 <https://doi.org/10.1080/00401706.2016.1142900>
 :::
 
-::: {#ref-Vaughan2016 .csl-entry}
-\[82\] Vaughan, G., Aseltine, R., Chiou, S. H., & **Yan, J.** (2016). An
-alarm system for flu outbreaks using google flu trend data. In J. Lin,
+::: {#ref-vaughan2016alarm .csl-entry}
+\[83\] Vaughan, G., Aseltine, R., Chiou, S. H., & **Yan, J.** (2016). An
+alarm system for flu outbreaks using Google Flu trend data. In J. Lin,
 B. Wang, X. Hu, K. Chen, & R. Liu (Eds.), *Statistical applications from
 clinical trials and personalized medicine to finance and business
 analytics: Selected papers from the 2015 ICSA/Graybill applied
@@ -577,487 +584,487 @@ statistics symposium, colorado state university, fort collins* (pp.
 <https://doi.org/10.1007/978-3-319-42568-9_22>
 :::
 
-::: {#ref-Wang:etal:stat:2016 .csl-entry}
-\[83\] Wang, C., Chen, M.-H., Schifano, E., Wu, J., & **Yan, J.** (2016).
+::: {#ref-wang2016statistical .csl-entry}
+\[84\] Wang, C., Chen, M.-H., Schifano, E., Wu, J., & **Yan, J.** (2016).
 Statistical methods and computing for big data. *Statistics and Its
 Interface*, *9*(4), 399--414.
 <https://doi.org/10.4310/SII.2016.v9.n4.a1>
 :::
 
-::: {#ref-Wang:etal:onse:2016 .csl-entry}
-\[84\] Wang, W., Chen, M.-H., Chiou, S. H., Lai, H.-C., Wang, X., Yan,
+::: {#ref-wang2016onset .csl-entry}
+\[85\] Wang, W., Chen, M.-H., Chiou, S. H., Lai, H.-C., Wang, X., Yan,
 J., & Zhang, Z. (2016). Onset of persistent pseudomonas aeruginosa
 infection in children with cystic fibrosis with interval censored data.
 *BMC Medical Research Methodology*, *16*(122), 1--10.
 <https://doi.org/10.1186/s12874-016-0220-5>
 :::
 
-::: {#ref-Asel:etal:raci:2015 .csl-entry}
-\[85\] Aseltine, Jr., R, **Yan, J.**, Fleischman, S., Katz, M., &
+::: {#ref-aseltine2015racial .csl-entry}
+\[86\] Aseltine, Jr., R, **Yan, J.**, Fleischman, S., Katz, M., &
 DeFrancesco, M. (2015). Racial and ethnic disparities in hospital
 readmissions after delivery. *Obstetrics and Gynecology*, *126*(5),
 1040--1047. <https://doi.org/10.1097/aog.0000000000001090>
 :::
 
-::: {#ref-Asel:etal:conn:2015 .csl-entry}
-\[86\] Aseltine, R. H., **Yan, J.**, Gruss, C. B., Wagner, C., & Katz, M.
+::: {#ref-aseltine2015connecticut .csl-entry}
+\[87\] Aseltine, R. H., **Yan, J.**, Gruss, C. B., Wagner, C., & Katz, M.
 (2015). Connecticut hospital readmissions related to chest pain and
 heart failure: Differences by race, ethnic, and payer. *Connecticut
 Medicine*, *79*(2), 69--76.
 :::
 
-::: {#ref-Chi:Pozd:Yan:on:2015 .csl-entry}
-\[87\] Chi, Z., Pozdnyakov, V., & **Yan, J.** (2015). On expected occupation
+::: {#ref-chi2015expected .csl-entry}
+\[88\] Chi, Z., Pozdnyakov, V., & **Yan, J.** (2015). On expected occupation
 time of Brownian bridge. *Statistics and Probability Letters*, *97*,
 83--87. <https://doi.org/10.1016/j.spl.2014.11.009>
 :::
 
-::: {#ref-Chio:Kang:Yan:rank:2015 .csl-entry}
-\[88\] Chiou, S. H., Kang, S., & **Yan, J.** (2015). Rank-based estimating
+::: {#ref-chiou2015rank .csl-entry}
+\[89\] Chiou, S. H., Kang, S., & **Yan, J.** (2015). Rank-based estimating
 equations with general weight for accelerated failure time models: An
 induced smoothing approach. *Statistics in Medicine*, *34*(9),
 1495--1510. <https://doi.org/10.1002/sim.6415>
 :::
 
-::: {#ref-Chio:Kang:Yan:semi:2015 .csl-entry}
-\[89\] Chiou, S. H., Kang, S., & **Yan, J.** (2015). Semiparametric
+::: {#ref-chiou2015semiparametric .csl-entry}
+\[90\] Chiou, S. H., Kang, S., & **Yan, J.** (2015). Semiparametric
 accelerated failure time modeling for clustered failure times from
 stratified sampling. *Journal of the American Statistical Association*,
 *110*(510), 621--629. <https://doi.org/10.1080/01621459.2014.917978>
 :::
 
-::: {#ref-Chio:Kang:Yan:chan:2015 .csl-entry}
-\[90\] Chiou, S., Kang, S., & **Yan, J.** (2015). Change point analysis of
+::: {#ref-chiou2015change .csl-entry}
+\[91\] Chiou, S., Kang, S., & **Yan, J.** (2015). Change point analysis of
 top baseball batting average. In D. K. Dey & J. Yan (Eds.), *Extreme
 value modeling and risk analysis: Methods and applications* (pp.
 493--504). Taylor & Francis. <https://doi.org/10.1201/b19721-28>
 :::
 
-::: {#ref-Dey:Roy:Yan:univ:2015 .csl-entry}
-\[91\] Dey, D. K., Roy, D., & **Yan, J.** (2015). Univariate extreme value
+::: {#ref-dey2015univariate .csl-entry}
+\[92\] Dey, D. K., Roy, D., & **Yan, J.** (2015). Univariate extreme value
 analysis. In D. K. Dey & J. Yan (Eds.), *Extreme value modeling and risk
 analysis: Methods and applications* (pp. 1--22). Taylor & Francis.
 <https://doi.org/10.1201/b19721-5>
 :::
 
-::: {#ref-Dey:Yan:extr:2015 .csl-entry}
-\[92\] Dey, D. K., & **Yan, J.** (Eds.). (2015). *Extreme value modeling and
+::: {#ref-dey2015extreme .csl-entry}
+\[93\] Dey, D. K., & **Yan, J.** (Eds.). (2015). *Extreme value modeling and
 risk analysis: Methods and applications*. Taylor & Francis.
 <https://doi.org/10.1201/b19721>
 :::
 
-::: {#ref-Jian:Dey:Yan:mult:2015 .csl-entry}
-\[93\] Jiang, Y., Dey, D. K., & **Yan, J.** (2015). Multivariate extreme
+::: {#ref-jiang2015multivariate .csl-entry}
+\[94\] Jiang, Y., Dey, D. K., & **Yan, J.** (2015). Multivariate extreme
 value analysis. In D. K. Dey & J. Yan (Eds.), *Extreme value modeling
 and risk analysis: Methods and applications* (pp. 23--39). Taylor &
 Francis. <https://doi.org/10.1201/b19721-6>
 :::
 
-::: {#ref-Koja:Shan:Yan:clas:2015 .csl-entry}
-\[94\] Kojadinovic, I., Shang, H., & **Yan, J.** (2015). A class of
+::: {#ref-kojadinovic2015class .csl-entry}
+\[95\] Kojadinovic, I., Shang, H., & **Yan, J.** (2015). A class of
 goodness-of-fit tests for spatial extremes models based on max-stable
 processes. *Statistics and Its Interface*, *8*(1), 45--62.
 <https://doi.org/10.4310/sii.2015.v8.n1.a5>
 :::
 
-::: {#ref-Prat:Dey:Will:Yan:tran:2015 .csl-entry}
-\[95\] Prates, M. O., Dey, D. K., Willig, M. R., & **Yan, J.** (2015).
+::: {#ref-prates2015transformed .csl-entry}
+\[96\] Prates, M. O., Dey, D. K., Willig, M. R., & **Yan, J.** (2015).
 Transformed Gaussian Markov random fields and spatial modeling of
 species abundance. *Spatial Statistics*, *14*, 382--399.
 <https://doi.org/10.1016/j.spasta.2015.07.004>
 :::
 
-::: {#ref-Shan:Yan:Zhan:two:2015 .csl-entry}
-\[96\] Shang, H., **Yan, J.**, & Zhang, X. (2015). A two-step approach to
+::: {#ref-shang2015two .csl-entry}
+\[97\] Shang, H., **Yan, J.**, & Zhang, X. (2015). A two-step approach to
 model precipitation extremes in California based on max-stable and
 marginal point processes. *The Annals of Applied Statistics*, *9*(1),
 452--473. <https://doi.org/10.1214/14-aoas804>
 :::
 
-::: {#ref-Chio:Kang:Yan:fitt:2014 .csl-entry}
-\[97\] Chiou, S. H., Kang, S., & **Yan, J.** (2014). Fitting accelerated
+::: {#ref-chiou2014fitting .csl-entry}
+\[98\] Chiou, S. H., Kang, S., & **Yan, J.** (2014). Fitting accelerated
 failure time models in routine survival analysis with R package
 [aftgee]{.nocase}. *Journal of Statistical Software*, *61*(11), 1--23.
 <https://doi.org/10.18637/jss.v061.i11>
 :::
 
-::: {#ref-Chio:Kang:Kim:Yan:marg:2014 .csl-entry}
-\[98\] Chiou, S., Kang, S., Kim, J., & **Yan, J.** (2014). Marginal
+::: {#ref-chiou2014marginal .csl-entry}
+\[99\] Chiou, S., Kang, S., Kim, J., & **Yan, J.** (2014). Marginal
 semiparametric multivariate accelerated failure time model with
 generalized estimating equations. *Lifetime Data Analysis*, *20*(4),
 599--618. <https://doi.org/10.1007/s10985-014-9292-x>
 :::
 
-::: {#ref-Chio:Kang:Yan:fast:2014 .csl-entry}
-\[99\] Chiou, S., Kang, S., & **Yan, J.** (2014). Fast accelerated failure
+::: {#ref-chiou2014fast .csl-entry}
+\[100\] Chiou, S., Kang, S., & **Yan, J.** (2014). Fast accelerated failure
 time modeling for case-cohort data. *Statistics and Computing*, *24*(4),
 559--568. <https://doi.org/10.1007/s11222-013-9388-2>
 :::
 
-::: {#ref-Pozd:Meye:Wang:Yan:on:2014 .csl-entry}
-\[100\] Pozdnyakov, V., Meyer, T., Wang, Y.-B., & **Yan, J.** (2014). On
+::: {#ref-pozdnyakov2014modeling .csl-entry}
+\[101\] Pozdnyakov, V., Meyer, T., Wang, Y.-B., & **Yan, J.** (2014). On
 modeling animal movements using Brownian motion with measurement error.
 *Ecology*, *95*(2), 247--253. <https://doi.org/10.1890/13-0532.1>
 :::
 
-::: {#ref-Wang:Yan:Zhan:inco:2014 .csl-entry}
-\[101\] Wang, Z., **Yan, J.**, & Zhang, X. (2014). Incorporating spatial
+::: {#ref-wang2014incorporating .csl-entry}
+\[102\] Wang, Z., **Yan, J.**, & Zhang, X. (2014). Incorporating spatial
 dependence in regional frequency analysis. *Water Resources Research*,
 *50*(12), 9570--9585. <https://doi.org/10.1002/2013WR014849>
 :::
 
-::: {#ref-Yan:etal:movi:2014 .csl-entry}
-\[102\] **Yan, J.**, Chen, Y., Lawrence-Apfel, K., Ortega, I. M.,
+::: {#ref-yan2014moving .csl-entry}
+\[103\] **Yan, J.**, Chen, Y., Lawrence-Apfel, K., Ortega, I. M.,
 Pozdnyakov, V., Williams, S., & Meyer, T. (2014). A moving--resting
 process with an embedded Brownian motion for animal movements.
 *Population Ecology*, *56*(2), 401--415.
 <https://doi.org/10.1007/s10144-013-0428-8>
 :::
 
-::: {#ref-Yan:Guo:Paar:are:2014 .csl-entry}
-\[103\] **Yan, J.**, Guo, C., & Paarlberg, L. E. (2014). Are antipoverty
+::: {#ref-yan2014are .csl-entry}
+\[104\] **Yan, J.**, Guo, C., & Paarlberg, L. E. (2014). Are antipoverty
 nonprofit organizations located where they are needed? Spatial analysis
 of the Greater Hartford region. *The American Statistician*, *68*(4),
 243--252. <https://doi.org/10.1080/00031305.2014.955211>
 :::
 
-::: {#ref-Prat:Asel:Dey:Yan:asse:2013 .csl-entry}
-\[104\] Prates, M. O., Aseltine, R. H., Dey, D. K., & **Yan, J.** (2013).
+::: {#ref-prates2013assessing .csl-entry}
+\[105\] Prates, M. O., Aseltine, R. H., Dey, D. K., & **Yan, J.** (2013).
 Assessing intervention efficacy on high-risk drinkers using generalized
 linear mixed models with a new class of link functions. *Biometrical
 Journal*, *55*(6), 912--924. <https://doi.org/10.1002/bimj.201300015>
 :::
 
-::: {#ref-Wang:Chen:Yan:baye:2013 .csl-entry}
-\[105\] Wang, X., Chen, M.-H., & **Yan, J.** (2013). Bayesian dynamic
+::: {#ref-wang2013bayesian .csl-entry}
+\[106\] Wang, X., Chen, M.-H., & **Yan, J.** (2013). Bayesian dynamic
 regression models for interval censored survival data with application
 to children dental health. *Lifetime Data Analysis*, *19*(3), 297--316.
 <https://doi.org/10.1007/s10985-013-9246-8>
 :::
 
-::: {#ref-Wang:Ma:Yan:augm:2013 .csl-entry}
-\[106\] Wang, X., Ma, S., & **Yan, J.** (2013). Augmented estimating
+::: {#ref-wang2013augmented .csl-entry}
+\[107\] Wang, X., Ma, S., & **Yan, J.** (2013). Augmented estimating
 equations for semiparametric panel count regression with informative
 observation times and censoring time. *Statistica Sinica*, *23*(1),
 359--381. <https://doi.org/10.5705/ss.2010.297>
 :::
 
-::: {#ref-Wang:Yan:prac:2013 .csl-entry}
-\[107\] Wang, X., & **Yan, J.** (2013). Practical notes on multivariate
+::: {#ref-wang2013practical .csl-entry}
+\[108\] Wang, X., & **Yan, J.** (2013). Practical notes on multivariate
 modeling based on elliptical copulas. *Journal de La Société Française
 de Statistique*, *154*(1), 102--115.
 :::
 
-::: {#ref-Yan:Asel:Hare:comp:2013 .csl-entry}
-\[108\] **Yan, J.**, Aseltine, R. H., Jr., & Harel, O. (2013). Comparing
+::: {#ref-yan2013comparing .csl-entry}
+\[109\] **Yan, J.**, Aseltine, R. H., Jr., & Harel, O. (2013). Comparing
 regression coefficients between nested linear models for clustered data
 with generalized estimating equations. *Journal of Educational and
 Behavioral Statistics*, *38*(2), 172--189.
 <https://doi.org/10.3102/1076998611432175>
 :::
 
-::: {#ref-Cava:Rose:Wang:Yan:trea:2012 .csl-entry}
-\[109\] Cavallo, A., Rosenthal, B., Wang, X., & **Yan, J.** (2012).
+::: {#ref-cavallo2012treatment .csl-entry}
+\[110\] Cavallo, A., Rosenthal, B., Wang, X., & **Yan, J.** (2012).
 Treatment of the data collection threshold in operational risk: A case
 study using the lognormal distribution. *Journal of Operational Risk*,
 *7*(1), 3--38. <https://doi.org/10.21314/jop.2012.101>
 :::
 
-::: {#ref-Chen:etal:2012 .csl-entry}
-\[110\] Chen, D. C. R., Kirshenbaum, D. S., **Yan, J.**, Kirshenbaum, E., &
+::: {#ref-chen2012characterizing .csl-entry}
+\[111\] Chen, D. C. R., Kirshenbaum, D. S., **Yan, J.**, Kirshenbaum, E., &
 Aseltine, R. H. (2012). Characterizing changes in student empathy
 throughout medical school. *Medical Teacher*, *34*(4), 305--311.
 <https://doi.org/10.3109/0142159x.2012.644600>
 :::
 
-::: {#ref-Have:etal:fede:2012 .csl-entry}
-\[111\] Havens, E. K., Martin, K. S., **Yan, J.**, Dauser-Forrest, D., &
+::: {#ref-havens2012federal .csl-entry}
+\[112\] Havens, E. K., Martin, K. S., **Yan, J.**, Dauser-Forrest, D., &
 Ferris, A. M. (2012). Federal nutrition program changes and healthy food
 availability. *American Journal of Preventive Medicine*, *43*(4),
 419--422. <https://doi.org/10.1016/j.amepre.2012.06.009>
 :::
 
-::: {#ref-Koja:Yan:non:2012 .csl-entry}
-\[112\] Kojadinovic, I., & **Yan, J.** (2012). A non-parametric test of
+::: {#ref-kojadinovic2012non .csl-entry}
+\[113\] Kojadinovic, I., & **Yan, J.** (2012). A non-parametric test of
 exchangeability for extreme-value and left-tail decreasing bivariate
 copulas. *Scandinavian Journal of Statistics*, *39*(3), 480--496.
 <https://doi.org/10.1111/j.1467-9469.2011.00772.x>
 :::
 
-::: {#ref-Koja:Yan:good:2012 .csl-entry}
-\[113\] Kojadinovic, I., & **Yan, J.** (2012). Goodness-of-fit testing based
+::: {#ref-kojadinovic2012goodness .csl-entry}
+\[114\] Kojadinovic, I., & **Yan, J.** (2012). Goodness-of-fit testing based
 on a weighted bootstrap: A fast large-sample alternative to the
 parametric bootstrap. *Canadian Journal of Statistics*, *40*(3),
 480--500. <https://doi.org/10.1002/cjs.11135>
 :::
 
-::: {#ref-Wang:Sinh:Yan:Chen:baye:2012 .csl-entry}
-\[114\] Wang, X., Sinha, A., **Yan, J.**, & Chen, M.-H. (2012). Bayesian
+::: {#ref-wang2012bayesian .csl-entry}
+\[115\] Wang, X., Sinha, A., **Yan, J.**, & Chen, M.-H. (2012). Bayesian
 inference of interval-censored survival data. In D.-G. Chen, J. Sun, &
 K. E. Peace (Eds.), *Interval-censored time-to-event data: Methods and
 applications* (pp. 167--196). CRC Press.
 <https://doi.org/10.1201/b12290-10>
 :::
 
-::: {#ref-Yan:Huan:mode:2012 .csl-entry}
-\[115\] **Yan, J.**, & Huang, J. (2012). Model selection for Cox models with
+::: {#ref-yan2012model .csl-entry}
+\[116\] **Yan, J.**, & Huang, J. (2012). Model selection for Cox models with
 time-varying coefficients. *Biometrics*, *68*(2), 419--428.
 <https://doi.org/10.1111/j.1541-0420.2011.01692.x>
 :::
 
-::: {#ref-Yan:etal:char:2012 .csl-entry}
-\[116\] **Yan, J.**, Liao, G.-Y., Gebremichael, M., Shedd, R., & Vallee, D.
+::: {#ref-yan2012characterizing .csl-entry}
+\[117\] **Yan, J.**, Liao, G.-Y., Gebremichael, M., Shedd, R., & Vallee, D.
 R. (2012). Characterizing the uncertainty in river stage forecasts
 conditional on point forecast values. *Water Resources Research*,
 *48*(12), W12509. <https://doi.org/10.1029/2012wr011818>
 :::
 
-::: {#ref-Alli:Lato:Yan:Fine:regr:2011 .csl-entry}
-\[117\] Allignol, A., Latouche, A., **Yan, J.**, & Fine, J. P. (2011). A
+::: {#ref-allignol2011regression .csl-entry}
+\[118\] Allignol, A., Latouche, A., **Yan, J.**, & Fine, J. P. (2011). A
 regression model for the conditional probability of a competing event:
 Application to monoclonal gammopathy of unknown significance. *Journal
 of the Royal Statistical Society, Series C: Applied Statistics*,
 *60*(1), 135--142. <https://doi.org/10.1111/j.1467-9876.2010.00729.x>
 :::
 
-::: {#ref-Gebr:Liao:Yan:non:2011 .csl-entry}
-\[118\] Gebremichael, M., Liao, G.-Y., & **Yan, J.** (2011). Nonparametric
+::: {#ref-gebremichael2011nonparametric .csl-entry}
+\[119\] Gebremichael, M., Liao, G.-Y., & **Yan, J.** (2011). Nonparametric
 error model for high resolution satellite rainfall products. *Water
 Resources Research*, *47*, W07504--W07513.
 <https://doi.org/10.1029/2010WR009667>
 :::
 
-::: {#ref-Gene:Koja:Nesl:Yan:good:2011 .csl-entry}
-\[119\] Genest, C., Kojadinovic, I., Nešlehová, J., & **Yan, J.** (2011). A
+::: {#ref-genest2011goodness .csl-entry}
+\[120\] Genest, C., Kojadinovic, I., Nešlehová, J., & **Yan, J.** (2011). A
 goodness-of-fit test for bivariate extreme value copulas. *Bernoulli*,
 *17*(1), 253--275. <https://doi.org/10.3150/10-bej279>
 :::
 
-::: {#ref-Guan:Yan:Sinh:vari:2011 .csl-entry}
-\[120\] Guan, Y., **Yan, J.**, & Sinha, R. (2011). Variance estimation for
+::: {#ref-guan2011variance .csl-entry}
+\[121\] Guan, Y., **Yan, J.**, & Sinha, R. (2011). Variance estimation for
 statistics computed from single recurrent event processes. *Biometrics*,
 *67*(3), 711--718. <https://doi.org/10.1111/j.1541-0420.2011.01559.x>
 :::
 
-::: {#ref-Hare:Mukh:Yan:on:2011 .csl-entry}
-\[121\] Harel, O., Mukhopadhyay, N., & **Yan, J.** (2011). On a sequential
+::: {#ref-harel2011sequential .csl-entry}
+\[122\] Harel, O., Mukhopadhyay, N., & **Yan, J.** (2011). On a sequential
 probability ratio test subject to incomplete data. *Sequential
 Analysis*, *30*, 441--456.
 <https://doi.org/10.1080/07474946.2011.619103>
 :::
 
-::: {#ref-Koja:Sege:Yan:nonp:2011 .csl-entry}
-\[122\] Kojadinovic, I., Segers, J., & **Yan, J.** (2011). Large-sample
+::: {#ref-kojadinovic2011large .csl-entry}
+\[123\] Kojadinovic, I., Segers, J., & **Yan, J.** (2011). Large-sample
 tests of extreme-value dependence for multivariate copulas. *Canadian
 Journal of Statistics*, *39*(4), 703--720.
 <https://doi.org/10.1002/cjs.10110>
 :::
 
-::: {#ref-Koja:Yan:good:2011 .csl-entry}
-\[123\] Kojadinovic, I., & **Yan, J.** (2011). A goodness-of-fit test for
+::: {#ref-kojadinovic2011goodness .csl-entry}
+\[124\] Kojadinovic, I., & **Yan, J.** (2011). A goodness-of-fit test for
 multivariate multiparameter copulas based on multiplier central limit
 theorems. *Statistics and Computing*, *21*(1), 17--30.
 <https://doi.org/10.1007/s11222-009-9142-y>
 :::
 
-::: {#ref-Koja:Yan:test:2011 .csl-entry}
-\[124\] Kojadinovic, I., & **Yan, J.** (2011). Tests of serial independence
+::: {#ref-kojadinovic2011tests .csl-entry}
+\[125\] Kojadinovic, I., & **Yan, J.** (2011). Tests of serial independence
 for multivariate time series based on a Möbius decomposition of the
 independence empirical copula process. *Annals of the Institute of
 Statistical Mathematics*, *63*(2), 347--373.
 <https://doi.org/10.1007/s10463-009-0257-x>
 :::
 
-::: {#ref-Koja:Yan:Holm:fast:2011 .csl-entry}
-\[125\] Kojadinovic, I., **Yan, J.**, & Holmes, M. (2011). Fast large-sample
+::: {#ref-kojadinovic2011fast .csl-entry}
+\[126\] Kojadinovic, I., **Yan, J.**, & Holmes, M. (2011). Fast large-sample
 goodness-of-fit for copulas. *Statistica Sinica*, *21*(2), 841--871.
 <https://doi.org/10.5705/ss.2011.037a>
 :::
 
-::: {#ref-Prat:Dey:Will:Yan:inte:2011 .csl-entry}
-\[126\] Prates, M. O., Dey, D. K., Willig, M. R., & **Yan, J.** (2011).
+::: {#ref-prates2011intervention .csl-entry}
+\[127\] Prates, M. O., Dey, D. K., Willig, M. R., & **Yan, J.** (2011).
 Intervention analysis of hurricane effects on snail abundance in a
 tropical forest using long-term spatio-temporal data. *Journal of
 Agricultural, Biological, and Ecological Statistics*, *16*(1), 142--156.
 <https://doi.org/10.1007/s13253-010-0039-1>
 :::
 
-::: {#ref-Shan:etal:tren:2011 .csl-entry}
-\[127\] Shang, H., **Yan, J.**, Gebremichael, M., & Ayalew, S. M. (2011).
+::: {#ref-shang2011trend .csl-entry}
+\[128\] Shang, H., **Yan, J.**, Gebremichael, M., & Ayalew, S. M. (2011).
 Trend analysis of extreme precipitation in the Northwestern Highlands of
 Ethiopia with a case study of Debre Markos. *Hydrology and Earth System
 Sciences*, *15*(6), 1937--1944.
 <https://doi.org/10.5194/hess-15-1937-2011>
 :::
 
-::: {#ref-Shan:Yan:Zhan:enso:2011 .csl-entry}
-\[128\] Shang, H., **Yan, J.**, & Zhang, X. (2011). El Nin̈o--Southern
+::: {#ref-shang2011el .csl-entry}
+\[129\] Shang, H., **Yan, J.**, & Zhang, X. (2011). El Nin̈o--Southern
 Oscillation influence on winter maximum daily precipitation in
 California in a spatial model. *Water Resources Research*, *47*,
 W11507--W11515. <https://doi.org/10.1029/2011WR010415>
 :::
 
-::: {#ref-Wang:Yan:fitt:2011 .csl-entry}
-\[129\] Wang, X., & **Yan, J.** (2011). Fitting semiparametric regressions
+::: {#ref-wang2011fitting .csl-entry}
+\[130\] Wang, X., & **Yan, J.** (2011). Fitting semiparametric regressions
 for panel count survival data with an R package [spef]{.nocase}.
 *Computer Methods and Programs in Biomedicine*, *104*(2), 278--285.
 <https://doi.org/10.1016/j.cmpb.2010.10.005>
 :::
 
-::: {#ref-Koja:Yan:comp:2010 .csl-entry}
-\[130\] Kojadinovic, I., & **Yan, J.** (2010). Comparison of three
+::: {#ref-kojadinovic2010comparison .csl-entry}
+\[131\] Kojadinovic, I., & **Yan, J.** (2010). Comparison of three
 semiparametric methods for estimating dependence parameters in copula
 models. *Insurance: Mathematics and Economics*, *47*(1), 52--63.
 <https://doi.org/10.1016/j.insmatheco.2010.03.008>
 :::
 
-::: {#ref-Koja:Yan:mode:2010 .csl-entry}
-\[131\] Kojadinovic, I., & **Yan, J.** (2010). Modeling multivariate
+::: {#ref-kojadinovic2010modeling .csl-entry}
+\[132\] Kojadinovic, I., & **Yan, J.** (2010). Modeling multivariate
 distributions with continuous margins using the [copula]{.nocase} R
 package. *Journal of Statistical Software*, *34*(9), 1--20.
 <https://doi.org/10.18637/jss.v034.i09>
 :::
 
-::: {#ref-Koja:Yan:nonp:2010 .csl-entry}
-\[132\] Kojadinovic, I., & **Yan, J.** (2010). Nonparametric rank-based
+::: {#ref-kojadinovic2010nonparametric .csl-entry}
+\[133\] Kojadinovic, I., & **Yan, J.** (2010). Nonparametric rank-based
 tests of bivariate extreme-value dependence. *Journal of Multivariate
 Analysis*, *101*(9), 2234--2249.
 <https://doi.org/10.1016/j.jmva.2010.05.004>
 :::
 
-::: {#ref-Wang:Gebr:Yan:weig:2010 .csl-entry}
-\[133\] Wang, X., Gebremichael, M., & **Yan, J.** (2010). Weighted
+::: {#ref-wang2010weighted .csl-entry}
+\[134\] Wang, X., Gebremichael, M., & **Yan, J.** (2010). Weighted
 likelihood copula modeling of extreme rainfall events in connecticut.
 *Journal of Hydrology*, *390*(1--2), 108--115.
 <https://doi.org/10.1016/j.jhydrol.2010.06.039>
 :::
 
-::: {#ref-Yan:etal:impa:2010 .csl-entry}
-\[134\] **Yan, J.**, & Academic ED SBIRT Research Collaborative. (2010). The
+::: {#ref-yan2010impact .csl-entry}
+\[135\] **Yan, J.**, & Academic ED SBIRT Research Collaborative. (2010). The
 impact of screening, brief intervention and referral for treatment in
 emergency department patients' alcohol use: A 3-, 6- and 12-month
 follow-up. *Alcohol & Alcoholism*, *45*(6), 514--519.
 <https://doi.org/10.1093/alcalc/agq058>
 :::
 
-::: {#ref-Yan:Chen:Fine:Lai:unco:2010 .csl-entry}
-\[135\] **Yan, J.**, Cheng, Y., Fine, J. P., & Lai, H.-C. (2010). Uncovering
+::: {#ref-yan2010uncovering .csl-entry}
+\[136\] **Yan, J.**, Cheng, Y., Fine, J. P., & Lai, H.-C. (2010). Uncovering
 symptom progression history from disease registry data with application
 to young cystic fibrosis patients. *Biometrics*, *66*(2), 594--602.
 <https://doi.org/10.1111/j.1541-0420.2009.01288.x>
 :::
 
-::: {#ref-Cowl:Yan:Smit:repa:2009 .csl-entry}
-\[136\] Cowles, M. K., **Yan, J.**, & Smith, B. J. (2009). Reparameterized
+::: {#ref-cowles2009reparameterized .csl-entry}
+\[137\] Cowles, M. K., **Yan, J.**, & Smith, B. J. (2009). Reparameterized
 and marginalized posterior and predictive sampling for complex Bayesian
 geostatistical models. *Journal of Computational and Graphical
 Statistics*, *18*(2), 262--282.
 <https://doi.org/10.1198/jcgs.2009.08012>
 :::
 
-::: {#ref-Yan:Gebr:esti:2009 .csl-entry}
-\[137\] **Yan, J.**, & Gebremichael, M. (2009). Estimating actual rainfall
+::: {#ref-yan2009estimating .csl-entry}
+\[138\] **Yan, J.**, & Gebremichael, M. (2009). Estimating actual rainfall
 from satellite rainfall products. *Atmospheric Research*, *92*(4),
 481--488. <https://doi.org/10.1016/j.atmosres.2009.02.004>
 :::
 
-::: {#ref-Yan:Huan:part:2009 .csl-entry}
-\[138\] **Yan, J.**, & Huang, J. (2009). Partly functional temporal process
+::: {#ref-yan2009partly .csl-entry}
+\[139\] **Yan, J.**, & Huang, J. (2009). Partly functional temporal process
 regression with semiparametric profile estimating functions.
 *Biometrics*, *65*(2), 431--440.
 <https://doi.org/10.1111/j.1541-0420.2008.01071.x>
 :::
 
-::: {#ref-Smit:Yan:Cowl:unif:2008 .csl-entry}
-\[139\] Smith, B. J., **Yan, J.**, & Cowles, M. K. (2008). Unified
+::: {#ref-smith2008unified .csl-entry}
+\[140\] Smith, B. J., **Yan, J.**, & Cowles, M. K. (2008). Unified
 geostatistical modeling for data fusion and spatial heteroskedasticity
 with R package [ramps]{.nocase}. *Journal of Statistical Software*,
 *25*(10), 1--21. <https://doi.org/10.18637/jss.v025.i10>
 :::
 
-::: {#ref-Yan:Fine:anal:2008 .csl-entry}
-\[140\] **Yan, J.**, & Fine, J. P. (2008). Analysis of episodic data with
+::: {#ref-yan2008analysis .csl-entry}
+\[141\] **Yan, J.**, & Fine, J. P. (2008). Analysis of episodic data with
 application to recurrent pulmonary exacerbations in cystic fibrosis
 patients. *Journal of the American Statistical Association*, *103*(482),
 498--510. <https://doi.org/10.1198/016214507000000482>
 :::
 
-::: {#ref-Stra:Yan:asym:2007 .csl-entry}
-\[141\] Stramer, O., & **Yan, J.** (2007). Asymptotics of an efficient Monte
+::: {#ref-stramer2007asymptotics .csl-entry}
+\[142\] Stramer, O., & **Yan, J.** (2007). Asymptotics of an efficient Monte
 Carlo estimation for the transition density of diffusion processes.
 *Methodology & Computing in Applied Probability*, *9*(4), 483--496.
 <https://doi.org/10.1007/s11009-006-9006-2>
 :::
 
-::: {#ref-Stra:Yan:on:2007 .csl-entry}
-\[142\] Stramer, O., & **Yan, J.** (2007). On simulated likelihood of
+::: {#ref-stramer2007simulated .csl-entry}
+\[143\] Stramer, O., & **Yan, J.** (2007). On simulated likelihood of
 discretely observed diffusion processes and comparison to closed-form
 approximation. *Journal of Computational and Graphical Statistics*,
 *16*(3), 672--691. <https://doi.org/10.1198/106186007x237306>
 :::
 
-::: {#ref-Yan:enjo:2007 .csl-entry}
-\[143\] **Yan, J.** (2007). Enjoy the joy of copulas: With a package copula.
+::: {#ref-yan2007enjoy .csl-entry}
+\[144\] **Yan, J.** (2007). Enjoy the joy of copulas: With a package copula.
 *Journal of Statistical Software*, *21*(4), 1--21.
 <https://doi.org/10.18637/jss.v021.i04>
 :::
 
-::: {#ref-Yan:spat:2007 .csl-entry}
-\[144\] **Yan, J.** (2007). Spatial stochastic volatility for lattice data.
+::: {#ref-yan2007spatial .csl-entry}
+\[145\] **Yan, J.** (2007). Spatial stochastic volatility for lattice data.
 *Journal of Agricultural, Biological, and Environmental Statistics*,
 *12*(1), 25--40. <https://doi.org/10.1198/108571107x178068>
 :::
 
-::: {#ref-Yan:Cowl:Wang:Arms:para:2007 .csl-entry}
-\[145\] **Yan, J.**, Cowles, M. K., Wang, S., & Armstrong, M. P. (2007).
+::: {#ref-yan2007parallelizing .csl-entry}
+\[146\] **Yan, J.**, Cowles, M. K., Wang, S., & Armstrong, M. P. (2007).
 Parallelizing MCMC for Bayesian spatiotemporal geostatistical models.
 *Statistics and Computing*, *17*(4), 323--335.
 <https://doi.org/10.1007/s11222-007-9022-2>
 :::
 
-::: {#ref-Yan:Tamb:test:2007 .csl-entry}
-\[146\] **Yan, J.**, & Tamboli, C. P. (2007). Testing concordance of
+::: {#ref-yan2007testing .csl-entry}
+\[147\] **Yan, J.**, & Tamboli, C. P. (2007). Testing concordance of
 clinical characteristics in familial studies with application to
 inammatory bowel diseases. *Biometrical Journal*, *49*(6), 840--853.
 <https://doi.org/10.1002/bimj.200710383>
 :::
 
-::: {#ref-Hale:Hojs:Yan:r:2006 .csl-entry}
-\[147\] Halekoh, U., Højsgaard, S., & **Yan, J.** (2006). The R package
+::: {#ref-halekoh2006r .csl-entry}
+\[148\] Halekoh, U., Højsgaard, S., & **Yan, J.** (2006). The R package
 [geepack]{.nocase} for generalized estimating equations. *Journal of
 Statistical Software*, *15/2*, 1--11.
 <https://doi.org/10.18637/jss.v015.i02>
 :::
 
-::: {#ref-Yan:mult:2006 .csl-entry}
-\[148\] **Yan, J.** (2006). Multivariate modeling with copulas and
+::: {#ref-yan2006multivariate .csl-entry}
+\[149\] **Yan, J.** (2006). Multivariate modeling with copulas and
 engineering applications. In H. Pham (Ed.), *Handbook of engineering
 statistics* (pp. 973--990). Springer.
 <https://doi.org/10.1007/978-1-84628-288-1_51>
 :::
 
-::: {#ref-Yan:Fine:func:2005 .csl-entry}
-\[149\] **Yan, J.**, & Fine, J. P. (2005). Functional association models for
+::: {#ref-yan2005functional .csl-entry}
+\[150\] **Yan, J.**, & Fine, J. P. (2005). Functional association models for
 multivariate survival processes. *Journal of the American Statistical
 Association*, *100*(469), 184--196.
 <https://doi.org/10.1198/016214504000001286>
 :::
 
-::: {#ref-Fine:Yan:Koso:temp:2004 .csl-entry}
-\[150\] Fine, J. P., **Yan, J.**, & Kosorok, M. R. (2004). Temporal process
+::: {#ref-fine2004temporal .csl-entry}
+\[151\] Fine, J. P., **Yan, J.**, & Kosorok, M. R. (2004). Temporal process
 regression. *Biometrika*, *91*(3), 683--703.
 <https://doi.org/10.1093/biomet/91.3.683>
 :::
 
-::: {#ref-Yan:Fine:esti:2004 .csl-entry}
-\[151\] **Yan, J.**, & Fine, J. (2004). Estimating equations for association
+::: {#ref-yan2004estimating .csl-entry}
+\[152\] **Yan, J.**, & Fine, J. (2004). Estimating equations for association
 structures (Pkg: P859-880). *Statistics in Medicine*, *23*(6), 859--874.
 <https://doi.org/10.1002/sim.1650>
 :::
 
-::: {#ref-Yan:Fine:repl:2004 .csl-entry}
-\[152\] **Yan, J.**, & Fine, J. (2004). Reply to comment on "Estimating
+::: {#ref-yan2004reply .csl-entry}
+\[153\] **Yan, J.**, & Fine, J. (2004). Reply to comment on "Estimating
 equations for association structures" (Pkg: 859-880). *Statistics in
 Medicine*, *23*(6), 879--880. <https://doi.org/10.1002/sim.1736>
 :::
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
