@@ -23,6 +23,13 @@ title: "Teaching"
 
 ## Undergraduate Advisee Publications
 
++ **Chandy, M.**, Schifano, E. D., Yan, J., and Zhang, T. (2025+):
+  Nonparametric block bootstrap Kolmogorov--Smirnov goodness-of-fit
+  test. *American Statistician*, forthcoming.  
++ **Hughes, S. R.**, Matthews, G. J., & Yan, J. (2025). Statistical
+  evaluation of outdoor field hockey penalty corners. American Journal
+  of Undergraduate Research, 22(3), 3–12. 
+  https://doi.org/10.33697/ajur.2025.145
 + **Fiore, O.**, Schifano, E. D., and Yan, J. (2025+): On Devon
   Allen’s disqualification at the 2022 World Track and Field
   Championships. *The American Statistician*, forthcoming.
