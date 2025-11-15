@@ -7,19 +7,21 @@ title: "Teaching"
 + STAT/DSDA 1010: Data Science and the Society with R
     - [Fall 2025](https://statds.github.io/1010f25)
 + STAT 3255/5255: Introduction to Data Science
-    - [Fall 2025](https://statds.github.io/ids-f25)
-    - [Spring 2025](https://statds.github.io/ids-s25)
-        * Class presentation at 2025 NYC Open Data Week: [Risk Analysis of NYC Street Flood]( https://2025.open-data.nyc/event/risk-analysis-of-nyc-street-flooding/)
-    - [Fall 2024](https://statds.github.io/ids-f24/)
-    - [Spring 2024](https://statds.github.io/ids-s24/)
-        * Class presentation at 2024 NYC Open Data Week: [Landscape of Rodent Sightings in New York City: A Data Science Showcase](https://youtu.be/ikPFSuhWvsg?si=eMj6nkScCgxKUmgt)
+    - [Fall 2025](https://statds.github.io/ids-f25) | 
+       [Spring 2025](https://statds.github.io/ids-s25)	|
+       [Fall 2024](https://statds.github.io/ids-f24/) |
+       [Spring 2024](https://statds.github.io/ids-s24/) | 
+       [Spring 2023](https://statds.github.io/ids-s23/) |
+       [Spring 2022](https://statds.github.io/ids-s22/)
+   - YouTube videos of class presentation at NYC Open Data Week: 
+	   [Spring 2025](https://2025.open-data.nyc/event/risk-analysis-of-nyc-street-flooding/)
+       | [Spring 2024](https://youtu.be/ikPFSuhWvsg?si=eMj6nkScCgxKUmgt)
         <!-- * Data cleaning workshop at 2024 NYC Open Data Week: [Is your data really that dirty? An in-depth look at NYC 311 data to determine its “cleanliness”](https://youtu.be/YkTIEYh7UgM?si=auyNHzxjCu9ztl8u) -->
-    - [Spring 2023](https://statds.github.io/ids-s23/)
-        * Class presentation at 2023 NYC Open Data Week: [Data Science at UConn with NYC Open Data](https://youtu.be/YV_SC3SS8mg?si=ySKwb2h5WMmTZsb6)
-    - [Spring 2022](https://statds.github.io/ids-s22/)
-        * Class presentation at 2022 NYC Open Data Week: [NYC Open Data Case Studies from Introduction to Data Science at UConn](https://youtu.be/YV_SC3SS8mg?si=ySKwb2h5WMmTZsb6)
+       | [Spring 2023](https://youtu.be/YV_SC3SS8mg?si=ySKwb2h5WMmTZsb6)
+       | [Spring 2022](https://youtu.be/YV_SC3SS8mg?si=ySKwb2h5WMmTZsb6)
 + STAT 3494: [Statistical Writing](https://statds.github.io/stat-writing/)
 + STAT 5361: [Statistical Computing](https://jun-yan.github.io/stat-5361/)
+
 
 ## Undergraduate Advisee Publications
 
