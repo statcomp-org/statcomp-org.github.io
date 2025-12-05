@@ -44,22 +44,29 @@ Journal of Statistics in Data Science*, *3*(1), 1--15.
 <https://doi.org/10.51387/24-NEJSDS69>
 :::
 
+::: {#ref-lautier2025estimating .csl-entry}
+\[7\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2025). Estimating the
+time-to-event distribution for loan-level data within a consumer auto
+loan asset-backed security. *The Annals of Applied Statistics*, *19*(4),
+2831--2851.
+:::
+
 ::: {#ref-lautier2025convergence .csl-entry}
-\[7\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2025). On the
+\[8\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2025). On the
 convergence of credit risk in current consumer automobile loans.
 *Journal of the Royal Statistical Society Series A: Statistics in
 Society*, qnae137. <https://doi.org/10.1093/jrsssa/qnae137>
 :::
 
 ::: {#ref-li2025improved .csl-entry}
-\[8\] Li, Y., Wang, T., **Yan, J.**, & Zhang, X. (2025). Improved optimal
+\[9\] Li, Y., Wang, T., **Yan, J.**, & Zhang, X. (2025). Improved optimal
 fingerprinting based on estimating equations reaffirms anthropogenic
 effect on global warming. *Journal of Climate*, *38*(8), 1779--1790.
 <https://doi.org/10.1175/JCLI-D-24-0193.1>
 :::
 
 ::: {#ref-louit2025calf .csl-entry}
-\[9\] Louit, S., Clark, E. A., Gelbard, A. H., Vivek, N., **Yan, J.**, &
+\[10\] Louit, S., Clark, E. A., Gelbard, A. H., Vivek, N., **Yan, J.**, &
 Zhang, P. (2025). CALF-SBM: A covariate-assisted latent factor
 stochastic block model. *Physica A: Statistical Mechanics and Its
 Applications*, *667*, 130536.
@@ -67,7 +74,7 @@ Applications*, *667*, 130536.
 :::
 
 ::: {#ref-meyer2025accounting .csl-entry}
-\[10\] Meyer, T. H., Rittenhouse, T. A. G., Elbroch, L. M., Pozdnyakov,
+\[11\] Meyer, T. H., Rittenhouse, T. A. G., Elbroch, L. M., Pozdnyakov,
 V., **Yan, J.**, Hu, C., Félix, F., Guzmán, H. M., & Meynecke, J.-O. (2025).
 Accounting for Earth's curvature and elevation in animal movement
 modeling. *Ecology*, *106*(7), e70167.
@@ -75,76 +82,69 @@ modeling. *Ecology*, *106*(7), e70167.
 :::
 
 ::: {#ref-shen2025rank .csl-entry}
-\[11\] Shen, A., Feng, Q., **Yan, J.**, & Zhang, P. (2025). Rank-based
+\[12\] Shen, A., Feng, Q., **Yan, J.**, & Zhang, P. (2025). Rank-based
 assortativity for weighted, directed networks. *Journal of Complex
 Networks*, *13*(2), cnaf002. <https://doi.org/10.1093/comnet/cnaf002>
 :::
 
 ::: {#ref-wang2025survival .csl-entry}
-\[12\] Wang, W., Luo, C., Aseltine, R. H., Wang, F., **Yan, J.**, & Chen, K.
+\[13\] Wang, W., Luo, C., Aseltine, R. H., Wang, F., **Yan, J.**, & Chen, K.
 (2025). Survival modeling of suicide risk with rare and uncertain
 diagnoses. *Statistics in Biosciences*, *17*(1), 35--61.
 <https://doi.org/10.1007/s12561-023-09374-w>
 :::
 
 ::: {#ref-xie2025recurrent .csl-entry}
-\[13\] Xie, Y., Fu, H., Huang, Y., Pozdnyakov, V., & **Yan, J.** (2025).
+\[14\] Xie, Y., Fu, H., Huang, Y., Pozdnyakov, V., & **Yan, J.** (2025).
 Recurrent events modeling based on a reflected Brownian motion with
 application to hypoglycemia. *Biostatistics*, *26*(1), kxae053.
 <https://doi.org/10.1093/biostatistics/kxae053>
 :::
 
 ::: {#ref-xu2025gee .csl-entry}
-\[14\] Xu, Z., Fine, J. P., Song, W., & **Yan, J.** (2025). On GEE for
+\[15\] Xu, Z., Fine, J. P., Song, W., & **Yan, J.** (2025). On GEE for
 mean-variance-correlation models: Variance estimation and model
 selection. *Statistics in Medicine*, *44*(1-2), e10271.
 <https://doi.org/10.1002/sim.10271>
 :::
 
 ::: {#ref-bates2024csv .csl-entry}
-\[15\] Bates, D., & **Yan, J.** (2024). From CSV to Arrow: Creating a
+\[16\] Bates, D., & **Yan, J.** (2024). From CSV to Arrow: Creating a
 unified data set for efficient cross-platform analysis. *Chance*,
 *37*(4), 48--52. <https://doi.org/10.1080/09332480.2024.2434443>
 :::
 
 ::: {#ref-carter2024accountable .csl-entry}
-\[16\] Carter, E. J., Lau, Y. T. A., Buchanan, L., Krol, D. M., **Yan, J.**,
+\[17\] Carter, E. J., Lau, Y. T. A., Buchanan, L., Krol, D. M., **Yan, J.**,
 & Aseltine Jr, R. H. (2024). Accountable care organizations and HPV
 vaccine uptake: A multilevel analysis. *The American Journal of Managed
 Care*, *30*(10), e282--e288. <https://doi.org/10.37765/ajmc.2024.89620>
 :::
 
 ::: {#ref-chandy2024sample .csl-entry}
-\[17\] Chandy, M., Schifano, E. D., & **Yan, J.** (2024). On sample size
+\[18\] Chandy, M., Schifano, E. D., & **Yan, J.** (2024). On sample size
 needed for block bootstrap confidence intervals to have desired coverage
 rates. *American Journal of Undergraduate Research*, *20*(4), 3--16.
 <https://doi.org/10.33697/ajur.2024.101>
 :::
 
 ::: {#ref-choi2024general .csl-entry}
-\[18\] Choi, D., Bae, W., **Yan, J.**, & Kang, S. (2024). A general
+\[19\] Choi, D., Bae, W., **Yan, J.**, & Kang, S. (2024). A general
 model-checking procedure for semiparametric accelerated failure time
 models. *Statistics and Computing*, *34*(3), 117.
 <https://doi.org/10.1007/s11222-024-10431-7>
 :::
 
 ::: {#ref-houlihan2024how .csl-entry}
-\[19\] Houlihan, K., & **Yan, J.** (2024). How to build a gymnastics team.
+\[20\] Houlihan, K., & **Yan, J.** (2024). How to build a gymnastics team.
 *Significance*, *21*(3), 10\--14.
 <https://doi.org/10.1093/jrssig/qmae039>
 :::
 
 ::: {#ref-jin2024transfer .csl-entry}
-\[20\] Jin, J., **Yan, J.**, Aseltine, R. H., & Chen, K. (2024). Transfer
+\[21\] Jin, J., **Yan, J.**, Aseltine, R. H., & Chen, K. (2024). Transfer
 learning with large-scale quantile regression. *Technometrics*, *66*(3),
 383--393. <https://doi.org/10.1080/00401706.2024.2315952>
-:::
-
-::: {#ref-lautier2024convergence .csl-entry}
-\[21\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2024). On the
-convergence of credit risk in current consumer automobile loans.
-*Journal of the Royal Statistical Society Series A: Statistics in
-Society*, qnae137. <https://doi.org/10.1093/jrsssa/qnae137>
 :::
 
 ::: {#ref-lautier2024maximum .csl-entry}
