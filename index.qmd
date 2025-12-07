@@ -44,6 +44,9 @@ pedigree](http://genealogy.math.ndsu.nodak.edu/id.php?id=80020&fChrono=1).
 He has been the Editor of the [Journal of Data
 Science](https://jds-online.org) since 2020.
 
+
+#### [CSAS 2026](https://statds.org/events/csas2026) is coming back to UConn on April 10-11, 2026!
+
 <!-- #### At JSM 2024 -->
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/WJvoHEhyRv8?si=8jDm-iguhfbkOOGS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
 
