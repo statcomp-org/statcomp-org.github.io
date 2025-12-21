@@ -39,3 +39,4 @@ dist/
 
 # Flycheck
 flycheck_*.el
+**/*.quarto_ipynb
