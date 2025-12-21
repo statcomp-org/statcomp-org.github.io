@@ -38,8 +38,10 @@ use of generative AI. *Chance*, *38*(2), 6--9.
 :::
 
 ::: {#ref-godoy2025statistical .csl-entry}
-\[6\] Godoy, L. da C., Prates, M. O., & **Yan, J.** (2025). *Journal of
-Agricultural Biological and Environmental Statistics*.
+\[6\] Godoy, L. da C., Prates, M. O., & **Yan, J.** (2025). Statistical
+inferences and predictions for areal data and spatial data fusion with
+Hausdorff--Gaussian processes. *Journal of Agricultural Biological and
+Environmental Statistics*.
 :::
 
 ::: {#ref-godoy2025voronoi .csl-entry}
