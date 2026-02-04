@@ -4,86 +4,88 @@
 :::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs .references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
-::: {#ref-lautier2023estimating .csl-entry}
-\[1\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2026). Estimating a
+::: {#ref-godoy2026voronoi .csl-entry}
+\[1\] Godoy, L. da C., Prates, M. O., & **Yan, J.** (2026). Voronoi linkage
+between mismatching voting stations and census tracts in analyzing the
+2018 Brazilian presidential election data. *Spatial Statistics*, *71*,
+100949. <https://doi.org/10.1016/j.spasta.2025.100949>
+:::
+
+::: {#ref-lautier2026estimating .csl-entry}
+\[2\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2026). Estimating a
 discrete distribution subject to random left-truncation with an
 application to structured finance. *Econometrics and Statistics*, *37*,
 174--198. <https://doi.org/10.1016/j.ecosta.2023.05.005>
 :::
 
+::: {#ref-lautier2026convergence .csl-entry}
+\[3\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2026). On the
+convergence of credit risk in current consumer automobile loans.
+*Journal of the Royal Statistical Society Series A: Statistics in
+Society*, *189*(1), 196--221. <https://doi.org/10.1093/jrsssa/qnae137>
+:::
+
 ::: {#ref-chandy2025nonparametric .csl-entry}
-\[2\] Chandy, M., Schifano, E. D., **Yan, J.**, & Zhang, X. (2025).
+\[4\] Chandy, M., Schifano, E. D., **Yan, J.**, & Zhang, X. (2025).
 Nonparametric block bootstrap Kolmogorov--Smirnov goodness-of-fit test.
 *The American Statistician*, 1--14.
 <https://doi.org/10.1080/00031305.2025.2588131>
 :::
 
 ::: {#ref-dagostinomcgowan2025data .csl-entry}
-\[3\] D'Agostino McGowan, L., Tass, S., Tyner, S., Wang, H., & **Yan, J.**
+\[5\] D'Agostino McGowan, L., Tass, S., Tyner, S., Wang, H., & **Yan, J.**
 (2025). Data jamboree: A party of open-source software solving
 real-world data science problems. *The New England Journal of Statistics
-in Data Science*. <https://doi.org/10.51387/25-NEJSDS79>
+in Data Science*, *3*(2), 200--208.
+<https://doi.org/10.51387/25-NEJSDS79>
 :::
 
 ::: {#ref-eada2025discretely .csl-entry}
-\[4\] Eada, S. T., Pozdnyakov, V., & **Yan, J.** (2025). Discretely observed
+\[6\] Eada, S. T., Pozdnyakov, V., & **Yan, J.** (2025). Discretely observed
 Brownian motion governed by telegraph signal process: Estimation and
 application to finance. *Statistical Inference for Stochastic
 Processes*, *28*(1), 1. <https://doi.org/10.1007/s11203-024-09319-0>
 :::
 
 ::: {#ref-fiore2025devon .csl-entry}
-\[5\] Fiore, O., Schifano, E. D., & **Yan, J.** (2025). On Devon Allen's
+\[7\] Fiore, O., Schifano, E. D., & **Yan, J.** (2025). On Devon Allen's
 disqualification at the 2022 World Track and Field Championships. *The
-American Statistician*. <https://doi.org/10.1080/00031305.2025.2515869>
+American Statistician*, *79*(4), 500--507.
+<https://doi.org/10.1080/00031305.2025.2515869>
 :::
 
 ::: {#ref-glickman2025asa .csl-entry}
-\[6\] Glickman, M., & **Yan, J.** (2025). ASA members' perspectives on the
+\[8\] Glickman, M., & **Yan, J.** (2025). ASA members' perspectives on the
 use of generative AI. *Chance*, *38*(2), 6--9.
 <https://doi.org/10.1080/09332480.2025.2510152>
 :::
 
 ::: {#ref-godoy2025statistical .csl-entry}
-\[7\] Godoy, L. da C., Prates, M. O., & **Yan, J.** (2025). Statistical
+\[9\] Godoy, L. da C., Prates, M. O., & **Yan, J.** (2025). Statistical
 inferences and predictions for areal data and spatial data fusion with
 Hausdorff--Gaussian processes. *Journal of Agricultural Biological and
 Environmental Statistics*. <https://doi.org/10.1007/s13253-025-00720-7>
 :::
 
-::: {#ref-godoy2025voronoi .csl-entry}
-\[8\] Godoy, L. da C., Prates, M. O., & **Yan, J.** (2025). Voronoi linkage
-between mismatching voting stations and census tracts in analyzing the
-2018 Brazilian presidential election data. *Spatial Statistics*, 100949.
-<https://doi.org/10.1016/j.spasta.2025.100949>
-:::
-
 ::: {#ref-hughes2025statistical .csl-entry}
-\[9\] Hughes, S. R., Matthews, G. J., & **Yan, J.** (2025). Statistical
+\[10\] Hughes, S. R., Matthews, G. J., & **Yan, J.** (2025). Statistical
 evaluation of outdoor field hockey penalty corners. *American Journal of
 Undergraduate Research*, *22*(3), 3--12.
 <https://doi.org/10.33697/ajur.2025.145>
 :::
 
 ::: {#ref-jiao2025heteroscedastic .csl-entry}
-\[10\] Jiao, J., Song, W., Xue, Y., & **Yan, J.** (2025). Heteroscedastic
+\[11\] Jiao, J., Song, W., Xue, Y., & **Yan, J.** (2025). Heteroscedastic
 growth curve modeling with shape-restricted splines. *The New England
 Journal of Statistics in Data Science*, *3*(1), 1--15.
 <https://doi.org/10.51387/24-NEJSDS69>
 :::
 
 ::: {#ref-lautier2025estimating .csl-entry}
-\[11\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2025). Estimating the
+\[12\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2025). Estimating the
 time-to-event distribution for loan-level data within a consumer auto
 loan asset-backed security. *The Annals of Applied Statistics*, *19*(4),
 2831--2851. <https://doi.org/10.1214/25-AOAS2103>
-:::
-
-::: {#ref-lautier2025convergence .csl-entry}
-\[12\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2025). On the
-convergence of credit risk in current consumer automobile loans.
-*Journal of the Royal Statistical Society Series A: Statistics in
-Society*, qnae137. <https://doi.org/10.1093/jrsssa/qnae137>
 :::
 
 ::: {#ref-li2025improved .csl-entry}

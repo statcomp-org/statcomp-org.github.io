@@ -4,6 +4,9 @@ title: "Teaching"
 
 ## Open-Source Classnotes
 
++ STAT 4625/BIST 5625: Introduction to Biostatistics
+    - [R package companion `ibist`](https://github.com/statds/ibist-R) 
+    - [Spring 2026]
 + STAT/DSDA 1010: Data Science and the Society with R
     - [Fall 2025](https://statds.github.io/1010f25)
 + STAT 3255/5255: Introduction to Data Science
@@ -27,31 +30,32 @@ title: "Teaching"
 
 + **Chandy, M.**, Schifano, E. D., Yan, J., and Zhang, T. (2025+):
   Nonparametric block bootstrap Kolmogorov--Smirnov goodness-of-fit
-  test. *American Statistician*, forthcoming.  
+  test. *American Statistician*, forthcoming. 
+  <https://doi.org/10.1080/00031305.2025.2588131>
 + **Hughes, S. R.**, Matthews, G. J., & Yan, J. (2025). Statistical
   evaluation of outdoor field hockey penalty corners. American Journal
   of Undergraduate Research, 22(3), 3–12. 
   <https://doi.org/10.33697/ajur.2025.145>
-+ **Fiore, O.**, Schifano, E. D., and Yan, J. (2025+): On Devon
++ **Fiore, O.**, Schifano, E. D., and Yan, J. (2025): On Devon
   Allen’s disqualification at the 2022 World Track and Field
-  Championships. *The American Statistician*, forthcoming.
-<https://doi.org/10.1080/00031305.2025.2515869>
+  Championships. *The American Statistician*, *9(4)*,
+  500–507. <https://doi.org/10.1080/00031305.2025.2515869>
 + **Zeimbekakis, A.**, Schifano, E. D., & Yan, J. (2024). On misuses of the
-Kolmogorov--Smirnov test for one-sample goodness-of-fit. *The American
-Statistician*, *78(4)*: 481–487.
-<https://doi.org/10.1080/00031305.2024.2356095>
+  Kolmogorov--Smirnov test for one-sample goodness-of-fit. *The American
+  Statistician*, *78(4)*: 481–487.
+  <https://doi.org/10.1080/00031305.2024.2356095>
 + **Houlihan, K.** & Yan, J. (2024): How to build a gymnastics team.
-*Significance*, *21(3)*, 10--14.
-<https://doi.org/10.1093/jrssig/qmae039>
+  *Significance*, *21(3)*, 10--14.
+  <https://doi.org/10.1093/jrssig/qmae039>
 + **Chandy, M.**, Schifano, E., & Yan, J. (2024): On sample size needed for block
-bootstrap confidence intervals to have desired coverage rates.
-*American Journal of Undergraduate Research*, *20(4)*, 3--16.
-<https://doi.org/10.33697/ajur.2024.101>
-[UConn Today story](https://today.uconn.edu/2024/04/mathew-chandy-24-college-of-liberal-arts-and-sciences/)
+  bootstrap confidence intervals to have desired coverage rates.
+  *American Journal of Undergraduate Research*, *20(4)*, 3--16.
+  <https://doi.org/10.33697/ajur.2024.101>
+  [UConn Today story](https://today.uconn.edu/2024/04/mathew-chandy-24-college-of-liberal-arts-and-sciences/)
 + **Price, M.** & Yan, J. (2022). The effects of the NBA COVID bubble on the
-NBA playoffs: A case study for home-court advantage. *American Journal
-of Undergraduate Research*, *18(4)*, 3--15.
-<https://doi.org/10.33697/ajur.2022.051>
+  NBA playoffs: A case study for home-court advantage. *American Journal
+  of Undergraduate Research*, *18(4)*, 3--15.
+  <https://doi.org/10.33697/ajur.2022.051>
 
 
 ## Student Awards
