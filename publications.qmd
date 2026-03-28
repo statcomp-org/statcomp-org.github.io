@@ -3,9 +3,9 @@
 ::: {#list}
 :::
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs .references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs .references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-godoy2026voronoi .csl-entry}
-\[156\] Godoy, L. da C., Prates, M. O., & **Yan, J.** (2026). Voronoi
+\[157\] Godoy, L. da C., Prates, M. O., & **Yan, J.** (2026). Voronoi
 linkage between mismatching voting stations and census tracts in
 analyzing the 2018 Brazilian presidential election data. *Spatial
 Statistics*, *71*, 100949.
@@ -13,17 +13,24 @@ Statistics*, *71*, 100949.
 :::
 
 ::: {#ref-lautier2026estimating .csl-entry}
-\[155\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2026). Estimating a
+\[156\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2026). Estimating a
 discrete distribution subject to random left-truncation with an
 application to structured finance. *Econometrics and Statistics*, *37*,
 174--198. <https://doi.org/10.1016/j.ecosta.2023.05.005>
 :::
 
 ::: {#ref-lautier2026convergence .csl-entry}
-\[154\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2026). On the
+\[155\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2026). On the
 convergence of credit risk in current consumer automobile loans.
 *Journal of the Royal Statistical Society Series A: Statistics in
 Society*, *189*(1), 196--221. <https://doi.org/10.1093/jrsssa/qnae137>
+:::
+
+::: {#ref-ma2026extreme .csl-entry}
+\[154\] Ma, Sai., **Yan, J.**, & Zhang, X. (2026). Extreme value modeling
+with generalized pareto distributions for rounded data. *New England
+Journal of Statistics in Data Science*.
+<https://doi.org/10.51387/26-NEJSDS101>
 :::
 
 ::: {#ref-chandy2025nonparametric .csl-entry}
@@ -1090,4 +1097,4 @@ structures (Pkg: P859-880). *Statistics in Medicine*, *23*(6), 859--874.
 equations for association structures" (Pkg: 859-880). *Statistics in
 Medicine*, *23*(6), 879--880. <https://doi.org/10.1002/sim.1736>
 :::
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
