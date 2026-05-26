@@ -3,9 +3,50 @@
 ::: {#list}
 :::
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs .references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs .references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
+::: {#ref-godoy2026statistical .csl-entry}
+\[160\] Godoy, L. da C., Prates, M. O., & **Yan, J.** (n.d.). Statistical
+inferences and predictions for areal data and spatial data fusion with
+Hausdorff--Gaussian processes. *Journal of Agricultural Biological and
+Environmental Statistics*. <https://doi.org/10.1007/s13253-025-00720-7>
+:::
+
+::: {#ref-hunter2026preliminary .csl-entry}
+\[159\] Hunter, A. A., Sacco, S., Xu, Z., Chen, K., **Yan, J.**, & Aseltine,
+R. H. (n.d.). Preliminary development of a child physical abuse
+algorithm using emergency department records. *Injury Prevention*.
+<https://doi.org/10.1136/ip-2025-046076>
+:::
+
+::: {#ref-lee2026profiling .csl-entry}
+\[158\] Lee, J., Smith, D., & **Yan, J.** (n.d.). Profiling NASCAR
+qualifying performance with functional data analysis. *International
+Journal of Sprots Science and Coaching*.
+:::
+
+::: {#ref-ma2026extreme .csl-entry}
+\[157\] Ma, Sai., **Yan, J.**, & Zhang, X. (n.d.). Extreme value modeling
+with generalized pareto distributions for rounded data. *New England
+Journal of Statistics in Data Science*.
+<https://doi.org/10.51387/26-NEJSDS101>
+:::
+
+::: {#ref-xie2026unobserved .csl-entry}
+\[156\] Xie, Y., Fu, H., Huang, Y., & **Yan, J.** (n.d.). Unobserved
+heterogeneity in threshold regression based on the hitting times of a
+reflected Brownian motion for recurrent hypoglycemia. *Lifetime Data
+Analysis*.
+:::
+
+::: {#ref-chandy2026nonparametric .csl-entry}
+\[155\] Chandy, M., Schifano, E. D., **Yan, J.**, & Zhang, X. (2026).
+Nonparametric block bootstrap Kolmogorov--Smirnov goodness-of-fit test.
+*The American Statistician*, *80*(2), 241--248.
+<https://doi.org/10.1080/00031305.2025.2588131>
+:::
+
 ::: {#ref-godoy2026voronoi .csl-entry}
-\[157\] Godoy, L. da C., Prates, M. O., & **Yan, J.** (2026). Voronoi
+\[154\] Godoy, L. da C., Prates, M. O., & **Yan, J.** (2026). Voronoi
 linkage between mismatching voting stations and census tracts in
 analyzing the 2018 Brazilian presidential election data. *Spatial
 Statistics*, *71*, 100949.
@@ -13,35 +54,21 @@ Statistics*, *71*, 100949.
 :::
 
 ::: {#ref-lautier2026estimating .csl-entry}
-\[156\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2026). Estimating a
+\[153\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2026). Estimating a
 discrete distribution subject to random left-truncation with an
 application to structured finance. *Econometrics and Statistics*, *37*,
 174--198. <https://doi.org/10.1016/j.ecosta.2023.05.005>
 :::
 
 ::: {#ref-lautier2026convergence .csl-entry}
-\[155\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2026). On the
+\[152\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2026). On the
 convergence of credit risk in current consumer automobile loans.
 *Journal of the Royal Statistical Society Series A: Statistics in
 Society*, *189*(1), 196--221. <https://doi.org/10.1093/jrsssa/qnae137>
 :::
 
-::: {#ref-ma2026extreme .csl-entry}
-\[154\] Ma, Sai., **Yan, J.**, & Zhang, X. (2026). Extreme value modeling
-with generalized pareto distributions for rounded data. *New England
-Journal of Statistics in Data Science*.
-<https://doi.org/10.51387/26-NEJSDS101>
-:::
-
-::: {#ref-chandy2025nonparametric .csl-entry}
-\[153\] Chandy, M., Schifano, E. D., **Yan, J.**, & Zhang, X. (2025).
-Nonparametric block bootstrap Kolmogorov--Smirnov goodness-of-fit test.
-*The American Statistician*, 1--14.
-<https://doi.org/10.1080/00031305.2025.2588131>
-:::
-
 ::: {#ref-dagostinomcgowan2025data .csl-entry}
-\[152\] D'Agostino McGowan, L., Tass, S., Tyner, S., Wang, H., & **Yan, J.**
+\[151\] D'Agostino McGowan, L., Tass, S., Tyner, S., Wang, H., & **Yan, J.**
 (2025). Data jamboree: A party of open-source software solving
 real-world data science problems. *The New England Journal of Statistics
 in Data Science*, *3*(2), 200--208.
@@ -49,7 +76,7 @@ in Data Science*, *3*(2), 200--208.
 :::
 
 ::: {#ref-eada2025discretely .csl-entry}
-\[151\] Eada, S. T., Pozdnyakov, V., & **Yan, J.** (2025). Discretely
+\[150\] Eada, S. T., Pozdnyakov, V., & **Yan, J.** (2025). Discretely
 observed Brownian motion governed by telegraph signal process:
 Estimation and application to finance. *Statistical Inference for
 Stochastic Processes*, *28*(1), 1.
@@ -57,23 +84,16 @@ Stochastic Processes*, *28*(1), 1.
 :::
 
 ::: {#ref-fiore2025devon .csl-entry}
-\[150\] Fiore, O., Schifano, E. D., & **Yan, J.** (2025). On Devon Allen's
+\[149\] Fiore, O., Schifano, E. D., & **Yan, J.** (2025). On Devon Allen's
 disqualification at the 2022 World Track and Field Championships. *The
 American Statistician*, *79*(4), 500--507.
 <https://doi.org/10.1080/00031305.2025.2515869>
 :::
 
 ::: {#ref-glickman2025asa .csl-entry}
-\[149\] Glickman, M., & **Yan, J.** (2025). ASA members' perspectives on the
+\[148\] Glickman, M., & **Yan, J.** (2025). ASA members' perspectives on the
 use of generative AI. *Chance*, *38*(2), 6--9.
 <https://doi.org/10.1080/09332480.2025.2510152>
-:::
-
-::: {#ref-godoy2025statistical .csl-entry}
-\[148\] Godoy, L. da C., Prates, M. O., & **Yan, J.** (2025). Statistical
-inferences and predictions for areal data and spatial data fusion with
-Hausdorff--Gaussian processes. *Journal of Agricultural Biological and
-Environmental Statistics*. <https://doi.org/10.1007/s13253-025-00720-7>
 :::
 
 ::: {#ref-hughes2025statistical .csl-entry}
@@ -1097,4 +1117,4 @@ structures (Pkg: P859-880). *Statistics in Medicine*, *23*(6), 859--874.
 equations for association structures" (Pkg: 859-880). *Statistics in
 Medicine*, *23*(6), 879--880. <https://doi.org/10.1002/sim.1736>
 :::
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
