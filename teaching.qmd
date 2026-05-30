@@ -7,7 +7,7 @@ title: "Teaching"
 + DS4E: [Data Science for Everyone](https://statds.github.io/ds4e/)
   (in progress)
 + STAT 4625/BIST 5625: Introduction to Biostatistics
-    - [R package companion `ibist`](https://github.com/statds/ibist-R) 
+    - [R package companion `ibist`](https://github.com/ibist/ibist-R) 
     - [Spring 2026]
 + STAT/DSDA 1010: Data Science and the Society with R
     - [Fall 2025](https://statds.github.io/1010f25)
