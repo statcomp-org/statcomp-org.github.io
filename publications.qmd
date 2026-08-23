@@ -23,6 +23,7 @@ algorithm using emergency department records. *Injury Prevention*.
 \[159\] Lee, J., Smith, D., & **Yan, J.** (2026+). Profiling NASCAR
 qualifying performance with functional data analysis. *International
 Journal of Sprots Science and Coaching*.
+<https://doi.org/10.1177/17479541261460290>
 :::
 
 ::: {#ref-ma2026extreme .csl-entry}
