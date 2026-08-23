@@ -1,52 +1,58 @@
 # Publications
 
-::: {#list}
-:::
+[In press](#year-in-press) · [2026](#year-2026) · [2025](#year-2025) · [2024](#year-2024) · [2023](#year-2023) · [2022](#year-2022) · [2021](#year-2021) · [2020](#year-2020) · [2019](#year-2019) · [2018](#year-2018) · [2017](#year-2017) · [2016](#year-2016) · [2015](#year-2015) · [2014](#year-2014) · [2013](#year-2013) · [2012](#year-2012) · [2011](#year-2011) · [2010](#year-2010) · [2009](#year-2009) · [2008](#year-2008) · [2007](#year-2007) · [2006](#year-2006) · [2005](#year-2005) · [2004](#year-2004)
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {#refs .references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
+## In press {#year-in-press}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-godoy2026statistical .csl-entry}
-\[160\] Godoy, L. da C., Prates, M. O., & **Yan, J.** (n.d.). Statistical
+\[161\] Godoy, L. da C., Prates, M. O., & **Yan, J.** (2026+). Statistical
 inferences and predictions for areal data and spatial data fusion with
 Hausdorff--Gaussian processes. *Journal of Agricultural Biological and
 Environmental Statistics*. <https://doi.org/10.1007/s13253-025-00720-7>
 :::
 
 ::: {#ref-hunter2026preliminary .csl-entry}
-\[159\] Hunter, A. A., Sacco, S., Xu, Z., Chen, K., **Yan, J.**, & Aseltine,
-R. H. (n.d.). Preliminary development of a child physical abuse
+\[160\] Hunter, A. A., Sacco, S., Xu, Z., Chen, K., **Yan, J.**, & Aseltine,
+R. H. (2026+). Preliminary development of a child physical abuse
 algorithm using emergency department records. *Injury Prevention*.
 <https://doi.org/10.1136/ip-2025-046076>
 :::
 
 ::: {#ref-lee2026profiling .csl-entry}
-\[158\] Lee, J., Smith, D., & **Yan, J.** (n.d.). Profiling NASCAR
+\[159\] Lee, J., Smith, D., & **Yan, J.** (2026+). Profiling NASCAR
 qualifying performance with functional data analysis. *International
 Journal of Sprots Science and Coaching*.
 :::
 
 ::: {#ref-ma2026extreme .csl-entry}
-\[157\] Ma, Sai., **Yan, J.**, & Zhang, X. (n.d.). Extreme value modeling
+\[158\] Ma, Sai., **Yan, J.**, & Zhang, X. (2026+). Extreme value modeling
 with generalized pareto distributions for rounded data. *New England
 Journal of Statistics in Data Science*.
 <https://doi.org/10.51387/26-NEJSDS101>
 :::
 
-::: {#ref-xie2026unobserved .csl-entry}
-\[156\] Xie, Y., Fu, H., Huang, Y., & **Yan, J.** (n.d.). Unobserved
-heterogeneity in threshold regression based on the hitting times of a
-reflected Brownian motion for recurrent hypoglycemia. *Lifetime Data
-Analysis*.
 :::
 
+## 2026 {#year-2026}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-chandy2026nonparametric .csl-entry}
-\[155\] Chandy, M., Schifano, E. D., **Yan, J.**, & Zhang, X. (2026).
+\[157\] Chandy, M., Schifano, E. D., **Yan, J.**, & Zhang, X. (2026).
 Nonparametric block bootstrap Kolmogorov--Smirnov goodness-of-fit test.
 *The American Statistician*, *80*(2), 241--248.
 <https://doi.org/10.1080/00031305.2025.2588131>
 :::
 
+::: {#ref-glickman2026tutor .csl-entry}
+\[156\] Glickman, M., **Yan, J.**, Eric, N., & Çetinkaya-Rundel, M. (2026).
+A tutor, a tool, and a sounding board: How statistics students use
+generative AI. *Chance*, *39*(2), 39--44.
+<https://doi.org/10.1080/09332480.2026.2698398>
+:::
+
 ::: {#ref-godoy2026voronoi .csl-entry}
-\[154\] Godoy, L. da C., Prates, M. O., & **Yan, J.** (2026). Voronoi
+\[155\] Godoy, L. da C., Prates, M. O., & **Yan, J.** (2026). Voronoi
 linkage between mismatching voting stations and census tracts in
 analyzing the 2018 Brazilian presidential election data. *Spatial
 Statistics*, *71*, 100949.
@@ -54,19 +60,31 @@ Statistics*, *71*, 100949.
 :::
 
 ::: {#ref-lautier2026estimating .csl-entry}
-\[153\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2026). Estimating a
+\[154\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2026). Estimating a
 discrete distribution subject to random left-truncation with an
 application to structured finance. *Econometrics and Statistics*, *37*,
 174--198. <https://doi.org/10.1016/j.ecosta.2023.05.005>
 :::
 
 ::: {#ref-lautier2026convergence .csl-entry}
-\[152\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2026). On the
+\[153\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2026). On the
 convergence of credit risk in current consumer automobile loans.
 *Journal of the Royal Statistical Society Series A: Statistics in
 Society*, *189*(1), 196--221. <https://doi.org/10.1093/jrsssa/qnae137>
 :::
 
+::: {#ref-xie2026unobserved .csl-entry}
+\[152\] Xie, Y., Fu, H., Huang, Y., & **Yan, J.** (2026). Unobserved
+heterogeneity in threshold regression based on the hitting times of a
+reflected Brownian motion for recurrent hypoglycemia. *Lifetime Data
+Analysis*, *32*, 36.
+:::
+
+:::
+
+## 2025 {#year-2025}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-dagostinomcgowan2025data .csl-entry}
 \[151\] D'Agostino McGowan, L., Tass, S., Tyner, S., Wang, H., & **Yan, J.**
 (2025). Data jamboree: A party of open-source software solving
@@ -167,6 +185,11 @@ selection. *Statistics in Medicine*, *44*(1-2), e10271.
 <https://doi.org/10.1002/sim.10271>
 :::
 
+:::
+
+## 2024 {#year-2024}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-bates2024csv .csl-entry}
 \[137\] Bates, D., & **Yan, J.** (2024). From CSV to Arrow: Creating a
 unified data set for efficient cross-platform analysis. *Chance*,
@@ -242,6 +265,11 @@ American Statistician*, *78*(4), 481--487.
 <https://doi.org/10.1080/00031305.2024.2356095>
 :::
 
+:::
+
+## 2023 {#year-2023}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-bar2023legendary .csl-entry}
 \[126\] Bar, H., & **Yan, J.** (2023). Legendary career and colorful life: A
 conversation with Dr. Bob Riffenburgh. *Journal of Data Science*,
@@ -297,6 +325,11 @@ general preferential attachment networks with R package
 <https://doi.org/10.6339/23-JDS1110>
 :::
 
+:::
+
+## 2022 {#year-2022}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-hu2022occupation .csl-entry}
 \[118\] Hu, C., Pozdnyakov, V., & **Yan, J.** (2022). On occupation time for
 on-off processes with multiple off-states. *Modern Stochastics: Theory
@@ -367,6 +400,11 @@ Mechanics and Its Applications*, *586*, 126438.
 <https://doi.org/10.1016/j.physa.2021.126438>
 :::
 
+:::
+
+## 2021 {#year-2021}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-chang2021linking .csl-entry}
 \[108\] Chang, C. F., Garcia, V., Tang, C., Vlahos, P., Wanik, D., Yan,
 J., Bash, J. O., & Astitha, M. (2021). Linking multi-media modeling with
@@ -458,6 +496,11 @@ weighted and directed networks. *Journal of Complex Networks*, *9*(2),
 cnab017. <https://doi.org/10.1093/comnet/cnab017>
 :::
 
+:::
+
+## 2020 {#year-2020}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-doshi2020age .csl-entry}
 \[95\] Doshi, R. P., **Yan, J.**, & Aseltine Jr, R. H. (2020). Age
 differences in racial/ethnic disparities in preventable hospitalizations
@@ -528,6 +571,11 @@ streams of survival data. *Biometrics*, *76*(1), 171--182.
 <https://doi.org/10.1111/biom.13137>
 :::
 
+:::
+
+## 2019 {#year-2019}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-aseltine2019reductions .csl-entry}
 \[85\] Aseltine, R. H., Wang, W., Benthien, R. A., Katz, M., Wagner, C.,
 **Yan, J.**, & Lewis, C. G. (2019). Reductions in race and ethnic
@@ -557,6 +605,11 @@ process: Estimation. *Methodology and Computing in Applied Probability*,
 *21*(3), 907--920. <https://doi.org/10.1007/s11009-017-9547-6>
 :::
 
+:::
+
+## 2018 {#year-2018}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-bader2018automated .csl-entry}
 \[81\] Bader, B., **Yan, J.**, & Zhang, X. (2018). Automated threshold
 selection for extreme value analysis via goodness-of-fit tests with
@@ -584,6 +637,11 @@ data under informative examination times. *Biometrics*, *74*(3),
 <https://doi.org/10.1002/cjs.11330>
 :::
 
+:::
+
+## 2017 {#year-2017}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-bader2017automated .csl-entry}
 \[77\] Bader, B., **Yan, J.**, & Zhang, X. (2017). Automated selection of
 $r$ for the $r$ largest order statistics approach with adjustment for
@@ -611,6 +669,11 @@ Joint scale-change models for recurrent events and failure time.
 <https://doi.org/10.1080/01621459.2016.1173557>
 :::
 
+:::
+
+## 2016 {#year-2016}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-olayiwola2016electronic .csl-entry}
 \[73\] Olayiwola, J. N., Anderson, D., Jepeal, N., Aseltine, R.,
 Pickett, C., **Yan, J.**, & Zlateva, I. (2016). Electronic consultations to
@@ -652,6 +715,11 @@ infection in children with cystic fibrosis with interval censored data.
 <https://doi.org/10.1186/s12874-016-0220-5>
 :::
 
+:::
+
+## 2015 {#year-2015}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-aseltine2015racial .csl-entry}
 \[68\] Aseltine, Jr., R, **Yan, J.**, Fleischman, S., Katz, M., &
 DeFrancesco, M. (2015). Racial and ethnic disparities in hospital
@@ -734,6 +802,11 @@ marginal point processes. *The Annals of Applied Statistics*, *9*(1),
 452--473. <https://doi.org/10.1214/14-aoas804>
 :::
 
+:::
+
+## 2014 {#year-2014}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-chiou2014fitting .csl-entry}
 \[56\] Chiou, S. H., Kang, S., & **Yan, J.** (2014). Fitting accelerated
 failure time models in routine survival analysis with R package
@@ -780,6 +853,11 @@ of the Greater Hartford region. *The American Statistician*, *68*(4),
 243--252. <https://doi.org/10.1080/00031305.2014.955211>
 :::
 
+:::
+
+## 2013 {#year-2013}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-prates2013assessing .csl-entry}
 \[49\] Prates, M. O., Aseltine, R. H., Dey, D. K., & **Yan, J.** (2013).
 Assessing intervention efficacy on high-risk drinkers using generalized
@@ -815,6 +893,11 @@ Behavioral Statistics*, *38*(2), 172--189.
 <https://doi.org/10.3102/1076998611432175>
 :::
 
+:::
+
+## 2012 {#year-2012}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-cavallo2012treatment .csl-entry}
 \[44\] Cavallo, A., Rosenthal, B., Wang, X., & **Yan, J.** (2012). Treatment
 of the data collection threshold in operational risk: A case study using
@@ -871,6 +954,11 @@ conditional on point forecast values. *Water Resources Research*,
 *48*(12), W12509. <https://doi.org/10.1029/2012wr011818>
 :::
 
+:::
+
+## 2011 {#year-2011}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-allignol2011regression .csl-entry}
 \[36\] Allignol, A., Latouche, A., **Yan, J.**, & Fine, J. P. (2011). A
 regression model for the conditional probability of a competing event:
@@ -962,6 +1050,11 @@ for panel count survival data with an R package [spef]{.nocase}.
 <https://doi.org/10.1016/j.cmpb.2010.10.005>
 :::
 
+:::
+
+## 2010 {#year-2010}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-kojadinovic2010comparison .csl-entry}
 \[23\] Kojadinovic, I., & **Yan, J.** (2010). Comparison of three
 semiparametric methods for estimating dependence parameters in copula
@@ -1005,6 +1098,11 @@ to young cystic fibrosis patients. *Biometrics*, *66*(2), 594--602.
 <https://doi.org/10.1111/j.1541-0420.2009.01288.x>
 :::
 
+:::
+
+## 2009 {#year-2009}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-cowles2009reparameterized .csl-entry}
 \[17\] Cowles, M. K., **Yan, J.**, & Smith, B. J. (2009). Reparameterized
 and marginalized posterior and predictive sampling for complex Bayesian
@@ -1026,6 +1124,11 @@ regression with semiparametric profile estimating functions.
 <https://doi.org/10.1111/j.1541-0420.2008.01071.x>
 :::
 
+:::
+
+## 2008 {#year-2008}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-smith2008unified .csl-entry}
 \[14\] Smith, B. J., **Yan, J.**, & Cowles, M. K. (2008). Unified
 geostatistical modeling for data fusion and spatial heteroskedasticity
@@ -1040,6 +1143,11 @@ patients. *Journal of the American Statistical Association*, *103*(482),
 498--510. <https://doi.org/10.1198/016214507000000482>
 :::
 
+:::
+
+## 2007 {#year-2007}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-stramer2007asymptotics .csl-entry}
 \[12\] Stramer, O., & **Yan, J.** (2007). Asymptotics of an efficient Monte
 Carlo estimation for the transition density of diffusion processes.
@@ -1080,6 +1188,11 @@ diseases. *Biometrical Journal*, *49*(6), 840--853.
 <https://doi.org/10.1002/bimj.200710383>
 :::
 
+:::
+
+## 2006 {#year-2006}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-halekoh2006r .csl-entry}
 \[6\] Halekoh, U., Højsgaard, S., & **Yan, J.** (2006). The R package
 [geepack]{.nocase} for generalized estimating equations. *Journal of
@@ -1093,6 +1206,11 @@ applications. In H. Pham (Ed.), *Handbook of engineering statistics*
 (pp. 973--990). Springer. <https://doi.org/10.1007/978-1-84628-288-1_51>
 :::
 
+:::
+
+## 2005 {#year-2005}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-yan2005functional .csl-entry}
 \[4\] **Yan, J.**, & Fine, J. P. (2005). Functional association models for
 multivariate survival processes. *Journal of the American Statistical
@@ -1100,6 +1218,11 @@ Association*, *100*(469), 184--196.
 <https://doi.org/10.1198/016214504000001286>
 :::
 
+:::
+
+## 2004 {#year-2004}
+
+::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-fine2004temporal .csl-entry}
 \[3\] Fine, J. P., **Yan, J.**, & Kosorok, M. R. (2004). Temporal process
 regression. *Biometrika*, *91*(3), 683--703.
@@ -1117,4 +1240,6 @@ structures (Pkg: P859-880). *Statistics in Medicine*, *23*(6), 859--874.
 equations for association structures" (Pkg: 859-880). *Statistics in
 Medicine*, *23*(6), 879--880. <https://doi.org/10.1002/sim.1736>
 :::
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::
+

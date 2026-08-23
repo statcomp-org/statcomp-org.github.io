@@ -9,6 +9,8 @@ publications: jyan.bib lcg-cv.csl lua-refs.lua
 		-V --toc=false \
 		--to=markdown-citations \
 		-o publications.qmd
+	@Rscript group-publications.R \
+		jyan.bib "publications.qmd"
 	@Rscript highlight-author.R \
 		"Yan, J." "publications.qmd"
 
