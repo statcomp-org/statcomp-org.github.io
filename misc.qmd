@@ -10,7 +10,7 @@ title: "Miscellaneous"
 ## Local LaTeX
 
 These tools are maintained by SCC-UConn, the Statistics Department Computing
-Committee at the University of Connecticut.
+Committee at UConn.
 
 * [UConn Thesis](https://github.com/scc-uconn/UConnThesis): LaTeX thesis
   template with BibTeX references, statistical examples, and reproducible R
