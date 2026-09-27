@@ -67,7 +67,7 @@
     "href": "misc.html#local-latex",
     "title": "Miscellaneous",
     "section": "Local LaTeX",
-    "text": "Local LaTeX\n\nUConn Thesis: Supports BibTeX. Started by Marcos, Xiaojing, and Greg; most recent update by Greg as of 06/08/2017.\nUConn Stat Department Letter Head: Works fine but can be improved. Most recent update as of 10/20/2017 with new UConn logo."
+    "text": "Local LaTeX\n\nUConn Thesis: LaTeX thesis template with BibTeX references, statistical examples, and reproducible R code and figures. Originally contributed by Marcos, Xiaojing, and Greg; now maintained under the scc-uconn organization.\nUConn Stat Department Letterhead: LaTeX letterhead template for the UConn Department of Statistics, maintained under the scc-uconn organization."
   },
   {
     "objectID": "misc.html#links",
