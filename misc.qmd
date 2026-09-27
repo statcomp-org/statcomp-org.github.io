@@ -2,6 +2,8 @@
 title: "Random"
 ---
 
+A random assortment of tools, links, and diversions.
+
 ## Fun
 
 * [I'm just being Markovian](https://youtu.be/kzDPIOjITzI): A statistician's
