@@ -9,19 +9,19 @@ A random assortment of tools, links, and diversions.
 * [I'm just being Markovian](https://youtu.be/kzDPIOjITzI): A statistician's
   family entertainment
 
-## Local LaTeX
+## Local $\LaTeX$
 
 These tools are maintained by SCC-UConn, the Statistics Department Computing
 Committee at UConn.
 
-* [UConn Thesis](https://github.com/scc-uconn/UConnThesis): LaTeX thesis
+* [UConn Thesis](https://github.com/scc-uconn/UConnThesis): $\LaTeX$ thesis
   template with BibTeX references, statistical examples, and reproducible R
   code and figures. Originally contributed by Marcos, Xiaojing, and Greg;
   now maintained under the scc-uconn organization.
 
 * [UConn Stat Department Letterhead](https://github.com/scc-uconn/UConnLH):
-  LaTeX letterhead template for the UConn Department of Statistics, maintained
-  under the scc-uconn organization.
+  $\LaTeX$ letterhead template for the UConn Department of Statistics,
+  maintained under the scc-uconn organization.
 
 ## Links
 
