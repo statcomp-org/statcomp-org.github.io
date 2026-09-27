@@ -18,3 +18,22 @@ div#r-pkg-details img {
     margin: 0
 }
 
+
+/* The LaTeX logo uses ordinary text; no math renderer is needed. */
+.latex {
+    font-family: Georgia, "Times New Roman", serif;
+    white-space: nowrap;
+}
+.latex span:first-child {
+    text-transform: uppercase;
+    font-size: 0.75em;
+    vertical-align: 0.3em;
+    margin-left: -0.35em;
+    margin-right: -0.12em;
+}
+.latex span:last-child {
+    text-transform: uppercase;
+    vertical-align: -0.2em;
+    margin-left: -0.17em;
+    margin-right: -0.1em;
+}
