@@ -66,8 +66,8 @@
     "objectID": "misc.html#local-latex",
     "href": "misc.html#local-latex",
     "title": "Random",
-    "section": "Local \\(\\LaTeX\\)",
-    "text": "Local \\(\\LaTeX\\)\nThese tools are maintained by SCC-UConn, the Statistics Department Computing Committee at UConn.\n\nUConn Thesis: \\(\\LaTeX\\) thesis template with BibTeX references, statistical examples, and reproducible R code and figures. Originally contributed by Marcos, Xiaojing, and Greg; now maintained under the scc-uconn organization.\nUConn Stat Department Letterhead: \\(\\LaTeX\\) letterhead template for the UConn Department of Statistics, maintained under the scc-uconn organization."
+    "section": "Local LaTeX",
+    "text": "Local LaTeX\nThese tools are maintained by SCC-UConn, the Statistics Department Computing Committee at UConn.\n\nUConn Thesis: LaTeX thesis template with BibTeX references, statistical examples, and reproducible R code and figures. Originally contributed by Marcos, Xiaojing, and Greg; now maintained under the scc-uconn organization.\nUConn Stat Department Letterhead: LaTeX letterhead template for the UConn Department of Statistics, maintained under the scc-uconn organization."
   },
   {
     "objectID": "misc.html#links",
