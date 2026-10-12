@@ -6,28 +6,28 @@
 
 ::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-godoy2026statistical .csl-entry}
-\[161\] Godoy, L. da C., Prates, M. O., & **Yan, J.** (2026+). Statistical
+\[162\] Godoy, L. da C., Prates, M. O., & **Yan, J.** (2026+). Statistical
 inferences and predictions for areal data and spatial data fusion with
 Hausdorff--Gaussian processes. *Journal of Agricultural Biological and
 Environmental Statistics*. <https://doi.org/10.1007/s13253-025-00720-7>
 :::
 
 ::: {#ref-hunter2026preliminary .csl-entry}
-\[160\] Hunter, A. A., Sacco, S., Xu, Z., Chen, K., **Yan, J.**, & Aseltine,
+\[161\] Hunter, A. A., Sacco, S., Xu, Z., Chen, K., **Yan, J.**, & Aseltine,
 R. H. (2026+). Preliminary development of a child physical abuse
 algorithm using emergency department records. *Injury Prevention*.
 <https://doi.org/10.1136/ip-2025-046076>
 :::
 
 ::: {#ref-lee2026profiling .csl-entry}
-\[159\] Lee, J., Smith, D., & **Yan, J.** (2026+). Profiling NASCAR
+\[160\] Lee, J., Smith, D., & **Yan, J.** (2026+). Profiling NASCAR
 qualifying performance with functional data analysis. *International
 Journal of Sprots Science and Coaching*.
 <https://doi.org/10.1177/17479541261460290>
 :::
 
 ::: {#ref-ma2026extreme .csl-entry}
-\[158\] Ma, Sai., **Yan, J.**, & Zhang, X. (2026+). Extreme value modeling
+\[159\] Ma, Sai., **Yan, J.**, & Zhang, X. (2026+). Extreme value modeling
 with generalized pareto distributions for rounded data. *New England
 Journal of Statistics in Data Science*.
 <https://doi.org/10.51387/26-NEJSDS101>
@@ -39,21 +39,21 @@ Journal of Statistics in Data Science*.
 
 ::: {.references .csl-bib-body .hanging-indent entry-spacing="1" line-spacing="2"}
 ::: {#ref-chandy2026nonparametric .csl-entry}
-\[157\] Chandy, M., Schifano, E. D., **Yan, J.**, & Zhang, X. (2026).
+\[158\] Chandy, M., Schifano, E. D., **Yan, J.**, & Zhang, X. (2026).
 Nonparametric block bootstrap Kolmogorov--Smirnov goodness-of-fit test.
 *The American Statistician*, *80*(2), 241--248.
 <https://doi.org/10.1080/00031305.2025.2588131>
 :::
 
 ::: {#ref-glickman2026tutor .csl-entry}
-\[156\] Glickman, M., **Yan, J.**, Eric, N., & Çetinkaya-Rundel, M. (2026).
+\[157\] Glickman, M., **Yan, J.**, Eric, N., & Çetinkaya-Rundel, M. (2026).
 A tutor, a tool, and a sounding board: How statistics students use
 generative AI. *Chance*, *39*(2), 39--44.
 <https://doi.org/10.1080/09332480.2026.2698398>
 :::
 
 ::: {#ref-godoy2026voronoi .csl-entry}
-\[155\] Godoy, L. da C., Prates, M. O., & **Yan, J.** (2026). Voronoi
+\[156\] Godoy, L. da C., Prates, M. O., & **Yan, J.** (2026). Voronoi
 linkage between mismatching voting stations and census tracts in
 analyzing the 2018 Brazilian presidential election data. *Spatial
 Statistics*, *71*, 100949.
@@ -61,24 +61,32 @@ Statistics*, *71*, 100949.
 :::
 
 ::: {#ref-lautier2026estimating .csl-entry}
-\[154\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2026). Estimating a
+\[155\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2026). Estimating a
 discrete distribution subject to random left-truncation with an
 application to structured finance. *Econometrics and Statistics*, *37*,
 174--198. <https://doi.org/10.1016/j.ecosta.2023.05.005>
 :::
 
 ::: {#ref-lautier2026convergence .csl-entry}
-\[153\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2026). On the
+\[154\] Lautier, J. P., Pozdnyakov, V., & **Yan, J.** (2026). On the
 convergence of credit risk in current consumer automobile loans.
 *Journal of the Royal Statistical Society Series A: Statistics in
 Society*, *189*(1), 196--221. <https://doi.org/10.1093/jrsssa/qnae137>
 :::
 
 ::: {#ref-xie2026unobserved .csl-entry}
-\[152\] Xie, Y., Fu, H., Huang, Y., & **Yan, J.** (2026). Unobserved
+\[153\] Xie, Y., Fu, H., Huang, Y., & **Yan, J.** (2026). Unobserved
 heterogeneity in threshold regression based on the hitting times of a
 reflected Brownian motion for recurrent hypoglycemia. *Lifetime Data
 Analysis*, *32*, 36.
+:::
+
+::: {#ref-yin2026prediction .csl-entry}
+\[152\] Yin, X., Xie, Y., **Yan, J.**, Wang, S., Liu, P.-Y., Gagnon, J.,
+Thompson, E., Walsh, L., Fuerst, N., & Chen, M.-H. (2026). Prediction
+intervals and group variable importance for classification models in
+university enrollment yield. *Journal of Data Science*, *24*(3),
+523--543.
 :::
 
 :::
