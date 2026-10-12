@@ -78,7 +78,7 @@ Society*, *189*(1), 196--221. <https://doi.org/10.1093/jrsssa/qnae137>
 \[153\] Xie, Y., Fu, H., Huang, Y., & **Yan, J.** (2026). Unobserved
 heterogeneity in threshold regression based on the hitting times of a
 reflected Brownian motion for recurrent hypoglycemia. *Lifetime Data
-Analysis*, *32*, 36.
+Analysis*, *32*, 36. <https://doi.org/10.1007/s10985-026-09717-x>
 :::
 
 ::: {#ref-yin2026prediction .csl-entry}
@@ -86,7 +86,7 @@ Analysis*, *32*, 36.
 Thompson, E., Walsh, L., Fuerst, N., & Chen, M.-H. (2026). Prediction
 intervals and group variable importance for classification models in
 university enrollment yield. *Journal of Data Science*, *24*(3),
-523--543.
+523--543. <https://doi.org/10.6339/26-JDS1241>
 :::
 
 :::
