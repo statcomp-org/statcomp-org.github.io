@@ -14,6 +14,25 @@ spec.loader.exec_module(cv)
 
 
 class CVPublicationsTests(unittest.TestCase):
+    def test_student_section_includes_both_subsections_and_stops_at_next_section(self):
+        source = r'''
+\section{Positions}
+\item Unrelated Person (2026): Not a trainee.
+\section{Students}
+\subsection{Ph.D. Thesis Advisees}
+\begin{enumerate}
+\item Jane Doe, Ph.D. 2025: Thesis.
+\end{enumerate}
+\subsection{Undergraduate Thesis Advisees}
+\begin{enumerate}
+\item John Smith (2024): Thesis.
+\end{enumerate}
+\section{Teaching Accomplishments}
+\item Another Person (2026): Award.
+'''
+        roster = cv.read_trainees(source, {"aliases": {}, "additional_trainees": []})
+        self.assertEqual([name for name, _ in roster], ["Jane Doe", "John Smith"])
+
     def test_full_given_names_do_not_match_on_initial_alone(self):
         self.assertFalse(cv.matches({"family": "Wang", "given": "Tianying"},
                                     {"family": "Wang", "given": "Tiandong"}))

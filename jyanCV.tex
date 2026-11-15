@@ -6,20 +6,31 @@
 \usepackage{url}
 \usepackage{times}
 \usepackage[hmargin={0.5in, 0.5in}, vmargin={0.4in, 0.4in}, includeheadfoot]{geometry}
-\usepackage{hyperref}
+\usepackage[small,compact,nobottomtitles]{titlesec}
 \usepackage{enumitem}
-\setlist[enumerate]{leftmargin=3mm}
+\usepackage{microtype}
+\usepackage{etoolbox}
+\usepackage{hyperref}
+
+% Suppress the class's labels without replacing its two-column block.
+\makeatletter
+\patchcmd{\vita}{{\small \@businessAddressHeader:}}{}{}%
+  {\PackageError{jyanCV}{Cannot remove business label}{Check vita.cls}}
+\patchcmd{\vita}{{\small \@homeAddressHeader:}}{}{}%
+  {\PackageError{jyanCV}{Cannot remove home label}{Check vita.cls}}
+\makeatother
+
+\setcounter{secnumdepth}{0}
+% Reserve room for a heading and the start of its first entry.
+\renewcommand{\bottomtitlespace}{4\baselineskip}
+\setlist{parsep=0pt,beginpenalty=10000}
+\setlist[description]{leftmargin=0pt}
 
 \renewcommand{\familydefault}{\sfdefault}
 % \renewcommand{\baselinestretch}{0.9} % reduce line spacing
 
 \newcommand{\R}{R}
 
-% Publication lists are generated from the bibliographies and software.qmd.
-\newcategory[Publications (*Current or former trainee)]{CVPublications}
-\newkind[Book Chapters and Conference Proceedings]{CVBookChapters}
-\newkind[Magazine Articles and Other Contributions]{CVMagazineArticles}
-\newkind[Manuscripts Under Review]{CVUnderReview}
 
 \begin{document}
 \title{Jun ~ Yan}
@@ -36,17 +47,20 @@
   \href{https://scholar.google.com/citations?user=4jVhnnEAAAAJ\&hl=en}{Google Scholar}
 }
 \begin{vita}
-  \begin{Degrees}\label{degrees}
+  \section{Degrees}\label{degrees}
+  \begin{description}
   \item Ph.D., 2003, Statistics, University of Wisconsin, Madison, WI
   \item M.A., 1998, Economics, University of Miami, Miami, FL
   \item M.Econ., 1996, Statistics, Renmin University of China, Beijing, China
   \item B.Econ., 1993, Statistics, Renmin University of China, Beijing, China
-  \end{Degrees}
-  \begin{ResearchInterests}
+  \end{description}
+  \section{Research Interests}
+  \begin{description}
   \item Social Network, Spatial Extremes, Dynamic Survival Models, Multivariate Dependence, Clustered Data Analysis
   \item Statistical Computing, Biostatistics, Environmental Applications, Public Health Applications, Sports Analytics
-  \end{ResearchInterests}
-  \begin{Positions}
+  \end{description}
+  \section{Positions}
+  \begin{description}
   \item Head, Department of Statistics, University of Connecticut, 2026--Present.
   \item Professor, Department of Statistics, University of Connecticut, 2015--Present.
   \item Affiliated Faculty, The Connecticut Institute for the Brain and Cognitive Sciences, 2023--Present.
@@ -56,32 +70,36 @@
   \item Assistant Professor, Department of Statistics, University of Connecticut, 2007--2010.
   \item Assistant Professor, Department of Statistics and Actuarial Science, The University of Iowa, 2003--2007.
   \item Statistical Consultant, CALS Statistical Consulting Lab, University of Wisconsin--Madison,  2001--2003. % July 2001 --- July 2003.
-  \end{Positions}
-  \begin{HonorsAndAwards}
+  \end{description}
+  \section{Honors and Awards}
+  \begin{description}
   \item Elected Member, 2023, Connecticut Academy of Science and Engineering
   \item Fellow, 2022, Institute of Mathematical Statistics
   \item Fellow, 2017, American Statistical Association
   \item Elected Member, 2014, International Statistical Institute
   \item Outstanding Service Award, 2014, International Chinese Statistical Association
-  \end{HonorsAndAwards}
-  \begin{ProfessionalMemberships}
+  \end{description}
+  \section{Professional Memberships}
+  \begin{description}
   \item American Association for the Advancement of Science (AAAS)
   \item American Geophysical Union (AGU) 
   \item American Statistical Association (ASA)
   \item Institute of Mathematical Statistics (IMS)
   \item International Chinese Statistical Association (ICSA) 
-  \end{ProfessionalMemberships}
+  \end{description}
   %%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-  \begin{Services}
-  \begin{Editorial}
+  \section{Services and Outreaches}
+  \subsection{Editorial}
+  \begin{enumerate}
   \item 2020--present: Editor-in-Chief \emph{Journal of Data Science}.
   \item 2025: Co-Guest-Editor, Special issue on ``Statistical Aspects of Trustworthy Machine Learning'', Journal of Data Science.
   \item 2020--2021: Associate editor, \emph{Brazilian Journal of Probability and Statistics}.
   \item 2020: Co-Guest-Editor, Special Issue on ``Data Science in Action in Response to the Outbreak of COVID-19'', Journal of Data Science.
   \item 2014--2020: Associate editor,  \emph{Ecological and Environmental Statistics}.
   \item 2014: Associate editor, \emph{STEM Forums in Statistics}.
-  \end{Editorial}
-  \begin{SocietyService}
+  \end{enumerate}
+  \subsection{Professional Society Services}
+  \begin{enumerate}
   \item 2024--2026: Council Member, New England Statistical Society.
   \item 2026: Member, Organizing Committee, NISS Writing Workshop for Junior Researchers.
   \item 2025--2027: Chair (2025), Archive Committee, ICSA.
@@ -97,8 +115,9 @@
 %  \item 2016--present, Department representative at the Caucus of Academic Reps, American Statistical Association.
   \item 2015--2016: Chair, IT Committee, International Chinese Statistical Association.
   \item 2012--2014: Editor-in-Chief, International Chinese Statistical Association Bulletin.
-  \end{SocietyService}
-  \begin{Conferences}
+  \end{enumerate}
+  \subsection{Conference Organization}
+  \begin{enumerate}
   \item 2025--Present: Co-Chair, Organizing Committee, Connecticut Sports Analytics Symposium.
   \item 2026: Co-Chair, Organizing Committee, International Forum on Data Science 2026. 
   \item 2025--2026: Co-Chair, ASA Section on Statistical Learning and Data Science 2026 Conference: Inference and Intelligence.
@@ -115,20 +134,24 @@
   \item 2018: Co-Chair, Short-course Committee, 2018 ICSA Applied Statistics Symposium.
   \item 2017: Co-Chair, Local Organizing Committee,  Conference on Lifetime Data Science: Data Science, Precision Medicine and Risk Analysis with Lifetime Data at University of Connecticut, May 25--27, 2017, Sponsored by the Lifetime Data Analysis Interest Group, American Statistical Association.
   \item 2015: Chair, Poster Committee, 2015 ICSA Applied Statistics Symposium.
-  \end{Conferences}
-  \begin{GrantReviews}
+  \end{enumerate}
+  \subsection{Grant Reviews}
+  \begin{enumerate}
   \item NSF CAIG panel review, 2024.
   \item NSF DMS CDSE-MSS panel review, 2016.
   \item NSF DMS Statistics panel review, 2013.
-  \end{GrantReviews}
-  \begin{JournalReviews}
+  \end{enumerate}
+  \subsection{Journal Reviews}
+  \begin{enumerate}
   \item Annals of Applied Statistics; Annals of Statistics; Applied Stochastic Models in Business and Industry; Bernoulli; Biometrics; Biometrika; Bioscience; Canadian Journal of Statistics; Computational Statistics; Computational Statistics and Data Analysis; Econometrics and Statistics; Environmental and Ecological Statistics; IEEE Transactions on Neural Networks; International Journal of Forecasting; Journal of the American Statistical Association ;Journal of Data Science; Journal of Multivariate Statistics; Journal of Royal Statistical Society Series B; Journal of Royal Statistical Society Series C; Journal of Statistical Software; R Journal; Statistics and Probability Letters; Statistica Sinica; Statistics in Medicine; Stochastic Environmental Research and Risk Assessment; among others.
   \item Statistical Reviewer:  Journal of Applied Physiology; Advances in Physiology Education.
-  \end{JournalReviews}
-  \begin{InstitutionalService}
+  \end{enumerate}
+  \subsection{Institutional Service}
+  \begin{enumerate}
   \item 2025, Member, AI Task Force, College of Liberal Arts and Sciences
-  \end{InstitutionalService}
-  \begin{DepartmentalService}
+  \end{enumerate}
+  \subsection{Departmental Service}
+  \begin{enumerate}
   \item 2025--2026: Promotion, Tenure, and Reappointment Committee (chair); X + 3 + 1 Admission (chair); Committee; Graduate Examination Committee; Undergraduate Course Curriculum Committee.
   \item 2024--2025: Promotion, Tenure, and Reappointment Committee (chair); X + 3 + 1 Admission (chair); Committee; Graduate Examination Committee; Undergraduate Course Curriculum Committee.
  \item 2023--2024: Promotion, Tenure, and Reappointment Committee (chair); X + 3 + 1 Admission (chair); Search Committee for Assistant Professors; Computer Committee; Graduate Examination Committee.
@@ -150,16 +173,19 @@
   \item 2005--2006: Colloquium Committee, M.S. Exam -- Minor Committee, Search Committee, and Social Committee.
   \item 2004--2005: M.S. Exam -- Minor Committee, Search Committee, and Social Committee (chair).
   \item 2003--2004: Computer Committee, M.S. Exam -- Minor Committee, and Social Committee.
-  \end{DepartmentalService}
-  \begin{InstitutionalService}
+  \end{enumerate}
+  \subsection{Institutional Service}
+  \begin{enumerate}
   \item 2025: Member, CLAS AI Task Force.
-  \end{InstitutionalService}
-  \begin{Outreaches}
+  \end{enumerate}
+  \subsection{Outreaches}
+  \begin{enumerate}
 %  \item 2023--present: New York City Open Data Ambassador, working with libraries and community organizations to help bridging data literacy gaps and promoting neighborhood and issue-based dialogue.
   \item 2022--2023: Instructor of Introduction to Data Science, one-week intensive Pre-College Summer course for high schoolers.
   \item 2019: Instructor of Coding for Kids (6--8 years old), Connecticut  Chinese Language Academy.
-  \end{Outreaches}
-  \begin{Media}
+  \end{enumerate}
+  \subsection{Media Coverage}
+  \begin{enumerate}
   \item AMSTAT News (2026): 
 \href{https://magazine.amstat.org/blog/2026/01/01/slds-2026/}{SLDS Conference Planned for NYC in November}.
   \item AMSTAT News (2025): \href{https://magazine.amstat.org/blog/2025/11/03/csas-2025/}{Sports Analytics Symposium Highlights Student Engagement, Industry Collaboration}.
@@ -176,11 +202,11 @@
   \item UConn Today (2020):
 \href{https://today.uconn.edu/2020/04/clas-faculty-students-shifting-work-covid-19/}{CLAS Faculty and Students Shifting Work to COVID-19}.
   \item UConn Today (2019): \href{https://today.uconn.edu/school-stories/uconn-hosts-new-sports-analytics-symposium/}{UConn Hosts New Sports Analytics Symposium}.
-  \end{Media}
-\end{Services}
+  \end{enumerate}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \begin{TeachingExperience}
-    \begin{UConn}
+  \section{Teaching Experience}
+    \subsection{University of Connecticut}
+    \begin{enumerate}
     \item Biostatistics (5625/4625), 3-credit graduate/undergraduate level; Spring 2021; Spring 2026.
     \item Data Science and the Society Using R (1010): 3-credit undergraduate level; Fall 2025.
     \item Introduction to Data Science (5255/3255): 3-credit graduate/undergraduate level; Fall 2021; Spring 2022; Spring 2023; Spring 2024; Fall 2024; Spring 2025; Fall 2025.
@@ -197,16 +223,17 @@
     \item Data Analysis Using R (6494), 3-credit graduate level; Spring 2011.
     \item Environmental Statistics (6494), 3-credit graduate level; Fall 2010.
     \item Statistical Methods (220), 3-credit undergraduate level; Spring 2008.
-    \end{UConn}
-    \begin{UIowa}
+    \end{enumerate}
+    \subsection{University of Iowa}
+    \begin{enumerate}
     \item Probability and Stochastic Processes I (22s:195), Fall 2006.
     \item Mathematical Statistics II (22s:154), Spring 2007, Spring 2006, Spring 2004.
     \item Mathematical Statistics I (22s:153), Fall 2005, Fall 2004, Fall 2003.
     \item Applied Time Series Analysis (22s:156), Spring 2007, Spring 2005.
-    \end{UIowa}
-  \end{TeachingExperience}
-  \begin{Students}
-    \begin{Ph.D.}
+    \end{enumerate}
+  \section{Students}
+    \subsection{Ph.D. Thesis Advisees}
+    \begin{enumerate}
     \item Ziyue Li, Ph.D., expected 2028 (joint with Kun Chen): Causal inference with missing data.
     \item Xingjian Ma, Ph.D., expected 2028 (joint with HaiYing Wang): Rerandomization.
     \item Siyan Wang, Ph.D. expected 2028: Extreme event attribution.
@@ -238,8 +265,9 @@
     \item Sy Han (Steven) Chiou, Ph.D. 2013 (joint with Sangwook Kang): Statistical methods and computing for semiparametric accelerated failure time model with induced smoothing. Placement: Assistant Professor, Department of Mathematics and Statistics, University of Minnesota Duluth.
     \item Xiaojing Wang: Ph.D. 2011: Statistical inferences for interval censored data. Placement: Quantitative Analyst, Google New York.
     \item Marcos Prates, Ph.D. 2011 (joint with Dipak Dey): Link specification and spatial dependence for generalized linear mixed models. Placement: Assistant Professor, Departamento de Estat\'{i}stica, Universidade Federal de Minas Gerais, Brazil.
-    \end{Ph.D.}
-    \begin{UndergraduateHonor}
+    \end{enumerate}
+    \subsection{Undergraduate Thesis Advisees}
+    \begin{enumerate}
     \item Joshua Lee (2025): Profiling NASCAR qualifying performance with functional data analysis. Placement: Ph.D. Student in Statistics, UCSC.
     \item Mathew Chandy (2024): Nonparametric block bootstrap Kolmogorov--Smirnov goodness-of-fit test. Placement: Ph.D. Student in Statistics, UCLA.
     \item Kathleen Houlihan (2024): Selecting team members for the female Artistic Gymnastics Team USA for the Paris Olympics. Placement: Dental School student, Boston University.
@@ -257,10 +285,10 @@
     \item Jack Schooley (2020): Predicting the outcomes of soccer games. Placement: MS Student in Data Science, MIT.
     \item Thomas Kennon (2018): Finding an ultimate limit for an NBA player's shooting percentage. Placement: Data Engineer, The Hartford.
     \item Junghi Kim (2010, Joint with Evarist Gin\'e and Nalini Ravishanker): A close look at marginal Cox model and conditional Cox model with application of recurrent gap times. Placement: Ph.D. Student in Biostatistics, University of Minnesota.
-    \end{UndergraduateHonor}
-  \end{Students}
-  \begin{TeachingAccomplishments}
-    \begin{StudentAwards}
+    \end{enumerate}
+  \section{Teaching Accomplishments}
+    \subsection{Student Awards}
+    \begin{enumerate}
     \item Qingkai Dong (2026): Student Paper Award, 2026 Applied Statistics Symposium, International Statistical Association.
     \item Zhenyu Xu (2025): Student Paper Award, 2025 Applied Statistics Symposium, International Chinese Statistical Association.
     \item Sydney Louit (2025): Student Paper Award, Section on Physical and Engineering Sciences, American Statistical Association.
@@ -283,14 +311,15 @@
     \item Steven Chiou (2012): Student Paper Award, Applied Statistics Symposium, International Chinese Statistical Association.
     \item Yung-Wei Chen (2012): Student Paper Award,  Social Statistics, Government Statistics, and Survey Research Methods Sections,  American Statistical Association.
     \item Xiaojing Wang (2010): IBM Student Paper Award, 24th New England Statistics Symposium.
-    \end{StudentAwards}
+    \end{enumerate}
   %   \item Cultivated interdisciplinary collaboration on species diversity in Marcos Prates' thesis research.
   %   \item Cultivated interdisciplinary collaboration on hydrological engineering in Xiaojing Wang's research.
   %   \item Cultivated interdisciplinary collaboration on climate change in Hongwei Shang's thesis research.
   %   \item Cultivated interdisciplinary collaboration on adolescent depression in Steven Chiou's thesis research.
   %   \item Cultivated interdisciplinary collaboration on animal movement and on nonprofit organization study in Yung-wei Chen's research.
   %   \item Coauthored accepted journal papers and submitted manuscripts with every graduate student advisee.
-    \begin{TeachingHighlights}
+    \subsection{Teaching Highlights}
+    \begin{enumerate}
     \item Undergraduate advisees have published journal articles since 2022.
     \item Advised the Undergraduate Data Science Club as faculty advisor since 2019.
     \item Co-taught ``Data Science'' to pre-college students in the UConn Pre-College Summer Program since 2020.
@@ -299,10 +328,9 @@
     \item Mentored statistics students to develop software packages in R.
     \item Taught students in ecology and evolutionary biology how to do data analysis with R.
     \item Taught the first-year graduate required sequence of mathematical statistics effectively.
-    \end{TeachingHighlights}
+    \end{enumerate}
   %   \item Have been maintaining R and R packages on the beowulf cluster heavily used by students doing research.
   %   \item Helped with all computing related problems from all students in the department.
-  \end{TeachingAccomplishments}
   % \begin{CollaborativeWork}
 %   %\item Inter-calibration of measures from different remote sensor systems --- with a geographer at the University of Iowa
 %   \item Testing concordance in clinical traits in familial studies of Inflammatory Bowel Disease --- with a gastroenterologist at the University of Iowa
@@ -311,8 +339,9 @@
 %   \item Computing in optimal investment problems --- with an actuary at the University of Iowa
 %   \item A survey of spatial econometrics --- with econometricians at University of Illinois -- Urbana-Champaign
 %   \end{CollaborativeWork}
-  \begin{Grants}
-    \begin{External}
+  \section{Grants}
+    \subsection{External}
+    \begin{enumerate}
     \item Connecticut Children's Medical Center, 04/01/2024---03/31/2025: Predictive and Analytical Tools for Decision Making at Connecticut Children’s Medical Center. \$23,228.79. PI: Jun Yan.
     \item Servier, 03/11/2024---12/31/2024: AI-Based Adaptive Clinical Trail. \$21,666.67.  PI: Jun Yan.
     \item NSF DMS2219336, 09/01/2022 --- 08/31/2025: Conference: UConn Sports Analytics Symposium: Engaging Students into Data Science. \$49,986. PI: Jun Yan; Co-PIs: Laura Burton, Kun Chen,  Robert Huggins, Elizabeth Schifano.
@@ -328,8 +357,9 @@
 %   \item 2006--2007: TeraGrid --- Parallelizing MCMC for Bayesian Estimation and Prediction in Spatiotemporal Geostatistical Models. PI: Jun Yan, Co-PIs: Marc P. Armstrong, Mary Kathryn Cowles, Brian J. Smith, and Shaowen Wang.
 %   \item 2006--2007: TeraGrid --- Developing GISolve as a GIScience Gateway Toolkit for Geographic Information Analysis. PI: Shaowen Wang, Co-PIs: Mary Kathryn Cowles, Marc P. Armstrong, and Jun Yan.
 %   \item 2004--2005: TeraGrid --- Spatial Statistics Middleware for Markov-chain-Monte-Carlo Bayesian Geostatistical Models. PI: Mary Kathryn Cowles, Co-PIs: Marc P. Armstrong, Shaowen Wang, and Jun Yan.
-  \end{External}
-  \begin{Internal}
+  \end{enumerate}
+  \subsection{Internal}
+  \begin{enumerate}
   \item June 2024 -- May 2025, The Connecticut Institute for the Brain and Cognitive Science, University of Connecticut ---  Identifying the association between longitudinal changes in functional connectivity and Alzheimer's disease progression.
   \item January 2017 -- December 2019, Innovative Education in Science, College of Liberal Arts and Sciences, University of Connecticut --- Data Science Lab: Real World Data Science Problems Meet Future Data Scientists (with Kun Chen and Elizabeth Schifano).
   \item April 2015 -- March 2016, Research Excellence Program, University of Connecticut --- Statistical Methods and Computing for Detection and Attribution of Changes in Climate Extremes.
@@ -339,22 +369,22 @@
   \item January 2008 -- May 2008, Multidisciplinary Environmental Research Award, Center for Environmental Sciences and Engineering, University of Connecticut --- A Hierarchical Spatio-Temporal Model for Terrestrial Snails Abundances in a Tropical Forest (with Michael Willig).
   \item July 2006 -- June 2007, Mathematical \& Physical Sciences Funding Program (MPSFP), University of Iowa --- Partly Functional Temporal Process Regression.
   \item January 2004 -- December 2004, Mathematical \& Physical Sciences Funding Program (MPSFP), University of Iowa --- Nonparametric Inference for Nonstationary Stochastic Processes.
-  \end{Internal}
-\end{Grants}
-\begin{CVPublications}
+  \end{enumerate}
+\section{Publications (*Current or former trainee)}
   \hypersetup{hidelinks}
   \input{cv-publications.tex}
-\end{CVPublications}
   % \begin{Awards}
   % \item Innovations in Instructional Computing Award --- Academic Technologies Advisory Council, University of Iowa, 2007. PI: Mary Kathryn Cowles, Co-PIs: Marc P. Armstrong, Brian J. Smith, Shaowen Wang, and Jun Yan.
   % \end{Awards}
-  \begin{InvitedTalksLectures}
-  \begin{InvitedPanels}
+  \section{Invited Panels, Talks, and Lectures}
+  \subsection{Invited Panels}
+  \begin{enumerate}
   \item Generative AI in Publishing: An Editors' Panel on Ethics and Policies, 08/02/2026, Joint Statistical Meetings, Boston, Massachusetts.
   \item Generative AI in Academic Research, 10/08/2025, Bentley University, Boston, Massachusetts.
   \item Redefining Intro Statistics in the Age of AI: Perspectives from Academe, Industry, and Government, 08/06/2025, Joint Statistical Meetings, Nashville, Tennessee.
-  \end{InvitedPanels}
-  \begin{InvitedTalks}
+  \end{enumerate}
+  \subsection{Invited Talks}
+  \begin{enumerate}
   \item Data Jamboree and Beyond: Preparing Students for Modern Data Science Workflows, 05/29/2026, New England Statistics Symposium 2026, Storrs, Connecticut.
   \item Joint Observation-Constrained Climate Projections for Spatial Fields Using Hierarchical Emergent Constraints, 05/05/2026, Department of Mathematics and Statistics, Binghamton University, State University of New York (virtual).
   \item Joint Observation-Constrained Climate Projections for Spatial Fields Using Hierarchical Emergent Constraints, 04/16/2026, Department of Statistics, University of Wisconsin.
@@ -421,8 +451,9 @@
   \item Partly functional temporal process regression, 06/28/2006, Hong Kong, China, INFORMS International Conference 2006.
   \item Spatial stochastic volatility, 04/21/2006, Department of Economics, University of Illinois -- Urbana-Champaign.
   \item Temporal process regression, 08/10/2004, Toronto, Canada, Joint Statistical Meeting.
-  \end{InvitedTalks}
-  \begin{InvitedWorkshops}
+  \end{enumerate}
+  \subsection{Invited Workshops/Shortcourses}
+  \begin{enumerate}
   \item July 2026, Academic Writing in Statistics and Data Science (3-hour short course), 2nd International Forum on Data Science, Renmin University of China, Beijing, China. 
   \item June 2024, Climate Change Detection and Attribution with Estimating Equations (2-hour short course with Yan Li), 15th International Meeting on Statistical Climatology, Toulouse, France.
   \item June 2023, Applied Event Time Data Analysis with R (1-day course with Steven Chiou). 2023 ICSA Applied Statistics Symposium, Ann Arbor, Michigan.
@@ -435,7 +466,6 @@
   \item November 2012, Introduction to the Theory and Practice of Copulas (1-week short course). Universidade Federal de Minas Gerais, Belo Horizonte, Minas Gerais, Brazil.
   \item April 2011, Introduction to the Theory and Practice of Copulas (1-day short course with Ivan Kojadinovic). The 25th NESS at University of Connecticut. Storrs, CT.
   \item May 2008, Introduction to the Theory and Practice of Copulas (32-hour course). Renmin University of China, Beijing, China.
-  \end{InvitedWorkshops}
-\end{InvitedTalksLectures}
+  \end{enumerate}
 \end{vita}
 \end{document}
