@@ -112,6 +112,13 @@ and development entries have status labels. All package sections appear in
 the CV, and a test checks that the table and package sections cover the same
 names in alphabetical order.
 
+Commit and star badges in the package descriptions use verified development
+repositories. grasps, ionet, KMsurv, spice, and subsampling have GitHub badges;
+copula links to R-Forge. Do not substitute the automated cran/* GitHub mirrors
+for maintainer repositories: their commits describe CRAN imports rather than
+development activity. rrpack, sgee, som, and tpr currently have no verified
+maintainer GitHub/GitLab repository recorded here, so those badges are omitted.
+
 The old CV's six missing packages have been added: subsampling, fgof, rbugs,
 spice (formerly fcstat), grasps, and ionet. fgof and rbugs link to CRAN archives.
 spice uses its current name and GitHub repository; the website retains the old
