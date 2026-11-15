@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.19">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-55617497126496852ff9f5a59253c640.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-8d3ad9c781c51ccd60b292c95058b2c2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -90,23 +91,25 @@ window.Quarto = {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Software – Jun Yan #StatComp">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="Jun Yan #StatComp">
 <meta name="twitter:title" content="Software – Jun Yan #StatComp">
+<meta name="twitter:description" content="">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed fullcontent quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Jun Yan #StatComp</span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -144,7 +147,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content" tabindex="-1">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -165,20 +168,23 @@ window.Quarto = {
 </header>
 
 
-<section id="r-packages-on-cran" class="level2">
-<h2 class="anchored" data-anchor-id="r-packages-on-cran">R packages on CRAN</h2>
+<section id="r-packages" class="level2">
+<h2 class="anchored" data-anchor-id="r-packages">R packages</h2>
+<p>The table lists all R packages, including their distribution source. Release and download badges are shown for packages currently on CRAN.</p>
 <div id="pre-r-pkg-table">
 
 </div>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 30%">
+<col style="width: 20%">
+<col style="width: 15%">
+<col style="width: 25%">
 <col style="width: 40%">
-<col style="width: 30%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Name</th>
+<th>Source</th>
 <th>Latest Release</th>
 <th>Downloads (RStudio CRAN Mirror Since October 2012)</th>
 </tr>
@@ -186,116 +192,175 @@ window.Quarto = {
 <tbody>
 <tr class="odd">
 <td><a href="#aftgee">aftgee</a></td>
+<td><a href="https://CRAN.R-project.org/package=aftgee">CRAN</a></td>
 <td><a href="https://CRAN.R-project.org/package=aftgee"><img src="https://www.r-pkg.org/badges/version-last-release/aftgee" class="img-fluid" alt="aftgee-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/aftgee" class="img-fluid" alt="aftgee-log"></td>
 </tr>
 <tr class="even">
 <td><a href="#clusrank">clusrank</a></td>
+<td><a href="https://CRAN.R-project.org/package=clusrank">CRAN</a></td>
 <td><a href="https://CRAN.R-project.org/package=clusrank"><img src="https://www.r-pkg.org/badges/version-last-release/clusrank" class="img-fluid" alt="clusrank-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/clusrank" class="img-fluid" alt="clusrank-log"></td>
 </tr>
 <tr class="odd">
 <td><a href="#coga">coga</a></td>
+<td><a href="https://CRAN.R-project.org/package=coga">CRAN</a></td>
 <td><a href="https://CRAN.R-project.org/package=coga"><img src="https://www.r-pkg.org/badges/version-last-release/coga" class="img-fluid" alt="coga-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/coga" class="img-fluid" alt="coga-log"></td>
 </tr>
 <tr class="even">
 <td><a href="#copula">copula</a></td>
+<td><a href="https://CRAN.R-project.org/package=copula">CRAN</a></td>
 <td><a href="https://CRAN.R-project.org/package=copula"><img src="https://www.r-pkg.org/badges/version-last-release/copula" class="img-fluid" alt="copula-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/copula" class="img-fluid" alt="copula-log"></td>
 </tr>
 <tr class="odd">
 <td><a href="#dacc">dacc</a></td>
+<td><a href="https://CRAN.R-project.org/package=dacc">CRAN</a></td>
 <td><a href="https://CRAN.R-project.org/package=dacc"><img src="https://www.r-pkg.org/badges/version-last-release/dacc" class="img-fluid" alt="dacc-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/dacc" class="img-fluid" alt="dacc-log"></td>
 </tr>
 <tr class="even">
 <td><a href="#dynsurv">dynsurv</a></td>
+<td><a href="https://CRAN.R-project.org/package=dynsurv">CRAN</a></td>
 <td><a href="https://CRAN.R-project.org/package=dynsurv"><img src="https://www.r-pkg.org/badges/version-last-release/dynsurv" class="img-fluid" alt="dynsurv-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/dynsurv" class="img-fluid" alt="dynsurv-log"></td>
 </tr>
 <tr class="odd">
 <td><a href="#eva">eva</a></td>
+<td><a href="https://CRAN.R-project.org/package=eva">CRAN</a></td>
 <td><a href="https://CRAN.R-project.org/package=eva"><img src="https://www.r-pkg.org/badges/version-last-release/eva" class="img-fluid" alt="eva-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/eva" class="img-fluid" alt="eva-log"></td>
 </tr>
 <tr class="even">
+<td><a href="#fgof">fgof</a></td>
+<td><a href="https://cran.r-project.org/src/contrib/Archive/fgof/">CRAN archive</a></td>
+<td>Archived</td>
+<td>N/A</td>
+</tr>
+<tr class="odd">
 <td><a href="#geepack">geepack</a></td>
+<td><a href="https://CRAN.R-project.org/package=geepack">CRAN</a></td>
 <td><a href="https://CRAN.R-project.org/package=geepack"><img src="https://www.r-pkg.org/badges/version-last-release/geepack" class="img-fluid" alt="geepack-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/geepack" class="img-fluid" alt="geepack-log"></td>
 </tr>
+<tr class="even">
+<td><a href="#grasps">grasps</a></td>
+<td><a href="https://CRAN.R-project.org/package=grasps">CRAN</a></td>
+<td><a href="https://CRAN.R-project.org/package=grasps"><img src="https://www.r-pkg.org/badges/version-last-release/grasps" class="img-fluid" alt="grasps-version"></a></td>
+<td><img src="https://cranlogs.r-pkg.org/badges/grand-total/grasps" class="img-fluid" alt="grasps-log"></td>
+</tr>
 <tr class="odd">
 <td><a href="#intsurv">intsurv</a></td>
+<td><a href="https://CRAN.R-project.org/package=intsurv">CRAN</a></td>
 <td><a href="https://CRAN.R-project.org/package=intsurv"><img src="https://www.r-pkg.org/badges/version-last-release/intsurv" class="img-fluid" alt="intsurv-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/intsurv" class="img-fluid" alt="intsurv-log"></td>
 </tr>
 <tr class="even">
+<td><a href="#ionet">ionet</a></td>
+<td><a href="https://CRAN.R-project.org/package=ionet">CRAN</a></td>
+<td><a href="https://CRAN.R-project.org/package=ionet"><img src="https://www.r-pkg.org/badges/version-last-release/ionet" class="img-fluid" alt="ionet-version"></a></td>
+<td><img src="https://cranlogs.r-pkg.org/badges/grand-total/ionet" class="img-fluid" alt="ionet-log"></td>
+</tr>
+<tr class="odd">
 <td><a href="#jds.rmd">jds.rmd</a></td>
+<td><a href="https://CRAN.R-project.org/package=jds.rmd">CRAN</a></td>
 <td><a href="https://CRAN.R-project.org/package=jds.rmd"><img src="https://www.r-pkg.org/badges/version-last-release/jds.rmd" class="img-fluid" alt="jds.rmd-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/jds.rmd" class="img-fluid" alt="jds.rmd-log"></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="#KMsurv">KMsurv</a></td>
+<td><a href="https://CRAN.R-project.org/package=KMsurv">CRAN</a></td>
 <td><a href="https://CRAN.R-project.org/package=KMsurv"><img src="https://www.r-pkg.org/badges/version-last-release/KMsurv" class="img-fluid" alt="KMsurv-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/KMsurv" class="img-fluid" alt="KMsurv-log"></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="#ramps">ramps</a></td>
+<td><a href="https://CRAN.R-project.org/package=ramps">CRAN</a></td>
 <td><a href="https://CRAN.R-project.org/package=ramps"><img src="https://www.r-pkg.org/badges/version-last-release/ramps" class="img-fluid" alt="ramps-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/ramps" class="img-fluid" alt="ramps-log"></td>
 </tr>
+<tr class="even">
+<td><a href="#rbugs">rbugs</a></td>
+<td><a href="https://cran.r-project.org/src/contrib/Archive/rbugs/">CRAN archive</a></td>
+<td>Archived</td>
+<td>N/A</td>
+</tr>
 <tr class="odd">
 <td><a href="#reda">reda</a></td>
+<td><a href="https://CRAN.R-project.org/package=reda">CRAN</a></td>
 <td><a href="https://CRAN.R-project.org/package=reda"><img src="https://www.r-pkg.org/badges/version-last-release/reda" class="img-fluid" alt="reda-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/reda" class="img-fluid" alt="reda-log"></td>
 </tr>
 <tr class="even">
 <td><a href="#rrpack">rrpack</a></td>
+<td><a href="https://CRAN.R-project.org/package=rrpack">CRAN</a></td>
 <td><a href="https://CRAN.R-project.org/package=rrpack"><img src="https://www.r-pkg.org/badges/version-last-release/rrpack" class="img-fluid" alt="rrpack-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/rrpack" class="img-fluid" alt="rrpack-log"></td>
 </tr>
 <tr class="odd">
 <td><a href="#sgee">sgee</a></td>
+<td><a href="https://CRAN.R-project.org/package=sgee">CRAN</a></td>
 <td><a href="https://CRAN.R-project.org/package=sgee"><img src="https://www.r-pkg.org/badges/version-last-release/sgee" class="img-fluid" alt="sgee-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/sgee" class="img-fluid" alt="sgee-log"></td>
 </tr>
 <tr class="even">
 <td><a href="#smam">smam</a></td>
+<td><a href="https://CRAN.R-project.org/package=smam">CRAN</a></td>
 <td><a href="https://CRAN.R-project.org/package=smam"><img src="https://www.r-pkg.org/badges/version-last-release/smam" class="img-fluid" alt="smam-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/smam" class="img-fluid" alt="smam-log"></td>
 </tr>
 <tr class="odd">
 <td><a href="#som">som</a></td>
+<td><a href="https://CRAN.R-project.org/package=som">CRAN</a></td>
 <td><a href="https://CRAN.R-project.org/package=som"><img src="https://www.r-pkg.org/badges/version-last-release/som" class="img-fluid" alt="som-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/som" class="img-fluid" alt="som-log"></td>
 </tr>
 <tr class="even">
 <td><a href="#spef">spef</a></td>
+<td><a href="https://CRAN.R-project.org/package=spef">CRAN</a></td>
 <td><a href="https://CRAN.R-project.org/package=spef"><img src="https://www.r-pkg.org/badges/version-last-release/spef" class="img-fluid" alt="spef-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/spef" class="img-fluid" alt="spef-log"></td>
 </tr>
 <tr class="odd">
+<td><a href="#spice">spice</a></td>
+<td><a href="https://github.com/Carol-seven/spice">GitHub</a></td>
+<td>Development</td>
+<td>N/A</td>
+</tr>
+<tr class="even">
 <td><a href="#splines2">splines2</a></td>
+<td><a href="https://CRAN.R-project.org/package=splines2">CRAN</a></td>
 <td><a href="https://CRAN.R-project.org/package=splines2"><img src="https://www.r-pkg.org/badges/version-last-release/splines2" class="img-fluid" alt="splines2-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/splines2" class="img-fluid" alt="splines2-log"></td>
 </tr>
+<tr class="odd">
+<td><a href="#subsampling">subsampling</a></td>
+<td><a href="https://CRAN.R-project.org/package=subsampling">CRAN</a></td>
+<td><a href="https://CRAN.R-project.org/package=subsampling"><img src="https://www.r-pkg.org/badges/version-last-release/subsampling" class="img-fluid" alt="subsampling-version"></a></td>
+<td><img src="https://cranlogs.r-pkg.org/badges/grand-total/subsampling" class="img-fluid" alt="subsampling-log"></td>
+</tr>
 <tr class="even">
 <td><a href="#tls">tls</a></td>
+<td><a href="https://CRAN.R-project.org/package=tls">CRAN</a></td>
 <td><a href="https://CRAN.R-project.org/package=tls"><img src="https://www.r-pkg.org/badges/version-last-release/tls" class="img-fluid" alt="tls-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/tls" class="img-fluid" alt="tls-log"></td>
 </tr>
 <tr class="odd">
-<td><a href="#tpr">tpr</a></td>
-<td><a href="https://CRAN.R-project.org/package=tpr"><img src="https://www.r-pkg.org/badges/version-last-release/tpr" class="img-fluid" alt="tpr-version"></a></td>
-<td><img src="https://cranlogs.r-pkg.org/badges/grand-total/tpr" class="img-fluid" alt="tpr-log"></td>
-</tr>
-<tr class="even">
 <td><a href="#touch">touch</a></td>
+<td><a href="https://CRAN.R-project.org/package=touch">CRAN</a></td>
 <td><a href="https://CRAN.R-project.org/package=touch"><img src="https://www.r-pkg.org/badges/version-last-release/touch" class="img-fluid" alt="touch-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/touch" class="img-fluid" alt="touch-log"></td>
 </tr>
+<tr class="even">
+<td><a href="#tpr">tpr</a></td>
+<td><a href="https://CRAN.R-project.org/package=tpr">CRAN</a></td>
+<td><a href="https://CRAN.R-project.org/package=tpr"><img src="https://www.r-pkg.org/badges/version-last-release/tpr" class="img-fluid" alt="tpr-version"></a></td>
+<td><img src="https://cranlogs.r-pkg.org/badges/grand-total/tpr" class="img-fluid" alt="tpr-log"></td>
+</tr>
 <tr class="odd">
 <td><a href="#wdnet">wdnet</a></td>
+<td><a href="https://CRAN.R-project.org/package=wdnet">CRAN</a></td>
 <td><a href="https://CRAN.R-project.org/package=wdnet"><img src="https://www.r-pkg.org/badges/version-last-release/wdnet" class="img-fluid" alt="wdnet-version"></a></td>
 <td><img src="https://cranlogs.r-pkg.org/badges/grand-total/wdnet" class="img-fluid" alt="wdnet-log"></td>
 </tr>
@@ -305,7 +370,8 @@ window.Quarto = {
 <hr>
 <section id="aftgee" class="level3">
 <h3 class="anchored" data-anchor-id="aftgee">{aftgee}: Accelerated Failure Time Model with Generalized Estimating Equations</h3>
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/stc04003/aftgee" class="img-fluid" alt="aftgee-dev"> <a href="https://github.com/stc04003/aftgee"><img src="https://img.shields.io/github/stars/stc04003/aftgee.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="aftgee-ghs"></a></p>
+<!-- cv-authors: Chiou, S. and Kang, S. and Yan, J -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"> <img src="https://img.shields.io/github/last-commit/stc04003/aftgee" class="img-fluid" alt="aftgee-dev"> <a href="https://github.com/stc04003/aftgee"><img src="https://img.shields.io/github/stars/stc04003/aftgee.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="aftgee-ghs"></a></span></p>
 <p>{aftgee} provides a collection of methods for both the rank-based estimates and least-square estimates to the Accelerated Failure Time (AFT) model.</p>
 <ul>
 <li>For rank-based estimation, it provides the computationally efficient Gehan’s weight and the general’s weight such as the logrank weight. See Chiou et al. (2014, 2015) for details.</li>
@@ -323,7 +389,8 @@ window.Quarto = {
 </section>
 <section id="clusrank" class="level3">
 <h3 class="anchored" data-anchor-id="clusrank">{clusrank}: Wilcoxon Rank Tests for Clustered Data</h3>
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/clusrank" class="img-fluid" alt="clusrank-dev"> <a href="https://github.com/wenjie2wang/clusrank"><img src="https://img.shields.io/github/stars/wenjie2wang/clusrank.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="clusrank-ghs"></a></p>
+<!-- cv-authors: Jiang, Y. and Lee, M.-L. T. and Yan, J -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/clusrank" class="img-fluid" alt="clusrank-dev"> <a href="https://github.com/wenjie2wang/clusrank"><img src="https://img.shields.io/github/stars/wenjie2wang/clusrank.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="clusrank-ghs"></a></span></p>
 <p>{clusrank} provides functions for Wilcoxon rank sum test and Wilcoxon signed rank test for clustered data. See Jiang et. al (2020) for details.</p>
 <section id="references-1" class="level4">
 <h4 class="anchored" data-anchor-id="references-1">References</h4>
@@ -335,7 +402,8 @@ window.Quarto = {
 </section>
 <section id="coga" class="level3">
 <h3 class="anchored" data-anchor-id="coga">{coga}: Convolution of Gamma Distributions</h3>
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/ChaoranHu/coga" class="img-fluid" alt="coga-dev"> <a href="https://github.com/ChaoranHu/coga"><img src="https://img.shields.io/github/stars/ChaoranHu/coga.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="coga-ghs"></a></p>
+<!-- cv-authors: Hu, C. and Pozdnyakov, V. and Yan, J -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"> <img src="https://img.shields.io/github/last-commit/ChaoranHu/coga" class="img-fluid" alt="coga-dev"> <a href="https://github.com/ChaoranHu/coga"><img src="https://img.shields.io/github/stars/ChaoranHu/coga.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="coga-ghs"></a></span></p>
 <p>{coga} provides functions for density and distribution evaluation of convolution of gamma distributions. Two related exact methods and one approximate method are implemented with efficient algorithm and C++ code.</p>
 <section id="references-2" class="level4">
 <h4 class="anchored" data-anchor-id="references-2">References</h4>
@@ -347,12 +415,9 @@ window.Quarto = {
 </section>
 <section id="copula" class="level3">
 <h3 class="anchored" data-anchor-id="copula">{copula}: Multivariate Dependence with Copulas</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid figure-img"></p>
-<figcaption>gpl-badge</figcaption>
-</figure>
-</div>
+<!-- cv-authors: Hofert, M. and Kojadinovic, I. and M\"achler, M. and Yan, J -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"></span></p>
+<p>Development: <a href="https://r-forge.r-project.org/projects/copula/">R-Forge</a>.</p>
 <p>{copula} provides classes (S4) of commonly used elliptical, Archimedean, extreme-value and other copula families, as well as their rotations, mixtures and asymmetrizations. Nested Archimedean copulas, related tools and special functions. Methods for density, distribution, random number generation, bivariate dependence measures, Rosenblatt transform, Kendall distribution function, perspective and contour plots. Fitting of copula models with potentially partly fixed parameters, including standard errors. Serial independence tests, copula specification tests (independence, exchangeability, radial symmetry, extreme-value dependence, goodness-of-fit) and model selection based on cross-validation. Empirical copula, smoothed versions, and non-parametric estimators of the Pickands dependence function.</p>
 <section id="references-3" class="level4">
 <h4 class="anchored" data-anchor-id="references-3">References</h4>
@@ -366,7 +431,8 @@ window.Quarto = {
 </section>
 <section id="dacc" class="level3">
 <h3 class="anchored" data-anchor-id="dacc">{dacc}: Detection and Attribution Analysis of Climate Change</h3>
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/LiYanStat/dacc" class="img-fluid" alt="dacc-dev"> <a href="https://github.com/LiYanStat/dacc"><img src="https://img.shields.io/github/stars/LiYanStat/dacc.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="dacc-ghs"></a></p>
+<!-- cv-authors: Li, Y. and Chen, K. and Yan, J -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"> <img src="https://img.shields.io/github/last-commit/LiYanStat/dacc" class="img-fluid" alt="dacc-dev"> <a href="https://github.com/LiYanStat/dacc"><img src="https://img.shields.io/github/stars/LiYanStat/dacc.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="dacc-ghs"></a></span></p>
 <p>{dacc} provides functions for conducting detection and attribution of climate change using methods that include optimal fingerprinting via generalized total least squares or estimating equation approach from Ma et al.&nbsp;(2023). Additionally, it offers shrinkage estimators for covariance matrix from Ledoit and Wolf.</p>
 <section id="references-4" class="level4">
 <h4 class="anchored" data-anchor-id="references-4">References</h4>
@@ -378,7 +444,8 @@ window.Quarto = {
 </section>
 <section id="dynsurv" class="level3">
 <h3 class="anchored" data-anchor-id="dynsurv">{dynsurv}: Dynamic Models for Survival Data</h3>
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/dynsurv" class="img-fluid" alt="dynsurv-dev"> <a href="https://github.com/wenjie2wang/dynsurv"><img src="https://img.shields.io/github/stars/wenjie2wang/dynsurv.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="dynsurv-ghs"></a></p>
+<!-- cv-authors: Wang, X. and Chen, M.-H. and Yan, J -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/dynsurv" class="img-fluid" alt="dynsurv-dev"> <a href="https://github.com/wenjie2wang/dynsurv"><img src="https://img.shields.io/github/stars/wenjie2wang/dynsurv.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="dynsurv-ghs"></a></span></p>
 <p>{dynsurv} provides functions to fit time-varying coefficient models for interval censored and right censored survival data. Three major approaches are implemented:</p>
 <ol type="1">
 <li>Bayesian Cox model with time-independent, time-varying or dynamic coefficients for right censored and interval censored data.</li>
@@ -396,7 +463,8 @@ window.Quarto = {
 </section>
 <section id="eva" class="level3">
 <h3 class="anchored" data-anchor-id="eva">{eva}: Extreme Value Analysis with Goodness-of-Fit Testing</h3>
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/brianbader/eva_package" class="img-fluid" alt="eva-dev"> <a href="https://github.com/brianbader/eva_package"><img src="https://img.shields.io/github/stars/brianbader/eva_package.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="eva-ghs"></a></p>
+<!-- cv-authors: Bader, B. and Yan, J -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"> <img src="https://img.shields.io/github/last-commit/brianbader/eva_package" class="img-fluid" alt="eva-dev"> <a href="https://github.com/brianbader/eva_package"><img src="https://img.shields.io/github/stars/brianbader/eva_package.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="eva-ghs"></a></span></p>
 <p>{eva} provides functions for:</p>
 <ol type="1">
 <li>Goodness-of-fit tests for selection of r in the r-largest order statistics (GEVr) model.</li>
@@ -415,9 +483,18 @@ window.Quarto = {
 <hr>
 </section>
 </section>
+<section id="fgof" class="level3">
+<h3 class="anchored" data-anchor-id="fgof">{fgof}: Fast Goodness-of-Fit Tests</h3>
+<!-- cv-authors: Kojadinovic, I. and Yan, J -->
+<!-- cv-url: https://cran.r-project.org/src/contrib/Archive/fgof/ -->
+<p>Fast goodness-of-fit tests. The package is archived on CRAN.</p>
+<p><a href="https://cran.r-project.org/src/contrib/Archive/fgof/">CRAN archive</a></p>
+<hr>
+</section>
 <section id="geepack" class="level3">
 <h3 class="anchored" data-anchor-id="geepack">{geepack}: Generalized Estimating Equations</h3>
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/hojsgaard/geepack" class="img-fluid" alt="geepack-dev"> <a href="https://github.com/hojsgaard/geepack"><img src="https://img.shields.io/github/stars/hojsgaard/geepack.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="geepack-ghs"></a></p>
+<!-- cv-authors: Yan, J. and H\o{}jsgaard, S. and Halekoh, U -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"> <img src="https://img.shields.io/github/last-commit/hojsgaard/geepack" class="img-fluid" alt="geepack-dev"> <a href="https://github.com/hojsgaard/geepack"><img src="https://img.shields.io/github/stars/hojsgaard/geepack.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="geepack-ghs"></a></span></p>
 <p>{geepack} provides generalized estimating equations solver for parameters in mean, scale, and correlation structures, through mean link, scale link, and correlation link. Can also handle clustered categorical responses.</p>
 <section id="references-7" class="level4">
 <h4 class="anchored" data-anchor-id="references-7">References</h4>
@@ -428,9 +505,18 @@ window.Quarto = {
 <hr>
 </section>
 </section>
+<section id="grasps" class="level3">
+<h3 class="anchored" data-anchor-id="grasps">{grasps}: Groupwise Regularized Adaptive Sparse Precision Solution</h3>
+<!-- cv-authors: Xiao, S. and Yan, J. and Zhang, P -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"> <img src="https://img.shields.io/github/last-commit/Carol-seven/grasps" class="img-fluid" alt="Latest commit"> <a href="https://github.com/Carol-seven/grasps"><img src="https://img.shields.io/github/stars/Carol-seven/grasps.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="GitHub stars"></a></span></p>
+<p>Groupwise regularized adaptive sparse precision estimation.</p>
+<p><a href="https://CRAN.R-project.org/package=grasps">CRAN</a></p>
+<hr>
+</section>
 <section id="intsurv" class="level3">
 <h3 class="anchored" data-anchor-id="intsurv">{intsurv}: Integrative Survival Modeling</h3>
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/intsurv" class="img-fluid" alt="intsurv-dev"> <a href="https://github.com/wenjie2wang/intsurv"><img src="https://img.shields.io/github/stars/wenjie2wang/intsurv.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="intsurv-ghs"></a></p>
+<!-- cv-authors: Wang, W. and Chen, K. and Yan, J -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/intsurv" class="img-fluid" alt="intsurv-dev"> <a href="https://github.com/wenjie2wang/intsurv"><img src="https://img.shields.io/github/stars/wenjie2wang/intsurv.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="intsurv-ghs"></a></span></p>
 <p>{intsurv} contains implementations of</p>
 <ul>
 <li>integrative Cox model with uncertain event times (Wang et al., 2020)</li>
@@ -451,26 +537,32 @@ window.Quarto = {
 <hr>
 </section>
 </section>
+<section id="ionet" class="level3">
+<h3 class="anchored" data-anchor-id="ionet">{ionet}: Network Analysis for Input-Output Tables</h3>
+<!-- cv-authors: Xiao, S. and Yan, J. and Zhang, P -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"> <img src="https://img.shields.io/github/last-commit/Carol-seven/ionet" class="img-fluid" alt="Latest commit"> <a href="https://github.com/Carol-seven/ionet"><img src="https://img.shields.io/github/stars/Carol-seven/ionet.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="GitHub stars"></a></span></p>
+<p>Network analysis for input-output tables.</p>
+<p><a href="https://CRAN.R-project.org/package=ionet">CRAN</a></p>
+<hr>
+</section>
 <section id="jds.rmd" class="level3">
 <h3 class="anchored" data-anchor-id="jds.rmd">{jds.rmd}: R Markdown Templates for Journal of Data Science</h3>
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/jds.rmd" class="img-fluid" alt="jds.rmd-dev"> <a href="https://github.com/wenjie2wang/jds.rmd"><img src="https://img.shields.io/github/stars/wenjie2wang/jds.rmd.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="jds.rmd-ghs"></a></p>
+<!-- cv-authors: Wang, Wenjie and Yan, Jun -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/jds.rmd" class="img-fluid" alt="jds.rmd-dev"> <a href="https://github.com/wenjie2wang/jds.rmd"><img src="https://img.shields.io/github/stars/wenjie2wang/jds.rmd.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="jds.rmd-ghs"></a></span></p>
 <p>{jds.rmd} provides R Markdown templates intended for <a href="https://jds-online.org">Journal of Data Science</a>, which can be useful for authoring a manuscript with code chunks or producing tables/figures on the fly.</p>
 <hr>
 </section>
 <section id="KMsurv" class="level3">
 <h3 class="anchored" data-anchor-id="KMsurv">{KMsurv}: Data sets from Klein and Moeschberger (1997), Survival Analysis</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid figure-img"></p>
-<figcaption>gpl-badge</figcaption>
-</figure>
-</div>
+<!-- cv-authors: Yan, J -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"> <img src="https://img.shields.io/github/last-commit/jun-yan/KMsurv" class="img-fluid" alt="Latest commit"> <a href="https://github.com/jun-yan/KMsurv"><img src="https://img.shields.io/github/stars/jun-yan/KMsurv.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="GitHub stars"></a></span></p>
 <p>{KMsurv} provides data sets and functions for Klein and Moeschberger (1997), “Survival Analysis, Techniques for Censored and Truncated Data”, Springer.</p>
 <hr>
 </section>
 <section id="ramps" class="level3">
 <h3 class="anchored" data-anchor-id="ramps">{ramps}: Bayesian Geostatistical Modeling with RAMPS</h3>
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/brian-j-smith/ramps" class="img-fluid" alt="ramps-dev"> <a href="https://github.com/brian-j-smith/ramps"><img src="https://img.shields.io/github/stars/brian-j-smith/ramps.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="ramps-ghs"></a></p>
+<!-- cv-authors: Smith, B. P. and Yan, J. and Cowles, M. K -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"> <img src="https://img.shields.io/github/last-commit/brian-j-smith/ramps" class="img-fluid" alt="ramps-dev"> <a href="https://github.com/brian-j-smith/ramps"><img src="https://img.shields.io/github/stars/brian-j-smith/ramps.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="ramps-ghs"></a></span></p>
 <p>{ramps} provides functions for Bayesian geostatistical modeling of Gaussian processes using a reparameterized and marginalized posterior sampling (RAMPS) algorithm, designed to lower autocorrelation in MCMC samples.</p>
 <section id="references-9" class="level4">
 <h4 class="anchored" data-anchor-id="references-9">References</h4>
@@ -480,9 +572,18 @@ window.Quarto = {
 <hr>
 </section>
 </section>
+<section id="rbugs" class="level3">
+<h3 class="anchored" data-anchor-id="rbugs">{rbugs}: An Interface to BUGS</h3>
+<!-- cv-authors: Prates, M. O. and Wang, W. and Yan, J -->
+<!-- cv-url: https://cran.r-project.org/src/contrib/Archive/rbugs/ -->
+<p>An interface between R and BUGS. The package is archived on CRAN.</p>
+<p><a href="https://CRAN.R-project.org/package=rbugs">CRAN archive</a></p>
+<hr>
+</section>
 <section id="reda" class="level3">
 <h3 class="anchored" data-anchor-id="reda">{reda}: Recurrent Event Data Analysis</h3>
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/reda" class="img-fluid" alt="reda-dev"> <a href="https://github.com/wenjie2wang/reda"><img src="https://img.shields.io/github/stars/wenjie2wang/reda.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="reda-ghs"></a></p>
+<!-- cv-authors: Wang, W. and Fu, H. and Yan, J -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/reda" class="img-fluid" alt="reda-dev"> <a href="https://github.com/wenjie2wang/reda"><img src="https://img.shields.io/github/stars/wenjie2wang/reda.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="reda-ghs"></a></span></p>
 <p>{reda} provides functions for:</p>
 <ol type="1">
 <li>Simulating survival, recurrent event, and multiple event data from stochastic process point of view.</li>
@@ -494,23 +595,15 @@ window.Quarto = {
 </section>
 <section id="rrpack" class="level3">
 <h3 class="anchored" data-anchor-id="rrpack">{rrpack}: Reduced-Rank Regression</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid figure-img"></p>
-<figcaption>gpl-badge</figcaption>
-</figure>
-</div>
+<!-- cv-authors: Chen, Kun and Wang, Wenjie and Yan, Jun -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"></span></p>
 <p>{rrpack} provides implementations for multivariate regression methodologies including reduced-rank regression (RRR), reduced-rank ridge regression (RRS), robust reduced-rank regression (R4), generalized/mixed-response reduced-rank regression (mRRR), row-sparse reduced-rank regression (SRRR), reduced-rank regression with a sparse singular value decomposition (RSSVD), and sparse and orthogonal factor regression (SOFAR).</p>
 <hr>
 </section>
 <section id="sgee" class="level3">
 <h3 class="anchored" data-anchor-id="sgee">{sgee}: Stagewise Generalized Estimating Equations</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid figure-img"></p>
-<figcaption>gpl-badge</figcaption>
-</figure>
-</div>
+<!-- cv-authors: Vaughan, G. and Chen, K. and Yan, J -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"></span></p>
 <p>{sgee} provides stagewise techniques implemented with generalized estimating equations to handle individual, group, bi-level, and interaction selection. Stagewise approaches start with an empty model and slowly build the model over several iterations, which yields a ‘path’ of candidate models from which model selection can be performed. This ‘slow brewing’ approach gives stagewise techniques a unique flexibility that allows simple incorporation of generalized estimating equations. See Vaughan et al.&nbsp;(2017) for details.</p>
 <section id="references-10" class="level4">
 <h4 class="anchored" data-anchor-id="references-10">References</h4>
@@ -522,7 +615,8 @@ window.Quarto = {
 </section>
 <section id="smam" class="level3">
 <h3 class="anchored" data-anchor-id="smam">{smam}: Statistical Modeling of Animal Movements</h3>
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/ChaoranHu/smam" class="img-fluid" alt="smam-dev"> <a href="https://github.com/ChaoranHu/smam"><img src="https://img.shields.io/github/stars/ChaoranHu/smam.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="smam-ghs"></a></p>
+<!-- cv-authors: Hu, C. and Yan, J. and Pozdnyakov, V -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"> <img src="https://img.shields.io/github/last-commit/ChaoranHu/smam" class="img-fluid" alt="smam-dev"> <a href="https://github.com/ChaoranHu/smam"><img src="https://img.shields.io/github/stars/ChaoranHu/smam.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="smam-ghs"></a></span></p>
 <p>{smam} provides functions for animal movement models, including:</p>
 <ul>
 <li>Moving-resting process with embedded Brownian motion. See Yan et al.&nbsp;(2014) and Pozdnyakov et al.&nbsp;(2019) for details.</li>
@@ -545,18 +639,15 @@ window.Quarto = {
 </section>
 <section id="som" class="level3">
 <h3 class="anchored" data-anchor-id="som">{som}: Self-Organizing Map</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid figure-img"></p>
-<figcaption>gpl-badge</figcaption>
-</figure>
-</div>
+<!-- cv-authors: Yan, J -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"></span></p>
 <p>{som} provides functions for self-organizing map (with application in gene clustering).</p>
 <hr>
 </section>
 <section id="spef" class="level3">
 <h3 class="anchored" data-anchor-id="spef">{spef}: Semiparametric Estimating Functions</h3>
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/stc04003/spef" class="img-fluid" alt="spef-dev"> <a href="https://github.com/stc04003/spef"><img src="https://img.shields.io/github/stars/stc04003/spef.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="spef-ghs"></a></p>
+<!-- cv-authors: Chiou, S. and Wang, X. and Yan, J -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"> <img src="https://img.shields.io/github/last-commit/stc04003/spef" class="img-fluid" alt="spef-dev"> <a href="https://github.com/stc04003/spef"><img src="https://img.shields.io/github/stars/stc04003/spef.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="spef-ghs"></a></span></p>
 <p>{spef} provides a collection of functions to fit semiparametric regression models for panel count survival data. Estimating procedures include:</p>
 <ul>
 <li>Wang-Yan’s augmented estimating equations (AEE, AEEX)</li>
@@ -577,9 +668,19 @@ window.Quarto = {
 <hr>
 </section>
 </section>
+<section id="spice" class="level3">
+<h3 class="anchored" data-anchor-id="spice">{spice}: Sparse Precision (Inverse Covariance) Estimation</h3>
+<!-- cv-authors: Xiao, S. and Yan, J. and Zhang, P -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"> <img src="https://img.shields.io/github/last-commit/Carol-seven/spice" class="img-fluid" alt="Latest commit"> <a href="https://github.com/Carol-seven/spice"><img src="https://img.shields.io/github/stars/Carol-seven/spice.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="GitHub stars"></a></span></p>
+<p><span id="fcstat"></span> {spice} provides methods for sparse precision matrix estimation and functional connectivity analysis in brain networks.</p>
+<!-- cv-url: https://github.com/Carol-seven/spice -->
+<p><a href="https://github.com/Carol-seven/spice">GitHub</a></p>
+<hr>
+</section>
 <section id="splines2" class="level3">
 <h3 class="anchored" data-anchor-id="splines2">{splines2}: Regression Spline Functions and Classes</h3>
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/splines2" class="img-fluid" alt="splines2-dev"> <a href="https://github.com/wenjie2wang/splines2"><img src="https://img.shields.io/github/stars/wenjie2wang/splines2.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="splines2-ghs"></a> <a href="https://doi.org/10.6339/21-JDS1020"><img src="https://img.shields.io/badge/JDS-10.6339%2F21--JDS1020-brightgreen" class="img-fluid" alt="JDS"></a></p>
+<!-- cv-authors: Wang, W. and Yan, J -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/splines2" class="img-fluid" alt="splines2-dev"> <a href="https://github.com/wenjie2wang/splines2"><img src="https://img.shields.io/github/stars/wenjie2wang/splines2.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="splines2-ghs"></a> <a href="https://doi.org/10.6339/21-JDS1020"><img src="https://img.shields.io/badge/JDS-10.6339%2F21--JDS1020-brightgreen" class="img-fluid" alt="JDS"></a></span></p>
 <p>{splines2} is a supplement package to the base package {splines}. It provides functions to construct basis matrices of</p>
 <ul>
 <li>B-splines</li>
@@ -600,15 +701,25 @@ window.Quarto = {
 <hr>
 </section>
 </section>
+<section id="subsampling" class="level3">
+<h3 class="anchored" data-anchor-id="subsampling">{subsampling}: Optimal Subsampling Methods for Statistical Models</h3>
+<!-- cv-authors: Dong, Q. and Yao, Y. and Wang, H. and Zhang, Q. and Yan, J -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"> <img src="https://img.shields.io/github/last-commit/dqksnow/subsampling" class="img-fluid" alt="Latest commit"> <a href="https://github.com/dqksnow/subsampling"><img src="https://img.shields.io/github/stars/dqksnow/subsampling.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="GitHub stars"></a></span></p>
+<p>Optimal subsampling methods for statistical models.</p>
+<p><a href="https://CRAN.R-project.org/package=subsampling">CRAN</a></p>
+<hr>
+</section>
 <section id="tls" class="level3">
 <h3 class="anchored" data-anchor-id="tls">{tls}: Tools of Total Least Squares in Error-in-Variables Models</h3>
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/LiYanStat/tls" class="img-fluid" alt="tls-dev"> <a href="https://github.com/LiYanStat/tls"><img src="https://img.shields.io/github/stars/LiYanStat/tls.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="tls-ghs"></a></p>
+<!-- cv-authors: Li, Y. and Chen, K. and Yan, J -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"> <img src="https://img.shields.io/github/last-commit/LiYanStat/tls" class="img-fluid" alt="tls-dev"> <a href="https://github.com/LiYanStat/tls"><img src="https://img.shields.io/github/stars/LiYanStat/tls.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="tls-ghs"></a></span></p>
 <p>{tls} provides functions for point and interval estimation in error-in-variables models via total least squares or generalized total least squares method.</p>
 <hr>
 </section>
 <section id="touch" class="level3">
 <h3 class="anchored" data-anchor-id="touch">{touch}: Tools of Utilization and Cost in Healthcare</h3>
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/touch" class="img-fluid" alt="touch-dev"> <a href="https://github.com/wenjie2wang/touch"><img src="https://img.shields.io/github/stars/wenjie2wang/touch.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="touch-ghs"></a></p>
+<!-- cv-authors: Li, Y. and Wang, W. and Yan, J -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"> <img src="https://img.shields.io/github/last-commit/wenjie2wang/touch" class="img-fluid" alt="touch-dev"> <a href="https://github.com/wenjie2wang/touch"><img src="https://img.shields.io/github/stars/wenjie2wang/touch.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="touch-ghs"></a></span></p>
 <p>{touch} provides R implementation of the software tools developed in the H-CUP (Healthcare Cost and Utilization Project) and AHRQ (Agency for Healthcare Research and Quality). It contains functions for:</p>
 <ol type="1">
 <li>Mapping ICD-9 codes to the AHRQ comorbidity measures.</li>
@@ -618,12 +729,8 @@ window.Quarto = {
 </section>
 <section id="tpr" class="level3">
 <h3 class="anchored" data-anchor-id="tpr">{tpr}: Temporal Process Regression</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid figure-img"></p>
-<figcaption>gpl-badge</figcaption>
-</figure>
-</div>
+<!-- cv-authors: Yan, J -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"></span></p>
 <p>{tpr} provides functions to fit regression models for temporal process responses with time-varying and time-independent coefficients.</p>
 <section id="references-14" class="level4">
 <h4 class="anchored" data-anchor-id="references-14">References</h4>
@@ -636,7 +743,8 @@ window.Quarto = {
 </section>
 <section id="wdnet" class="level3">
 <h3 class="anchored" data-anchor-id="wdnet">{wdnet}: Weighted and Directed Networks</h3>
-<p><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="gpl-badge"> <img src="https://img.shields.io/gitlab/last-commit/wdnetwork/wdnet" class="img-fluid" alt="wdnet-dev"> <a href="https://gitlab.com/wdnetwork/wdnet"><img src="https://img.shields.io/gitlab/stars/wdnetwork/wdnet.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="wdnet-gls"></a></p>
+<!-- cv-authors: Yuan, Y. and Wang, Tiandong and Yan, J. and Zhang, P -->
+<p><span class="software-badges"><img src="https://img.shields.io/badge/License-GPL-blue.svg" class="img-fluid" alt="GPL license"> <img src="https://img.shields.io/gitlab/last-commit/wdnetwork/wdnet" class="img-fluid" alt="wdnet-dev"> <a href="https://gitlab.com/wdnetwork/wdnet"><img src="https://img.shields.io/gitlab/stars/wdnetwork/wdnet.svg?style=social&amp;label=Star&amp;maxAge=2592000" class="img-fluid" alt="wdnet-gls"></a></span></p>
 <p>{wdnet} provides functions for implementations of network analysis, including:</p>
 <ol type="1">
 <li>Assortativity coefficient of weighted and directed networks.</li>
@@ -740,7 +848,8 @@ window.Quarto = {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -749,8 +858,69 @@ window.Quarto = {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -764,6 +934,7 @@ window.Quarto = {
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -926,44 +1097,54 @@ window.Quarto = {
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -1061,6 +1242,9 @@ window.Quarto = {
       }
     }
   });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 </div> <!-- /content -->
 
