@@ -217,6 +217,32 @@ class CVPublicationsTests(unittest.TestCase):
         self.assertEqual(len(table_names), len(r_names))
         self.assertEqual(table_names, sorted(table_names, key=str.lower))
 
+    def test_publication_title_links_prefer_doi_and_fall_back_to_url(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "links.bib"
+            path.write_text(r'''
+@article{doi,
+  author={Yan, Jun}, year={2026}, title={A {Formatted} Title},
+  doi={10.1234/example}, url={https://example.org/unused}}
+@book{url,
+  author={Yan, Jun}, year={2025}, title={A Book Title},
+  url={https://example.org/book}}
+@article{plain,
+  author={Yan, Jun}, year={2024}, title={An Unlinked Title}}
+''')
+            entries = cv.read_bibliography([path])
+            original = copy.deepcopy(entries)
+            output = " ".join(cv.render(entries).split())
+            self.assertIn(r"\href{https://doi.org/10.1234/example}{A Formatted title}",
+                          output)
+            self.assertIn(r"\emph{\href{https://example.org/book}{A book title}}",
+                          output)
+            self.assertNotIn("https://example.org/unused", output)
+            self.assertIn("An unlinked title", output)
+            self.assertEqual(output.count(r"\href{"), 2)
+            self.assertEqual(output.count("10.1234/example"), 1)
+            self.assertEqual(entries, original)
+
     def test_forthcoming_year_categories_order_and_latex_escaping(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "sample.bib"

@@ -78,6 +78,10 @@ and other publication details. Remove the plus sign and Forthcoming note when
 final publication details become available. Duplicate keys across either
 bibliography cause generation to fail.
 
+Publication titles in the CV PDF link to their DOI when available, otherwise
+to the entry's URL. Titles without either field remain unlinked. DOI strings
+are not printed separately.
+
 Software
 --------
 

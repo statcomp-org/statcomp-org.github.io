@@ -227,6 +227,7 @@ def render(entries):
             author["given"] = re.sub(r"\b([A-Z][a-z]{2,})\.(?=\s|$)", r"\1", author.get("given", ""))
     doc = json.loads(pandoc(json.dumps(citation_entries), "csljson", "json"))
     cited = json.loads(pandoc(json.dumps(doc), "json", "json", "--citeproc",
+                             "--metadata=link-bibliography:true",
                              "--csl=" + str(ROOT / "cv-publications.csl")))
     blocks = {}
 
