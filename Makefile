@@ -1,6 +1,8 @@
 bucketName := statds.org
 
-all: publications
+.PHONY: all publications cv-publications check-cv-publications cv clean
+
+all: publications cv-publications
 	@quarto render
 
 publications: jyan.bib lcg-cv.csl lua-refs.lua
@@ -14,15 +16,22 @@ publications: jyan.bib lcg-cv.csl lua-refs.lua
 	@Rscript highlight-author.R \
 		"Yan, J." "publications.qmd"
 
-cv:
+cv-publications:
+	@python3 scripts/generate-cv-publications.py
+
+check-cv-publications:
+	@python3 scripts/generate-cv-publications.py --check
+
+cv: cv-publications
 	latexmk -pdf jyanCV
+	mkdir -p bindocs
 	cp -p jyanCV.pdf bindocs/
 	# cp jyanCV.pdf ~/pdf
 	# docker run -ti --rm -v ~/pdf:/pdf sergiomtzlosa/pdf2htmlex pdf2htmlEX --zoom 1.3 jyanCV.pdf jyanCV.html
 	# cp ~/pdf/jyanCV.html docs/
 
 clean:
-	rm -rf publications* *~
+	rm -f publications.qmd cv-publications.tex *~
 
 
 # push a local media copy (under photos/) to the remote bucket

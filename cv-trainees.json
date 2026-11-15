@@ -1,0 +1,44 @@
+{
+  "aliases": {
+    "Greg Vaughan": [
+      "Gregory Vaughan"
+    ],
+    "Sy Han (Steven) Chiou": [
+      "Sy Han Chiou",
+      "SyHan Chiou",
+      "Steven Chiou"
+    ],
+    "Lucas Godoy": [
+      "Lucas da C. Godoy",
+      "L. da C. Godoy"
+    ],
+    "Abby Lau": [
+      "Abby Y. Z. Lau",
+      "A. Y. Z. Lau",
+      "Y. T. A. Lau"
+    ]
+  },
+  "additional_trainees": [
+    {
+      "family": "Doshi",
+      "given": "Riddhi P"
+    },
+    {
+      "family": "Hu",
+      "given": "Z."
+    },
+    {
+      "family": "Wang",
+      "given": "Tiandong"
+    },
+    {
+      "family": "Wu",
+      "given": "Jing"
+    },
+    {
+      "family": "Xiao",
+      "given": "Shiying"
+    }
+  ],
+  "author_overrides": {}
+}

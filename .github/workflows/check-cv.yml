@@ -1,0 +1,23 @@
+name: Check CV publications
+
+on:
+  push:
+    branches: main
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: '1.10.18'
+      - name: Test CV generation rules
+        run: python3 -m unittest discover -s tests
+      - name: Check committed CV publication fragment
+        run: make check-cv-publications

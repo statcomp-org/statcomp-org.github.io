@@ -40,3 +40,16 @@ dist/
 # Flycheck
 flycheck_*.el
 **/*.quarto_ipynb
+
+# Python generator caches
+__pycache__/
+
+# CV build output and the separately hosted document collection
+/bindocs/
+/jyanCV.aux
+/jyanCV.fdb_latexmk
+/jyanCV.fls
+/jyanCV.log
+/jyanCV.out
+/jyanCV.pdf
+/jyanCV.synctex.gz
