@@ -1,5 +1,7 @@
 project:
   type: website
+  pre-render:
+    - make publications
   resources:
     - CNAME
   output-dir: docs

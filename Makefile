@@ -2,7 +2,7 @@ bucketName := statds.org
 
 .PHONY: all publications cv-publications check-cv-publications cv clean
 
-all: publications cv-publications
+all: cv-publications
 	@quarto render
 
 publications: jyan.bib lcg-cv.csl lua-refs.lua

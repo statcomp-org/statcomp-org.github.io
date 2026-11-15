@@ -19,5 +19,7 @@ jobs:
           version: '1.10.18'
       - name: Test CV generation rules
         run: python3 -m unittest discover -s tests
-      - name: Check committed CV publication fragment
-        run: make check-cv-publications
+      - name: Generate CV publication fragment and check reproducibility
+        run: |
+          make cv-publications
+          make check-cv-publications

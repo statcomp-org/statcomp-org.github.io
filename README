@@ -6,8 +6,8 @@ Sources
 
 The top-level .qmd files are the website pages. _quarto.yml controls navigation,
 HTML styling, and the ignored docs/ output directory. Pushing main triggers
-.github/workflows/publish.yml, which renders the committed pages and publishes
-them to gh-pages. CNAME supplies the custom domain statcomp.org.
+.github/workflows/publish.yml, which installs R, renders the source pages, and
+publishes the site to gh-pages. CNAME supplies the custom domain statcomp.org.
 
 The CV publication section is generated from these sources:
 
@@ -18,9 +18,10 @@ The CV publication section is generated from these sources:
   cv-trainees.json       Name aliases, additional trainees, and rare overrides.
   cv-publications.csl    Formatting for publication and software entries.
 
-Do not edit cv-publications.tex or publications.qmd directly. Both are generated
-and committed so changes can be reviewed and the website can render without R.
-The CV includes cv-publications.tex using the locally installed vita class.
+Do not edit cv-publications.tex or publications.qmd directly. Both are generated,
+ignored by Git, and kept out of version control. The Quarto pre-render hook runs
+make publications so a clean checkout can render or preview the website. The CV
+build regenerates cv-publications.tex before compiling with the local vita class.
 
 Commands
 --------
@@ -30,7 +31,7 @@ Commands
   make                        Regenerate both lists and render the website.
   make cv                     Regenerate CV publications, compile jyanCV.pdf,
                               and copy it into bindocs/.
-  make check-cv-publications   Fail if the committed CV fragment is stale.
+  make check-cv-publications   Fail if the local CV fragment is missing or stale.
   python3 -m unittest discover -s tests
                               Check generation and trainee-matching rules.
   quarto preview              Preview the website locally.
@@ -39,13 +40,16 @@ Dependencies are Quarto (including Pandoc), Python 3 with its standard library,
 and R for the website publication scripts. The CV PDF additionally requires
 latexmk, a LaTeX installation, and vita.cls with vitaStatistics.clo. Generation
 and its tests do not require LaTeX or network access. The CI check pins Quarto
-1.10.18 for reproducible generated text; use that version locally when checking
-the committed fragment.
+1.10.18 for reproducible generated text; use that version locally when comparing
+generated output.
 
-After changing a source, regenerate and commit its generated output alongside
-it. CI checks the CV fragment on pushes and pull requests. CI does not regenerate
-the website publication page or build/deploy the CV PDF. Compiling directly
-with latexmk uses the existing fragment; use make cv to regenerate it first.
+Commit source files only. Generated publication lists, rendered HTML, PDFs,
+LaTeX auxiliary files, caches, and the local bindocs/ collection stay untracked.
+CI generates the CV fragment from scratch and checks reproducibility on pushes
+and pull requests. The publishing workflow generates the website publication
+page through the Quarto pre-render hook. CI does not build/deploy the CV PDF.
+Compiling directly with latexmk uses the existing fragment; use make cv to
+regenerate it first.
 
 Categories and publication status
 ---------------------------------

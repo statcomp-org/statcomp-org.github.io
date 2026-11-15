@@ -260,7 +260,7 @@ def render(entries):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--check", action="store_true", help="Fail if the committed fragment is stale")
+    parser.add_argument("--check", action="store_true", help="Fail if the local generated fragment is missing or stale")
     args = parser.parse_args()
     config = json.loads((ROOT / "cv-trainees.json").read_text())
     roster = read_trainees((ROOT / "jyanCV.tex").read_text(), config)

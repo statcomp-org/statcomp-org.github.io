@@ -3,6 +3,10 @@
 /_site/
 /docs/
 
+# Generated publication lists
+/publications.qmd
+/cv-publications.tex
+
 # Emacs temporary files
 *~
 \#*\#
