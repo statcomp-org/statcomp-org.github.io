@@ -34,14 +34,14 @@ clean:
 	rm -f publications.qmd cv-publications.tex *~
 
 
-# push a local media copy (under photos/) to the remote bucket
+# Upload the binary CV from bindocs/ to S3.
 .PHONY: push
 push:
 	aws s3 sync --profile statds bindocs/ s3://$(bucketName)/doc/bindocs --delete \
 	--exclude ".DS_Store" \
 	--exclude "**/.DS_Store"
 
-# pull a local media copy from the remote bucket to static/media/
+# Download the hosted binary CV to bindocs/.
 .PHONY: pull
 pull:
 	aws s3 sync --profile statds s3://$(bucketName)/doc/bindocs bindocs/ --delete \

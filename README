@@ -45,7 +45,7 @@ LaTeX or network access. The CI check pins Quarto
 generated output.
 
 Commit source files only. Generated publication lists, rendered HTML, PDFs,
-LaTeX auxiliary files, caches, and the local bindocs/ collection stay untracked.
+LaTeX auxiliary files, caches, and the local bindocs/ CV directory stay untracked.
 CI generates the CV fragment from scratch and checks reproducibility on pushes
 and pull requests. The publishing workflow generates the website publication
 page through the Quarto pre-render hook. CI does not build/deploy the CV PDF.
@@ -177,8 +177,109 @@ class. Exact reproduction of the old layout is no longer the objective.
 PDF hosting
 -----------
 
-The website links to the separately hosted CV at statds.org/doc/bindocs/.
-make pull downloads that directory from S3; make push uploads bindocs/ using
-the AWS profile statds. Both commands use --delete, so synchronize the complete
-document collection before publishing. Building the website does not upload
-PDFs. No upload is part of CV generation or its CI check.
+bindocs/ contains only the binary CV, jyanCV.pdf. It is uploaded separately to
+S3 with make push. The website pages and other assets are published through
+GitHub Actions to gh-pages. The website links to the CV at
+https://statds.org/doc/bindocs/jyanCV.pdf.
+The AWS CLI uses the named profile statds and the existing bucket statds.org:
+
+  Local CV folder:  bindocs/
+  S3 CV folder:     s3://statds.org/doc/bindocs/
+  CV object:        s3://statds.org/doc/bindocs/jyanCV.pdf
+  Public CV:        https://statds.org/doc/bindocs/jyanCV.pdf
+
+New computer: install the AWS CLI
+---------------------------------
+
+Install AWS CLI v2 using AWS's instructions:
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
+Check the architecture with uname -m. Linux aarch64/arm64 uses the ARM installer;
+Linux x86_64 uses the x86 installer. For Linux ARM64, a per-user installation is:
+
+  curl -L https://awscli.amazonaws.com/awscli-exe-linux-aarch64.zip -o /tmp/awscliv2.zip
+  unzip -q /tmp/awscliv2.zip -d /tmp/awscli-installer
+  mkdir -p "$HOME/.local/bin"
+  /tmp/awscli-installer/aws/install --install-dir "$HOME/.local/aws-cli" --bin-dir "$HOME/.local/bin"
+  export PATH="$HOME/.local/bin:$PATH"
+  aws --version
+
+For Linux x86_64, substitute awscli-exe-linux-x86_64.zip in the download URL.
+Use a fresh extraction directory if /tmp/awscli-installer already exists.
+Persist the PATH line in your shell startup file if ~/.local/bin is not already
+on PATH. For an existing installation at these paths, use the install command
+with --update. On macOS or Windows, follow the corresponding AWS instructions.
+
+New computer: restore the statds profile
+---------------------------------------
+
+The Makefile expects the profile name statds; configuring only default is not
+enough. If the old computer used access keys, either transfer its existing
+statds profile securely from ~/.aws/config and ~/.aws/credentials, or configure
+the existing authorized identity interactively on the new computer:
+
+  aws configure --profile statds
+
+You may also securely copy the old ~/.aws/ directory into the new computer's
+home directory when you intend to reuse the same AWS identity. Preserve any
+profiles already configured on the new computer rather than overwriting them.
+For this access-key profile, only config and credentials are needed; the CLI
+recreates cli/cache/ itself. Do not transfer caches as a substitute for an SSO
+login; run aws sso login again if using SSO. Copy the files, rather than moving
+them, to keep the old computer's configuration intact.
+
+Enter the access key ID and secret access key locally, the bucket's region
+(from the old configuration or the S3 console), and json for output format.
+The bucket's region is not recorded in this repository; do not infer it from
+the bucket name. Keep credentials in ~/.aws/, outside this repository.
+For transferred credential/config files, restrict access locally:
+
+  chmod 700 ~/.aws
+  chmod 600 ~/.aws/config ~/.aws/credentials
+
+If the existing AWS identity uses IAM Identity Center / SSO instead of access
+keys, set up that login method under the same profile name:
+
+  aws configure sso --profile statds
+  aws sso login --profile statds
+
+Profile documentation:
+https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
+https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html
+
+Verify the profile and bucket access without uploading:
+
+  aws configure list-profiles
+  aws sts get-caller-identity --profile statds
+  aws s3 ls s3://statds.org/doc/bindocs/ --profile statds
+
+The identity check confirms which AWS identity is active; the S3 listing checks
+access to the CV folder. A profile-not-found error means statds needs setup;
+an expired SSO token needs a fresh aws sso login. AccessDenied on S3 requires
+the appropriate bucket/prefix permissions for the configured identity. Listing
+and mirroring need ListBucket; downloads need GetObject; uploads need PutObject;
+the deleting mirror also needs DeleteObject. Reuse the existing authorized
+identity and bucket configuration rather than changing public-access settings.
+
+Routine CV update
+-----------------
+
+From this repository, run:
+
+  make cv
+  make push
+
+make cv builds jyanCV.pdf and copies it to bindocs/. Review that PDF before
+running make push, which syncs the CV folder to the S3 prefix with --delete.
+This prefix contains only the CV; the website's GitHub Actions deployment is
+separate. Open the public CV URL after uploading to verify the result.
+
+make pull is optional: it downloads the hosted CV into bindocs/ and can overwrite
+that local copy. It is not needed before publishing a newly built CV.
+
+AWS command references:
+https://docs.aws.amazon.com/cli/latest/reference/s3/sync.html
+https://docs.aws.amazon.com/cli/latest/reference/sts/get-caller-identity.html
+
+Building the website does not upload PDFs. No upload is part of CV generation
+or its CI check; uploads occur only through the explicit push targets/commands.
