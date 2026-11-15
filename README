@@ -115,8 +115,24 @@ rrpack includes Jun Yan as a contributor in the package listing.
 Trainee annotations
 -------------------
 
-An asterisk denotes a current or former trainee, including collaborations
-after graduation. The student list in jyanCV.tex supplies the roster.
+An asterisk denotes a trainee coauthor. The student list in jyanCV.tex supplies
+the roster and completed PhD graduation years. The post_phd_buffer_years map in
+cv-trainees.json applies a two-year buffer to three academic alumni, inclusive:
+
+  Marcos Prates (2011): mark through 2013; omit from 2014 onward.
+  Steven Chiou (2013):  mark through 2015; omit from 2016 onward.
+  Jackson Lautier (2023): mark through 2025; omit from 2026 onward.
+
+Other alumni retain their former-trainee annotations without a general cutoff.
+Each coauthor is evaluated separately; the paper and author list remain included.
+
+Expected PhD dates denote current students and do not impose a cutoff.
+Undergraduate work is always marked as trainee work, regardless of publication
+year. Additional trainees without a recorded PhD year retain their annotations.
+Forthcoming entries use the numeric part of their year (2026+ is evaluated as
+2026). Undated software listings retain their historical
+trainee annotations. Explicit author overrides take precedence over the rule.
+
 cv-trainees.json provides spelling variants and preserves previous marks for
 trainees absent from that list. Tao Wang and Feng Wang are excluded at the
 owner's request. Full given names are compared when available, so Tao Wang and
