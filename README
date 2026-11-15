@@ -14,7 +14,7 @@ The CV publication section is generated from these sources:
   jyan.bib              Published and accepted works; also feeds the website.
   jyan-cv-extra.bib      CV-only reviews, manuscripts, and other contributions.
   software.qmd          Software titles, author metadata, and links.
-  jyanCV.tex            The student roster, and all non-publication CV content.
+  jyanCV.tex            Layout settings, the student roster, and other CV content.
   cv-trainees.json       Name aliases, additional trainees, and rare overrides.
   cv-publications.csl    Formatting for publication and software entries.
 
@@ -38,8 +38,9 @@ Commands
 
 Dependencies are Quarto (including Pandoc), Python 3 with its standard library,
 and R for the website publication scripts. The CV PDF additionally requires
-latexmk, a LaTeX installation, and vita.cls with vitaStatistics.clo. Generation
-and its tests do not require LaTeX or network access. The CI check pins Quarto
+latexmk, a LaTeX installation with titlesec, enumitem, microtype, and etoolbox, and
+vita.cls with vitaStatistics.clo. Generation and its tests do not require
+LaTeX or network access. The CI check pins Quarto
 1.10.18 for reproducible generated text; use that version locally when comparing
 generated output.
 
@@ -150,18 +151,31 @@ and title; the obsolete Xiao-first xiao2025graphical entry was removed. The
 existing 2026 manuscript year is retained; the project's 2027 directory name
 does not by itself establish a different manuscript year.
 
+CV layout (2026-11-15)
+----------------------
+
+The CV uses ordinary unnumbered section/subsection commands and description or
+numbered lists. The publication generator emits the same standard markup.
+The trainee parser reads the Students section, up to the following section.
+There are no custom category definitions or environment mappings to maintain.
+
+The jyanCV.tex preamble uses titlesec's small/compact heading presets, enumitem
+for shared lists and protection against breaks immediately after headings, and
+microtype's default text fitting. The bottomtitlespace setting defines a
+four-line bottom exclusion zone for headings; there are no manual page breaks.
+List entries retain the default flexible gap, 4pt plus 2pt minus 1pt, while
+paragraph spacing inside entries is zero. The validated PDF has 21 pages and no
+section/subsection heading stranded at a page bottom.
+
+The installed vita class supplies the standard title and full-width, two-column
+address block; its Business Address/Home Address labels are suppressed locally.
+Neither the installed vita.cls nor vitaStatistics.clo is modified. The supplied
+old reference class is preserved as vita-old.cls; it must
+not be named vita.cls here, because TeX would load it instead of the installed
+class. Exact reproduction of the old layout is no longer the objective.
+
 PDF hosting
 -----------
-
-Deferred layout issue (2026-11-14): reproduce the hosted PDF's layout later,
-at the owner's request. The hosted CV has 21 pages; both the unchanged original
-source and the generated CV build to 22 pages with the locally installed vita
-files. Degree-entry spacing is about 15.94 pt hosted versus 19.93 pt locally.
-The local build also adds Business Address/Home Address headings absent from
-the hosted PDF and uses different section-heading formatting. Body text line
-spacing is unchanged. Investigate the external vita.cls/vitaStatistics.clo
-settings and keep the intended layout reproducible in the repository. Do not
-treat the current local baseline as an exact match to the hosted PDF.
 
 The website links to the separately hosted CV at statds.org/doc/bindocs/.
 make pull downloads that directory from S3; make push uploads bindocs/ using
