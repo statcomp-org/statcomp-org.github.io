@@ -3,6 +3,7 @@
 import copy
 import importlib.util
 import json
+import re
 from pathlib import Path
 import tempfile
 import unittest
@@ -164,6 +165,57 @@ class CVPublicationsTests(unittest.TestCase):
     def test_missing_software_authors_fail(self):
         with self.assertRaisesRegex(ValueError, "Missing cv-authors"):
             cv.read_software('### {package}: A Package {#package}\n\nDescription.\n')
+
+    def test_software_languages_and_distributions(self):
+        source = '''
+## R packages
+### {example}: An R Package {#example}
+<!-- cv-authors: Yan, Jun -->
+[example-cran]: https://CRAN.R-project.org/package=example
+### {archived}: An Archived Package {#archived}
+<!-- cv-authors: Yan, Jun -->
+<!-- cv-url: https://cran.r-project.org/src/contrib/Archive/archived/ -->
+### {spice}: Sparse Precision Estimation {#spice}
+<!-- cv-authors: Yan, Jun -->
+<!-- cv-url: https://github.com/Carol-seven/spice -->
+## Python packages
+### {python-example}: A Python Package {#python-example}
+<!-- cv-authors: Yan, Jun -->
+<!-- cv-url: https://pypi.org/project/python-example/ -->
+### {python-repo}: A Python Repository {#python-repo}
+<!-- cv-authors: Yan, Jun -->
+<!-- cv-url: https://github.com/example/python-repo -->
+'''
+        entries = cv.read_software(source)
+        self.assertEqual([(e["cv-language"], e["cv-distribution"]) for e in entries],
+                         [("R", "CRAN"), ("R", "CRAN archive"),
+                          ("R", "GitHub"), ("Python", "PyPI"), ("Python", "GitHub")])
+        output = cv.render(entries)
+        self.assertIn(r"\subsection{Software Packages}", output)
+        for label in ["(R; CRAN).", "(R; CRAN archive).", "(R; GitHub).",
+                      "(Python; PyPI).", "(Python; GitHub)."]:
+            self.assertIn(label, " ".join(output.split()))
+
+    def test_software_language_heading_is_required(self):
+        source = '''### {example}: Example {#example}
+<!-- cv-authors: Yan, Jun -->
+<!-- cv-url: https://github.com/example/example -->
+'''
+        with self.assertRaisesRegex(ValueError, "language heading"):
+            cv.read_software(source)
+
+    def test_software_catalog_uses_current_spice_name(self):
+        source = (cv.ROOT / "software.qmd").read_text()
+        entries = cv.read_software(source)
+        names = {e["cv-package"] for e in entries}
+        self.assertIn("spice", names)
+        self.assertNotIn("fcstat", names)
+        table = source.split('<div id="r-pkg-details">')[0]
+        table_names = re.findall(r"(?m)^\|\s*\[([^]]+)\]\(#", table)
+        r_names = {e["cv-package"] for e in entries if e["cv-language"] == "R"}
+        self.assertEqual(set(table_names), r_names)
+        self.assertEqual(len(table_names), len(r_names))
+        self.assertEqual(table_names, sorted(table_names, key=str.lower))
 
     def test_forthcoming_year_categories_order_and_latex_escaping(self):
         with tempfile.TemporaryDirectory() as directory:

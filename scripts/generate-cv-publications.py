@@ -10,6 +10,7 @@ import re
 import subprocess
 import sys
 import unicodedata
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
 SECTIONS = [
@@ -18,7 +19,7 @@ SECTIONS = [
     ("articles", "Refereed Journal Articles"),
     ("magazine", "Magazine Articles and Other Contributions"),
     ("review", "Book Reviews"),
-    ("software", "Software"),
+    ("software", "Software Packages"),
     ("under-review", "Manuscripts Under Review"),
 ]
 
@@ -134,6 +135,7 @@ def read_bibliography(paths):
 
 def read_software(source):
     references = dict(re.findall(r"(?m)^\[([^]]+)\]:\s*(\S+)", source))
+    languages = list(re.finditer(r"(?m)^## ([^\n]+?) packages(?: on [^\n]+)?\s*$", source))
     headings = list(re.finditer(
         r"(?m)^### \{([^}]+)\}: (.*?) \{#([^}]+)\}\s*$", source))
     entries, seen, author_records = [], set(), []
@@ -152,8 +154,19 @@ def read_software(source):
         url = link[1] if link else references.get(name + "-cran")
         if not url:
             raise ValueError(f"Missing software link for {name}")
+        language = next((m[1] for m in reversed(languages) if m.start() < heading.start()), None)
+        if not language:
+            raise ValueError(f"Put {name} under a language heading such as '## R packages'")
+        address = urlparse(url)
+        host = address.hostname or ""
+        if host in {"cran.r-project.org", "cran.rstudio.com", "cloud.r-project.org"}:
+            distribution = "CRAN archive" if "/archive/" in address.path.lower() else "CRAN"
+        else:
+            distribution = {"github.com": "GitHub", "gitlab.com": "GitLab",
+                            "pypi.org": "PyPI"}.get(host, host)
         entries.append({"id": "software-" + name, "type": "software",
                         "title": description, "URL": url, "cv-package": name,
+                        "cv-language": language, "cv-distribution": distribution,
                         "cv-category": "software", "cv-year": ""})
     if not entries:
         raise ValueError("No software sections found")
@@ -262,11 +275,15 @@ def render(entries):
                             restore_year(value)
                 restore_year(content)
             if category == "software":
+                label = f"({entry['cv-language']}; {entry['cv-distribution']})."
+                label_inlines = []
+                for word in label.split():
+                    label_inlines.extend([{"t": "Space"}, {"t": "Str", "c": word}])
                 content[0]["c"][0:0] = [
                     {"t": "Link", "c": [["", [], []], [
                         {"t": "Code", "c": [["", [], []], entry["cv-package"]]}
                     ], [entry["URL"], ""]]},
-                    {"t": "Str", "c": "."},
+                    *label_inlines,
                     {"t": "Space"},
                 ]
             output.extend(content)

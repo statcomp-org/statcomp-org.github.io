@@ -4,40 +4,43 @@ title: "Software"
 
 ## R packages
 
-The table lists packages on CRAN; additional packages and archived software
-appear in the descriptions below.
+The table lists all R packages, including their distribution source. Release
+and download badges are shown for packages currently on CRAN.
 
 <div id="pre-r-pkg-table"></div>
 
-| Name              | Latest Release                               | Downloads (RStudio CRAN Mirror Since October 2012) |
-|------------|---------------------------|-------------------|
-| [aftgee](#aftgee)             | [![aftgee-version]][aftgee-cran]             | ![aftgee-log]         |
-| [clusrank](#clusrank)         | [![clusrank-version]][clusrank-cran]         | ![clusrank-log]       |
-| [coga](#coga)                 | [![coga-version]][coga-cran]                 | ![coga-log]           |
-| [copula](#copula)             | [![copula-version]][copula-cran]             | ![copula-log]         |
-| [dacc](#dacc)                 | [![dacc-version]][dacc-cran]                 | ![dacc-log]           |
-| [dynsurv](#dynsurv)           | [![dynsurv-version]][dynsurv-cran]           | ![dynsurv-log]        |
-| [eva](#eva)                   | [![eva-version]][eva-cran]                   | ![eva-log]            |
-| [geepack](#geepack)           | [![geepack-version]][geepack-cran]           | ![geepack-log]        |
-| [grasps](#grasps) | [![grasps-version]][grasps-cran] | ![grasps-log] |
-| [intsurv](#intsurv)           | [![intsurv-version]][intsurv-cran]           | ![intsurv-log]        |
-| [ionet](#ionet) | [![ionet-version]][ionet-cran] | ![ionet-log] |
-| [jds.rmd](#jds.rmd)           | [![jds.rmd-version]][jds.rmd-cran]           | ![jds.rmd-log]        |
-| [KMsurv](#KMsurv)             | [![KMsurv-version]][KMsurv-cran]             | ![KMsurv-log]         |
-| [ramps](#ramps)               | [![ramps-version]][ramps-cran]               | ![ramps-log]          |
-| [reda](#reda)                 | [![reda-version]][reda-cran]                 | ![reda-log]           |
-| [rrpack](#rrpack)             | [![rrpack-version]][rrpack-cran]             | ![rrpack-log]         |
-| [sgee](#sgee)                 | [![sgee-version]][sgee-cran]                 | ![sgee-log]           |
-| [smam](#smam)                 | [![smam-version]][smam-cran]                 | ![smam-log]           |
-| [som](#som)                   | [![som-version]][som-cran]                   | ![som-log]            |
-| [spef](#spef)                 | [![spef-version]][spef-cran]                 | ![spef-log]           |
-| [splines2](#splines2)         | [![splines2-version]][splines2-cran]         | ![splines2-log]       |
-| [subsampling](#subsampling) | [![subsampling-version]][subsampling-cran] | ![subsampling-log] |
-| [tls](#tls)                   | [![tls-version]][tls-cran]                   | ![tls-log]            |
-| [touch](#touch)               | [![touch-version]][touch-cran]               | ![touch-log]          |
-| [tpr](#tpr)                   | [![tpr-version]][tpr-cran]                   | ![tpr-log]            |
-| [wdnet](#wdnet)               | [![wdnet-version]][wdnet-cran]               | ![wdnet-log]          |
-: {tbl-colwidths="[30, 40, 30]"}
+| Name | Source | Latest Release | Downloads (RStudio CRAN Mirror Since October 2012) |
+|---|---|---|---|
+| [aftgee](#aftgee) | [CRAN][aftgee-cran] | [![aftgee-version]][aftgee-cran] | ![aftgee-log] |
+| [clusrank](#clusrank) | [CRAN][clusrank-cran] | [![clusrank-version]][clusrank-cran] | ![clusrank-log] |
+| [coga](#coga) | [CRAN][coga-cran] | [![coga-version]][coga-cran] | ![coga-log] |
+| [copula](#copula) | [CRAN][copula-cran] | [![copula-version]][copula-cran] | ![copula-log] |
+| [dacc](#dacc) | [CRAN][dacc-cran] | [![dacc-version]][dacc-cran] | ![dacc-log] |
+| [dynsurv](#dynsurv) | [CRAN][dynsurv-cran] | [![dynsurv-version]][dynsurv-cran] | ![dynsurv-log] |
+| [eva](#eva) | [CRAN][eva-cran] | [![eva-version]][eva-cran] | ![eva-log] |
+| [fgof](#fgof) | [CRAN archive](https://cran.r-project.org/src/contrib/Archive/fgof/) | Archived | N/A |
+| [geepack](#geepack) | [CRAN][geepack-cran] | [![geepack-version]][geepack-cran] | ![geepack-log] |
+| [grasps](#grasps) | [CRAN][grasps-cran] | [![grasps-version]][grasps-cran] | ![grasps-log] |
+| [intsurv](#intsurv) | [CRAN][intsurv-cran] | [![intsurv-version]][intsurv-cran] | ![intsurv-log] |
+| [ionet](#ionet) | [CRAN][ionet-cran] | [![ionet-version]][ionet-cran] | ![ionet-log] |
+| [jds.rmd](#jds.rmd) | [CRAN][jds.rmd-cran] | [![jds.rmd-version]][jds.rmd-cran] | ![jds.rmd-log] |
+| [KMsurv](#KMsurv) | [CRAN][KMsurv-cran] | [![KMsurv-version]][KMsurv-cran] | ![KMsurv-log] |
+| [ramps](#ramps) | [CRAN][ramps-cran] | [![ramps-version]][ramps-cran] | ![ramps-log] |
+| [rbugs](#rbugs) | [CRAN archive](https://cran.r-project.org/src/contrib/Archive/rbugs/) | Archived | N/A |
+| [reda](#reda) | [CRAN][reda-cran] | [![reda-version]][reda-cran] | ![reda-log] |
+| [rrpack](#rrpack) | [CRAN][rrpack-cran] | [![rrpack-version]][rrpack-cran] | ![rrpack-log] |
+| [sgee](#sgee) | [CRAN][sgee-cran] | [![sgee-version]][sgee-cran] | ![sgee-log] |
+| [smam](#smam) | [CRAN][smam-cran] | [![smam-version]][smam-cran] | ![smam-log] |
+| [som](#som) | [CRAN][som-cran] | [![som-version]][som-cran] | ![som-log] |
+| [spef](#spef) | [CRAN][spef-cran] | [![spef-version]][spef-cran] | ![spef-log] |
+| [spice](#spice) | [GitHub](https://github.com/Carol-seven/spice) | Development | N/A |
+| [splines2](#splines2) | [CRAN][splines2-cran] | [![splines2-version]][splines2-cran] | ![splines2-log] |
+| [subsampling](#subsampling) | [CRAN][subsampling-cran] | [![subsampling-version]][subsampling-cran] | ![subsampling-log] |
+| [tls](#tls) | [CRAN][tls-cran] | [![tls-version]][tls-cran] | ![tls-log] |
+| [touch](#touch) | [CRAN][touch-cran] | [![touch-version]][touch-cran] | ![touch-log] |
+| [tpr](#tpr) | [CRAN][tpr-cran] | [![tpr-version]][tpr-cran] | ![tpr-log] |
+| [wdnet](#wdnet) | [CRAN][wdnet-cran] | [![wdnet-version]][wdnet-cran] | ![wdnet-log] |
+: {tbl-colwidths="[20, 15, 25, 40]"}
 
 <div id="r-pkg-details">
 
@@ -220,18 +223,6 @@ implemented:
   extreme value analysis via ordered goodness-of-fit tests with adjustment for
   false discovery rate. *Annals of Applied Statistics*, 12(1), 310--329.
   <https://doi.org/10.1214/17-AOAS1092>
-
----
-
-### {fcstat}: Functional Connectivity Analysis in Brain Networks {#fcstat}
-
-<!-- cv-authors: Xiao, S. and Yan, J. and Zhang, P -->
-
-Statistical methods for functional connectivity analysis in brain networks.
-
-<!-- cv-url: https://github.com/Carol-seven/spice -->
-
-The repository is now maintained as [spice](https://github.com/Carol-seven/spice).
 
 ---
 
@@ -504,6 +495,20 @@ models for panel count survival data. Estimating procedures include:
 - Chiou, S., Huang, C., Xu, G., & **Yan, J.** (2019). Semiparametric regression
   analysis of panel count data: A practical review. *International Statistical
   Review*, 87(1), 24--43. <https://doi.org/10.1111/insr.12271>
+
+---
+
+### {spice}: Sparse Precision (Inverse Covariance) Estimation {#spice}
+
+<!-- cv-authors: Xiao, S. and Yan, J. and Zhang, P -->
+
+[]{#fcstat}
+{spice} provides methods for sparse precision matrix estimation and functional
+connectivity analysis in brain networks.
+
+<!-- cv-url: https://github.com/Carol-seven/spice -->
+
+[GitHub](https://github.com/Carol-seven/spice)
 
 ---
 
