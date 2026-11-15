@@ -1,0 +1,166 @@
+Website and CV workflow
+=======================
+
+Sources
+-------
+
+The top-level .qmd files are the website pages. _quarto.yml controls navigation,
+HTML styling, and the ignored docs/ output directory. Pushing main triggers
+.github/workflows/publish.yml, which renders the committed pages and publishes
+them to gh-pages. CNAME supplies the custom domain statcomp.org.
+
+The CV publication section is generated from these sources:
+
+  jyan.bib              Published and accepted works; also feeds the website.
+  jyan-cv-extra.bib      CV-only reviews, manuscripts, and other contributions.
+  software.qmd          Software titles, author metadata, and links.
+  jyanCV.tex            The student roster, and all non-publication CV content.
+  cv-trainees.json       Name aliases, additional trainees, and rare overrides.
+  cv-publications.csl    Formatting for publication and software entries.
+
+Do not edit cv-publications.tex or publications.qmd directly. Both are generated
+and committed so changes can be reviewed and the website can render without R.
+The CV includes cv-publications.tex using the locally installed vita class.
+
+Commands
+--------
+
+  make publications           Regenerate the website's publications.qmd.
+  make cv-publications        Regenerate cv-publications.tex without LaTeX.
+  make                        Regenerate both lists and render the website.
+  make cv                     Regenerate CV publications, compile jyanCV.pdf,
+                              and copy it into bindocs/.
+  make check-cv-publications   Fail if the committed CV fragment is stale.
+  python3 -m unittest discover -s tests
+                              Check generation and trainee-matching rules.
+  quarto preview              Preview the website locally.
+
+Dependencies are Quarto (including Pandoc), Python 3 with its standard library,
+and R for the website publication scripts. The CV PDF additionally requires
+latexmk, a LaTeX installation, and vita.cls with vitaStatistics.clo. Generation
+and its tests do not require LaTeX or network access. The CI check pins Quarto
+1.10.18 for reproducible generated text; use that version locally when checking
+the committed fragment.
+
+After changing a source, regenerate and commit its generated output alongside
+it. CI checks the CV fragment on pushes and pull requests. CI does not regenerate
+the website publication page or build/deploy the CV PDF. Compiling directly
+with latexmk uses the existing fragment; use make cv to regenerate it first.
+
+Categories and publication status
+---------------------------------
+
+BibTeX entry types supply defaults: books go under Books and Edited Volumes;
+chapters and conference papers under Book Chapters and Conference Proceedings;
+journal articles under Refereed Journal Articles.
+
+For exceptions, add a CV tag to the BibTeX keywords field, preserving any other
+keywords. For example:
+
+  keywords = {cv:magazine},
+
+Supported tags are cv:books, cv:chapters, cv:articles, cv:magazine, cv:review,
+and cv:under-review. Chance and Significance articles, editorials, and R News
+contributions use cv:magazine, displayed as Magazine Articles and Other
+Contributions. Under-review records use @unpublished and cv:under-review.
+Reviews describe the review you authored, including the reviewed book.
+
+Forthcoming works retain the existing year = {2026+} convention. They appear
+first in their category, followed by descending year and author order. When a
+manuscript is accepted, move the record from jyan-cv-extra.bib into jyan.bib,
+keep its citation key, remove cv:under-review, and update its year, journal,
+and other publication details. Remove the plus sign and Forthcoming note when
+final publication details become available. Duplicate keys across either
+bibliography cause generation to fail.
+
+Software
+--------
+
+Each package has one heading in software.qmd, in this form:
+
+  ### {package}: Short Description {#package}
+
+Immediately below the heading, store authors in a hidden HTML comment using
+BibTeX name syntax and "and" between authors:
+
+  <!-- cv-authors: Doe, Jane and Yan, Jun -->
+
+The generator uses the heading description and the existing [package-cran]
+link definition. A package without that reference needs an explicit link:
+
+  <!-- cv-url: https://example.org/package -->
+
+CV software entries are alphabetized by package name and begin with the linked
+package name, followed by authors and the description.
+
+The metadata is hidden on the website. Missing authors/links and duplicate
+package headings cause generation to fail. Add a row to the website's CRAN
+summary table for packages currently on CRAN; archived or development packages
+can appear only in the descriptions. All package sections appear in the CV.
+
+The old CV's six missing packages have been added: subsampling, fgof, rbugs,
+fcstat, grasps, and ionet. fgof and rbugs link to CRAN archives. The fcstat
+repository now redirects to Carol-seven/spice; its historical name is retained.
+The two existing website packages absent from the old CV, jds.rmd and rrpack,
+are included too. Their author lists were checked against CRAN:
+https://cran.r-project.org/web/packages/jds.rmd/index.html
+https://cran.rstudio.com/web/packages/rrpack/index.html
+rrpack includes Jun Yan as a contributor in the package listing.
+
+Trainee annotations
+-------------------
+
+An asterisk denotes a current or former trainee, including collaborations
+after graduation. The student list in jyanCV.tex supplies the roster.
+cv-trainees.json provides spelling variants and preserves previous marks for
+trainees absent from that list. Tao Wang and Feng Wang are excluded at the
+owner's request. Full given names are compared when available, so Tao Wang and
+Tianying Wang do not match Tiandong Wang. Initial-only names still require
+care when people share a surname and initial.
+
+If an author matches multiple trainees, generation fails. Prefer spelling out
+the author's given name in the source. Alternatively, add an author_overrides
+entry keyed by citation key (software uses software-package), then by the
+one-based author position:
+
+  "example2026": {
+    "1": {"author": "Wang, T.", "trainee": true}
+  }
+
+The author string must match the BibTeX-parsed family and given names exactly.
+Changing author order/name invalidates the override rather than silently
+marking someone else. Set trainee to false to suppress a misleading match.
+
+Migration notes to review
+-------------------------
+
+All 162 main-bibliography records and 23 CV-only records are represented once.
+The generated categories contain 2 books, 7 chapters/proceedings, 149 journal
+articles, 10 magazine/editorial contributions, 4 reviews, 29 software packages,
+and 13 manuscripts under review. All main-bibliography records use jyan.bib's
+publication details, which resolve some existing differences from the old CV.
+
+The duplicate graphical-model review was reconciled against main.tex in the
+fcggm/manuscript project: zhang2026graphical retains the current six-author list
+and title; the obsolete Xiao-first xiao2025graphical entry was removed. The
+existing 2026 manuscript year is retained; the project's 2027 directory name
+does not by itself establish a different manuscript year.
+
+PDF hosting
+-----------
+
+Deferred layout issue (2026-11-14): reproduce the hosted PDF's layout later,
+at the owner's request. The hosted CV has 21 pages; both the unchanged original
+source and the generated CV build to 22 pages with the locally installed vita
+files. Degree-entry spacing is about 15.94 pt hosted versus 19.93 pt locally.
+The local build also adds Business Address/Home Address headings absent from
+the hosted PDF and uses different section-heading formatting. Body text line
+spacing is unchanged. Investigate the external vita.cls/vitaStatistics.clo
+settings and keep the intended layout reproducible in the repository. Do not
+treat the current local baseline as an exact match to the hosted PDF.
+
+The website links to the separately hosted CV at statds.org/doc/bindocs/.
+make pull downloads that directory from S3; make push uploads bindocs/ using
+the AWS profile statds. Both commands use --delete, so synchronize the complete
+document collection before publishing. Building the website does not upload
+PDFs. No upload is part of CV generation or its CI check.
