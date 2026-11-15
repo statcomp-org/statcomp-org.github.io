@@ -32,6 +32,83 @@ class CVPublicationsTests(unittest.TestCase):
 '''
         roster = cv.read_trainees(source, {"aliases": {}, "additional_trainees": []})
         self.assertEqual([name for name, _ in roster], ["Jane Doe", "John Smith"])
+        self.assertEqual([people[0]["graduation_year"] for _, people in roster],
+                         [2025, None])
+
+    def test_phd_buffer_handles_aliases_and_forthcoming(self):
+        source = r'''
+\section{Students}
+\item Greg Vaughan, Ph.D. 2020: Thesis.
+\section{Teaching Accomplishments}
+'''
+        roster = cv.read_trainees(source, {
+            "aliases": {"Greg Vaughan": ["Gregory Vaughan"]},
+            "additional_trainees": [],
+            "post_phd_buffer_years": {"Greg Vaughan": 2},
+        })
+        for year, expected in [("2019", True), ("2022", True), ("2023", False),
+                               ("2022+", True), ("2023+", False), ("", True)]:
+            with self.subTest(year=year):
+                entry = {"id": "example", "cv-year": year,
+                         "author": [{"family": "Vaughan", "given": "Gregory"}]}
+                cv.annotate([entry], roster, {})
+                self.assertEqual(entry["author"][0]["family"].startswith("CVTRAINEEMARK"),
+                                 expected)
+
+    def test_current_phds_and_undergraduates_do_not_expire(self):
+        source = r'''
+\section{Students}
+\item Jane Doe, Ph.D., expected 2020: Thesis.
+\item John Smith (2020): Undergraduate thesis.
+\section{Teaching Accomplishments}
+'''
+        roster = cv.read_trainees(source, {"aliases": {}, "additional_trainees": []})
+        entry = {"id": "example", "cv-year": "2026", "author": [
+            {"family": "Doe", "given": "Jane"},
+            {"family": "Smith", "given": "John"},
+        ]}
+        cv.annotate([entry], roster, {})
+        self.assertTrue(all(a["family"].startswith("CVTRAINEEMARK") for a in entry["author"]))
+
+    def test_phd_coauthors_are_evaluated_independently(self):
+        source = r'''
+\section{Students}
+\item Jane Doe: Ph.D. 2020: Thesis.
+\item John Smith, Ph.D. 2024: Thesis.
+\section{Teaching Accomplishments}
+'''
+        roster = cv.read_trainees(source, {"aliases": {}, "additional_trainees": [],
+                                         "post_phd_buffer_years": {"Jane Doe": 2, "John Smith": 2}})
+        entry = {"id": "example", "cv-year": "2026", "author": [
+            {"family": "Doe", "given": "Jane"},
+            {"family": "Smith", "given": "John"},
+        ]}
+        cv.annotate([entry], roster, {})
+        self.assertEqual([a["family"].startswith("CVTRAINEEMARK")
+                          for a in entry["author"]], [False, True])
+
+    def test_two_year_policy_is_limited_to_the_three_named_alumni(self):
+        config = json.loads((cv.ROOT / "cv-trainees.json").read_text())
+        roster = cv.read_trainees((cv.ROOT / "jyanCV.tex").read_text(), config)
+        for family, given, last_year in [("Prates", "Marcos", 2013),
+                                        ("Chiou", "Steven", 2015),
+                                        ("Lautier", "Jackson", 2025)]:
+            for year in [last_year, last_year + 1]:
+                with self.subTest(author=family, year=year):
+                    entry = {"id": "example", "cv-year": str(year), "author": [
+                        {"family": family, "given": given},
+                    ]}
+                    cv.annotate([entry], roster, {})
+                    self.assertEqual(entry["author"][0]["family"].startswith("CVTRAINEEMARK"),
+                                     year == last_year)
+        entry = {"id": "example", "cv-year": "2026", "author": [
+            {"family": "Wang", "given": "Wenjie"},
+            {"family": "Ma", "given": "Sai"},
+            {"family": "Wu", "given": "Jing"},
+            {"family": "Xiao", "given": "Shiying"},
+        ]}
+        cv.annotate([entry], roster, {})
+        self.assertTrue(all(a["family"].startswith("CVTRAINEEMARK") for a in entry["author"]))
 
     def test_full_given_names_do_not_match_on_initial_alone(self):
         self.assertFalse(cv.matches({"family": "Wang", "given": "Tianying"},

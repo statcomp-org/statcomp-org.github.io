@@ -55,23 +55,35 @@ def read_trainees(cv, config):
     section = re.search(r"\\section\{Students\}(.*?)(?=\\section\{|\\end\{vita\})", cv, re.S)
     if not section:
         raise ValueError("Cannot find the Students section in jyanCV.tex")
-    names = []
+    students = []
     for line in section[1].splitlines():
         if line.lstrip().startswith(r"\item "):
             name = re.split(r",?\s*Ph\.D\.|:\s*Ph\.D\.|\s+\(\d{4}",
                             line.strip()[6:], maxsplit=1)[0].rstrip(" ,:")
-            names.append(name)
-    unknown = set(config["aliases"]) - set(names)
+            details = line.strip()[6 + len(name):].lstrip(" ,:")
+            degree = re.match(r"Ph\.D\.\s*,?\s*(expected\s+)?(\d{4})", details, re.I)
+            if details.startswith("Ph.D.") and not degree:
+                raise ValueError(f"Cannot read PhD graduation year for {name}")
+            graduation_year = int(degree[2]) if degree and not degree[1] else None
+            students.append((name, graduation_year))
+    buffers = config.get("post_phd_buffer_years", {})
+    unknown = (set(config["aliases"]) | set(buffers)) - {name for name, _ in students}
     if unknown:
-        raise ValueError(f"Trainee aliases refer to names absent from the CV: {unknown}")
+        raise ValueError(f"Trainee settings refer to names absent from the CV: {unknown}")
     roster = []
-    for name in names:
+    for name, graduation_year in students:
+        buffer = buffers.get(name)
+        if name in buffers and (type(buffer) is not int or buffer < 0 or graduation_year is None):
+            raise ValueError(f"A trainee cutoff needs a completed PhD and a nonnegative buffer: {name}")
+        trainee_through = graduation_year + buffer if buffer is not None else None
         variants = [re.sub(r"\([^)]*\)", "", name).strip()]
         variants += config["aliases"].get(name, [])
         people = []
         for variant in variants:
             given, family = variant.rsplit(" ", 1)
-            people.append({"family": family, "given": given})
+            people.append({"family": family, "given": given,
+                           "graduation_year": graduation_year,
+                           "trainee_through": trainee_through})
         roster.append((name, people))
     for person in config["additional_trainees"]:
         roster.append((person["given"] + " " + person["family"], [person]))
@@ -157,7 +169,8 @@ def annotate(entries, roster, overrides):
     for entry in entries:
         for index, author in enumerate(entry.get("author", []), 1):
             identity = author.get("family", "") + ", " + author.get("given", "")
-            candidates = {name for name, variants in roster
+            candidates = {name: variants[0].get("trainee_through")
+                          for name, variants in roster
                           if any(matches(author, variant) for variant in variants)}
             override = overrides.get(entry["id"], {}).get(str(index))
             if override:
@@ -169,6 +182,11 @@ def annotate(entries, roster, overrides):
                 if len(candidates) > 1:
                     raise ValueError(f"Ambiguous trainee: {entry['id']}: {identity}: {candidates}")
                 trainee = bool(candidates)
+                if trainee:
+                    trainee_through = next(iter(candidates.values()))
+                    year = entry.get("cv-year", "").rstrip("+")
+                    if trainee_through is not None and year:
+                        trainee = int(year) <= trainee_through
             if trainee:
                 author["family"] = "CVTRAINEEMARK" + author["family"]
     expected = {(key, i) for key, positions in overrides.items() for i in positions}
