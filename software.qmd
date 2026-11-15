@@ -47,7 +47,7 @@ appear in the descriptions below.
 
 <!-- cv-authors: Chiou, S. and Kang, S. and Yan, J -->
 
-![gpl-badge] ![aftgee-dev] [![aftgee-ghs]][aftgee-gh]
+<span class="software-badges">![GPL license][gpl-badge] ![aftgee-dev] [![aftgee-ghs]][aftgee-gh]</span>
 
 {aftgee} provides a collection of methods for both the rank-based estimates and
 least-square estimates to the Accelerated Failure Time (AFT) model.
@@ -80,7 +80,7 @@ least-square estimates to the Accelerated Failure Time (AFT) model.
 
 <!-- cv-authors: Jiang, Y. and Lee, M.-L. T. and Yan, J -->
 
-![gpl-badge] ![clusrank-dev] [![clusrank-ghs]][clusrank-gh]
+<span class="software-badges">![GPL license][gpl-badge] ![clusrank-dev] [![clusrank-ghs]][clusrank-gh]</span>
 
 {clusrank} provides functions for Wilcoxon rank sum test and
 Wilcoxon signed rank test for clustered data.
@@ -98,7 +98,7 @@ See Jiang et. al (2020) for details.
 
 <!-- cv-authors: Hu, C. and Pozdnyakov, V. and Yan, J -->
 
-![gpl-badge] ![coga-dev] [![coga-ghs]][coga-gh]
+<span class="software-badges">![GPL license][gpl-badge] ![coga-dev] [![coga-ghs]][coga-gh]</span>
 
 {coga} provides functions for density and distribution evaluation of convolution
 of gamma distributions. Two related exact methods and one approximate method are
@@ -116,7 +116,7 @@ implemented with efficient algorithm and C++ code.
 
 <!-- cv-authors: Hofert, M. and Kojadinovic, I. and M\"achler, M. and Yan, J -->
 
-![gpl-badge]
+<span class="software-badges">![GPL license][gpl-badge]</span>
 
 {copula} provides classes (S4) of commonly used elliptical, Archimedean,
 extreme-value and other copula families, as well as their rotations, mixtures
@@ -147,7 +147,7 @@ non-parametric estimators of the Pickands dependence function.
 
 <!-- cv-authors: Li, Y. and Chen, K. and Yan, J -->
 
-![gpl-badge] ![dacc-dev] [![dacc-ghs]][dacc-gh]
+<span class="software-badges">![GPL license][gpl-badge] ![dacc-dev] [![dacc-ghs]][dacc-gh]</span>
 
 {dacc} provides functions for conducting detection and attribution of climate
 change using methods that include optimal fingerprinting via generalized total
@@ -167,7 +167,7 @@ and Wolf.
 
 <!-- cv-authors: Wang, X. and Chen, M.-H. and Yan, J -->
 
-![gpl-badge] ![dynsurv-dev] [![dynsurv-ghs]][dynsurv-gh]
+<span class="software-badges">![GPL license][gpl-badge] ![dynsurv-dev] [![dynsurv-ghs]][dynsurv-gh]</span>
 
 {dynsurv} provides functions to fit time-varying coefficient models for
 interval censored and right censored survival data. Three major approaches are
@@ -196,7 +196,7 @@ implemented:
 
 <!-- cv-authors: Bader, B. and Yan, J -->
 
-![gpl-badge] ![eva-dev] [![eva-ghs]][eva-gh]
+<span class="software-badges">![GPL license][gpl-badge] ![eva-dev] [![eva-ghs]][eva-gh]</span>
 
 {eva} provides functions for:
 
@@ -251,7 +251,7 @@ Fast goodness-of-fit tests. The package is archived on CRAN.
 
 <!-- cv-authors: Yan, J. and H\o{}jsgaard, S. and Halekoh, U -->
 
-![gpl-badge] ![geepack-dev] [![geepack-ghs]][geepack-gh]
+<span class="software-badges">![GPL license][gpl-badge] ![geepack-dev] [![geepack-ghs]][geepack-gh]</span>
 
 {geepack} provides generalized estimating equations solver for parameters in
 mean, scale, and correlation structures, through mean link, scale link, and
@@ -282,7 +282,7 @@ Groupwise regularized adaptive sparse precision estimation.
 
 <!-- cv-authors: Wang, W. and Chen, K. and Yan, J -->
 
-![gpl-badge] ![intsurv-dev] [![intsurv-ghs]][intsurv-gh]
+<span class="software-badges">![GPL license][gpl-badge] ![intsurv-dev] [![intsurv-ghs]][intsurv-gh]</span>
 
 {intsurv} contains implementations of
 
@@ -321,7 +321,7 @@ Network analysis for input-output tables.
 
 <!-- cv-authors: Wang, Wenjie and Yan, Jun -->
 
-![gpl-badge] ![jds.rmd-dev] [![jds.rmd-ghs]][jds.rmd-gh]
+<span class="software-badges">![GPL license][gpl-badge] ![jds.rmd-dev] [![jds.rmd-ghs]][jds.rmd-gh]</span>
 
 {jds.rmd} provides R Markdown templates intended for
 [Journal of Data Science][jds-url], which can be useful for authoring
@@ -333,7 +333,7 @@ a manuscript with code chunks or producing tables/figures on the fly.
 
 <!-- cv-authors: Yan, J -->
 
-![gpl-badge]
+<span class="software-badges">![GPL license][gpl-badge]</span>
 
 {KMsurv} provides data sets and functions for Klein and Moeschberger (1997),
 "Survival Analysis, Techniques for Censored and Truncated Data", Springer.
@@ -344,7 +344,7 @@ a manuscript with code chunks or producing tables/figures on the fly.
 
 <!-- cv-authors: Smith, B. P. and Yan, J. and Cowles, M. K -->
 
-![gpl-badge] ![ramps-dev] [![ramps-ghs]][ramps-gh]
+<span class="software-badges">![GPL license][gpl-badge] ![ramps-dev] [![ramps-ghs]][ramps-gh]</span>
 
 {ramps} provides functions for Bayesian geostatistical modeling of Gaussian
 processes using a reparameterized and marginalized posterior sampling (RAMPS)
@@ -374,7 +374,7 @@ An interface between R and BUGS. The package is archived on CRAN.
 
 <!-- cv-authors: Wang, W. and Fu, H. and Yan, J -->
 
-![gpl-badge] ![reda-dev] [![reda-ghs]][reda-gh]
+<span class="software-badges">![GPL license][gpl-badge] ![reda-dev] [![reda-ghs]][reda-gh]</span>
 
 {reda} provides functions for:
 
@@ -392,7 +392,7 @@ An interface between R and BUGS. The package is archived on CRAN.
 
 <!-- cv-authors: Chen, Kun and Wang, Wenjie and Yan, Jun -->
 
-![gpl-badge]
+<span class="software-badges">![GPL license][gpl-badge]</span>
 
 {rrpack} provides implementations for multivariate regression methodologies
 including reduced-rank regression (RRR), reduced-rank ridge regression (RRS),
@@ -407,7 +407,7 @@ orthogonal factor regression (SOFAR).
 
 <!-- cv-authors: Vaughan, G. and Chen, K. and Yan, J -->
 
-![gpl-badge]
+<span class="software-badges">![GPL license][gpl-badge]</span>
 
 {sgee} provides stagewise techniques implemented with generalized estimating
 equations to handle individual, group, bi-level, and interaction selection.
@@ -429,7 +429,7 @@ generalized estimating equations. See Vaughan et al. (2017) for details.
 
 <!-- cv-authors: Hu, C. and Yan, J. and Pozdnyakov, V -->
 
-![gpl-badge] ![smam-dev] [![smam-ghs]][smam-gh]
+<span class="software-badges">![GPL license][gpl-badge] ![smam-dev] [![smam-ghs]][smam-gh]</span>
 
 {smam} provides functions for animal movement models, including:
 
@@ -471,7 +471,7 @@ generalized estimating equations. See Vaughan et al. (2017) for details.
 
 <!-- cv-authors: Yan, J -->
 
-![gpl-badge]
+<span class="software-badges">![GPL license][gpl-badge]</span>
 
 {som} provides functions for self-organizing map (with application in gene
 clustering).
@@ -482,7 +482,7 @@ clustering).
 
 <!-- cv-authors: Chiou, S. and Wang, X. and Yan, J -->
 
-![gpl-badge] ![spef-dev] [![spef-ghs]][spef-gh]
+<span class="software-badges">![GPL license][gpl-badge] ![spef-dev] [![spef-ghs]][spef-gh]</span>
 
 {spef} provides a collection of functions to fit semiparametric regression
 models for panel count survival data. Estimating procedures include:
@@ -511,7 +511,7 @@ models for panel count survival data. Estimating procedures include:
 
 <!-- cv-authors: Wang, W. and Yan, J -->
 
-![gpl-badge] ![splines2-dev] [![splines2-ghs]][splines2-gh] [![JDS](https://img.shields.io/badge/JDS-10.6339%2F21--JDS1020-brightgreen)](https://doi.org/10.6339/21-JDS1020)
+<span class="software-badges">![GPL license][gpl-badge] ![splines2-dev] [![splines2-ghs]][splines2-gh] [![JDS](https://img.shields.io/badge/JDS-10.6339%2F21--JDS1020-brightgreen)](https://doi.org/10.6339/21-JDS1020)</span>
 
 {splines2} is a supplement package to the base package {splines}.
 It provides functions to construct basis matrices of
@@ -555,7 +555,7 @@ Optimal subsampling methods for statistical models.
 
 <!-- cv-authors: Li, Y. and Chen, K. and Yan, J -->
 
-![gpl-badge] ![tls-dev] [![tls-ghs]][tls-gh]
+<span class="software-badges">![GPL license][gpl-badge] ![tls-dev] [![tls-ghs]][tls-gh]</span>
 
 {tls} provides functions for point and interval estimation in error-in-variables
 models via total least squares or generalized total least squares method.
@@ -566,7 +566,7 @@ models via total least squares or generalized total least squares method.
 
 <!-- cv-authors: Li, Y. and Wang, W. and Yan, J -->
 
-![gpl-badge] ![touch-dev] [![touch-ghs]][touch-gh]
+<span class="software-badges">![GPL license][gpl-badge] ![touch-dev] [![touch-ghs]][touch-gh]</span>
 
 {touch} provides R implementation of the software tools developed in the
 H-CUP (Healthcare Cost and Utilization Project) and AHRQ (Agency for
@@ -584,7 +584,7 @@ It contains functions for:
 
 <!-- cv-authors: Yan, J -->
 
-![gpl-badge]
+<span class="software-badges">![GPL license][gpl-badge]</span>
 
 {tpr} provides functions to fit regression models for temporal process responses
 with time-varying and time-independent coefficients.
@@ -603,7 +603,7 @@ with time-varying and time-independent coefficients.
 
 <!-- cv-authors: Yuan, Y. and Wang, Tiandong and Yan, J. and Zhang, P -->
 
-![gpl-badge] ![wdnet-dev] [![wdnet-gls]][wdnet-gl]
+<span class="software-badges">![GPL license][gpl-badge] ![wdnet-dev] [![wdnet-gls]][wdnet-gl]</span>
 
 {wdnet} provides functions for implementations of network analysis, including:
 
