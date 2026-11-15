@@ -79,8 +79,9 @@ final publication details become available. Duplicate keys across either
 bibliography cause generation to fail.
 
 Publication titles in the CV PDF link to their DOI when available, otherwise
-to the entry's URL. Titles without either field remain unlinked. DOI strings
-are not printed separately.
+to the entry's URL. Titles without either field remain unlinked. All CV links,
+including publication titles, package names, and media coverage, use muted dark
+blue (#24476A), configured in jyanCV.tex. DOI strings are not printed separately.
 
 Software
 --------
