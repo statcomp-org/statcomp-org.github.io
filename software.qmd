@@ -21,6 +21,7 @@ and download badges are shown for packages currently on CRAN.
 | [fgof](#fgof) | [CRAN archive](https://cran.r-project.org/src/contrib/Archive/fgof/) | Archived | N/A |
 | [geepack](#geepack) | [CRAN][geepack-cran] | [![geepack-version]][geepack-cran] | ![geepack-log] |
 | [grasps](#grasps) | [CRAN][grasps-cran] | [![grasps-version]][grasps-cran] | ![grasps-log] |
+| [ibist](#ibist) | [CRAN][ibist-cran] | [![ibist-version]][ibist-cran] | ![ibist-log] |
 | [intsurv](#intsurv) | [CRAN][intsurv-cran] | [![intsurv-version]][intsurv-cran] | ![intsurv-log] |
 | [ionet](#ionet) | [CRAN][ionet-cran] | [![ionet-version]][ionet-cran] | ![ionet-log] |
 | [jds.rmd](#jds.rmd) | [CRAN][jds.rmd-cran] | [![jds.rmd-version]][jds.rmd-cran] | ![jds.rmd-log] |
@@ -52,6 +53,8 @@ and download badges are shown for packages currently on CRAN.
 
 <span class="software-badges">![GPL license][gpl-badge] ![aftgee-dev] [![aftgee-ghs]][aftgee-gh]</span>
 
+Package page: [CRAN][aftgee-cran].
+
 {aftgee} provides a collection of methods for both the rank-based estimates and
 least-square estimates to the Accelerated Failure Time (AFT) model.
 
@@ -65,13 +68,17 @@ least-square estimates to the Accelerated Failure Time (AFT) model.
 
 #### References
 
+- Chiou, S., Kang, S. & **Yan, J.** (2014). Fast accelerated failure time
+  modeling for case-cohort data. *Statistics and Computing*, 24(4), 559--568.
+  <https://doi.org/10.1007/s11222-013-9388-2>
+- Chiou, S., Kang, S., & **Yan, J.** (2014). Fitting accelerated failure time
+  models in routine survival analysis with R package aftgee. *Journal of
+  Statistical Software*, 61(11), 1--23.
+  <https://doi.org/10.18637/jss.v061.i11>
 - Chiou, S., Kang, S., Kim, J., & **Yan, J.** (2014). Marginal semiparametric
   multivariate accelerated failure time model with generalized estimating
   equations. *Lifetime Data Analysis*, 20(4), 599--618.
   <https://doi.org/10.1007/s10985-014-9292-x>
-- Chiou, S., Kang, S. & **Yan, J.** (2014). Fast accelerated failure time
-  modeling for case-cohort data. *Statistics and Computing*, 24(4), 559--568.
-  <https://doi.org/10.1007/s11222-013-9388-2>
 - Chiou, S., Kang, S. & **Yan, J.** (2015). Rank-based estimating equations
   with general weight for accelerated failure time models: An induced smoothing
   approach. *Statistics in Medicine*, 34(9): 1495--1510.
@@ -84,6 +91,8 @@ least-square estimates to the Accelerated Failure Time (AFT) model.
 <!-- cv-authors: Jiang, Y. and Lee, M.-L. T. and Yan, J -->
 
 <span class="software-badges">![GPL license][gpl-badge] ![clusrank-dev] [![clusrank-ghs]][clusrank-gh]</span>
+
+Package page: [CRAN][clusrank-cran].
 
 {clusrank} provides functions for Wilcoxon rank sum test and
 Wilcoxon signed rank test for clustered data.
@@ -103,6 +112,8 @@ See Jiang et. al (2020) for details.
 
 <span class="software-badges">![GPL license][gpl-badge] ![coga-dev] [![coga-ghs]][coga-gh]</span>
 
+Package page: [CRAN][coga-cran].
+
 {coga} provides functions for density and distribution evaluation of convolution
 of gamma distributions. Two related exact methods and one approximate method are
 implemented with efficient algorithm and C++ code.
@@ -120,6 +131,8 @@ implemented with efficient algorithm and C++ code.
 <!-- cv-authors: Hofert, M. and Kojadinovic, I. and M\"achler, M. and Yan, J -->
 
 <span class="software-badges">![GPL license][gpl-badge]</span>
+
+Package page: [CRAN][copula-cran].
 
 Development: [R-Forge](https://r-forge.r-project.org/projects/copula/).
 
@@ -143,6 +156,9 @@ non-parametric estimators of the Pickands dependence function.
 - Kojadinovic, I., & **Yan, J.** (2010). Modeling multivariate distributions
   with continuous margins using the copula R package. *Journal of Statistical
   Software*, 34(9), 1--20. <https://doi.org/10.18637/jss.v034.i09>
+- Hofert, M., & Mächler, M. (2011). Nested Archimedean copulas meet R: The
+  nacopula package. *Journal of Statistical Software*, 39(9), 1--20.
+  <https://doi.org/10.18637/jss.v039.i09>
 - Hofert, M., Kojadinovic, I., Mächler, M., & **Yan, J.** (2018). *Elements of
   Copula Modeling with R*. Springer. <https://doi.org/10.1007/978-3-319-89635-9>
 
@@ -154,17 +170,27 @@ non-parametric estimators of the Pickands dependence function.
 
 <span class="software-badges">![GPL license][gpl-badge] ![dacc-dev] [![dacc-ghs]][dacc-gh]</span>
 
+Package page: [CRAN][dacc-cran].
+
 {dacc} provides functions for conducting detection and attribution of climate
 change using methods that include optimal fingerprinting via generalized total
-least squares or estimating equation approach from Ma et al. (2023).
+least squares or estimating equation approaches from Ma et al. (2023) and Li et
+al. (2025).
 Additionally, it offers shrinkage estimators for covariance matrix from Ledoit
 and Wolf.
 
 #### References
 
+- Li, Y., Chen, K., **Yan, J.**, & Zhang, X. (2021). Uncertainty in optimal
+  fingerprinting is underestimated. *Environmental Research Letters*, 16(8),
+  084043. <https://doi.org/10.1088/1748-9326/ac14ee>
 - Ma, S., Wang, T., **Yan, J.**, & Zhang, X. (2023). Optimal fingerprinting with
   estimating equations. *Journal of Climate*, 36(20), 7109--7122.
   <https://doi.org/10.1175/JCLI-D-22-0681.1>
+- Li, Y., Wang, T., **Yan, J.**, & Zhang, X. (2025). Improved optimal
+  fingerprinting based on estimating equations reaffirms anthropogenic effect
+  on global warming. *Journal of Climate*, 38(8), 1779--1790.
+  <https://doi.org/10.1175/JCLI-D-24-0193.1>
 
 ---
 
@@ -173,6 +199,8 @@ and Wolf.
 <!-- cv-authors: Wang, X. and Chen, M.-H. and Yan, J -->
 
 <span class="software-badges">![GPL license][gpl-badge] ![dynsurv-dev] [![dynsurv-ghs]][dynsurv-gh]</span>
+
+Package page: [CRAN][dynsurv-cran].
 
 {dynsurv} provides functions to fit time-varying coefficient models for
 interval censored and right censored survival data. Three major approaches are
@@ -202,6 +230,8 @@ implemented:
 <!-- cv-authors: Bader, B. and Yan, J -->
 
 <span class="software-badges">![GPL license][gpl-badge] ![eva-dev] [![eva-ghs]][eva-gh]</span>
+
+Package page: [CRAN][eva-cran].
 
 {eva} provides functions for:
 
@@ -236,7 +266,7 @@ implemented:
 
 Fast goodness-of-fit tests. The package is archived on CRAN.
 
-[CRAN archive](https://cran.r-project.org/src/contrib/Archive/fgof/)
+Package page: [CRAN archive](https://cran.r-project.org/src/contrib/Archive/fgof/).
 
 ---
 
@@ -246,18 +276,26 @@ Fast goodness-of-fit tests. The package is archived on CRAN.
 
 <span class="software-badges">![GPL license][gpl-badge] ![geepack-dev] [![geepack-ghs]][geepack-gh]</span>
 
+Package page: [CRAN][geepack-cran].
+
 {geepack} provides generalized estimating equations solver for parameters in
 mean, scale, and correlation structures, through mean link, scale link, and
 correlation link. Can also handle clustered categorical responses.
 
 #### References
 
+- **Yan, J.** (2002). geepack: Yet another package for generalized estimating
+  equations. *R News*, 2(3), 12--14.
 - **Yan, J.**, & Fine, J. (2004). Estimating equations for association
   structures. *Statistics in Medicine*, 23(6), 859--874.
   <https://doi.org/10.1002/sim.1650>
 - Halekoh, U., Højsgaard, S., & **Yan, J.** (2006). The R package geepack for
   generalized estimating equations. *Journal of Statistical Software*, 15(2),
   1--11. <https://doi.org/10.18637/jss.v015.i02>
+- Xu, Z., Fine, J. P., Song, W., & **Yan, J.** (2025). On GEE for
+  mean-variance-correlation models: Variance estimation and model selection.
+  *Statistics in Medicine*, 44(1--2), e10271.
+  <https://doi.org/10.1002/sim.10271>
 
 ---
 
@@ -269,7 +307,20 @@ correlation link. Can also handle clustered categorical responses.
 
 Groupwise regularized adaptive sparse precision estimation.
 
-[CRAN](https://CRAN.R-project.org/package=grasps)
+Package page: [CRAN][grasps-cran].
+
+---
+
+### {ibist}: Data and Functions for Introduction to Biostatistics with R {#ibist}
+
+<!-- cv-authors: Schifano, E. D. and Yan, J -->
+
+<span class="software-badges">![GPL license][gpl-badge]</span>
+
+Package page: [CRAN][ibist-cran] ([GitHub][ibist-gh]).
+
+{ibist} provides datasets and supporting functions for *Introduction to
+Biostatistics with R* by Schifano and Yan, forthcoming from Taylor & Francis.
 
 ---
 
@@ -278,6 +329,8 @@ Groupwise regularized adaptive sparse precision estimation.
 <!-- cv-authors: Wang, W. and Chen, K. and Yan, J -->
 
 <span class="software-badges">![GPL license][gpl-badge] ![intsurv-dev] [![intsurv-ghs]][intsurv-gh]</span>
+
+Package page: [CRAN][intsurv-cran].
 
 {intsurv} contains implementations of
 
@@ -296,9 +349,10 @@ and other survival analysis routines, including
   survival analysis with uncertain event times in application to a suicide risk
   study. *Annals of Applied Statistics*, 14(1), 51--73.
   <https://doi.org/10.1214/19-AOAS1287>
-- Wang, W., Luo, C., Aseltine, R. H., Wang, F., **Yan, J.**, & Chen, K. (2020).
-  Suicide risk modeling with uncertain diagnostic records.
-  *arXiv preprint arXiv:2009.02597*. <https://doi.org/10.48550/arXiv.2009.02597>
+- Wang, W., Luo, C., Aseltine, R. H., Wang, F., **Yan, J.**, & Chen, K. (2025).
+  Survival modeling of suicide risk with rare and uncertain diagnoses.
+  *Statistics in Biosciences*, 17(1), 35--61.
+  <https://doi.org/10.1007/s12561-023-09374-w>
 
 ---
 
@@ -310,7 +364,14 @@ and other survival analysis routines, including
 
 Network analysis for input-output tables.
 
-[CRAN](https://CRAN.R-project.org/package=ionet)
+Package page: [CRAN][ionet-cran].
+
+#### References
+
+- Xiao, S., & **Yan, J.** (2022). Incorporating auxiliary information in
+  betweenness measure for input-output networks. *Physica A: Statistical
+  Mechanics and its Applications*, 607, 128200.
+  <https://doi.org/10.1016/j.physa.2022.128200>
 
 ---
 
@@ -319,6 +380,8 @@ Network analysis for input-output tables.
 <!-- cv-authors: Wang, Wenjie and Yan, Jun -->
 
 <span class="software-badges">![GPL license][gpl-badge] ![jds.rmd-dev] [![jds.rmd-ghs]][jds.rmd-gh]</span>
+
+Package page: [CRAN][jds.rmd-cran].
 
 {jds.rmd} provides R Markdown templates intended for
 [Journal of Data Science][jds-url], which can be useful for authoring
@@ -332,8 +395,15 @@ a manuscript with code chunks or producing tables/figures on the fly.
 
 <span class="software-badges">![GPL license][gpl-badge] ![Latest commit][KMsurv-dev] [![GitHub stars][KMsurv-ghs]][KMsurv-gh]</span>
 
+Package page: [CRAN][KMsurv-cran].
+
 {KMsurv} provides data sets and functions for Klein and Moeschberger (1997),
 "Survival Analysis, Techniques for Censored and Truncated Data", Springer.
+
+#### References
+
+- Klein, J. P., & Moeschberger, M. L. (1997). *Survival Analysis: Techniques
+  for Censored and Truncated Data*. Springer.
 
 ---
 
@@ -342,6 +412,8 @@ a manuscript with code chunks or producing tables/figures on the fly.
 <!-- cv-authors: Smith, B. P. and Yan, J. and Cowles, M. K -->
 
 <span class="software-badges">![GPL license][gpl-badge] ![ramps-dev] [![ramps-ghs]][ramps-gh]</span>
+
+Package page: [CRAN][ramps-cran].
 
 {ramps} provides functions for Bayesian geostatistical modeling of Gaussian
 processes using a reparameterized and marginalized posterior sampling (RAMPS)
@@ -363,7 +435,12 @@ algorithm, designed to lower autocorrelation in MCMC samples.
 
 An interface between R and BUGS. The package is archived on CRAN.
 
-[CRAN archive](https://CRAN.R-project.org/package=rbugs)
+Package page: [CRAN archive](https://cran.r-project.org/src/contrib/Archive/rbugs/).
+
+#### References
+
+- Yan, J. (2004). Fusing R and BUGS through Wine: An introduction to package
+  rbugs. *R News*, 4(2), 19--21.
 
 ---
 
@@ -372,6 +449,8 @@ An interface between R and BUGS. The package is archived on CRAN.
 <!-- cv-authors: Wang, W. and Fu, H. and Yan, J -->
 
 <span class="software-badges">![GPL license][gpl-badge] ![reda-dev] [![reda-ghs]][reda-gh]</span>
+
+Package page: [CRAN][reda-cran].
 
 {reda} provides functions for:
 
@@ -391,6 +470,8 @@ An interface between R and BUGS. The package is archived on CRAN.
 
 <span class="software-badges">![GPL license][gpl-badge]</span>
 
+Package page: [CRAN][rrpack-cran].
+
 {rrpack} provides implementations for multivariate regression methodologies
 including reduced-rank regression (RRR), reduced-rank ridge regression (RRS),
 robust reduced-rank regression (R4), generalized/mixed-response reduced-rank
@@ -406,6 +487,8 @@ orthogonal factor regression (SOFAR).
 
 <span class="software-badges">![GPL license][gpl-badge]</span>
 
+Package page: [CRAN][sgee-cran].
+
 {sgee} provides stagewise techniques implemented with generalized estimating
 equations to handle individual, group, bi-level, and interaction selection.
 Stagewise approaches start with an empty model and slowly build the model over
@@ -419,6 +502,10 @@ generalized estimating equations. See Vaughan et al. (2017) for details.
 - Vaughan, G., Aseltine, R., Chen, K., & **Yan, J**. (2017). Stagewise
   generalized estimating equations with grouped variables. *Biometrics*, 73(4),
   1332--1342. <https://doi.org/10.1111/biom.12669>
+- Vaughan, G., Aseltine, R., Chen, K., & **Yan, J.** (2020). Efficient
+  interaction selection for clustered data via stagewise generalized
+  estimating equations. *Statistics in Medicine*, 39(22), 2855--2868.
+  <https://doi.org/10.1002/sim.8574>
 
 ---
 
@@ -427,6 +514,8 @@ generalized estimating equations. See Vaughan et al. (2017) for details.
 <!-- cv-authors: Hu, C. and Yan, J. and Pozdnyakov, V -->
 
 <span class="software-badges">![GPL license][gpl-badge] ![smam-dev] [![smam-ghs]][smam-gh]</span>
+
+Package page: [CRAN][smam-cran].
 
 {smam} provides functions for animal movement models, including:
 
@@ -470,6 +559,8 @@ generalized estimating equations. See Vaughan et al. (2017) for details.
 
 <span class="software-badges">![GPL license][gpl-badge]</span>
 
+Package page: [CRAN][som-cran].
+
 {som} provides functions for self-organizing map (with application in gene
 clustering).
 
@@ -480,6 +571,8 @@ clustering).
 <!-- cv-authors: Chiou, S. and Wang, X. and Yan, J -->
 
 <span class="software-badges">![GPL license][gpl-badge] ![spef-dev] [![spef-ghs]][spef-gh]</span>
+
+Package page: [GitHub][spef-gh] (archived on [CRAN][spef-cran]).
 
 {spef} provides a collection of functions to fit semiparametric regression
 models for panel count survival data. Estimating procedures include:
@@ -510,13 +603,13 @@ models for panel count survival data. Estimating procedures include:
 
 <span class="software-badges">![GPL license][gpl-badge] ![Latest commit][spice-dev] [![GitHub stars][spice-ghs]][spice-gh]</span>
 
+Package page: [GitHub][spice-gh].
+
 []{#fcstat}
 {spice} provides methods for sparse precision matrix estimation and functional
 connectivity analysis in brain networks.
 
 <!-- cv-url: https://github.com/Carol-seven/spice -->
-
-[GitHub](https://github.com/Carol-seven/spice)
 
 ---
 
@@ -525,6 +618,8 @@ connectivity analysis in brain networks.
 <!-- cv-authors: Wang, W. and Yan, J -->
 
 <span class="software-badges">![GPL license][gpl-badge] ![splines2-dev] [![splines2-ghs]][splines2-gh] [![JDS](https://img.shields.io/badge/JDS-10.6339%2F21--JDS1020-brightgreen)](https://doi.org/10.6339/21-JDS1020)</span>
+
+Package page: [CRAN][splines2-cran].
 
 {splines2} is a supplement package to the base package {splines}.
 It provides functions to construct basis matrices of
@@ -562,7 +657,7 @@ See Wang and Yan (2021) for details.
 
 Optimal subsampling methods for statistical models.
 
-[CRAN](https://CRAN.R-project.org/package=subsampling)
+Package page: [CRAN][subsampling-cran].
 
 ---
 
@@ -571,6 +666,8 @@ Optimal subsampling methods for statistical models.
 <!-- cv-authors: Li, Y. and Chen, K. and Yan, J -->
 
 <span class="software-badges">![GPL license][gpl-badge] ![tls-dev] [![tls-ghs]][tls-gh]</span>
+
+Package page: [CRAN][tls-cran].
 
 {tls} provides functions for point and interval estimation in error-in-variables
 models via total least squares or generalized total least squares method.
@@ -582,6 +679,8 @@ models via total least squares or generalized total least squares method.
 <!-- cv-authors: Li, Y. and Wang, W. and Yan, J -->
 
 <span class="software-badges">![GPL license][gpl-badge] ![touch-dev] [![touch-ghs]][touch-gh]</span>
+
+Package page: [CRAN][touch-cran].
 
 {touch} provides R implementation of the software tools developed in the
 H-CUP (Healthcare Cost and Utilization Project) and AHRQ (Agency for
@@ -600,6 +699,8 @@ It contains functions for:
 <!-- cv-authors: Yan, J -->
 
 <span class="software-badges">![GPL license][gpl-badge]</span>
+
+Package page: [CRAN][tpr-cran].
 
 {tpr} provides functions to fit regression models for temporal process responses
 with time-varying and time-independent coefficients.
@@ -620,6 +721,8 @@ with time-varying and time-independent coefficients.
 
 <span class="software-badges">![GPL license][gpl-badge] ![wdnet-dev] [![wdnet-gls]][wdnet-gl]</span>
 
+Package page: [CRAN][wdnet-cran].
+
 {wdnet} provides functions for implementations of network analysis, including:
 
 1. Assortativity coefficient of weighted and directed networks.
@@ -633,15 +736,19 @@ with time-varying and time-independent coefficients.
 - Yuan, Y., **Yan, J.**, & Zhang, P. (2021). Assortativity measures for weighted
   and directed networks. *Journal of Complex Networks*, 9(2), cnab017.
   <https://doi.org/10.1093/comnet/cnab017>
-- Zhang, P., Wang, T., & **Yan, J.** (2022). PageRank centrality and algorithms
-  for weighted, directed networks. *Physica A: Statistical Mechanics and its
-  Applications*, 586, 126438. <https://doi.org/10.1016/j.physa.2021.126438>
 - Wang, T., **Yan, J.**, Yuan, Y., & Zhang, P. (2022). Generating directed
   networks with predetermined assortativity measures. *Statistics and Computing*,
   32(5), 91. <https://doi.org/10.1007/s11222-022-10161-8>
+- Zhang, P., Wang, T., & **Yan, J.** (2022). PageRank centrality and algorithms
+  for weighted, directed networks. *Physica A: Statistical Mechanics and its
+  Applications*, 586, 126438. <https://doi.org/10.1016/j.physa.2021.126438>
 - Yuan, Y., Wang, T., **Yan, J.**, & Zhang, P. (2023). Generating general
   preferential attachment networks with R package wdnet. *Journal of Data
   Science*, 21(3), 538--556. <https://doi.org/10.6339/23-JDS1110>
+- Yuan, Y., **Yan, J.**, & Zhang, P. (2024). A strength and sparsity preserving
+  algorithm for generating weighted, directed networks with predetermined
+  assortativity. *Physica A: Statistical Mechanics and its Applications*, 638,
+  129634. <https://doi.org/10.1016/j.physa.2024.129634>
 
 ---
 
@@ -802,6 +909,11 @@ with time-varying and time-independent coefficients.
 [grasps-cran]: https://CRAN.R-project.org/package=grasps
 [grasps-version]: https://www.r-pkg.org/badges/version-last-release/grasps
 [grasps-log]: https://cranlogs.r-pkg.org/badges/grand-total/grasps
+
+[ibist-cran]: https://CRAN.R-project.org/package=ibist
+[ibist-version]: https://www.r-pkg.org/badges/version-last-release/ibist
+[ibist-log]: https://cranlogs.r-pkg.org/badges/grand-total/ibist
+[ibist-gh]: https://github.com/ibist/ibist-R
 
 [ionet-cran]: https://CRAN.R-project.org/package=ionet
 [ionet-version]: https://www.r-pkg.org/badges/version-last-release/ionet
