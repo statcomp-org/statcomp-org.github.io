@@ -134,6 +134,15 @@ https://cran.r-project.org/web/packages/jds.rmd/index.html
 https://cran.rstudio.com/web/packages/rrpack/index.html
 rrpack includes Jun Yan as a contributor in the package listing.
 
+Publication and package-citation refresh
+----------------------------------------
+
+Use the repository skill [publication-refresh](skills/publication-refresh/SKILL.md)
+for periodic CV, bibliography, and software-reference updates. It uses Jun
+Yan's [public Google Scholar profile](https://scholar.google.com/citations?user=4jVhnnEAAAAJ&hl=en)
+for discovery, so no Scholar export is needed. The skill documents verification,
+ordering, the project build checks, and the limits on committing or publishing.
+
 Trainee annotations
 -------------------
 
