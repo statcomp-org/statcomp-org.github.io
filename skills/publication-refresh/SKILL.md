@@ -49,8 +49,8 @@ not stop after checking the packages touched by a new paper.
    not attribute a coauthor's separate package or its paper to this package.
 3. Keep each package's reference list in year order and, within a year, author
    order. Match existing author formatting, DOI links, and reference style.
-   Link the package name in each detailed section's heading directly to CRAN
-   or its maintainer repository; use an archive link for archived packages.
+   Add a direct CRAN or maintainer-repository package link to each detailed
+   package section; label archived CRAN entries as archived.
 4. If the package source does not establish a publication reference, leave the
    reference list empty. Do not fill gaps by guessing. Record the source used
    when a reference is added or changed so the decision is reviewable.
